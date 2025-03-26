@@ -1,0 +1,19 @@
+---
+pagetitle: Homepage Stefan Jansen
+format:
+  html:
+    include-in-header: hero-image-blog.html
+lang: de
+# subtitle: 
+listing:
+  sort: "date desc"
+  contents: "posts/*/index.qmd"
+  sort-ui: false
+  filter-ui: false
+  categories: true
+  feed: true
+page-layout: full
+search: false
+# image: 
+---
+

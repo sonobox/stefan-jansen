@@ -1,0 +1,117 @@
+<wgcompilation>
+  <title>Outrun</title>
+  <season>Future Pop</season>
+  <number>2015.3</number>
+
+  <content>
+   <cd>
+    <track><artist>Dance With The Dead</artist>
+           <title>Dressed to Kill</title>
+           <year>2014</year>
+           <country>CA</country>
+    </track>
+    <track><artist>Carpenter Brut</artist>
+           <title>Roller Mobster</title>
+           <year>2013</year>
+           <country>FR</country>
+    </track>
+    <track><artist>Perturbator</artist>
+           <title>Future Club</title>
+           <year>2014</year>
+           <country>FR</country>
+    </track>
+    <track><artist>Gost</artist>
+           <title>Genesee Avenue</title>
+           <year>2015</year>
+           <country>US</country>
+    </track>
+    <track><artist>Kavinsky</artist>
+           <title>Protovision</title>
+           <year>2012</year>
+           <country>FR</country>
+    </track>
+    <track><artist>Lazerhawk</artist>
+           <title>Overdrive</title>
+           <year>2010</year>
+           <country>US</country>
+    </track>
+    <track><artist>MegaDrive</artist>
+           <title>Acid Spit</title>
+           <year>2014</year>
+           <country>US</country>
+    </track>
+    <track><artist>Judge Bitch</artist>
+           <title>Thunderground</title>
+           <year>2013</year>
+           <country>CA</country>
+    </track>
+    <track><artist>VHS Glitch</artist>
+           <title>Return</title>
+           <year>2014</year>
+           <country>JP</country>
+    </track>
+    <track><artist>Dan Terminus</artist>
+           <title>Avalanche</title>
+           <year>2015</year>
+           <country>FR</country>
+    </track>
+    <track><artist>Magic Sword</artist>
+           <title>In The Face Of Evil</title>
+           <year>2013</year>
+           <country>US</country>
+    </track>
+    <track><artist>Power Glove</artist>
+           <title>Blood Dragon Theme</title>
+           <year>2013</year>
+           <country>AU</country>
+    </track>
+    <track><artist>Bourgeoisie</artist>
+           <title>Industrial Sector 3083</title>
+           <year>2013</year>
+           <country>US</country>
+    </track>
+    <track><artist>Dynatron</artist>
+           <title>Throttle Up</title>
+           <year>2014</year>
+           <country>DK</country>
+    </track>
+    <track><artist>Miami Nights 1984</artist>
+           <title>Clutch</title>
+           <year>2012</year>
+           <country>CA</country>
+    </track>
+    <track><artist>Mitch Murder</artist>
+           <title>Frantic Aerobics</title>
+           <year>2011</year>
+           <country>SE</country>
+    </track>
+    <track><artist>Com Truise</artist>
+           <title>Fairlight</title>
+           <year>2011</year>
+           <country>US</country>
+    </track>
+    <track><artist>Noir Deco</artist>
+           <title>Future Noir</title>
+           <year>2011</year>
+           <country>GB</country>
+    </track>
+    <track><artist>College feat. Electric Youth</artist>
+           <title>Real Hero</title>
+           <year>2009</year>
+           <country>FR</country>
+    </track>
+   </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" back = "TRUE" type = "jpg">fp20153</cover>
+    <fontsize>7</fontsize>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2015</year>
+    <month>12</month>
+    <by>Z</by>
+  </meta>
+</wgcompilation>

@@ -1,0 +1,123 @@
+<wgcompilation>
+  <title>Women Of The Future Pop</title>
+  <season>Future Pop</season>
+  <number>2005.1</number>
+
+  <content>
+   <cd>
+    <track><artist>Gwen Stefani</artist>
+           <title>What You Waiting For</title>
+           <year>2004</year>
+           <country>US</country>
+    </track>
+    <track><artist>Pleasure feat. Justine Frischmann</artist>
+           <title>Don't Look The Other Way</title>
+           <year>2003</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Chicks On Speed feat. Peaches</artist>
+           <title>We Don't Play Guitars</title>
+           <year>2003</year>
+           <country>US</country>
+    </track>
+    <track><artist>Le Tigre</artist>
+           <title>TKO</title>
+           <year>2004</year>
+           <country>US</country>
+    </track>
+    <track><artist>Hanin Elias</artist>
+           <title>Future Noir</title>
+           <year>2004</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Paula</artist>
+           <title>Ça Plane Pour Moi</title>
+           <year>2001</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Mikro</artist>
+           <title>Replica</title>
+           <year>2004</year>
+           <country>GR</country>
+    </track>
+    <track><artist>Death In Vegas</artist>
+           <title>Hands Around My Throat (Radio Edit)</title>
+           <year>2002</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Ladytron</artist>
+           <title>I'm With The Pilots</title>
+           <year>2001</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Client feat. Carl Barat</artist>
+           <title>Pornography</title>
+           <year>2004</year>
+           <country>GB</country>
+    </track>
+    <track><artist>No Doubt</artist>
+           <title>Bathwater (Invincible Overlord Remix)</title>
+           <year>2004</year>
+           <country>US</country>
+    </track>
+    <track><artist>Basement Jaxx feat. Lisa Kekaula</artist>
+           <title>Good Luck</title>
+           <year>2003</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Stella</artist>
+           <title>Finger On The Trigger For The Years To Come (Original Version)</title>
+           <year>2000</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Black Box Recorder</artist>
+           <title>Andrew Ridgley</title>
+           <year>2003</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Stereo Total</artist>
+           <title>Do The Bambi</title>
+           <year>2005</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Annie</artist>
+           <title>The Greatest Hit (7" Radio Edit)</title>
+           <year>1999</year>
+           <country>NO</country>
+    </track>
+    <track><artist>Golden Boy with Miss Kittin</artist>
+           <title>Rippin Kittin (Glove Radiomix)</title>
+           <year>2001</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Dot Allison</artist>
+           <title>Substance (Felix Da Housecat Remix)</title>
+           <year>2002</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Felix Da Housecat</artist>
+           <title>Silver Screen Shower Scene (Original Edit)</title>
+           <year>2001</year>
+           <country>US</country>
+    </track>
+    <track><artist>Vive La Fête</artist>
+           <title>Maquillage</title>
+           <year>2002</year>
+           <country>BE</country>
+    </track>
+   </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" back = "TRUE" type = "jpg">fp20051</cover>
+    <fontsize>7</fontsize>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2005</year>
+    <month>1</month>
+    <by>Z</by>
+  </meta>
+</wgcompilation>
+

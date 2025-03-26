@@ -1,0 +1,32 @@
+---
+lang: de
+format:
+  html:
+    include-in-header: hero-image-links.html
+    toc: true
+    language: 
+      de: 
+        toc-title-website: "Inhalt"
+        toc-title-document: "Inhalt"
+---
+
+
+## Technische Hochschule Ausgburg
+
+- [Moodle](https://moodle.hs-augsburg.de/){.external target="_blank"}
+- [Fakultät AGN](https://moodle.hs-augsburg.de/course/index.php?categoryid=10){.external target="_blank"}
+- [Campus App](https://app.tha.de/){.external target="_blank"}
+- [UC](https://ucware.hs-augsburg.de/client/main){.external target="_blank"}
+- [Cloud](https://cloud.hs-augsburg.de/){.external target="_blank"}
+- [Webuntis](https://melpomene.webuntis.com/WebUntis/?school=HS-Augsburg#/basic/login){.external target="_blank"}
+
+## Software
+
+- [R](https://www.r-project.org/){.external target="_blank"} - The R Project for Statistical Computing
+- [RStudio](https://posit.co/download/rstudio-desktop/){.external target="_blank"}
+- [R-bloggers](https://www.r-bloggers.com/){.external target="_blank"}
+- [quarto](https://quarto.org/){.external target="_blank"}
+
+
+
+

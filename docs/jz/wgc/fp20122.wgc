@@ -1,0 +1,138 @@
+<wgcompilation>
+  <title>Fuck Saturn &amp; Media Markt</title>
+  <season>Future Pop</season>
+  <number>2012.2</number>
+  <content>
+   <cd>
+
+    <track><artist>Kommando Elefant</artist>
+           <title>Wir Sprengen Krokodile</title>
+           <year>2012</year>
+           <country>AT</country>
+    </track>
+    <track><artist>Findus</artist>
+           <title>Feuer In Paris (Supershirt Remix)</title>
+           <year>2012</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Deine Jugend</artist>
+           <title>Mama Geht Jetzt Steil</title>
+           <year>2010</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Spillsbury</artist>
+           <title>Raus</title>
+           <year>2002</year>
+           <country>DE</country>
+    </track>
+    <track><artist>KraftKlub</artist>
+           <title>Schlagerstars</title>
+           <year>2010</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Der König Tanzt</artist>
+           <title>Alles Dreht Sich</title>
+           <year>2012</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Susanne Blech</artist>
+           <title>Robocop Hätte Geschossen</title>
+           <year>2012</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Das Flug</artist>
+           <title>Der Fall Der Psychiatrie (Radio Edit)</title>
+           <year>2012</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Plemo &amp; Peng</artist>
+           <title>Sugar (E123 Version)</title>
+           <year>2012</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Neodisco</artist>
+           <title>2AM</title>
+           <year>2011</year>
+           <country>AT</country>
+    </track>
+    <track><artist>Trackshittaz</artist>
+           <title>Neicha Tog Neiches Liad</title>
+           <year>2011</year>
+           <country>AT</country>
+    </track>
+    <track><artist>Die Vamummtn</artist>
+           <title>Vamummtn Krocha Hymne</title>
+           <year>2008</year>
+           <country>AT</country>
+    </track>
+    <track><artist>Sookee &amp; Tapete</artist>
+           <title>Pro Homo</title>
+           <year>2010</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Frittenbude</artist>
+           <title>Gibt Es Uruguay Eigentlich Noch</title>
+           <year>2012</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Mediengruppe Telekommander</artist>
+           <title>Billig</title>
+           <year>2011</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Atari Teenage Riot</artist>
+           <title>Blood In My Eyes</title>
+           <year>2011</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Crystal Castles</artist>
+           <title>Baptism (Radio Edit)</title>
+           <year>2010</year>
+           <country>CA</country>
+    </track>
+    <track><artist>Kap Bambino</artist>
+           <title>Dead Lazers</title>
+           <year>2009</year>
+           <country>FR</country>
+    </track>
+    <track><artist>64revolt</artist>
+           <title>Neat Girl</title>
+           <year>2008</year>
+           <country>SE</country>
+    </track>
+    <track><artist>Tubbe</artist>
+           <title>Mess</title>
+           <year>2012</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Avril</artist>
+           <title>Be Yourself</title>
+           <year>2004</year>
+           <country>FR</country>
+    </track>
+    <track><artist>Chase And Status feat. Plan B And Rage</artist>
+           <title>Fool Yourself</title>
+           <year>2011</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Depeche Mode</artist>
+           <title>Wrong</title>
+           <year>2009</year>
+           <country>GB</country>
+    </track>
+
+   </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" back = "TRUE" type = "jpg">fp20122</cover>
+    <fontsize>7</fontsize>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2012</year>
+    <month>5</month>
+    <by>Z</by>
+  </meta>
+</wgcompilation>

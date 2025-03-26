@@ -1,0 +1,155 @@
+<wgcompilation>
+  <title>WWF Club</title> 
+  <season>Jansen / Zeileis - Das Nächste Jahrtausend</season>
+  <number>2017.2</number>
+  <content>
+    <cd>
+      <track><artist>Morgenrot</artist>
+             <title>Ça Va!</title>
+             <quote>sonne, meer und weißer strand, gott schütze unser vaterland</quote>
+             <year>1982</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Berni Und Die Strandkörbe</artist>
+             <title>Rote Lippen</title>
+             <quote>an roten lippen nippen und limonade kippen</quote>
+             <year>1982</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Zero Zero</artist>
+             <title>Glasherz</title>
+             <quote>mein herz schlägt so laut und so kalt</quote>
+             <year>1982</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Tabu</artist>
+             <title>Allein</title>
+             <quote>mein stammplatz ist der notausgang</quote>
+             <year>1982</year>
+             <country>DE</country>
+      </track>
+      <track><artist>El Deux</artist>
+             <title>Ich Möcht' Ich Wär' 1 Millionär</title>
+             <quote>im casino von monte carlo da treff' ich mich mit brandon marlo</quote>
+             <year>1982</year>
+             <country>CH</country>
+      </track>
+      <track><artist>Nullzeit</artist>
+             <title>Tausend Jahre</title>
+             <quote>mein körper in ketten aus stahlbeton</quote>
+             <year>1984</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Kristi Kara</artist>
+             <title>Kalt Wie Eis</title>
+             <quote>ihre augen sind so tot</quote>
+             <year>1982</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Jawoll</artist>
+             <title>Ich Bin Verrückt Nach Dir</title>
+             <quote>mir ist als wach' ich jetzt erst auf</quote>
+             <year>1984</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Relax</artist>
+             <title>Marie</title>
+             <quote>i fahr' mit dir nach nizza nur so auf eine pizza</quote>
+             <year>1983</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Snäp</artist>
+             <title>Elisabeth</title>
+             <quote>irgendwo hat jeder seinen spleen und das ist das, was mir an dir gefiel</quote>
+             <year>1982</year>
+             <country>DE</country>
+      </track>
+      <track><artist>K.E.C.K.</artist>
+             <title>Im Sonnenstudio</title>
+             <quote>braun muss man sein, sonst bleibt das wasserbett bald leer</quote>
+             <year>1982</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Tempo</artist>
+             <title>Kalt Wie Eis</title>
+             <quote>dir fehlt noch der mut</quote>
+             <year>1981</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Rheingold</artist>
+             <title>Das Steht Dir Gut</title>
+             <quote>sie spricht nicht viel solang ihr schatten bricht im stroboskopenlicht</quote>
+             <year>1982</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Lüül</artist>
+             <title>Morgens In Der U-Bahn</title>
+             <quote>die kriegen nicht mal mit, wie sie langsam veröden</quote>
+             <year>1981</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Trick 17</artist>
+             <title>City Nacht</title>
+             <quote>ich seh' das lichtermeer und die leuchtreklame, 'ne plakatwand mit 'nem deodorant</quote>
+             <year>1983</year>
+             <country>DE</country>
+      </track>
+      <track><artist>The Actor</artist>
+             <title>Seit Wir Uns Kennen...</title>
+             <quote>spiel dein spiel allein</quote>
+             <year>1982</year>
+             <country>NL</country>
+      </track>
+      <track><artist>R.E.K.</artist>
+             <title>Die Zeitmaschine</title>
+             <quote>grenzen der forschung ohne kontrolle</quote>
+             <year>1983</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Frische Farbe</artist>
+             <title>Oh, Oh... Boys</title>
+             <quote>jeder glaubt er ist ein star</quote>
+             <year>1982</year>
+             <country>CH</country>
+      </track>
+      <track><artist>Lusthansa</artist>
+             <title>Der Letzte Tanz</title>
+             <quote>ergib dich nicht</quote>
+             <year>1982</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Caprifischer</artist>
+             <title>In Den Sternen Verschollen</title>
+             <quote>der kommandant ist aufgewacht aus tausend jahren nacht</quote>
+             <year>1982</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Koneć</artist>
+             <title>Tanze</title>
+             <quote>der himmel hängt voller geigen und die sterne stehen gut</quote>
+             <year>1982</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Schön</artist>
+             <title>Langeweile</title>
+             <quote>ich habe viel doch es ist mir zu wenig</quote>
+             <year>1983</year>
+             <country>DE</country>
+      </track>
+   </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" type = "jpg">dnj20172</cover>
+    <fontsize>11</fontsize>
+    <adj>11.5</adj>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2017</year>
+    <month>10</month>
+    <by>Z</by>
+  </meta>
+</wgcompilation>
+

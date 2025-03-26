@@ -1,0 +1,160 @@
+<wgcompilation>
+  <title>Never Mind The Buzzcocks</title> 
+  <season>Jansen / Zeileis - Das Nächste Jahrtausend</season>
+  <number>2021.1</number>
+  <content>
+    <cd>
+      <track><artist>The Sounds</artist>
+             <title>Painted By Numbers</title>
+             <quote>you said it was love, i got what i need to get by</quote>
+             <year>2006</year>
+             <country>SE</country>
+      </track>
+      <track><artist>Harrisons</artist>
+             <title>Dear Constable</title>
+             <quote>all we're looking for's a change, the times we're living in are strange</quote>
+             <year>2007</year>
+             <country>GB</country>
+      </track>
+      <track><artist>The Automatic</artist>
+             <title>Recover</title>
+             <quote>i want my wasted hours back and i want my head to clear</quote>
+             <year>2006</year>
+             <country>GB</country>
+      </track>
+      <track><artist>Shitdisco</artist>
+             <title>Disco Blood</title>
+             <quote>giorgio moroder, got him on the phone, i got him on the phone. bobby orlando's coming round for tea, he's coming round for tea.</quote>
+             <year>2005</year>
+             <country>GB</country>
+      </track>
+      <track><artist>Foals</artist>
+             <title>Mathletics</title>
+             <quote>sine wave, cosine wave, calling all kids on and on and on</quote>
+             <year>2007</year>
+             <country>GB</country>
+      </track>
+      <track><artist>Klaxons</artist>
+             <title>It's Not Over Yet</title>
+             <quote>you still want me, don't you</quote>
+             <year>2007</year>
+             <country>GB</country>
+      </track>
+      <track><artist>White Lies</artist>
+             <title>Farewell To The Fairground</title>
+             <quote>these rides aren't working anymore</quote>
+             <year>2008</year>
+             <country>GB</country>
+      </track>
+      <track><artist>Trashmonkeys</artist>
+             <title>Favourite Enemy</title>
+             <quote>i freeze your mind</quote>
+             <year>2006</year>
+             <country>DE</country>
+      </track>
+      <track><artist>We Are Scientists</artist>
+             <title>Nobody Move Nobody Get Hurt</title>
+             <quote>if you wanna use my body, go for it, yeah</quote>
+             <year>2005</year>
+             <country>US</country>
+      </track>
+      <track><artist>Electric Six</artist>
+             <title>Gay Bar</title>
+             <quote>start a nuclear war at the gay bar</quote>
+             <year>2003</year>
+             <country>US</country>
+      </track>
+      <track><artist>Ghostland Observatory</artist>
+             <title>Sad Sad City</title>
+             <quote>the blood we crave shall drive us all insane</quote>
+             <year>2006</year>
+             <country>US</country>
+      </track>
+      <track><artist>Iglu &amp; Hartly</artist>
+             <title>Violent And Young</title>
+             <quote>hearts break but that's alright with me</quote>
+             <year>2008</year>
+             <country>US</country>
+      </track>
+      <track><artist>Sneaky Sound System</artist>
+             <title>UFO</title>
+             <quote>what's it gonna take to get me back home tonight</quote>
+             <year>2006</year>
+             <country>AU</country>
+      </track>
+      <track><artist>Metric</artist>
+             <title>Succexy</title>
+             <quote>war as we knew it was obsolete, nothing could beat complete denial</quote>
+             <year>2003</year>
+             <country>CA</country>
+      </track>
+      <track><artist>Black Kids</artist>
+             <title>I'm Not Gonna Teach Your Boyfriend How To Dance With You</title>
+             <quote>he's got two left feet and he bites my moves</quote>
+             <year>2008</year>
+             <country>US</country>
+      </track>
+      <track><artist>The Rifles</artist>
+             <title>She's Got Standards</title>
+             <quote>but you're cool if you're at 25</quote>
+             <year>2006</year>
+             <country>GB</country>
+      </track>
+      <track><artist>Kasabian</artist>
+             <title>Empire</title>
+             <quote>tell me that you've seen a ghost, i'll tell you what to fear the most </quote>
+             <year>2006</year>
+             <country>GB</country>
+      </track>
+      <track><artist>She Wants Revenge</artist>
+             <title>I Don't Wanna Fall In Love</title>
+             <quote>i know that you're the right girl but do you think that i am the right man</quote>
+             <year>2005</year>
+             <country>US</country>
+      </track>
+      <track><artist>Infadels</artist>
+             <title>Can't Get Enough</title>
+             <quote>i get them bleeps, get them bleeps, and i'm losing sleep</quote>
+             <year>2006</year>
+             <country>GB</country>
+      </track>
+      <track><artist>New Young Pony Club</artist>
+             <title>Get Lucky (MSTRKRFT Remix)</title>
+             <quote>wash on, wax off</quote>
+             <year>2007</year>
+             <country>GB</country>
+      </track>
+      <track><artist>Late Of The Pier</artist>
+             <title>Heartbeat</title>
+             <quote>pineapple pieces in brine fucking around with your mind</quote>
+             <year>2008</year>
+             <country>GB</country>
+      </track>
+      <track><artist>Neon Plastix</artist>
+             <title>On Fire</title>
+             <quote>well, i won't be here to clean up this mess</quote>
+             <year>2006</year>
+             <country>GB</country>
+      </track>
+      <track><artist>We Smoke Fags</artist>
+             <title>Eastenders</title>
+             <quote>too much money, not enough intellect</quote>
+             <year>2008</year>
+             <country>GB</country>
+      </track>
+   </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" type = "jpg">dnj20211</cover>
+    <fontsize>10.2</fontsize>
+    <adj>11.5</adj>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2021</year>
+    <month>8</month>
+    <by>Z</by>
+  </meta>
+</wgcompilation>

@@ -1,0 +1,118 @@
+<wgcompilation>
+  <title>Dark Side Of The Gloom</title>
+  <season>Future Pop</season>
+  <number>2013.1</number>
+  <content>
+   <cd>
+
+    <track><artist>Chvrches</artist>
+           <title>Lies</title>
+           <year>2012</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Röyksopp feat. Susanne Sundfør</artist>
+           <title>Ice Machine (Live on Lydverket)</title>
+           <year>2012</year>
+           <country>NO</country>
+    </track>
+    <track><artist>Austra</artist>
+           <title>Spellwork</title>
+           <year>2011</year>
+           <country>CA</country>
+    </track>
+    <track><artist>Light Asylum</artist>
+           <title>Dark Allies</title>
+           <year>2011</year>
+           <country>US</country>
+    </track>
+    <track><artist>Trust</artist>
+           <title>Dressed For Space</title>
+           <year>2012</year>
+           <country>CA</country>
+    </track>
+    <track><artist>Led Er Est</artist>
+           <title>Kaiyo Maru</title>
+           <year>2012</year>
+           <country>US</country>
+    </track>
+    <track><artist>Grimes</artist>
+           <title>Oblivion</title>
+           <year>2011</year>
+           <country>CA</country>
+    </track>
+    <track><artist>Crystal Castles</artist>
+           <title>Sad Eyes</title>
+           <year>2012</year>
+           <country>CA</country>
+    </track>
+    <track><artist>Robyn</artist>
+           <title>Love Kills</title>
+           <year>2010</year>
+           <country>SE</country>
+    </track>
+    <track><artist>The Phenomenal Handclap Band</artist>
+           <title>Following</title>
+           <year>2012</year>
+           <country>US</country>
+    </track>
+    <track><artist>Icona Pop</artist>
+           <title>Manners</title>
+           <year>2012</year>
+           <country>SE</country>
+    </track>
+    <track><artist>Gudrun Von Laxenburg</artist>
+           <title>The Mouse</title>
+           <year>2012</year>
+           <country>AT</country>
+    </track>
+    <track><artist>Björn Peng</artist>
+           <title>Discoziative Identitätsstörung</title>
+           <year>2013</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Das Flug</artist>
+           <title>Die Kunst Des Negativen Denkens</title>
+           <year>2012</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Martial Canterel</artist>
+           <title>Occupy These Terms</title>
+           <year>2010</year>
+           <country>US</country>
+    </track>
+    <track><artist>Fujiya &amp; Miyagi</artist>
+           <title>Knickerbocker</title>
+           <year>2008</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Reptile Youth</artist>
+           <title>Dead End</title>
+           <year>2012</year>
+           <country>DK</country>
+    </track>
+    <track><artist>The Shoes</artist>
+           <title>Time To Dance</title>
+           <year>2012</year>
+           <country>FR</country>
+    </track>
+    <track><artist>The Presets</artist>
+           <title>A.O.</title>
+           <year>2012</year>
+           <country>AU</country>
+    </track>
+
+   </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" back = "TRUE" type = "jpg">fp20131</cover>
+    <fontsize>7</fontsize>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2013</year>
+    <month>1</month>
+    <by>Z</by>
+  </meta>
+</wgcompilation>

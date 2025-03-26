@@ -1,0 +1,119 @@
+<wgcompilation>
+  <title>The Land Of The Lounge Lizards</title> 
+  <season>Jansen / Zeileis - Das Nächste Jahrtausend</season>
+  <number>2016.2</number>
+  <content>
+    <cd>
+      <track><artist>Digital Emotion</artist>
+             <title>Go Go Yellow Screen</title>
+             <quote>and come to the bomb</quote>
+             <year>1983</year>
+             <country>NL</country>
+      </track>
+      <track><artist>Dorine Hollier</artist>
+             <title>Tonight...Crazy Night</title>
+             <quote>we'll walk along in weirdo land where monsters grow in garbage cans</quote>
+             <year>1984</year>
+             <country>IT</country>
+      </track>
+      <track><artist>Numero Uno</artist>
+             <title>Tora Tora Tora</title>
+             <quote>when I heard what she had to tell my heart began to melt</quote>
+             <year>1984</year>
+             <country>NL</country>
+      </track>
+      <track><artist>Silicon Dream</artist>
+             <title>Corleone Speaking</title>
+             <quote>big boss is on the line, mamma a napoli far across the sea</quote>
+             <year>1988</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Silent Circle</artist>
+             <title>Touch In The Night</title>
+             <quote>helpless tears can never stop the rain</quote>
+             <year>1985</year>
+             <country>DE</country>
+      </track>
+      <track><artist>The Twins</artist>
+             <title>Face To Face - Heart To Heart</title>
+             <quote>the memories of you still hurt me, they've been inscribed with needles in my mind</quote>
+             <year>1982</year>
+             <country>DE</country>
+      </track>
+      <track><artist>The Flirts</artist>
+             <title>Danger</title>
+             <quote>loving you is like playing with dynamite</quote>
+             <year>1983</year>
+             <country>US</country>
+      </track>
+      <track><artist>Bobby Orlando</artist>
+             <title>Whisper To A Scream</title>
+             <quote>trouble is growing, it comes from deep within</quote>
+             <year>1985</year>
+             <country>US</country>
+      </track>
+      <track><artist>Girly</artist>
+             <title>Trouble</title>
+             <quote>yesterday was passion, today it's just excuse</quote>
+             <year>1984</year>
+             <country>US</country>
+      </track>
+      <track><artist>Oh Romeo</artist>
+             <title>One More Shot</title>
+             <quote>you think that you are, but you're never alone</quote>
+             <year>1985</year>
+             <country>US</country>
+      </track>
+      <track><artist>Trance Dance</artist>
+             <title>Can't Get It Out Of My Mind</title>
+             <quote>it's heaven and hell and back again</quote>
+             <year>1986</year>
+             <country>SE</country>
+      </track>
+      <track><artist>Wet</artist>
+             <title>That's The Game</title>
+             <quote>so where are the boys, so where are the girls</quote>
+             <year>1983</year>
+             <country>BE</country>
+      </track>
+      <track><artist>Mike Mareen</artist>
+             <title>Don't Talk To The Snake</title>
+             <quote>watch out for diamonds made of glass</quote>
+             <year>1987</year>
+             <country>DE</country>
+      </track>
+      <track><artist>My Mine</artist>
+             <title>Hypnotic Tango</title>
+             <quote>give me this night in a foreign land</quote>
+             <year>1983</year>
+             <country>IT</country>
+      </track>
+      <track><artist>The Hurricanes</artist>
+             <title>Only One Night</title>
+             <quote>what it takes is daring to give</quote>
+             <year>1988</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Patty Ryan</artist>
+             <title>Stay With Me Tonight</title>
+             <quote>italian lover please tell me your sweet lies</quote>
+             <year>1986</year>
+             <country>DE</country>
+      </track>
+   </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" type = "jpg">dnj20162</cover>
+    <fontsize>12</fontsize>
+    <adj>12</adj>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2016</year>
+    <month>9</month>
+    <by>Z</by>
+  </meta>
+</wgcompilation>
+

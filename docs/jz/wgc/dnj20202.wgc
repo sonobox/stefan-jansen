@@ -1,0 +1,100 @@
+<wgcompilation>
+  <title>Encounter At Farpoint</title> 
+  <season>Jansen / Zeileis - Das Nächste Jahrtausend</season>
+  <number>2020.2</number>
+  <content>
+    <cd>
+      <track><artist>Prophet X</artist>
+             <title>Hearts Of Asia (Male Mix)</title>
+             <quote>looking for a sign, lost in meditation, touch of the divine, the final information</quote>
+             <year>1987</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Interface</artist>
+             <title>Plastic Age (Male Vocal Mix)</title>
+             <quote>big money talks, tells them what to do, destroy what's old and build something new, with no hesitation, no contemplation</quote>
+             <year>1987</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Axodry</artist>
+             <title>The Time Is Right (12" Mix)</title>
+             <quote>there is no hurdle we can't take and no record we can't break</quote>
+             <year>1985</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Mega</artist>
+             <title>You Got A Bausparvertrag??? (Vocal-Rockefeller-Mix)</title>
+             <quote>wanna hold you close, whisper in the dark, boom boom boom goes my heart</quote>
+             <year>1987</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Laser Cowboys</artist>
+             <title>Ultra Warp (Death Mix)</title>
+             <quote>q: you will now answer to the charge of being a grievously savage race.</quote>
+             <year>1984</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Off</artist>
+             <title>Step By Step (Vocal Mix)</title>
+             <quote>you'll never see a routine twice: when i dance i improvise</quote>
+             <year>1987</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Fockewulf 190</artist>
+             <title>Gitano (Vocal)</title>
+             <quote>look at us, look little man: if you want, you can become gitano</quote>
+             <year>1984</year>
+             <country>IT</country>
+      </track>
+      <track><artist>Few Boys</artist>
+             <title>Secret Times</title>
+             <quote>technical signs, mathematical minds, shout for destruction, no more time for reaction</quote>
+             <year>1985</year>
+             <country>DE</country>
+      </track>
+      <track><artist>S-50</artist>
+             <title>Input (Maxi Version)</title>
+             <quote>another day, another way, should I go, or should I stay, promise me something that can't be true</quote>
+             <year>1987</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Silicon Dream</artist>
+             <title>Marcello The Mastroianni (Monster-Mix)</title>
+             <quote>senatus popolusque romanus</quote>
+             <year>1987</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Silent B.C.</artist>
+             <title>Master Eyes (Long Version)</title>
+             <quote>too civilized to take an advice</quote>
+             <year>1986</year>
+             <country>IT</country>
+      </track>
+      <track><artist>Art Fine</artist>
+             <title>Dark Silence (Art Fine Version)</title>
+             <quote>when i return to my house, you don't come back</quote>
+             <year>1985</year>
+             <country>IT</country>
+      </track>
+      <track><artist>The Splash Band</artist>
+             <title>The End (Disco)</title>
+             <quote>deanna troi: great joy and gratitude.</quote>
+             <year>1983</year>
+             <country>DE</country>
+      </track>
+    </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" type = "jpg">dnj20202</cover>
+    <fontsize>11.5</fontsize>
+    <adj>12.5</adj>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2020</year>
+    <month>4</month>
+    <by>Z</by>
+  </meta>
+</wgcompilation>

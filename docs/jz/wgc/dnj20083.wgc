@@ -1,0 +1,145 @@
+<wgcompilation>
+
+  <title>Rave On!</title>
+  <season>Jansen / Zeileis - Das Nächste Jahrtausend</season>
+  <number>2008.3</number>
+
+  <content>
+   <cd>
+    <track><artist>The Charlatans</artist>
+           <title>The Only One I Know</title>
+           <quote>everyone has been burned before, everybody knows the pain</quote>
+           <year>1990</year>
+           <country>GB</country>    
+    </track>
+    <track><artist>The Stone Roses</artist>
+           <title>Love Spreads</title>
+           <quote>the messiah is my sister</quote>
+           <year>1994</year>
+           <country>GB</country>    
+    </track>
+    <track><artist>Happy Mondays</artist>
+           <title>Step On</title>
+           <quote>you're twistin' my melon man</quote>
+           <year>1990</year>
+           <country>GB</country>    
+    </track>
+    <track><artist>Inspiral Carpets</artist>
+           <title>Saturn 5</title>
+           <quote>all hail the men who will walk up in heaven today</quote>
+           <year>1994</year>
+           <country>GB</country>    
+    </track>
+    <track><artist>The Soup Dragons</artist>
+           <title>I'm Free</title>
+           <quote>don't be afraid of your freedom</quote>
+           <year>1990</year>
+           <country>GB</country>    
+    </track>
+    <track><artist>Primal Scream</artist>
+           <title>Movin' On Up</title>
+           <quote>you made a believer out of me</quote>
+           <year>1991</year>
+           <country>GB</country>    
+    </track>
+    <track><artist>Electronic</artist>
+           <title>Get The Message</title>
+           <quote>i've counted the nights of living in sin</quote>
+           <year>1991</year>
+           <country>GB</country>    
+    </track>
+    <track><artist>James</artist>
+           <title>Sit Down</title>
+           <quote>those who find they're touched by madness: sit down next to me</quote>
+           <year>1991</year>
+           <country>GB</country>    
+    </track>
+    <track><artist>The Mock Turtles</artist>
+           <title>Can You Dig It?</title>
+           <quote>one little kiss isn't anything</quote>
+           <year>1990</year>
+           <country>GB</country>    
+    </track>
+    <track><artist>Candy Flip</artist>
+           <title>Strawberry Fields Forever</title>
+           <quote>it's getting hard to be someone but it all works out</quote>
+           <year>1990</year>
+           <country>GB</country>    
+    </track>
+    <track><artist>Jesus Jones</artist>
+           <title>Right Here, Right Now</title>
+           <quote>i was alive and i waited for this</quote>
+           <year>1990</year>
+           <country>GB</country>    
+    </track>
+    <track><artist>Carter The Unstoppable Sex Machine</artist>
+           <title>Rent</title>
+           <quote>words mean so little and money less when you're lying next to me</quote>
+           <year>1990</year>
+           <country>GB</country>    
+    </track>
+    <track><artist>EMF</artist>
+           <title>Unbelievable</title>
+           <quote>you say to me i don't talk enough but when i do i'm a fool</quote>
+           <year>1990</year>
+           <country>GB</country>    
+    </track>
+    <track><artist>A House</artist>
+           <title>Endless Art</title>
+           <quote>all dead, yet still alive, in endless time</quote>
+           <year>1991</year>
+           <country>IE</country>    
+    </track>
+    <track><artist>World Of Twist</artist>
+           <title>The Storm</title>
+           <quote>kiss the pain in my mind</quote>
+           <year>1990</year>
+           <country>GB</country>    
+    </track>
+    <track><artist>The Shamen</artist>
+           <title>Jesus Loves Amerika</title>
+           <quote>but i don't love neither</quote>
+           <year>1988</year>
+           <country>GB</country>    
+    </track>
+    <track><artist>The KLF</artist>
+           <title>3 A.M. Eternal (Original Edit)</title>
+           <quote>london by night on my own</quote>
+           <year>1989</year>
+           <country>GB</country>    
+    </track>
+    <track><artist>Kicks Like A Mule</artist>
+           <title>The Bouncer</title>
+           <quote>your name's not down, you're not coming in</quote>
+           <year>1992</year>
+           <country>GB</country>    
+    </track>
+    <track><artist>808 State</artist>
+           <title>In Yer Face</title>
+           <quote>a powerful feeling that the american system is failing to deal with the real threats to life: the bomb, the pollution of air and water, the population explosion, the mountains of slums, and crime</quote>
+           <year>1990</year>
+           <country>GB</country>    
+    </track>
+    <track><artist>A Guy Called Gerald</artist>
+           <title>Voodoo Ray</title>
+           <quote>voodoo voodoo voodoo ray</quote>
+           <year>1988</year>
+           <country>GB</country>    
+    </track>
+   </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" type = "jpg">dnj20083</cover>
+    <fontsize>11</fontsize>
+    <adj>12</adj>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2008</year>
+    <month>4</month>
+    <by>Z</by>
+  </meta>
+
+</wgcompilation>

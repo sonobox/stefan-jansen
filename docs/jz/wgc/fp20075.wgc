@@ -1,0 +1,128 @@
+<wgcompilation>
+  <title>Nintendo-Schock</title>
+  <season>Future Pop</season>
+  <number>2007.5</number>
+  <content>
+   <cd>
+   
+    <track><artist>Slagsmålsklubben</artist>
+           <title>Rakade Ögonbryn Ska Det Vara</title>
+           <year>2004</year>
+           <country>SE</country>
+    </track>
+    <track><artist>Egotronic vs. Saalschutz</artist>
+           <title>Nein Nein</title>
+           <year>2004</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Bratze</artist>
+           <title>Hightowers Herz</title>
+           <year>2007</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Mediengruppe Telekommander</artist>
+           <title>Sprengkörper</title>
+           <year>2006</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Minipli 225</artist>
+           <title>Germans In The Discotheque</title>
+           <year>2007</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Räuberhöhle feat. Saalschutz</artist>
+           <title>Achtung!</title>
+           <year>2005</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Dubmood</artist>
+           <title>Kenny The Toffelskater</title>
+           <year>2003</year>
+           <country>SE</country>
+   </track>
+   <track><artist>Bondage Fairies</artist>
+           <title>Pink-Eye Paranoia</title>
+           <year>2006</year>
+           <country>SE</country>
+   </track>
+   <track><artist>Dexter</artist>
+           <title>Z.W.A.M</title>
+           <year>2000</year>
+           <country>NL</country>
+    </track>
+    <track><artist>Goto80</artist>
+           <title>Fantasy</title>
+           <year>2005</year>
+           <country>SE</country>
+    </track>
+    <track><artist>The Capricorns</artist>
+           <title>Nintendo Song</title>
+           <year>2001</year>
+           <country>US</country>
+    </track>
+    <track><artist>Saalschutz</artist>
+           <title>SMS D'Amour</title>
+           <year>2004</year>
+           <country>CH</country>
+    </track>
+    <track><artist>Plemo</artist>
+           <title>Es Regnet</title>
+           <year>2007</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Brockdorff Klang Labor</artist>
+           <title>Some Girls Are Bigger Than Others</title>
+           <year>2006</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Nachlader</artist>
+           <title>Arbeitsgeld (Hard Work No Money Remix)</title>
+           <year>2004</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Grossstadtgeflüster</artist>
+           <title>Ich Muss Gar Nix</title>
+           <year>2006</year>
+           <country>DE</country>
+    </track> 
+    <track><artist>Miss Kittin &amp; The Hacker</artist>
+           <title>Freiburg V3.0 (Tococrazy Mix)</title>
+           <year>2000</year>
+           <country>FR</country>
+    </track>
+    <track><artist>Computor Rockers</artist>
+           <title>Lunar Attack</title>
+           <year>2000</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Der Tante Renate</artist>
+           <title>Utrecht</title>
+           <year>2007</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Welle:Erdball</artist>
+           <title>Nyntändo-Schock</title>
+           <year>1993</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Koji Kondo</artist>
+           <title>Super Mario Bros. Original Theme</title>
+           <year>1980</year>
+           <country>JP</country>
+    </track>
+   
+   </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" back = "TRUE" type = "jpg">fp20075</cover>
+    <fontsize>7</fontsize>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2007</year>
+    <month>12</month>
+    <by>DJ MAD.e</by>
+  </meta>
+</wgcompilation>

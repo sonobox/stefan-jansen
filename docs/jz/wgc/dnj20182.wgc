@@ -1,0 +1,133 @@
+<wgcompilation>
+  <title>Strategic Defense Initiative</title> 
+  <season>Jansen / Zeileis - Das Nächste Jahrtausend</season>
+  <number>2018.2</number>
+
+  <content>
+   <cd>
+    <track><artist>Tres</artist>
+           <title>My Computer</title>
+           <quote>i sit every day and i program my computer</quote>
+           <year>1985</year>
+           <country>SE</country>
+    </track>
+    <track><artist>Techniques Berlin</artist>
+           <title>Love Via Computer</title>
+           <quote>there's a number in the computer to fulfill your fantasy</quote>
+           <year>1987</year>
+           <country>CA</country>
+    </track>
+    <track><artist>Agentss</artist>
+           <title>Cidade Industrial</title>
+           <quote>vejo muitos prédios, poucas chances</quote>
+           <year>1983</year>
+           <country>BR</country>
+    </track>
+    <track><artist>Oviformia SCI</artist>
+           <title>Hablamos De Nosotros</title>
+           <quote>sospechosa situación tras una falsa información</quote>
+           <year>1981</year>
+           <country>ES</country>
+    </track>
+    <track><artist>Vocoder</artist>
+           <title>Radio</title>
+           <quote>car la radio toujours t'accompagne</quote>
+           <year>1984</year>
+           <country>ES</country>
+    </track>
+    <track><artist>Absolute Body Control</artist>
+           <title>Figures</title>
+           <quote>people always die alone</quote>
+           <year>1983</year>
+           <country>BE</country>
+    </track>
+    <track><artist>Informatics</artist>
+           <title>What A World</title>
+           <quote>move to the rhythm, dance to a dangerous beat</quote>
+           <year>1982</year>
+           <country>AU</country>
+    </track>
+    <track><artist>Deux</artist>
+           <title>Sex And Trouble</title>
+           <quote>i feel so misunderstood 'cause you disturb my existence every time</quote>
+           <year>1985</year>
+           <country>FR</country>
+    </track>
+    <track><artist>Shark Vegas</artist>
+           <title>You Hurt Me</title>
+           <quote>two wrongs don't make a right</quote>
+           <year>1984</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Candide</artist>
+           <title>(But Not) Tonight</title>
+           <quote>i will stand on the roof and jump to the moon</quote>
+           <year>1987</year>
+           <country>SE</country>
+    </track>
+    <track><artist>Linear Movement</artist>
+           <title>Due To You</title>
+           <quote>nothing's real and therefore nothing right but me</quote>
+           <year>1983</year>
+           <country>BE</country>
+    </track>
+    <track><artist>Autumn</artist>
+           <title>Night In June</title>
+           <quote>i remember every word you said</quote>
+           <year>1982</year>
+           <country>BE</country>
+    </track>
+    <track><artist>Turquoise Days</artist>
+           <title>Grey Skies</title>
+           <quote>don't expect me to make you smile</quote>
+           <year>1984</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Night Moves</artist>
+           <title>Transdance</title>
+           <quote>on the screen we see a side of you and i</quote>
+           <year>1983</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Ensemble Pittoresque</artist>
+           <title>Artificials</title>
+           <quote>all these religions are just not for me</quote>
+           <year>1983</year>
+           <country>NL</country>
+    </track>
+    <track><artist>Experimental Products</artist>
+           <title>Sweet Rejection</title>
+           <quote>be a saviour, keep another in mind</quote>
+           <year>1982</year>
+           <country>US</country>
+    </track>
+    <track><artist>Guyer's Connection</artist>
+           <title>Dallas</title>
+           <quote>bobby, pamela, and j.r. are more important than an atomic war</quote>
+           <year>1983</year>
+           <country>CH</country>
+    </track>
+    <track><artist>The Quarks</artist>
+           <title>Mechanical</title>
+           <quote>but i've always got a battery pack in case i get another heart attack</quote>
+           <year>1981</year>
+           <country>GB</country>
+    </track>
+   </cd>  
+  </content>
+
+    <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" type = "jpg">dnj20182</cover>
+    <fontsize>12</fontsize>
+    <adj>12</adj>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2018</year>
+    <month>9</month>
+    <by>DJ MAD.e &amp; Z</by>
+  </meta>
+</wgcompilation>
+
+

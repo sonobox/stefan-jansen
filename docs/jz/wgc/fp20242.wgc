@@ -1,0 +1,147 @@
+<wgcompilation>
+  <title>Allein Im Club</title>
+  <season>Future Pop</season>
+  <number>2024.2</number>
+  <content>
+   <cd>
+    <track><artist>WHOPPR</artist>
+           <title>Nicht Tanzen</title>
+           <year>2022</year>
+           <country>DE</country>
+    </track>
+    <track><artist>European Sex</artist>
+           <title>Blender</title>
+           <year>2023</year>
+           <country>EU</country>
+    </track>
+    <track><artist>Plattenbauten</artist>
+           <title>Verlaufen</title>
+           <year>2023</year>
+           <country>DE</country>
+    </track>  
+    <track><artist>Steintor Herrenchor &amp; diggidaniel</artist>
+           <title>Wollte Nie</title>
+           <year>2023</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Streichelt</artist>
+           <title>Sicher Nicht</title>
+           <year>2023</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Twin Noir</artist>
+           <title>Paul War Mal Punk</title>
+           <year>2023</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Risikotoleranz</artist>
+           <title>Mein Müll (Extended Recycle Mix)</title>
+           <year>2020</year>
+           <country>DE</country>
+    </track>   
+    <track><artist>Edwin Rosen</artist>
+           <title>21 Nächte Wach</title>
+           <year>2023</year>
+           <country>DE</country>
+    </track>    
+    <track><artist>Wurms</artist>
+           <title>Herz Stop</title>
+           <year>2023</year>
+           <country>DE</country>
+   </track>    
+   <track><artist>34TJAY</artist>
+           <title>Kastanienbaum</title>
+           <year>2023</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Karl Kave</artist>
+           <title>Dekoration</title>
+           <year>2021</year>
+           <country>CH</country>
+    </track>
+    <track><artist>Blanche Biau</artist>
+           <title>Marode Gestalten (Carlo Onda Remix)</title>
+           <year>2022</year>
+           <country>CH</country>
+    </track>
+    <track><artist>ELA &amp; Urbannino</artist>
+           <title>Sirenen</title>
+           <year>2024</year>
+           <country>DE</country>
+    </track>
+    <track><artist>TEMMIS</artist>
+           <title>ICE 579</title>
+           <year>2022</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Konstantin Unwohl</artist>
+           <title>Ich Wollte Nie Museumsbauer Werden</title>
+           <year>2021</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Hosenadler</artist>
+           <title>Computerliebe</title>
+           <year>2023</year>
+           <country>DE</country>
+    </track>
+    <track><artist>FRTG13</artist>
+           <title>Supersymmetrie</title>
+           <year>2021</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Pavelo &amp; Schnell mit Ikkimel</artist>
+           <title>Amicelli</title>
+           <year>2023</year>
+           <country>DE</country>
+    </track>    
+
+    <track><artist>Ede &amp; Deckert feat. Sargland</artist>
+           <title>Immer</title>
+           <year>2023</year>
+           <country>DE</country>
+    </track>   
+    <track><artist>Videotraum</artist>
+           <title>Du &amp; Ich</title>
+           <year>2023</year>
+           <country>DE</country>
+    </track>
+    <track><artist>DIAF feat. Adam Usi</artist>
+           <title>Aung</title>
+           <year>2022</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Too Late For Tears</artist>
+           <title>Nach Mitternacht</title>
+           <year>2018</year>
+           <country>NL</country>
+    </track>    
+    <track><artist>Kissing Disease</artist>
+           <title>Ein Narr Von Vielen</title>
+           <year>2024</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Lauenburg</artist>
+           <title>Turmalin</title>
+           <year>2024</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Plastikstrom</artist>
+           <title>Tanz Allein</title>
+           <year>2022</year>
+           <country>DE</country>
+    </track>
+   </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" back = "TRUE" type = "jpg">fp20242</cover>
+    <fontsize>7</fontsize>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2024</year>
+    <month>4</month>
+    <by>DJ MAD.e</by>
+  </meta>
+</wgcompilation>

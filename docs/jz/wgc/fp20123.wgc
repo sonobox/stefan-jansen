@@ -1,0 +1,127 @@
+<wgcompilation>
+  <title>Electric Barbarella</title>
+  <season>Future Pop</season>
+  <number>2012.3</number>
+
+  <content>
+   <cd>
+    <track><artist>Men</artist>
+           <title>Life's Half Price</title>
+           <year>2011</year>
+           <country>US</country>
+    </track>
+     <track><artist>If The Kids</artist>
+           <title>Life Is Now</title>
+           <year>2012</year>
+           <country>FR</country>
+    </track>
+    <track><artist>Cansei De Ser Sexy</artist>
+           <title>La Liberación</title>
+           <year>2005</year>
+           <country>BR</country>
+    </track>
+    <track><artist>Metric</artist>
+           <title>Gimme Sympathy</title>
+           <year>2009</year>
+           <country>CA</country>
+    </track>
+    <track><artist>Sexy Sushi</artist>
+           <title>Marin</title>
+           <year>2009</year>
+           <country>FR</country>
+    </track>
+    <track><artist>Vive La Fête</artist>
+           <title>Je N'Sais Pas Si Tu</title>
+           <year>2012</year>
+           <country>BE</country>
+    </track>
+    <track><artist>Brockdorff Klang Labor</artist>
+           <title>NoNoNo!</title>
+           <year>2012</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Sonnenbrandt</artist>
+           <title>Diskolied</title>
+           <year>2008</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Hertzinfarkt</artist>
+           <title>Bis Ans Ende</title>
+           <year>2012</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Spillsbury</artist>
+           <title>Es Ist Egal</title>
+           <year>2008</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Die Funkhausgruppe</artist>
+           <title>Nur Tote Männer Sind Schön</title>
+           <year>2011</year>
+           <country>DE</country>
+    </track>
+    <track><artist>I'm Not A Band</artist>
+           <title>Evelyn Eludes</title>
+           <year>2011</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Oh Land</artist>
+           <title>Voodoo</title>
+           <year>2011</year>
+           <country>DK</country>
+    </track>    
+    <track><artist>Pop:sch</artist>
+           <title>Abuse Me</title>
+           <year>2011</year>
+           <country>AT</country>
+    </track>
+    <track><artist>Bunny Lake</artist>
+           <title>Swallow The Darkness</title>
+           <year>2009</year>
+           <country>AT</country>
+    </track>   
+    <track><artist>Ladytron</artist>
+           <title>Evil (Radio Edit)</title>
+           <year>2003</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Sneaky Sound System</artist>
+           <title>16</title>
+           <year>2008</year>
+           <country>AU</country>
+    </track>
+     <track><artist>Miyuki Motegi</artist>
+           <title>All Or Nothing</title>
+           <year>2002</year>
+           <country>JP</country>
+    </track>
+    <track><artist>Zeigeist</artist>
+           <title>Fight With Shattered Mirrors</title>
+           <year>2008</year>
+           <country>SE</country>
+    </track>
+    <track><artist>We Are Enfant Terrible</artist>
+           <title>Ce Que Tu Veux De Moi</title>
+           <year>2011</year>
+           <country>FR</country>
+    </track>
+    <track><artist>I Am The World Trade Center</artist>
+           <title>Going Underground</title>
+           <year>2004</year>
+           <country>US</country>
+    </track>
+   </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" back = "TRUE" type = "jpg">fp20123</cover>
+    <fontsize>7</fontsize>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2012</year>
+    <month>11</month>
+    <by>DJ MAD.e</by>
+  </meta>
+</wgcompilation>

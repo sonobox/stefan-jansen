@@ -1,0 +1,102 @@
+<wgcompilation>
+  <title>Synthetic Summer</title>
+  <season>Future Pop</season>
+  <number>2018.1</number>
+
+  <content>
+   <cd>
+    <track><artist>Lebanon Hanover</artist>
+           <title>Babes Of The 80s (Tobias Bernstrup Remix)</title>
+           <year>2016</year>
+           <country>CH</country>
+    </track>
+    <track><artist>Linea Aspera</artist>
+           <title>Malarone</title>
+           <year>2012</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Hante.</artist>
+           <title>Living In A French Movie</title>
+           <year>2016</year>
+           <country>FR</country>
+    </track>
+    <track><artist>Sally Dige</artist>
+           <title>Holding On</title>
+           <year>2017</year>
+           <country>DK</country>
+    </track>
+    <track><artist>Popsimonova</artist>
+           <title>Drive</title>
+           <year>2015</year>
+           <country>HR</country>
+    </track>
+    <track><artist>Boy Harsher</artist>
+           <title>Pain</title>
+           <year>2015</year>
+           <country>US</country>
+    </track>
+    <track><artist>Cabaret Nocturne</artist>
+           <title>Blind Trust</title>
+           <year>2015</year>
+           <country>BE</country>
+    </track>
+    <track><artist>Inhalt</artist>
+           <title>Occupations</title>
+           <year>2013</year>
+           <country>US</country>
+    </track>
+    <track><artist>Buzz Kull</artist>
+           <title>Dreams</title>
+           <year>2017</year>
+           <country>AU</country>
+    </track>
+    <track><artist>Void Vision</artist>
+           <title>Sour</title>
+           <year>2010</year>
+           <country>US</country>
+    </track>
+    <track><artist>Cold Cave</artist>
+           <title>Glory</title>
+           <year>2017</year>
+           <country>US</country>
+    </track>
+    <track><artist>Minuit Machine</artist>
+           <title>Everlasting</title>
+           <year>2015</year>
+           <country>FR</country>
+    </track>
+    <track><artist>Selofan</artist>
+           <title>Shadowmen</title>
+           <year>2017</year>
+           <country>GR</country>
+    </track>
+    <track><artist>She Past Away</artist>
+           <title>Kasvetli Kutlama</title>
+           <year>2010</year>
+           <country>TR</country>
+    </track>
+    <track><artist>Sixth June</artist>
+           <title>Back For A Day</title>
+           <year>2011</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Opale</artist>
+           <title>Hédoniste</title>
+           <year>2013</year>
+           <country>FR</country>
+    </track>
+   </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" back = "TRUE" type = "jpg">fp20181</cover>
+    <fontsize>7</fontsize>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2018</year>
+    <month>7</month>
+    <by>Z</by>
+  </meta>
+</wgcompilation>

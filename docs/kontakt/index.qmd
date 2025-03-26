@@ -1,0 +1,54 @@
+---
+pagetitle: Homepage von Stefan Jansen
+lang: de
+format:
+  html:
+  #  include-in-header: hero-image-disclaimer.html
+    toc: false
+---
+
+
+## Kontakt:
+```{r}
+#| include: false
+
+library(pacman)
+p_load(leaflet)
+```
+
+::: columns
+::: {.column width="30%"}
+![](../../bilder/fotoSJ_ohne.jpg){width="240"}
+:::
+
+::: {.column width="2%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="60%"}
+**Stefan Jansen**
+
+Fakultät für Geistes- und Naturwissenschaften\
+Technische Hochschule Augsburg\
+An der Hochschule 1\
+86161 Augsburg\
+Deutschland
+
+
+E-Mail: jansen at tha.de \
+Raum: A 1.01a
+:::
+:::
+
+
+```{r}
+#| column: screen
+#| echo: false
+
+library(leaflet)
+leaflet() |> 
+  addTiles() |>   # Add default OpenStreetMap map tiles
+  addMarkers(lng=10.9053, lat=48.3557, popup="Mein Büro")
+```
+
+

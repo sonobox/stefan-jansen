@@ -1,0 +1,133 @@
+<wgcompilation>
+  <title>Made In Germany</title>
+  <season>Future Pop</season>
+  <number>2009.4</number>
+
+  <content>
+   <cd>
+    <track><artist>Planetakis</artist>
+           <title>Pogo In The Shoes Of Kylie Minogue</title>
+           <year>2007</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Die Perlen</artist>
+           <title>Jeudi Noir</title>
+           <year>2008</year>
+           <country>DE</country>
+    </track>
+    <track><artist>GammaBlitzBoys</artist>
+           <title>Um Die Eigene Achse</title>
+           <year>2008</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Acid.Milch&amp;Honig</artist>
+           <title>Panzersong</title>
+           <year>2008</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Clickclickdecker</artist>
+           <title>Dialog Mit Dem Tölpel (Auge In Auge Mit Dem Tölpel Frittenbude Remix)</title>
+           <year>2009</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Rampue</artist>
+           <title>Kippen Holen</title>
+           <year>2007</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Egotronic</artist>
+           <title>Die Partei</title>
+           <year>2006</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Brockdorff Klang Labor</artist>
+           <title>Frohe Schritte (Egotronic Remix)</title>
+           <year>2007</year>
+           <country>DE</country>
+    </track>
+      <track><artist>Räuberhöhle</artist>
+           <title>When I Look At You</title>
+           <year>2009</year>
+           <country>DE</country>
+    </track>
+   <track><artist>Deichkind feat. Sarah Walker</artist>
+           <title>Ich Betäube Mich</title>
+           <year>2006</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Chicks On Speed</artist>
+           <title>Sex In Der Stadt</title>
+           <year>2009</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Spillsbury</artist>
+           <title>Lass Mich</title>
+           <year>2008</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Iskra</artist>
+           <title>Bedroom Or Dancefloor (Juri Gagarin Remix)</title>
+           <year>2007</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Bratze</artist>
+           <title>Im Auge Des Lachs</title>
+           <year>2007</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Captain Capa</artist>
+           <title>Kids On Fire (Juri Gagarin Remix)</title>
+           <year>2009</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Thoughts Paint The Sky</artist>
+           <title>Asterisk (Rampue Das Leben Ist Bunt Version)</title>
+           <year>2007</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Dadajugend Polyform</artist>
+           <title>Automatica (Frittenbude Maschinen Tanzen Remix)</title>
+           <year>2009</year>
+           <country>DE</country>
+    </track>
+   <track><artist>Supershirt</artist>
+           <title>Teitmaschine</title>
+           <year>2007</year>
+           <country>DE</country>
+    </track>
+   <track><artist>Knarf Rellöm Trinity</artist>
+           <title>LCD (Is Playing At My House) (Radio Edit)</title>
+           <year>2006</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Testsieger</artist>
+           <title>Neue Welt</title>
+           <year>2009</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Jens Friebe</artist>
+           <title>Neues Gesicht</title>
+           <year>2007</year>
+           <country>DE</country>
+    </track>
+   <track><artist>PeterLicht</artist>
+           <title>Lied Vom Ende Des Kapitalismus</title>
+           <year>2006</year>
+           <country>DE</country>
+    </track>
+     
+   </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" back = "TRUE" type = "jpg">fp20094</cover>
+    <fontsize>7</fontsize>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2009</year>
+    <month>7</month>
+    <by>DJ MAD.e</by>
+  </meta>
+</wgcompilation>

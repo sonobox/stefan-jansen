@@ -1,0 +1,51 @@
+---
+title: Playlist Night Of The Profs 
+format:
+  html:
+    include-in-header: ../../hero-image-blog.html
+lang: de
+# subtitle: 
+description: "Meine Playlist bei der Night Of The Profs 2024" 
+categories:
+  - "Night Of The Profs"
+  - "Playlist"
+author: Stefan Jansen
+date: 12/13/2024
+image: ../../../../bilder/2024_NoP_Flyer_216x111.jpg
+---
+
+[**Playlist auf Youtube**](https://www.youtube.com/playlist?list=PLhPz8MVmrSiQy-X3y1eVEK1BNQM3UqsXm)
+
+
+
+**Edwin Rosen** -- Leichter//Kälter\
+**Kommando Elefant** -- Wir Sprengen Krokodile\
+**European Sex** -- Helium\
+**Metric** -- Gold Guns Girls\
+**Fischerspooner** -- Emerge\
+**The Fashion** -- Like Knives (Tiger Baby Remix)\
+**The Sounds** -- Living In America\
+**The Clash** -- Rock The Casbah\
+**B-Movie** -- Nowhere Girl (7" Version)\
+**Frittenbude** -- Und Täglich Grüßt Das Murmeltier\
+**Brutalismus 3000** -- Die Liebe Kommt Nicht Aus Berlin\
+**Whoppr** -- Nicht Tanzen\
+**Resi Reiner** -- Naja, Geht So\
+**Martha And The Muffins** -- Echo Beach\
+**New Order** -- Blue Monday\
+**The Sisters Of Mercy** -- This Corrosion (7" Version)\
+**Ätna x Meute** -- Weirdo\
+**European Sex** -- Fast Da\
+**Edwin Rosen** -- Verschwende Deine Zeit\
+**The Cure** -- Boys Don't Cry\
+**Je T'Aime** --- Give Me More Kohl\
+**Grande Amore** -- Anos 20\
+**John Foxx** -- Underpass\
+**Rational Youth** -- Saturdays In Silesia\
+**Stephan Eicher** -- Les Filles Du Limmatquai\
+**Indochine** -- L'Aventurier\
+**Die Ärzte** -- Demokratie\
+
+
+![](../../../../bilder/notp2024-gruppe.jpg)
+

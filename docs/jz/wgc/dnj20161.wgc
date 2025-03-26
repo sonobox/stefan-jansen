@@ -1,0 +1,143 @@
+<wgcompilation>
+  <title>Untergang</title> 
+  <season>Jansen / Zeileis - Das Nächste Jahrtausend</season>
+  <number>2016.1</number>
+  <content>
+    <cd>
+      <track><artist>Lüül</artist>
+             <title>Untergang</title>
+             <quote>börsengewinne von japanisierten schachcomputern setzen wienerwaldhähnchen erbarmungslos an die luft</quote>
+             <year>2004</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Schlagsaite</artist>
+             <title>Verliebt In Du</title>
+             <quote>deine art zu sein</quote>
+             <year>2015</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Billy Rückwärts</artist>
+             <title>Frauen Sind Wie Der FC (Poldi-Mix)</title>
+             <quote>denkt man, dass es nicht mehr geht, ist nächste woche wieder alles ok</quote>
+             <year>2012</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Rotfront</artist>
+             <title>Remmidemmi (Yippie Yippie Yeah)</title>
+             <quote>schmeiß die möbel aus dem fenster, wir brauchen platz zum dancen</quote>
+             <year>2009</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Polkageist</artist>
+             <title>Alte Liebe Rostet Nicht</title>
+             <quote>du kannst so start-up sein, hipster, yuppi, nazi-schwein</quote>
+             <year>2016</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Polkaholix</artist>
+             <title>VIPs</title>
+             <quote>völlig ohne theorie</quote>
+             <year>2010</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Los Colorados</artist>
+             <title>Du Hast</title>
+             <quote>willst du bis der tod euch scheidet treu ihr sein für alle tage?</quote>
+             <year>2012</year>
+             <country>UA</country>
+      </track>
+      <track><artist>ZiehGäuner</artist>
+             <title>Negl Mit Kepf</title>
+             <quote>bevor ma olle sterm muas wos abackt wean</quote>
+             <year>2011</year>
+             <country>DE</country>
+      </track>
+      <track><artist>LaBrassBanda</artist>
+             <title>Autobahn</title>
+             <quote>davorn kimmt scho da gardasee da duads scho blos no hoib so weh</quote>
+             <year>2008</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Kofelgschroa</artist>
+             <title>Wäsche</title>
+             <quote>wie schön ist das eigentlich?</quote>
+             <year>2012</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Bavarazzi</artist>
+             <title>Brennero</title>
+             <quote>oh autogrill, oh nespresso nachts um vier, und die luft ist schwül</quote>
+             <year>2013</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Django 3000</artist>
+             <title>Heidi</title>
+             <quote>leck osch danzd de harrschaftszeiten</quote>
+             <year>2012</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Polkahontas</artist>
+             <title>Deutschland</title>
+             <quote>schwarz ist der himmel, rot ist die erden und gold san die händ von die bonzenschweine</quote>
+             <year>2002</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Bolschewistische Kurkapelle Schwarz-Rot</artist>
+             <title>Keine Macht Für Niemand</title>
+             <quote>ich bin nicht frei und kann nur wählen, welche diebe mich bestehlen, welche mörder mir befehlen</quote>
+             <year>2008</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Element Of Crime</artist>
+             <title>Finger Weg Von Meiner Paranoia</title>
+             <quote>sag dass ich mich irre und ich weiß auf wessen seite du jetzt stehst</quote>
+             <year>2005</year>
+             <country>DE</country>
+      </track>
+      <track><artist>17 Hippies</artist>
+             <title>Frau Von Ungefähr</title>
+             <quote>sie nahm die schlüssel von der wand, rang kurz nach luft und verschwand dann</quote>
+             <year>2004</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Oleg And The Popovs</artist>
+             <title>Tanzlied Für Barfuß-Hippies</title>
+             <quote>jeder tannenzweig läßt spuren und gefühle auf der fußsohle zurück</quote>
+             <year>2014</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Rainer Von Vielen</artist>
+             <title>Empört Euch!</title>
+             <quote>und mein ärger ist nichts wert, wenn von ihm keiner erfährt</quote>
+             <year>2014</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Dicht &amp; Ergreifend</artist>
+             <title>Zipfeschwinga</title>
+             <quote>warum danzdn du ned, san deine hacksn morsch?</quote>
+             <year>2015</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Schlagsaite feat. Lüül &amp; Los Chupacabras</artist>
+             <title>Untergang (Live)</title>
+             <quote>und computer schütten eifrig neue daten in gehirne und summen ein lied, das geht so</quote>
+             <year>2013</year>
+             <country>DE</country>
+      </track>
+   </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" type = "jpg">dnj20161</cover>
+    <fontsize>10</fontsize>
+    <adj>11.5</adj>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2016</year>
+    <month>7</month>
+    <by>Z</by>
+  </meta>
+</wgcompilation>
+

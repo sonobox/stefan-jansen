@@ -1,0 +1,163 @@
+<wgcompilation>
+
+  <title>High Fidelity</title>
+  <season>Jansen / Zeileis - Das Nächste Jahrtausend</season>
+  <number>2003.3</number>
+
+  <content>
+    <cd>
+      <track><artist>The Faint</artist>
+             <title>Agenda Suicide</title>
+             <quote>the drones work hard before they die</quote>
+             <year>2001</year>
+             <country>US</country>
+      </track>
+      <track><artist>Placebo</artist>
+             <title>The Bitter End</title>
+             <quote>we're running out of alibis</quote>
+             <year>2003</year>
+             <country>GB</country>
+      </track>
+      <track><artist>The Sounds</artist>
+             <title>Living In America</title>
+             <quote>teenage pornstars, living for nothing now</quote>
+             <year>2002</year>
+             <country>SE</country>
+      </track>
+      <track><artist>Evanescence</artist>
+             <title>Bring Me To Life</title>
+             <quote>save me from the nothing i've become</quote>
+             <year>2002</year>
+             <country>US</country>
+      </track>
+      <track><artist>System Of A Down</artist>
+             <title>Chop Suey</title>
+             <quote>i cry when angels deserve to die</quote>
+             <year>2001</year>
+             <country>US</country>
+      </track>
+      <track><artist>The Hives</artist>
+             <title>Hate To Say I Told You So</title>
+             <quote>i wanna be ignored by the stiff and the bored</quote>
+             <year>2000</year>
+             <country>SE</country>
+      </track>
+      <track><artist>Liam Lynch</artist>
+             <title>United States Of Whatever</title>
+             <quote>he's, like, "hey, punk", i'm, like, "yeah, whatever"</quote>
+             <year>2002</year>
+             <country>US</country>
+      </track>
+      <track><artist>The White Stripes</artist>
+             <title>Seven Nation Army</title>
+             <quote>from the queen of england to the hounds of hell</quote>
+             <year>2003</year>
+             <country>US</country>
+      </track>
+      <track><artist>Electric Six</artist>
+             <title>Danger! High Voltage!</title>
+             <quote>don't you wanna know how we keep starting fires?</quote>
+             <year>2002</year>
+             <country>US</country>
+      </track>
+      <track><artist>Machine Gun Fellatio</artist>
+             <title>Pussy Town</title>
+             <quote>you're four times double cream</quote>
+             <year>2002</year>
+             <country>AU</country>
+      </track>
+      <track><artist>Radio 4</artist>
+             <title>Dance To The Underground (Prance Mix by The Faint)</title>
+             <quote>electrify, it's a new regime</quote>
+             <year>2001</year>
+             <country>US</country>
+      </track>
+      <track><artist>Caesars</artist>
+             <title>Jerk It Out</title>
+             <quote>i'm chasing cars up and down the avenue but that's okay</quote>
+             <year>2002</year>
+             <country>SE</country>
+      </track>
+      <track><artist>The Raveonettes</artist>
+             <title>Beat City</title>
+             <quote>wanna hang with the girls and shoot my gun</quote>
+             <year>2003</year>
+             <country>DK</country>
+      </track>
+      <track><artist>Queens Of The Stone Age</artist>
+             <title>Go With The Flow</title>
+             <quote>i want something good to die for to make it beautiful to live</quote>
+             <year>2002</year>
+             <country>US</country>
+      </track>
+      <track><artist>Interpol</artist>
+             <title>Leif Erikson</title>
+             <quote>i'm just prey to the female</quote>
+             <year>2002</year>
+             <country>US</country>
+      </track>
+      <track><artist>JJ72</artist>
+             <title>Oxygen</title>
+             <quote>rising to pure insanity</quote>
+             <year>2000</year>
+             <country>IE</country>
+      </track>
+      <track><artist>Indochine</artist>
+             <title>J'Ai Demandé  A La Lune</title>
+             <quote>le meilleur me fait souffrir</quote>
+             <year>2002</year>
+             <country>FR</country>
+      </track>
+      <track><artist>Nova International</artist>
+             <title>Favourite Girl</title>
+             <quote>something went wrong, i got up too late</quote>
+             <year>2003</year>
+             <country>DE</country>
+      </track>
+      <track><artist>The Ark</artist>
+             <title>Echo Chamber</title>
+             <quote>if you always must know what's right you will end up, you will end up among the ones who always are wrong</quote>
+             <year>2000</year>
+             <country>SE</country>
+      </track>
+      <track><artist>The Dandy Warhols</artist>
+             <title>Bohemian Like You</title>
+             <quote>i guess it's fair if he always pays the rent and he doesn't get bent about sleeping on the couch when i'm there</quote>
+             <year>2000</year>
+             <country>US</country>
+      </track>
+      <track><artist>The Coral</artist>
+             <title>Dreaming Of You</title>
+             <quote>can't feel no pavement right under my feet</quote>
+             <year>2002</year>
+             <country>GB</country>
+      </track>
+      <track><artist>The Moldy Peaches</artist>
+             <title>Steak For Chicken</title>
+             <quote>found my calling as a part time bowler, traded my wife in for a new 3 holer</quote>
+             <year>2000</year>
+             <country>US</country>
+      </track>
+      <track><artist>Johnny Cash</artist>
+             <title>Hurt</title>
+             <quote>i hurt myself today to see if i still feel. i focus on the pain, the only thing that's real.</quote>
+             <year>2002</year>
+             <country>US</country>
+      </track>
+    </cd>
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" type = "jpg">dnj20033</cover>
+    <fontsize>10</fontsize>
+  </layout>
+
+  <meta>
+    <year>2003</year>
+    <month>7</month>
+    <by>Z</by>
+  </meta>
+</wgcompilation>
+
+
+

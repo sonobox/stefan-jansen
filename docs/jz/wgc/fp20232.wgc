@@ -1,0 +1,127 @@
+<wgcompilation>
+  <title>Ravetok</title>
+  <season>Future Pop</season>
+  <number>2023.2</number>
+
+  <content>
+   <cd>
+    <track><artist>Brutalismus 3000</artist>
+           <title>Die Liebe Kommt Nicht Aus Berlin</title>
+           <year>2023</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Creeds</artist>
+           <title>Push Up</title>
+           <year>2023</year>
+           <country>FR</country>
+    </track>
+    <track><artist>Hypaton</artist>
+           <title>Hello Peter (Giuseppe Ottaviani Retouch)</title>
+           <year>2022</year>
+           <country>IT</country>
+    </track>
+    <track><artist>Basswell</artist>
+           <title>Hear The Sound (Rave Mix)</title>
+           <year>2021</year>
+           <country>FR</country>
+    </track>
+    <track><artist>Anyma &amp; Chris Avantgarde</artist>
+           <title>Eternity</title>
+           <year>2023</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Nhoah feat. Mello1</artist>
+           <title>Sommernacht (Tanz Den Takt)</title>
+           <year>2023</year>
+           <country>DE/AT</country>
+    </track>
+    <track><artist>Joost Klein, Ski Aggu &amp; Otto Waalkes</artist>
+           <title>Friesenjung</title>
+           <year>2023</year>
+           <country>NL/DE</country>
+    </track>
+    <track><artist>Finch x Scooter</artist>
+           <title>Rave Witchers</title>
+           <year>2021</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Åmrtüm x Synta</artist>
+           <title>Heiss (Floorkiller Flex)</title>
+           <year>2020</year>
+           <country>FR</country>
+    </track>
+    <track><artist>VCL</artist>
+           <title>90's Feeling</title>
+           <year>2019</year>
+           <country>FR</country>
+    </track>
+    <track><artist>Alignment</artist>
+           <title>Future Dancefloor</title>
+           <year>2021</year>
+           <country>IT</country>
+    </track>
+    <track><artist>Luca Eck</artist>
+           <title>Walking The Edge</title>
+           <year>2020</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Airod &amp; Amelie Lens</artist>
+           <title>Adrenaline</title>
+           <year>2020</year>
+           <country>FR/BE</country>
+    </track>
+    <track><artist>Ski Aggu</artist>
+           <title>Party Sahne</title>
+           <year>2022</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Ion Miles</artist>
+           <title>Powerade</title>
+           <year>2022</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Dennis Dies Das x Whitey En Vogue x Robbensohn</artist>
+           <title>Bass</title>
+           <year>2022</year>
+           <country>DE</country>
+    </track>
+    <track><artist>01099 x Ski Aggu</artist>
+           <title>Anders</title>
+           <year>2023</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Longus Mongus</artist>
+           <title>Omnipräsent</title>
+           <year>2023</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Imanbek x Baby B3ns</artist>
+           <title>Sunglasses</title>
+           <year>2023</year>
+           <country>KZ/DE</country>
+    </track>
+    <track><artist>Haiyti</artist>
+           <title>Gabba</title>
+           <year>2021</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Domiziana</artist>
+           <title>Ohne Benzin</title>
+           <year>2022</year>
+           <country>DE</country>
+    </track>
+   </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" back = "TRUE" type = "jpg">fp20232</cover>
+    <fontsize>7</fontsize>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2023</year>
+    <month>7</month>
+    <by>Z</by>
+  </meta>
+</wgcompilation>

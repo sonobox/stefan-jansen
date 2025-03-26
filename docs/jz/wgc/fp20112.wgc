@@ -1,0 +1,128 @@
+<wgcompilation>
+  <title>Mensch, Maschine, Mathematik</title>
+  <season>Future Pop</season>
+  <number>2011.2</number>
+
+  <content>
+   <cd>   
+    <track><artist>Homo~Futura</artist>
+           <title>Komm In Mein Labor</title>
+           <year>2011</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Klax</artist>
+           <title>Вот Человек Ступил На Марс</title>
+           <year>2009</year>
+           <country>RU</country>
+    </track>
+    <track><artist>Роботы</artist>
+           <title>Робот-Синтезатор</title>
+           <year>2003</year>
+           <country>RU</country>
+    </track>
+    <track><artist>Sonnenbrandt</artist>
+           <title>Rotes Telefon</title>
+           <year>2008</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Die Funkhausgruppe</artist>
+           <title>Die Physiker</title>
+           <year>2011</year>
+           <country>DE</country>
+    </track>
+    <track><artist>QEK Junior</artist>
+           <title>Neue Ästhetik (Kalt Und Steril)</title>
+           <year>2009</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Das M</artist>
+           <title>Schneller Sein</title>
+           <year>2009</year>
+           <country>AT</country>
+    </track>
+    <track><artist>Ladytron</artist>
+           <title>Cracked LCD</title>
+           <year>2002</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Die Perlen</artist>
+           <title>We 'Hate' The 80's</title>
+           <year>2004</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Hertzinfarkt</artist>
+           <title>Wir Trauen Uns Was</title>
+           <year>2007</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Bondage Fairies</artist>
+           <title>1-0</title>
+           <year>2011</year>
+           <country>SE</country>
+    </track>    
+    <track><artist>Welle:Erdball</artist>
+           <title>Chaos Total</title>
+           <year>2006</year>
+           <country>DE</country>
+    </track>
+    <track><artist>ElektroBär</artist>
+           <title>Apparat</title>
+           <year>2010</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Dr. Doomsday &amp; His Nuclear Wisemen</artist>
+           <title>Strom</title>
+           <year>2008</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Datafreq</artist>
+           <title>The Only Place I Go</title>
+           <year>2006</year>
+           <country>CA</country>
+    </track>  
+    <track><artist>Klement</artist>
+           <title>I Be M</title>
+           <year>2010</year>
+           <country>FR</country>
+    </track>
+    <track><artist>Second Planet</artist>
+           <title>Error Situation</title>
+           <year>2009</year>
+           <country>DE</country>
+    </track>
+    <track><artist>The Girl &amp; The Robot</artist>
+           <title>Another Love</title>
+           <year>2010</year>
+           <country>DE</country>
+    </track>
+    <track><artist>MIT</artist>
+           <title>Rauch</title>
+           <year>2008</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Lesbian Mouseclicks</artist>
+           <title>Borderline Label</title>
+           <year>2005</year>
+           <country>NL</country>
+    </track>
+    <track><artist>Gertrud Stein</artist>
+           <title>Tanze Samba Mit Mir</title>
+           <year>2010</year>
+           <country>CH</country>
+    </track> 
+
+   </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" back = "TRUE" type = "jpg">fp20112</cover>
+    <fontsize>7</fontsize>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2011</year>
+    <month>6</month>
+    <by>DJ MAD.e</by>
+  </meta>
+</wgcompilation>

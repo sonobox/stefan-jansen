@@ -1,0 +1,150 @@
+<wgcompilation>
+  <title>Klaatu Barada Nikto!</title>
+  <season>Jansen / Zeileis - Das Nächste Jahrtausend</season>
+  <number>2007.4</number>
+  <content>
+   <cd>
+   
+    <track><artist>Opéra De Nuit</artist>
+           <title>Amour Noir</title>
+           <quote>amour noir ne sera plus qu'un peu d'espoir</quote>
+           <year>1984</year>
+           <country>FR</country>    
+    </track>
+
+    <track><artist>Schmaalhans Weltraum</artist>
+           <title>Montagne Du Bœuf</title>
+           <quote>sur cette vide montagne du bœuf, avec les oreilles</quote>
+           <year>1991</year>
+           <country>SE</country>    
+    </track>
+    
+ <track><artist>Indochine</artist>
+           <title>L'Aventurier</title>
+           <quote>bob morane contre tout chacal l'aventurier contre tout guerrier</quote>
+           <year>1982</year>
+           <country>FR</country>    
+    </track>
+    
+    <track><artist>Page</artist>
+           <title>Dansande Man</title>
+           <quote>jag såg din blick, lyste som neon</quote>
+           <year>1983</year>
+           <country>SE</country>    
+    </track>
+
+    <track><artist>Inbase</artist>
+           <title>Christine (Live)</title>
+           <quote>i try to change my life for you</quote>
+           <year>1984</year>
+           <country>DE</country>    
+    </track>
+    
+    <track><artist>C Cat Trance</artist>
+           <title>Shake The Mind</title>
+           <quote>the body is always tied to the ground</quote>
+           <year>1986</year>
+           <country>GB</country>    
+    </track>
+
+    <track><artist>Lars Falk</artist>
+           <title>See My Friend Fall</title>
+           <quote>falling to the ground</quote>
+           <year>1987</year>
+           <country>SE</country>    
+    </track>
+
+    <track><artist>John Foxx</artist>
+           <title>Touch And Go</title>
+           <quote>and i'm wondering vaguely just whose face this is and could we ever be friends?</quote>
+           <year>1981</year>
+           <country>GB</country>    
+    </track>
+
+    <track><artist>Men Without Hats</artist>
+           <title>Security (Everybody Feels Better With)</title>
+           <quote>everybody's different but we're all quite the same</quote>
+           <year>1980</year>
+           <country>CA</country>    
+    </track>
+
+    <track><artist>Deo</artist>
+           <title>Killerautomat</title>
+           <quote>wir knallen alle ab, ruck zuck zack zack, mit einem einzigen laserstrahl</quote>
+           <year>1982</year>
+           <country>DE</country>    
+    </track>
+
+    <track><artist>Fehlfarben</artist>
+           <title>Paul Ist Tot (Edit)</title>
+           <quote>was ich haben will das krieg ich nicht, und was ich kriegen kann das gefällt mir nicht</quote>   
+           <year>1980</year>
+           <country>DE</country>    
+    </track>   
+
+
+    <track><artist>Foyer Des Arts</artist>
+           <title>Schimmliges Brot</title>
+           <quote>schimmliges brot ist selten von vorteil</quote>
+           <year>1985</year>
+           <country>DE</country>    
+    </track>
+
+    <track><artist>Eiskalte Engel</artist>
+           <title>Die Kinder Aus Asbest</title>
+           <quote>in unseren lungen wohnt die pest</quote>
+           <year>1982</year>
+           <country>DE</country>    
+    </track>
+ 
+    <track><artist>The Invincible Spirit</artist>
+           <title>Push!</title>
+           <quote>i want to see him on the floor</quote>
+           <year>1986</year>
+           <country>DE</country>    
+    </track>
+
+    <track><artist>Keren Finley</artist>
+           <title>Tales Of Taboo (Radio Mix)</title>
+           <quote>'cause i love those belgian waffles</quote>
+           <year>1986</year>
+           <country>US</country>    
+    </track>
+  
+    <track><artist>Depeche Mode</artist>
+           <title>Photographic (Live)</title>
+           <quote>the map represents you, and the tape is your voice</quote>
+           <year>1985</year>
+           <country>GB</country>    
+    </track>
+    
+    <track><artist>The Weathermen</artist>
+           <title>Poison!</title>
+           <quote>you find it in your home and your chromosomes</quote>
+           <year>1987</year>
+           <country>BE</country>    
+    </track>
+ 
+    <track><artist>Polyphonic Size</artist>
+           <title>Logique Polygonale</title>
+           <quote>on se re - garde sans fête, l'amour s'en - tête à tête</quote>
+           <year>1980</year>
+           <country>BE</country>    
+    </track>
+
+</cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" type = "jpg">dnj20074</cover>
+    <fontsize>11.7</fontsize>
+    <adj>12</adj>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2007</year>
+    <month>8</month>
+    <by>DJ MAD.e</by>
+  </meta>
+</wgcompilation>

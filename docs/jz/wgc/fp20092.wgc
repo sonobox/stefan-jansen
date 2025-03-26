@@ -1,0 +1,112 @@
+<wgcompilation>
+  <title>Music For Girls</title>
+  <season>Future Pop</season>
+  <number>2009.2</number>
+
+  <content>
+   <cd>
+    <track><artist>Baxendale</artist>
+           <title>Music For Girls</title>
+           <year>1999</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Deichkind</artist>
+           <title>Luftbahn</title>
+           <year>2008</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Jens Friebe</artist>
+           <title>Lawinenhund</title>
+           <year>2005</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Brockdorff Klang Labor</artist>
+           <title>Wenn Du Willst (EP Edit)</title>
+           <year>2007</year>
+           <country>DE</country>
+    </track>    
+    <track><artist>Hot Chip</artist>
+           <title>Ready For The Floor</title>
+           <year>2008</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Little Boots</artist>
+           <title>Meddle</title>
+           <year>2008</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Dead Disco</artist>
+           <title>The Treatment</title>
+           <year>2006</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Din (A) Tod</artist>
+           <title>Carol's Fascination</title>
+           <year>2007</year>
+           <country>DE</country>
+    </track>
+    <track><artist>2raumwohnung</artist>
+           <title>Nimm Mich Mit (Das Abenteuer Liebe Usw.)</title>
+           <year>2001</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Gorillaz</artist>
+           <title>Feel Good Inc. (Egotronic Remix)</title>
+           <year>2007</year>
+           <country>GB</country>
+    </track>
+    <track><artist>The Dance Inc.</artist>
+           <title>Looking Like That (Saalschutz Remix)</title>
+           <year>2005</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Testsieger</artist>
+           <title>Ich Tanze</title>
+           <year>2004</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Freezepop</artist>
+           <title>Photographic</title>
+           <year>2005</year>
+           <country>US</country>
+    </track>
+    <track><artist>Feist</artist>
+           <title>My Moon My Man (Boys Noize Remix)</title>
+           <year>2007</year>
+           <country>CA</country>
+    </track>
+    <track><artist>Pnau feat. Pip Brown</artist>
+           <title>Embrace</title>
+           <year>2007</year>
+           <country>AU</country>
+    </track>
+    <track><artist>Scuola Furano</artist>
+           <title>Chocolate Glazed</title>
+           <year>2004</year>
+           <country>IT</country>
+    </track>
+    <track><artist>Annie</artist>
+           <title>Two Of Hearts</title>
+           <year>2008</year>
+           <country>NO</country>
+    </track>
+    <track><artist>Zoot Woman</artist>
+           <title>Live In My Head</title>
+           <year>2009</year>
+           <country>GB</country>
+    </track>    
+   </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" back = "TRUE" type = "jpg">fp20092</cover>
+    <fontsize>7</fontsize>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2009</year>
+    <month>2</month>
+    <by>DJ MAD.e</by>
+  </meta>
+</wgcompilation>

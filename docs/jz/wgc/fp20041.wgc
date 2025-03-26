@@ -1,0 +1,123 @@
+<wgcompilation>
+  <title>Back To The Future Pop</title>
+  <season>Future Pop</season>
+  <number>2004.1</number>
+
+  <content>
+   <cd>
+    <track><artist>Mikro</artist>
+           <title>Μίκρο Tronik* Πλάσμα</title>
+           <year>2003</year>
+           <country>GR</country>
+    </track>
+    <track><artist>Junior Jack feat. Robert Smith</artist>
+           <title>Da Hype (Radio Edit)</title>
+           <year>2003</year>
+           <country>IT</country>
+    </track>
+    <track><artist>Basement Jaxx feat. Siouxsie Sioux</artist>
+           <title>Cish Cash</title>
+           <year>2004</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Dave Clarke</artist>
+           <title>Disgraceland</title>
+           <year>2003</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Electronicat</artist>
+           <title>Frisco Bay</title>
+           <year>2003</year>
+           <country>FR</country>
+    </track>
+    <track><artist>Von Spar</artist>
+           <title>Schockwellen Auf's Parkett</title>
+           <year>2003</year>
+           <country>DE</country>
+    </track>
+    <track><artist>The Rapture</artist>
+           <title>Sister Savior</title>
+           <year>2003</year>
+           <country>US</country>
+    </track>
+    <track><artist>Kid Alex</artist>
+           <title>St. Tropez (Club Mix)</title>
+           <year>2004</year>
+           <country>DE</country>
+    </track>
+    <track><artist>2raumwohnung</artist>
+           <title>Mucchio Selvaggio</title>
+           <year>2003</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Superpitcher</artist>
+           <title>Baby's On Fire</title>
+           <year>2004</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Magnus</artist>
+           <title>French Movies</title>
+           <year>2004</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Jam &amp; Spoon feat. Jim Kerr</artist>
+           <title>Cynical Heart (Radio Mix)</title>
+           <year>2003</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Δημήτρης Κοργιαλάς &amp; Κατερίνα Μουτσάτσο</artist>
+           <title>Μια Φορά</title>
+           <year>2003</year>
+           <country>GR</country>
+    </track>
+    <track><artist>Lexy &amp; K Paul</artist>
+           <title>Love Me Babe (Short)</title>
+           <year>2003</year>
+           <country>DE</country>
+    </track>
+    <track><artist>DJ Tocadisco</artist>
+           <title>Nobody (Likes The Records That I Play)</title>
+           <year>2003</year>
+           <country>DE</country>
+    </track>
+    <track><artist>WestBam feat. Afrika Islam</artist>
+           <title>Dancing With The Rebels (Short)</title>
+           <year>2004</year>
+           <country>DE</country>
+    </track>
+    <track><artist>The Prodigy feat. Juliette Lewis</artist>
+           <title>Hot Ride</title>
+           <year>2004</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Thomilla feat. Soffy O. &amp; Sekou</artist>
+           <title>Now You Know</title>
+           <year>2004</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Ocker</artist>
+           <title>New York FM</title>
+           <year>2003</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Welle:Erdball</artist>
+           <title>23... (C=64)</title>
+           <year>2002</year>
+           <country>DE</country>
+    </track>
+   </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" back = "TRUE" type = "jpg">fp20041</cover>
+    <fontsize>7</fontsize>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2004</year>
+    <month>8</month>
+    <by>Z</by>
+  </meta>
+</wgcompilation>
+

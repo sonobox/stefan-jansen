@@ -1,0 +1,18 @@
+---
+title: Night Of The Profs am 12.12.2024
+format:
+  html:
+    include-in-header: ../../hero-image-blog.html
+lang: de
+# subtitle: 
+description: "**Night Of The Profs** in Augsburg am 12.12.2024"
+categories:
+  - "Night Of The Profs"
+author: Stefan Jansen
+date: 12/08/2024
+image: ../../../../bilder/2024_NoP_Flyer_216x111.jpg
+---
+
+Am Donnerstag, den 12.12.2024 findet wieder die **Night Of The Profs** in Augsburg statt. In den Clubs *Das Weiße Lamm*, *Soho Bar* und der *Kantine* legen Profs der Uniuversität Augsburg und der TH Augsburg auf.
+
+![](../../../../bilder/2024_NoP_Plakat_426x600.jpg)

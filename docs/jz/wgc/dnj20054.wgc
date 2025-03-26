@@ -1,0 +1,156 @@
+<wgcompilation>
+  <title>Do Androids Dream Of Electric Guitars?</title>
+  <season>Jansen / Zeileis - Das Nächste Jahrtausend</season>
+  <number>2005.4</number>
+
+  <content>
+   <cd>
+    <track><artist>Soulwax</artist>
+           <title>E Talking (Radio Edit)</title>
+           <quote>there's no tension in your dance as you try and hold my hand</quote>
+           <year>2005</year>
+           <country>BE</country>
+    </track>
+    <track><artist>Radio 4</artist>
+           <title>Party Crashers (Edit)</title>
+           <quote>these days things seem strange</quote>
+           <year>2004</year>
+           <country>US</country>
+    </track>
+    <track><artist>The Faint</artist>
+           <title>Let The Poison Spill From Your Throat</title>
+           <quote>you scream until it's gone</quote>
+           <year>2001</year>
+           <country>US</country>
+    </track>
+    <track><artist>Scissor Sisters</artist>
+           <title>Filthy/Gorgeous</title>
+           <quote>i'm a classy honey kissy huggy lovey dovey ghetto princess</quote>
+           <year>2003</year>
+           <country>US</country>
+    </track>
+    <track><artist>Deep Dish</artist>
+           <title>Flashdance (Radio Edit)</title>
+           <quote>i'd never let him touch my heart</quote>
+           <year>2004</year>
+           <country>US</country>
+    </track>
+    <track><artist>The Bravery</artist>
+           <title>An Honest Mistake</title>
+           <quote>i fuck up and say these things out loud</quote>
+           <year>2005</year>
+           <country>US</country>
+    </track>
+    <track><artist>Kaiser Chiefs</artist>
+           <title>Everyday I Love You Less And Less</title>
+           <quote>it makes me sick to think of you undressed</quote>
+           <year>2005</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Hard-Fi</artist>
+           <title>Hard To Beat</title>
+           <quote>turn up the thermostat, i want to see you sweat</quote>
+           <year>2004</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Bloc Party</artist>
+           <title>Banquet</title>
+           <quote>we don't read the papers, we don't read the news</quote>
+           <year>2004</year>
+           <country>GB</country>
+    </track>
+    <track><artist>22-20s</artist>
+           <title>Shoot Your Gun</title>
+           <quote>cry for all the things you'll never be</quote>
+           <year>2004</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Babyshambles</artist>
+           <title>Fuck Forever</title>
+           <quote>how d'you choose between death and glory?</quote>
+           <year>2005</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Mando Diao</artist>
+           <title>Sheepdog</title>
+           <quote>now hear the dark gun punching out</quote>
+           <year>2002</year>
+           <country>SE</country>
+    </track>
+    <track><artist>Maxïmo Park</artist>
+           <title>Graffiti</title>
+           <quote>nothing happens in my town</quote>
+           <year>2004</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Franz Ferdinand</artist>
+           <title>You're The Reason I'm Leaving</title>
+           <quote>you're so awkward just like me</quote>
+           <year>2005</year>
+           <country>GB</country>
+    </track>
+    <track><artist>The Strokes</artist>
+           <title>Reptilia</title>
+           <quote>please don't slow me down if i'm going too fast</quote>
+           <year>2003</year>
+           <country>US</country>
+    </track>
+    <track><artist>The Robocop Kraus</artist>
+           <title>In Fact You're Just Fiction</title>
+           <quote>you were alarmed to the greatest extent</quote>
+           <year>2005</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Nine Black Alps</artist>
+           <title>Cosmopolitan</title>
+           <quote>you're not burning enough</quote>
+           <year>2004</year>
+           <country>GB</country>
+    </track>
+    <track><artist>The Rapture</artist>
+           <title>House Of Jealous Lovers (Radio Edit)</title>
+           <quote>shakedown</quote>
+           <year>2002</year>
+           <country>US</country>
+    </track>
+    <track><artist>Le Tigre</artist>
+           <title>Deceptacon</title>
+           <quote>who took the ram from the ramalamadingdong?</quote>
+           <year>1999</year>
+           <country>US</country>
+    </track>
+    <track><artist>Munk feat. James Murphy</artist>
+           <title>Kick Out The Chairs</title>
+           <quote>we are all custom-made</quote>
+           <year>2004</year>
+           <country>DE</country>
+    </track>
+    <track><artist>LCD Soundsystem</artist>
+           <title>Daft Punk Is Playing At My House (Radio Edit)</title>
+           <quote>all the furniture is in the garage</quote>
+           <year>2004</year>
+           <country>US</country>
+    </track>
+    <track><artist>Die Ärzte</artist>
+           <title>Elektrobier</title>
+           <quote>computerbulle nascht den transistordonut</quote>
+           <year>2001</year>
+           <country>DE</country>
+    </track>
+   </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" type = "jpg">dnj20054</cover>
+    <fontsize>11</fontsize>
+    <adj>11</adj>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2005</year>
+    <month>9</month>
+    <by>Z</by>
+  </meta>
+</wgcompilation>
+

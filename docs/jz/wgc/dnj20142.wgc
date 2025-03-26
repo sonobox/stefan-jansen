@@ -1,0 +1,155 @@
+<wgcompilation>
+  <title>Na Sowas!</title> 
+  <season>Jansen / Zeileis - Das Nächste Jahrtausend</season>
+  <number>2014.2</number>
+  <content>
+    <cd>
+      <track><artist>Bizarre Leidenschaft</artist>
+             <title>Himbeerschokoladentorte</title>
+             <quote>ich bin mir selbst entrückt</quote>
+             <year>1982</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Neue Jugend</artist>
+             <title>Nur Mut</title>
+             <quote>das kommt vom materialismus, vom mangel an idealismus</quote>
+             <year>1982</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Andreas Fon</artist>
+             <title>Das Idol</title>
+             <quote>ich hab's noch nicht bestellt</quote>
+             <year>1982</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Andreas Dorau</artist>
+             <title>Höllen-Tingeltangel</title>
+             <quote>der fakir war so aufgeregt, er hat die dame durchgesägt, gleich unter dem korsett</quote>
+             <year>1982</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Bundesverwaltungsorchester</artist>
+             <title>Tanzpalast</title>
+             <quote>tolle frauen, kühles bier, scharfe typen, hol' sie dir</quote>
+             <year>1982</year>
+             <country>DE</country>
+      </track>
+      <track><artist>IDB</artist>
+             <title>Power Auf Der Mauer (Für Konrad Adenauer)</title>
+             <quote>ganz berlin ist heut entflammt</quote>
+             <year>1982</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Monopol</artist>
+             <title>Gib Liebe Her</title>
+             <quote>vielleicht ist es wirklich so'n geiles gefühl, vielleicht auch noch nicht</quote>
+             <year>1982</year>
+             <country>DE</country>
+      </track>
+      <track><artist>DIN-A-4</artist>
+             <title>Videospiele</title>
+             <quote>atomarer abfangschirm steuert dieses superhirn</quote>
+             <year>1982</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Weltschmertz</artist>
+             <title>Sehnsucht Aus Beton</title>
+             <quote>zukunft programmiert, vergangenheit restauriert</quote>
+             <year>1982</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Die Synthetische Republik</artist>
+             <title>Der Böse Osten</title>
+             <quote>der westen war geschockt und schlug alarm</quote>
+             <year>1984</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Dennis Und Die Wilde 13</artist>
+             <title>Schule, Nein Danke!</title>
+             <quote>vergiss das turnzeug nicht</quote>
+             <year>1982</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Andi Arroganti</artist>
+             <title>Benzin In Berlin</title>
+             <quote>täglich drei liter dann fühl ich mich fitter</quote>
+             <year>1982</year>
+             <country>DE</country>
+      </track>
+      <track><artist>P!OFF?</artist>
+             <title>Mein Walkman Ist Kaputt</title>
+             <quote>das ist die strafe gottes</quote>
+             <year>1982</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Sternhagel</artist>
+             <title>Fahrradfahr'n</title>
+             <quote>ich hab' das allertollste fahrrad der welt</quote>
+             <year>1982</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Mau Mau</artist>
+             <title>Herzschlag</title>
+             <quote>auto fährt, herz steht still</quote>
+             <year>1982</year>
+             <country>DE</country>
+      </track>
+      <track><artist>4D</artist>
+             <title>Sex Appeal</title>
+             <quote>läuft's dir kalt den rücken runter, wenn du fernsiehst?</quote>
+             <year>1982</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Eiskalte Engel</artist>
+             <title>D.L.R.G.</title>
+             <quote>sonnenbrand, solarium, zu spät erkannt</quote>
+             <year>1982</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Schwarze Bewegung</artist>
+             <title>Traumfrau</title>
+             <quote>und deine böse mutter spricht: du kriegst sie nicht!</quote>
+             <year>1982</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Michael Cretu</artist>
+             <title>Total Normal</title>
+             <quote>ich stehe unter strom und hab' ein herz aus chrom</quote>
+             <year>1983</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Stephan &amp; Nina</artist>
+             <title>Feuerwerk</title>
+             <quote>und genauso war's: spitze!</quote>
+             <year>1984</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Die Chefs</artist>
+             <title>Rette Sich Wer Kann</title>
+             <quote>das radio unterbricht sein vormittagsprogramm</quote>
+             <year>1982</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Turo</artist>
+             <title>Agent Orange</title>
+             <quote>auf deinen kopf, in dein gehirn</quote>
+             <year>1982</year>
+             <country>DE</country>
+      </track>
+   </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" type = "jpg">dnj20142</cover>
+    <fontsize>10.5</fontsize>
+    <adj>12</adj>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2014</year>
+    <month>10</month>
+    <by>DJ MAD.e &amp; Z</by>
+  </meta>
+</wgcompilation>
+

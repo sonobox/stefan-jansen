@@ -1,0 +1,138 @@
+<wgcompilation>
+
+  <title>A Tragic World</title>
+  <season>Jansen / Zeileis - Das Nächste Jahrtausend</season>
+  <number>2006.3</number>
+
+  <content>
+   <cd>
+    <track><artist>Placebo</artist>
+           <title>Song To Say Goodbye</title>
+           <quote>you are one of god's mistakes</quote>
+           <year>2006</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Carter The Unstoppable Sex Machine</artist>
+           <title>And God Created Brixton</title>
+           <quote>death and disaster only make me love you more</quote>
+           <year>1997</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Morrissey</artist>
+           <title>You Have Killed Me</title>
+           <quote>i entered nothing and nothing entered me til you came with the key</quote>
+           <year>2006</year>
+           <country>GB</country>
+    </track>
+    <track><artist>The Flaming Lips</artist>
+           <title>Do You Realize??</title>
+           <quote>the sun doesn't go down: it's just an illusion caused by the world spinning round</quote>
+           <year>2002</year>
+           <country>US</country>
+    </track>
+    <track><artist>Manic Street Preachers</artist>
+           <title>The Everlasting</title>
+           <quote>in the beginning when we were winning</quote>
+           <year>1998</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Garbage</artist>
+           <title>The World Is Not Enough (Original Version)</title>
+           <quote>no one ever died from wanting too much</quote>
+           <year>1999</year>
+           <country>US</country>
+    </track>
+    <track><artist>Marc Almond</artist>
+           <title>Traumas, Traumas, Traumas</title>
+           <quote>got to make you break uncontrollably down</quote>
+           <year>1985</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Leonard Cohen</artist>
+           <title>First We Take Manhattan</title>
+           <quote>you loved me as a loser, but now you're worried that i just might win</quote>
+           <year>1988</year>
+           <country>CA</country>
+    </track>
+    <track><artist>Nick Cave &amp; The Bad Seeds</artist>
+           <title>Do You Love Me? (Single Version)</title>
+           <quote>i knew before i met her that i would lose her</quote>
+           <year>1994</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Slut</artist>
+           <title>Welcome 2 (Single Version)</title>
+           <quote>standing at the edge of my world and that's ok</quote>
+           <year>2000</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Heather Nova</artist>
+           <title>Gloomy Sunday (Radio Edit)</title>
+           <quote>with the last breath of my soul i'll be blessing you</quote>
+           <year>1999</year>
+           <country>BM</country>
+    </track>
+    <track><artist>Beth Gibbons &amp; Rustin Man</artist>
+           <title>Tom The Model</title>
+           <quote>i can understand that it can't be, guess it's hard as you were meant for me</quote>
+           <year>2002</year>
+           <country>GB</country>    
+    </track>
+    <track><artist>Air with Gordon Tracks</artist>
+           <title>Playground Love</title>
+           <quote>you're the piece of gold that flashes on my soul</quote>
+           <year>2000</year>
+           <country>FR</country>
+    </track>
+    <track><artist>Martin 101</artist>
+           <title>Dangerous Cat</title>
+           <quote>in darkness you're scary</quote>
+           <year>2006</year>
+           <country>AT</country>
+    </track>
+    <track><artist>Jay-Jay Johanson</artist>
+           <title>So Tell The Girls That I Am Back In Town</title>
+           <quote>every girl around had missed me since i decided to go</quote>
+           <year>1996</year>
+           <country>SE</country>
+    </track>
+    <track><artist>The Divine Comedy</artist>
+           <title>Diva Lady</title>
+           <quote>she's got special needs</quote>
+           <year>2006</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Miles</artist>
+           <title>Perfect World</title>
+           <quote>nice to meet you once again, still we've got nothing in common</quote>
+           <year>2000</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Rocko Schamoni</artist>
+           <title>Geld Ist Eine Droge</title>
+           <quote>und niemand kommt hier lebend raus</quote>
+           <year>2002</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Gustav</artist>
+           <title>Rettet Die Wale</title>
+           <quote>vergeudet eure jugend</quote>
+           <year>2004</year>
+           <country>AT</country>
+    </track>
+   </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" type = "jpg">dnj20063</cover>
+    <fontsize>11</fontsize>
+    <adj>11</adj>
+    <frame>FALSE</frame>
+  </layout>
+
+  <meta>
+    <year>2006</year>
+    <month>7</month>
+    <by>Z</by>
+  </meta>
+</wgcompilation>

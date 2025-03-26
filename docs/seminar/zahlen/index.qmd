@@ -1,0 +1,16 @@
+---
+format:
+  html:
+    include-in-header: hero-image-seminar.html
+    toc: true
+    language: 
+      de: 
+        toc-title-website: "Inhalt"
+        toc-title-document: "Inhalt"
+---
+
+
+
+
+
+

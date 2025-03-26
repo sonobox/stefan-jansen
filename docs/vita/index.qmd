@@ -1,0 +1,33 @@
+---
+pagetitle: Homepage von Stefan Jansen
+lang: de
+format:
+  html:
+    include-in-header: hero-image.html
+---
+
+:::{.columns}
+
+:::{.column width="60%"}
+
+Mein Name ist Stefan Jansen und ich bin seit 2013 Dozent an der [Technischen Hochschule Augsburg](http://www.tha.de){.external target="_blank"}. Ich unterrichte Mathematik, Data Analytics und Statistik, hauptsächlich in den Studiengängen [Data Science](https://www.tha.de/Geistes-und-Naturwissenschaften/Data-Science.html){.external target="_blank"} und [Wirtschaftspsychologie](https://www.tha.de/Wirtschaft/Wirtschaftspsychologie.html){.external target="_blank"}.
+
+### Lebenslauf
+
+* Geboren in Aachen, 
+* Abitur am [Kaiser-Karls-Gymnasium](https://kaiser-karls-gymnasium.de/){.external target="_blank"}
+* Studium der Physik an der [Universität Dortmund](https://www.tu-dortmund.de/){.external target="_blank"} (jetzt TU Dortmund): Abschluss Diplom
+* Promotion an der [Universität Freiburg](https://uni-freiburg.de/){.external target="_blank"}  bei Hartmann Römer und [Stefan Waldmann](https://www.mathematik.uni-wuerzburg.de/mathematicalphysics/team/waldmann-stefan/){.external target="_blank"} (mathematische Physik).
+* Postdoc in der Gruppe von [Jens Timmer](https://jeti.uni-freiburg.de/){.external target="_blank"} an der Universität Freiburg (Systembiologie).
+* seit 2013 an der TH Augsburg.
+
+:::
+
+:::{.column width="40%"}
+![](../../bilder/fotoSJ_ohne.jpg)
+:::
+
+:::
+
+
+

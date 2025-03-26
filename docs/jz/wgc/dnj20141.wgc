@@ -1,0 +1,131 @@
+<wgcompilation>
+  <title>B-Boys, Breakers, Electric Boogaloo</title> 
+  <season>Jansen / Zeileis - Das Nächste Jahrtausend</season>
+  <number>2014.1</number>
+  <content>
+    <cd>
+      <track><artist>The Rock Steady Crew</artist>
+             <title>(Hey You) The Rock Steady Crew</title>
+             <quote>b-boys, breakers, electric boogaloo</quote>
+             <year>1983</year>
+             <country>US</country>
+      </track>
+      <track><artist>Break Machine</artist>
+             <title>Street Dance</title>
+             <quote>when you feel your body shake then you know you've got to break</quote>
+             <year>1983</year>
+             <country>US</country>
+      </track>
+      <track><artist>Freestyle</artist>
+             <title>Don't Stop The Rock</title>
+             <quote>everybody will be dancing to the beat on the floor</quote>
+             <year>1985</year>
+             <country>US</country>
+      </track>
+      <track><artist>Man Parrish feat. Freeze Force</artist>
+             <title>Boogie Down (Bronx)</title>
+             <quote>pushing more power than a duracell</quote>
+             <year>1984</year>
+             <country>US</country>
+      </track>
+      <track><artist>Run-D.M.C.</artist>
+             <title>It's Like That</title>
+             <quote>whatever happened to unity?</quote>
+             <year>1983</year>
+             <country>US</country>
+      </track>
+      <track><artist>Grandmaster Flash &amp; The Furious Five</artist>
+             <title>New York New York</title>
+             <quote>you might get fooled if you come from out of town</quote>
+             <year>1983</year>
+             <country>US</country>
+      </track>
+      <track><artist>Afrika Bambaataa &amp; Soulsonic Force</artist>
+             <title>Planet Rock</title>
+             <quote>the zulu nation</quote>
+             <year>1982</year>
+             <country>US</country>
+      </track>
+      <track><artist>Newcleus</artist>
+             <title>Automan</title>
+             <quote>he was a child of technology</quote>
+             <year>1984</year>
+             <country>US</country>
+      </track>
+      <track><artist>Shannon</artist>
+             <title>Let The Music Play</title>
+             <quote>magic from the very start</quote>
+             <year>1983</year>
+             <country>US</country>
+      </track>
+      <track><artist>S.O.S. Band</artist>
+             <title>Just Be Good To Me</title>
+             <quote>i don't care about your other girls </quote>
+             <year>1983</year>
+             <country>US</country>
+      </track>
+      <track><artist>Freeez</artist>
+             <title>I.O.U.</title>
+             <quote>it makes me so confused</quote>
+             <year>1982</year>
+             <country>GB</country>
+      </track>
+      <track><artist>C.O.D.</artist>
+             <title>In The Bottle</title>
+             <quote>he done damn near blown his cool</quote>
+             <year>1983</year>
+             <country>US</country>
+      </track>
+      <track><artist>Mantronix</artist>
+             <title>Bassline</title>
+             <quote>he controls the beat and i hold the mic</quote>
+             <year>1986</year>
+             <country>US</country>
+      </track>
+      <track><artist>Cybotron</artist>
+             <title>Clear</title>
+             <quote>tomorrow is a brand new day</quote>
+             <year>1983</year>
+             <country>US</country>
+      </track>
+      <track><artist>Paul Hardcastle</artist>
+             <title>19</title>
+             <quote>in world war ii the average age of the combat soldier was 26, in vietnam he was 19</quote>
+             <year>1985</year>
+             <country>GB</country>
+      </track>
+      <track><artist>Herbie Hancock</artist>
+             <title>Rockit</title>
+             <quote>whoever wants to keep it real would keep calling it b-boy</quote>
+             <year>1983</year>
+             <country>US</country>
+      </track>
+      <track><artist>Harold Faltermeyer</artist>
+             <title>Axel F</title>
+             <quote>by the time the media got a hold of it in like '81, '82, it became break-dancing</quote>
+             <year>1984</year>
+             <country>DE</country>
+      </track>
+      <track><artist>West Street Mob</artist>
+             <title>Break Dance</title>
+             <quote>stand on your back, and stand on your knees, stand on your hands and then freeze</quote>
+             <year>1983</year>
+             <country>US</country>
+      </track>
+   </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" type = "jpg">dnj20141</cover>
+    <fontsize>11.5</fontsize>
+    <adj>12</adj>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2014</year>
+    <month>7</month>
+    <by>Z</by>
+  </meta>
+</wgcompilation>
+

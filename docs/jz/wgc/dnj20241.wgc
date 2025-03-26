@@ -1,0 +1,148 @@
+<wgcompilation>
+  <title>Mash Hits</title>
+  <season>Jansen / Zeileis - Das Nächste Jahrtausend</season>
+  <number>2024.1</number>
+  <content>
+    <cd>
+      <track><artist>Marina &amp; The Diamonds vs. Cold Cave</artist>
+             <title>A Little Death To Primadonna (Adriana A)</title>
+             <quote>you say that I'm kinda difficult but it's always someone else's fault</quote>
+             <year>2023</year>
+             <country>US</country>
+      </track>
+      <track><artist>Van Halen vs. Dua Lipa vs. Salt 'n' Pepa vs. Lionel Richie</artist>
+             <title>Physical Jump (DJ Schmolli)</title>
+             <quote>I got my back against the record machine, I ain't the worst that you've seen</quote>
+             <year>2020</year>
+             <country>AT</country>
+      </track>
+      <track><artist>George Michael vs. Billy Idol</artist>
+             <title>Careless Rebel (Wax Audio)</title>
+             <quote>guilty feet have got no rhythm</quote>
+             <year>2012</year>
+             <country>AU</country>
+      </track>
+      <track><artist>Michael Jackson vs. Eric Clapton</artist>
+             <title>Billie Cocaine (Bill McClintock)</title>
+             <quote>don't forget this fact, you can't get it back</quote>
+             <year>2018</year>
+             <country>US</country>
+      </track>
+      <track><artist>The Cramps vs. Lady Gaga</artist>
+             <title>Mucky Mary (iWillBattle)</title>
+             <quote>you better duck when I show up</quote>
+             <year>2022</year>
+             <country>GB</country>
+      </track>
+      <track><artist>Lil Nas X &amp; Jack Harlow vs. AC/DC vs. Acraze &amp; Cherish</artist>
+             <title>Do It To Thunderstruck Industry (Mo27Da)</title>
+             <quote>I ain't lost since I began</quote>
+             <year>2022</year>
+             <country>IT</country>
+      </track>
+      <track><artist>Electric Six vs. Wreckx-N-Effect vs. CeCePeniston</artist>
+             <title>Dance Commander Finally Zooms (Entyme)</title>
+             <quote>you know that he's the only one who gives the orders here</quote>
+             <year>2020</year>
+             <country>US</country>
+      </track>
+      <track><artist>Rage Against The Machine vs. ABBA</artist>
+             <title>Guerilla Voulez Vous (Oki)</title>
+             <quote>What better place than here? What better time than now?</quote>
+             <year>2023</year>
+             <country>NL</country>
+      </track>
+      <track><artist>Drowning Pool vs. The Weather Girls vs. Slayer</artist>
+             <title>It's Raining Bloody Bodies (DJ Cummerbund)</title>
+             <quote>let the bodies hit the floor</quote>
+             <year>2020</year>
+             <country>US</country>
+      </track>
+      <track><artist>Orchestral Manoeuvres In The Dark vs. The Offspring</artist>
+             <title>The Electricity Kids (DJ Tripp)</title>
+             <quote>the chance to change has nearly gone, the alternative is only one, the final source of energy: solar electricity</quote>
+             <year>2023</year>
+             <country>US</country>
+      </track>
+      <track><artist>Limp Bizkit vs. Bee Gees</artist>
+             <title>Nookie Fever (Lewis Wake)</title>
+             <quote>everyone that burns has to learn from the pain</quote>
+             <year>2023</year>
+             <country>GB</country>
+      </track>
+      <track><artist>Gloria Gaynor vs. Snap!</artist>
+             <title>I Will Survive Snap (HallMighty)</title>
+             <quote>just turn around now 'cause you're not welcome anymore</quote>
+             <year>2023</year>
+             <country>GB</country>
+      </track>
+      <track><artist>Psy vs. Ray Parker Jr.</artist>
+             <title>Gangnam Busters (FAROFF)</title>
+             <quote>eh sexy lady</quote>
+             <year>2012</year>
+             <country>US</country>
+      </track>
+      <track><artist>Doja Cat vs. Timbaland feat. Keri Hilson</artist>
+             <title>The Way I Paint The Town Red (Mo27Da)</title>
+             <quote>I said what I said, I'd rather be famous instead</quote>
+             <year>2023</year>
+             <country>IT</country>
+      </track>
+      <track><artist>Caravan Palace vs. Eminem</artist>
+             <title>The Lone Slim Shady (Oneboredjeu)</title>
+             <quote>women wave your pantyhose, sing the chorus and it goes</quote>
+             <year>2017</year>
+             <country>US</country>
+      </track>
+      <track><artist>Toby Keith vs. Encanto</artist>
+             <title>We Don't Talk About Toby (IamJstncrdble)</title>
+             <quote>we talk about your guys of every shape and size, the ones that you despise and the ones you idolize</quote>
+             <year>2022</year>
+             <country>US</country>
+      </track>
+      <track><artist>The Beatles vs. Justice</artist>
+             <title>Come Together 2008 (Wax Audio)</title>
+             <quote>change has come to America</quote>
+             <year>2008</year>
+             <country>AU</country>
+      </track>
+      <track><artist>Pet Benatar vs. Fischerspooner</artist>
+             <title>Heartbreaker Emerge (Adriana A)</title>
+             <quote>you're the right kind of sinner</quote>
+             <year>2023</year>
+             <country>US</country>
+      </track>
+      <track><artist>Nine Inch Nails vs. Lipps, Inc.</artist>
+             <title>Closer But It's Funkytown (William Maranci)</title>
+             <quote>help me become somebody else</quote>
+             <year>2020</year>
+             <country>US</country>
+      </track>
+      <track><artist>The Cure vs. Rockwell</artist>
+             <title>Somebody's Watching Girl (DSP)</title>
+             <quote>I should feel like a polar bear</quote>
+             <year>2023</year>
+             <country>FR</country>
+      </track>
+      <track><artist>Adele vs. Eminem</artist>
+             <title>Let Yourself Skyfall (Raheem D)</title>
+             <quote>we will stand tall, face it all together</quote>
+             <year>2012</year>
+             <country>GB</country>
+      </track>
+   </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" type = "jpg">dnj20241</cover>
+    <fontsize>8.8</fontsize>
+    <adj>10.8</adj>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2024</year>
+    <month>3</month>
+    <by>Z</by>
+  </meta>
+</wgcompilation>

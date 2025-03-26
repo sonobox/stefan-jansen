@@ -1,0 +1,148 @@
+<wgcompilation>
+  <title>Blitz Kids</title>
+  <season>Jansen / Zeileis - Das Nächste Jahrtausend</season>
+  <number>2024.2</number>
+  <content>
+    <cd>
+      <track><artist>Japan</artist>
+             <title>Quiet Life</title>
+             <quote>boys, now the times are changing, the going could get rough</quote>
+             <year>1979</year>
+             <country>GB</country>
+      </track>
+      <track><artist>Simple Minds</artist>
+             <title>Premonition</title>
+             <quote>fly over land where no hearts can beat</quote>
+             <year>1979</year>
+             <country>GB</country>
+      </track>
+      <track><artist>Ultravox</artist>
+             <title>The Voice</title>
+             <quote>the look and the sound of the voice</quote>
+             <year>1981</year>
+             <country>GB</country>
+      </track>
+      <track><artist>Spandau Ballet</artist>
+             <title>The Freeze</title>
+             <quote>the question is where do you pay</quote>
+             <year>1981</year>
+             <country>GB</country>
+      </track>
+      <track><artist>Duran Duran</artist>
+             <title>Planet Earth</title>
+             <quote>some new romantic looking for the TV sound</quote>
+             <year>1981</year>
+             <country>GB</country>
+      </track>
+      <track><artist>Classix Nouveaux</artist>
+             <title>Guilty</title>
+             <quote>I see my opportunities shrinking</quote>
+             <year>1981</year>
+             <country>GB</country>
+      </track>
+      <track><artist>Berlin Blondes</artist>
+             <title>Framework</title>
+             <quote>I've got control in your brainwork</quote>
+             <year>1980</year>
+             <country>GB</country>
+      </track>
+      <track><artist>A Flock Of Seagulls</artist>
+             <title>I Ran</title>
+             <quote>I'm floating in a beam of light with you</quote>
+             <year>1982</year>
+             <country>GB</country>
+      </track>
+      <track><artist>Visage</artist>
+             <title>Pleasure Boys</title>
+             <quote>this is a fun house, some say a mad house</quote>
+             <year>1982</year>
+             <country>GB</country>
+      </track>
+      <track><artist>Rational Youth</artist>
+             <title>Saturdays In Silesia</title>
+             <quote>holidays are for heroes</quote>
+             <year>1982</year>
+             <country>CA</country>
+      </track>
+      <track><artist>Orchestral Manoeuvres In The Dark</artist>
+             <title>Electricity (Dindisc Version)</title>
+             <quote>the final source of energy: solar electricity</quote>
+             <year>1979</year>
+             <country>GB</country>
+      </track>
+      <track><artist>The Human League</artist>
+             <title>The Sound Of The Crowd</title>
+             <quote>where the people look good where the music is loud</quote>
+             <year>1981</year>
+             <country>GB</country>
+      </track>
+      <track><artist>Cowboys International</artist>
+             <title>Thrash</title>
+             <quote>now change the face, change everything</quote>
+             <year>1979</year>
+             <country>GB</country>
+      </track>
+      <track><artist>Landscape</artist>
+             <title>Einstein A Go-Go</title>
+             <quote>you better watch out you better beware, Albert said that E equals M C squared</quote>
+             <year>1981</year>
+             <country>GB</country>
+      </track>
+      <track><artist>Techno Twins</artist>
+             <title>Falling In Love Again</title>
+             <quote>men cluster to me like moths around a flame</quote>
+             <year>1981</year>
+             <country>GB</country>
+      </track>
+      <track><artist>Soft Cell</artist>
+             <title>Facility Girls</title>
+             <quote>she's got the abilities, she's got the facilities</quote>
+             <year>1981</year>
+             <country>GB</country>
+      </track>
+      <track><artist>John Foxx</artist>
+             <title>No-One Driving</title>
+             <quote>nothing to come back to, can't we fade?</quote>
+             <year>1980</year>
+             <country>GB</country>
+      </track>
+      <track><artist>Shock</artist>
+             <title>R.E.R.B.</title>
+             <quote font="italic">Rusty Egan: The people were the club. Steve kept out the wrong ones and I played the right music. It was that simple. All we did was put them in the right environment and the magic happened.</quote>
+             <year>1980</year>
+             <country>GB</country>
+      </track>
+      <track><artist>Fad Gadget</artist>
+             <title>Back To Nature</title>
+             <quote>sitting in the shade of a rubber tree I'll kiss you and you'll kiss me</quote>
+             <year>1979</year>
+             <country>GB</country>
+      </track>
+      <track><artist>Siouxsie And The Banshees</artist>
+             <title>Red Light</title>
+             <quote>the aperture shuts, too much exposure</quote>
+             <year>1980</year>
+             <country>GB</country>
+      </track>
+      <track><artist>Lene Lovich</artist>
+             <title>Bird Song</title>
+             <quote>if you hear my song, you'll know that it was wrong to say goodbye</quote>
+             <year>1979</year>
+             <country>GB</country>
+      </track>
+   </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" type = "jpg">dnj20242</cover>
+    <fontsize>10.4</fontsize>
+    <adj>11.2</adj>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2024</year>
+    <month>12</month>
+    <by>Z</by>
+  </meta>
+</wgcompilation>

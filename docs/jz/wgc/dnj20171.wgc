@@ -1,0 +1,131 @@
+<wgcompilation>
+  <title>Like A Rubik's Cube</title> 
+  <season>Jansen / Zeileis - Das Nächste Jahrtausend</season>
+  <number>2017.1</number>
+  <content>
+    <cd>
+      <track><artist>[Active] Media Disease</artist>
+             <title>Rising</title>
+             <quote>i see the darkness in your eyes</quote>
+             <year>1995</year>
+             <country>FI</country>
+      </track>
+      <track><artist>Birmingham 6</artist>
+             <title>Godlike (Sinner)</title>
+             <quote>kmfdm the ultimate sound, we're birmingham 6, we're gonna turn it around</quote>
+             <year>1995</year>
+             <country>DK</country>
+      </track>
+      <track><artist>Digital Factor</artist>
+             <title>Living On The Edge (Mutation)</title>
+             <quote>face your fate</quote>
+             <year>1995</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Cat Rapes Dog</artist>
+             <title>Moosehair Underwear</title>
+             <quote>we fell in love and then we married of course</quote>
+             <year>1993</year>
+             <country>SE</country>
+      </track>
+      <track><artist>Cubanate</artist>
+             <title>Hatesong</title>
+             <quote>i'm gonna cheat, i'm gonna try to beat you</quote>
+             <year>1995</year>
+             <country>GB</country>
+      </track>
+      <track><artist>Cobalt 60</artist>
+             <title>Crush (Command &amp; Conquer Mix)</title>
+             <quote>you will have your glory day</quote>
+             <year>1997</year>
+             <country>BE</country>
+      </track>
+      <track><artist>Front Line Assembly</artist>
+             <title>Plasticity</title>
+             <quote>the laws of nature, the laws of man, this volatile paradox will never stand</quote>
+             <year>1996</year>
+             <country>CA</country>
+      </track>
+      <track><artist>Babyland</artist>
+             <title>Logan's Run</title>
+             <quote>and then you run with no escape</quote>
+             <year>1992</year>
+             <country>US</country>
+      </track>
+      <track><artist>KMFDM</artist>
+             <title>D.I.Y.</title>
+             <quote>from the gutter to the top kmfdm will never stop</quote>
+             <year>1999</year>
+             <country>US</country>
+      </track>
+      <track><artist>Die Krupps</artist>
+             <title>Bloodsuckers</title>
+             <quote>you suffocate life in an asphalt membrane</quote>
+             <year>1993</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Ministry</artist>
+             <title>Jesus Built My Hotrod (Short, Pusillanimous So-They-Can-Fit-More-Commercials-on-the-Radio Edit)</title>
+             <quote>so there was only one thing that I could do, was ding a ding dang my dang a long ling long</quote>
+             <year>1991</year>
+             <country>US</country>
+      </track>
+      <track><artist>Sielwolf</artist>
+             <title>Magnum Force</title>
+             <quote>dies ist eine 44er magnum, die stärkste handfeuerwaffe der welt, die bläst dir das gehirn aus dem schädel. fühlst du dich wohl?</quote>
+             <year>1992</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Some More Crime</artist>
+             <title>Der Tod Ist Ein Meister Aus Deutschland</title>
+             <quote>the latest massacre in germany</quote>
+             <year>1993</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Psychopomps</artist>
+             <title>Superpsycho</title>
+             <quote>we're here to spread disorder in your minds</quote>
+             <year>1995</year>
+             <country>DK</country>
+      </track>
+      <track><artist>Atari Teenage Riot</artist>
+             <title>Sick To Death</title>
+             <quote>nationalism against nationalism</quote>
+             <year>1996</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Think About Mutation</artist>
+             <title>MotorRazor 96</title>
+             <quote>you have something to learn</quote>
+             <year>1996</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Dementia</artist>
+             <title>Space Fiction</title>
+             <quote>peter saves the galaxy</quote>
+             <year>1997</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Nine Inch Nails</artist>
+             <title>Closer</title>
+             <quote>my whole existence is flawed</quote>
+             <year>1994</year>
+             <country>US</country>
+      </track>
+   </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" type = "jpg">dnj20171</cover>
+    <fontsize>11</fontsize>
+    <adj>11.5</adj>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2017</year>
+    <month>8</month>
+    <by>Z</by>
+  </meta>
+</wgcompilation>
+

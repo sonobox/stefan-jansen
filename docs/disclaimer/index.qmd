@@ -1,0 +1,31 @@
+---
+pagetitle: Homepage von Stefan Jansen
+lang: de
+format:
+  html:
+    include-in-header: hero-image-disclaimer.html
+    toc: false
+---
+
+## Inhalt
+
+Der Autor übernimmt keinerlei Gewähr für die Aktualität, Korrektheit, Vollständigkeit oder Qualität der bereitgestellten Informationen. Haftungsansprüche wegen Schäden, die durch die Nutzung der bereitgestellten Informationen entstehen, auch wenn diese unvollständig oder fehlerhaft sind, werden daher abgelehnt.
+Alle Angebote sind freibleibend und unverbindlich. Teile der Seiten oder die gesamte Veröffentlichung einschließlich aller Angebote und Informationen können vom Autor ohne gesonderte Ankündigung erweitert, verändert oder teilweise oder vollständig gelöscht werden.
+
+## Empfehlungen und Links
+
+Der Autor ist nicht verantwortlich für Inhalte, die von seinen Seiten aus verlinkt oder auf die verwiesen wird, es sei denn, er hat volle Kenntnis von rechtswidrigen Inhalten und wäre in der Lage, die Besucher seiner Website daran zu hindern, diese Seiten anzuzeigen. Sollten durch die Nutzung der dort bereitgestellten Informationen Schäden entstehen, haftet allein der Autor der jeweiligen Seiten, nicht derjenige, der auf diese Seiten verlinkt hat. Darüber hinaus übernimmt der Autor keine Haftung für Beiträge oder Nachrichten, die von Benutzern der auf seiner Seite bereitgestellten Diskussionsforen, Gästebücher oder Mailinglisten veröffentlicht werden.
+
+## Urheberrecht
+
+Der Autor beabsichtigte, für die Veröffentlichung kein urheberrechtlich geschütztes Material zu verwenden oder, falls dies nicht möglich ist, auf das Urheberrecht des jeweiligen Objekts hinzuweisen.
+Sofern nicht anders angegeben, bleibt das Urheberrecht für alle vom Autor erstellten Materialien vorbehalten. Eine Vervielfältigung oder Verwendung von Objekten wie Grafiken, Sounds oder Texten in anderen elektronischen oder gedruckten Publikationen ist ohne Zustimmung des Autors nicht gestattet.
+
+## Datenschutzbestimmungen
+
+Sofern innerhalb des Internetangebotes die Möglichkeit zur Eingabe persönlicher oder geschäftlicher Daten (E-Mailadressen, Namen, Anschriften) besteht, so erfolgt die Preisgabe dieser Daten seitens des Nutzers auf ausdrücklich freiwilliger Basis. Die Inanspruchnahme und Bezahlung aller angebotenen Dienste ist – soweit technisch möglich und zumutbar – auch ohne Angabe personenbezogener Daten bzw. unter Angabe anonymisierter Daten oder eines Pseudonyms gestattet. Die Nutzung veröffentlichter Postadressen, Telefon- oder Faxnummern sowie E-Mail-Adressen zu Marketingzwecken ist untersagt, der Versenden unerwünschter Spam-Nachrichten wird bestraft.
+
+## Rechtsgültigkeit dieses Haftungsausschlusses
+
+Dieser Haftungsausschluss ist als Teil der Internetveröffentlichung zu betrachten, von der aus auf Sie verwiesen wurde. Sollten Teile oder einzelne Bestimmungen dieser Erklärung der Rechtswidrigkeit oder der Richtigkeit widersprechen, bleiben die übrigen Teile in ihrem Inhalt und ihrer Gültigkeit davon unberührt.
+

@@ -1,0 +1,162 @@
+<wgcompilation>
+
+  <title>La Révanche</title>
+  <season>Jansen / Zeileis - Das Nächste Jahrtausend</season>
+  <number>2004.3</number>
+
+  <content>
+   <cd>
+    <track><artist>Pascal Parisot</artist>
+           <title>Ça Alors!</title>
+           <quote>tu ne dois pas juger ainsi les hommes</quote>
+           <year>2000</year>
+           <country>FR</country>
+    </track>
+    <track><artist>Stereo Total</artist>
+           <title>Nationale 7</title>
+           <quote>le ciel d'été remplit nos coeurs de sa lucidité</quote>
+           <year>2001</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Phoenix</artist>
+           <title>Too Young</title>
+           <quote>i guess i couldn't live without the things that made my life what it is</quote>
+           <year>2000</year>
+           <country>FR</country>
+    </track>
+    <track><artist>Simian</artist>
+           <title>La Breeze</title>
+           <quote>la breeze will blow away all your reason and your sane, sane little minds</quote>
+           <year>2002</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Les Négresses Vertes</artist>
+           <title>Voilà L'Été</title>
+           <quote>les filles sont belles et les dieux sont ravis</quote>
+           <year>1989</year>
+           <country>FR</country>
+    </track>
+    <track><artist>Jane Birkin avec Manu Chao</artist>
+           <title>Te Souviens-Tu?</title>
+           <quote>rappelle-toi ces bons moments, rappelle-moi juste un instant</quote>
+           <year>2004</year>
+           <country>FR</country>
+    </track>
+    <track><artist>Serge Gainsbourg</artist>
+           <title>Je Suis Venu Te Dire Que Je M'En Vais</title>
+           <quote>tu suffoques, tu blémis à présent qu'a sonné l'heure</quote>
+           <year>1973</year>
+           <country>FR</country>
+    </track>
+    <track><artist>Françoise Hardy</artist>
+           <title>Message Personnel</title>
+           <quote>il y a des mots que je ne dirai pas</quote>
+           <year>1973</year>
+           <country>FR</country>
+    </track>
+    <track><artist>Keren Ann</artist>
+           <title>Le Sable Mouvant</title>
+           <quote>enterre nos amours périssables sous le sable mouvant</quote>
+           <year>2002</year>
+           <country>FR</country>
+    </track>
+    <track><artist>Benjamin Biolay</artist>
+           <title>Les Joggers Sur La Plage</title>
+           <quote>j'ai l'impression d'être né hier</quote>
+           <year>2001</year>
+           <country>FR</country>
+    </track>
+    <track><artist>Joe Dassin</artist>
+           <title>Dans Les Yeux D'Emilie</title>
+           <quote>l'an deux mille voisine avec les maisons grises du vieux temps</quote>
+           <year>1977</year>
+           <country>FR</country>
+    </track>
+    <track><artist>Etienne Daho</artist>
+           <title>Comme Un Igloo</title>
+           <quote>un doux poison dans la fibre nerveuse</quote>
+           <year>1991</year>
+           <country>FR</country>
+    </track>
+    <track><artist>Modjo</artist>
+           <title>What I Mean (Radio Edit)</title>
+           <quote>i can't stand the way she broke my heart</quote>
+           <year>2001</year>
+           <country>FR</country>
+    </track>
+    <track><artist>Alan Braxe &amp; Fred Falke</artist>
+           <title>Rubicon (Radio Edit)</title>
+           <quote>erik zabel: ey, 42er schnitt...weisst du, wie schlecht das ist?</quote>
+           <year>2003</year>
+           <country>FR</country>
+    </track>
+    <track><artist>Etienne De Crecy</artist>
+           <title>Tempovision (Radio Edit)</title>
+           <quote>leaders lead when people bleed</quote>
+           <year>2001</year>
+           <country>FR</country>
+    </track>
+    <track><artist>Alain Bashung</artist>
+           <title>Ma Petite Entreprise</title>
+           <quote>la vérité m'épuise</quote>
+           <year>1994</year>
+           <country>FR</country>
+    </track>
+    <track><artist>Czerkinsky</artist>
+           <title>Czerkinsky</title>
+           <quote>je viens pour toi</quote>
+           <year>1997</year>
+           <country>FR</country>
+    </track>
+    <track><artist>Louis Philippe</artist>
+           <title>My Favourite Part Of You</title>
+           <quote>is this how innocence gets lost forever?</quote>
+           <year>2002</year>
+           <country>FR</country>
+    </track>
+    <track><artist>Coralie Clément</artist>
+           <title>Le Dernier Train</title>
+           <quote>j'ai si peur de ces romances qui finissent avant qu'elles commencent</quote>
+           <year>2001</year>
+           <country>FR</country>
+    </track>
+    <track><artist>Virginie Ledoyen</artist>
+           <title>Mon Amour Mon Ami</title>
+           <quote>j'ai un coeur qui sait quand il a raison</quote>
+           <year>2002</year>
+           <country>FR</country>
+    </track>
+    <track><artist>France Gall</artist>
+           <title>Nous Ne Sommes Pas Des Anges</title>
+           <quote>les garçons embrassent les filles</quote>
+           <year>1965</year>
+           <country>FR</country>
+    </track>
+    <track><artist>Pierre Henry &amp; Michel Colombier</artist>
+           <title>Psyche Rock</title>
+           <quote>rolf aldag: ist zwar eigentlich auch ein bisschen pervers, dass man für den fall, dass man verunfallt, sich schonmal die beine rasiert...</quote>
+           <year>1967</year>
+           <country>FR</country>
+    </track>
+    <track><artist>Gerard Palaprat</artist>
+           <title>Un Homme A Disparu Dans Le Ciel</title>
+           <quote>tour de contrôle à fusée: nous avons perdu le relais</quote>
+           <year>1974</year>
+           <country>FR</country>
+    </track>
+   </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" type = "jpg">dnj20043</cover>
+    <fontsize>10</fontsize>
+    <adj>10</adj>
+    <frame>FALSE</frame>
+  </layout>
+
+  <meta>
+    <year>2004</year>
+    <month>7</month>
+    <by>Z</by>
+  </meta>
+</wgcompilation>

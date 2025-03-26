@@ -1,0 +1,144 @@
+<wgcompilation>
+
+  <title>The Most Tragic</title>
+  <season>Jansen / Zeileis - Das Nächste Jahrtausend</season>
+  <number>2004.2</number>
+
+  <content>
+   <cd>
+    <track><artist>Morrissey</artist>
+           <title>Irish Blood, English Heart</title>
+           <quote>i've been dreaming of a time when the english are sick to death of labour and tories</quote>
+           <year>2004</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Rialto</artist>
+           <title>Anything Could Happen</title>
+           <quote>creatures of our kind will not give in till the final curtain</quote>
+           <year>2000</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Slut</artist>
+           <title>It Was Easier</title>
+           <quote>he couldn't believe, that his girl was a thief, who was taking their memories away</quote>
+           <year>2001</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Andreas Johnson</artist>
+           <title>Glorious</title>
+           <quote>here she comes with the master plan</quote>
+           <year>1998</year>
+           <country>SE</country>
+    </track>
+    <track><artist>Eskobar feat. Heather Nova</artist>
+           <title>Someone New</title>
+           <quote>in my life, like a song, i will still hear you</quote>
+           <year>2001</year>
+           <country>SE</country>
+    </track>
+    <track><artist>Jane Birkin avec Brian Molko</artist>
+           <title>Smile</title>
+           <quote>don't be scared of your preacher cos' he's just a leech, he's too busy cruising your ass</quote>
+           <year>2004</year>
+           <country>FR</country>
+    </track>
+    <track><artist>Jay-Jay Johanson</artist>
+           <title>The Sly Seducer</title>
+           <quote>he captures fragile guileless girls</quote>
+           <year>1998</year>
+           <country>SE</country>
+    </track>
+    <track><artist>Pulp</artist>
+           <title>This Is Hardcore</title>
+           <quote>oh that goes in there, then that goes in there, then that goes in there and that goes in there, and then it's over</quote>
+           <year>1998</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Portishead</artist>
+           <title>All Mine</title>
+           <quote>tethered and tied, there's nowhere to hide from me</quote>
+           <year>1997</year>
+           <country>GB</country>
+    </track>
+    <track><artist>The All Seeing I</artist>
+           <title>Walk Like A Panther</title>
+           <quote>stains that are suspect cover your clothes</quote>
+           <year>1998</year>
+           <country>GB</country>
+    </track>
+    <track><artist>The Lightning Seeds</artist>
+           <title>You Showed Me</title>
+           <quote>and when i tried it, i could see you fall and i decided it's not a trip at all</quote>
+           <year>1997</year>
+           <country>GB</country>
+    </track>
+    <track><artist>The Sleepy Jackson</artist>
+           <title>Good Dancers</title>
+           <quote>don't always dream for what you want</quote>
+           <year>2003</year>
+           <country>AU</country>
+    </track>
+    <track><artist>Richard Hawley</artist>
+           <title>Baby, You're My Light</title>
+           <quote>as life goes on you know you don't have to hate all you find</quote>
+           <year>2002</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Richard Ashcroft</artist>
+           <title>A Song For The Lovers</title>
+           <quote>i spend the night, yeah, looking for my insides in the hotel room</quote>
+           <year>2000</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Françoise Hardy &amp; Iggy Pop</artist>
+           <title>I'll Be Seeing You</title>
+           <quote>when the night is new i'll be looking at the moon</quote>
+           <year>2000</year>
+           <country>FR</country>
+    </track>
+    <track><artist>Jonathan Richman</artist>
+           <title>Surrender</title>
+           <quote>your armor so strong is strategically wrong, victory goes this time to the tender</quote>
+           <year>1996</year>
+           <country>US</country>
+    </track>
+    <track><artist>Adam Green</artist>
+           <title>Jessica</title>
+           <quote>a purple bulldozer is calling you on the phone</quote>
+           <year>2003</year>
+           <country>US</country>
+    </track>
+    <track><artist>Beck</artist>
+           <title>Everybody's Gotta Learn Sometime</title>
+           <quote>change your heart, look around you</quote>
+           <year>2004</year>
+           <country>US</country>
+    </track>
+    <track><artist>The Divine Comedy</artist>
+           <title>The Happy Goth</title>
+           <quote>her clothes are blacker than the blackest cloth, and her face is whiter than the snows of hoth, she wears dr. martens and a heavy cross, but on the inside she's a happy goth</quote>
+           <year>2004</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Faith No More</artist>
+           <title>I Started A Joke</title>
+           <quote>i fell out of bed cursing my head for things that i've said</quote>
+           <year>1998</year>
+           <country>US</country>
+    </track>
+   </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" type = "jpg">dnj20042</cover>
+    <fontsize>10</fontsize>
+    <adj>10</adj>
+    <frame>FALSE</frame>
+  </layout>
+
+  <meta>
+    <year>2004</year>
+    <month>7</month>
+    <by>Z</by>
+  </meta>
+</wgcompilation>

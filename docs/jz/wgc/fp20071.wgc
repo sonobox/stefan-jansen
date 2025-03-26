@@ -1,0 +1,122 @@
+<wgcompilation>
+  <title>Commodore Rock</title>
+  <season>Future Pop</season>
+  <number>2007.1</number>
+
+  <content>
+   <cd>
+    <track><artist>Egotronic</artist>
+           <title>Exportschlager Leitkultur</title>
+           <year>2006</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Räuberhöhle</artist>
+           <title>My Heart Bleeps Noisy Beeps (Kirmes Remix)</title>
+           <year>2003</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Saalschutz</artist>
+           <title>Richtige Deejays (Plemo Remix)</title>
+           <year>2006</year>
+           <country>CH</country>
+    </track>
+    <track><artist>I-F</artist>
+           <title>Space Invaders Are Smoking Grass (Alden Tyrell's Radio Edit)</title>
+           <year>2001</year>
+           <country>NL</country>
+    </track>
+    <track><artist>ADULT.</artist>
+           <title>Hand To Phone (Cordless Mix)</title>
+           <year>2001</year>
+           <country>US</country>
+    </track>
+    <track><artist>Ascii Disko</artist>
+           <title>Hey</title>
+           <year>2006</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Welle:Erdball</artist>
+           <title>Tanz Eiskalt (C=64)</title>
+           <year>2001</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Freezepop</artist>
+           <title>Boys On Film</title>
+           <year>2004</year>
+           <country>US</country>
+    </track>
+    <track><artist>Ladytron</artist>
+           <title>Commodore Rock</title>
+           <year>2000</year>
+           <country>US</country>
+    </track>
+    <track><artist>Tiger Tunes</artist>
+           <title>(Angry Kids Of The World) Unite</title>
+           <year>2002</year>
+           <country>DK</country>
+    </track>
+    <track><artist>Artist Unknown</artist>
+           <title>Anthem</title>
+           <year>2000</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Alien Skull Paint</artist>
+           <title>Fly With Me</title>
+           <year>2001</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Bondage Fairies</artist>
+           <title>Faze</title>
+           <year>2006</year>
+           <country>SE</country>
+    </track>
+    <track><artist>Console</artist>
+           <title>14 Zero Zero</title>
+           <year>1999</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Miss Kittin &amp; The Hacker</artist>
+           <title>Walking In The Sunshine</title>
+           <year>2001</year>
+           <country>FR</country>
+    </track>
+    <track><artist>Alden Tyrell</artist>
+           <title>Love Explosion</title>
+           <year>1999</year>
+           <country>NL</country>
+    </track>
+    <track><artist>Little Computer People</artist>
+           <title>Little Computer People</title>
+           <year>1998</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Computor Rockers</artist>
+           <title>Get Ready</title>
+           <year>2000</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Der Tante Renate</artist>
+           <title>Cardiac</title>
+           <year>2004</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Chris Hülsbeck</artist>
+           <title>The Great Giana Sisters</title>
+           <year>1987</year>
+           <country>DE</country>
+    </track>
+   </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" back = "TRUE" type = "jpg">fp20071</cover>
+    <fontsize>7</fontsize>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2007</year>
+    <month>1</month>
+    <by>Z</by>
+  </meta>
+</wgcompilation>

@@ -1,0 +1,149 @@
+<wgcompilation>
+  <title>Fernsehgarten</title> 
+  <season>Jansen / Zeileis - Das Nächste Jahrtausend</season>
+  <number>2022.2</number>
+  <content>
+    <cd>
+      <track><artist>Rikki</artist>
+             <title>Elektronik Supersonic</title>
+             <quote>Er hat zwei Ohren wie Spock und hat unheimlich Bock auf Electronic-Rock</quote>
+             <year>1983</year>
+             <country>DE</country>    
+      </track>
+      <track><artist>Matthias Reim</artist>
+             <title>Von Fernen Sternen</title>
+             <quote>Ich bin allein, kein Mensch ist hier</quote>
+             <year>1984</year>
+             <country>DE</country>    
+      </track>
+      <track><artist>Hubert Kah</artist>
+             <title>Engel 07</title>
+             <quote>Schon wirkten auf mich die verborgenen Kraftfelder ein</quote>
+             <year>1984</year>
+             <country>DE</country>    
+      </track>
+      <track><artist>Michael Cretu</artist>
+             <title>Data-Alpha-4</title>
+             <quote>Glaubt den Zahlen der Computer</quote>
+             <year>1983</year>
+             <country>DE</country>    
+      </track>
+      <track><artist>Optimal</artist>
+             <title>Monoton</title>
+             <quote>Monomanie und ein großes Monopol</quote>
+             <year>1983</year>
+             <country>DE</country>    
+      </track>
+      <track><artist>Monitor</artist>
+             <title>Mensch Aus Glas</title>
+             <quote>Die Gedanken sind Staatseigentum</quote>
+             <year>1984</year>
+             <country>DE</country>    
+      </track>
+      <track><artist>M.A.X.</artist>
+             <title>Kinder Dieser Grauen Zeit</title>
+             <quote>Wir sind in der Endzeit, ihr macht uns nichts vor</quote>
+             <year>1985</year>
+             <country>DE</country>    
+      </track>
+      <track><artist>Tomas Friedrich</artist>
+             <title>Wie Verhext</title>
+             <quote>Ich werd wohl noch Psychopath, ja ich weiß mir keinen Rat</quote>
+             <year>1983</year>
+             <country>DE</country>    
+      </track>
+      <track><artist>Torsten Emrich</artist>
+             <title>Geheimagenten</title>
+             <quote>Lass uns U-Boot fahren, Düsenjäger jagen</quote>
+             <year>1983</year>
+             <country>DE</country>    
+      </track>
+      <track><artist>Heinz Rudolf Kunze</artist>
+             <title>Sicherheitsdienst</title>
+             <quote>Kein echter Baum am Straßenrand, das sind alles unsere Jungs, wir sind ein vorsichtiges Land</quote>
+             <year>1983</year>
+             <country>DE</country>    
+      </track>
+      <track><artist>Revier Express</artist>
+             <title>Johnny Maier</title>
+             <quote>Ohne E mit A und I</quote>
+             <year>1982</year>
+             <country>DE</country>    
+      </track>
+      <track><artist>Tirami Su</artist>
+             <title>Für Eine Nacht</title>
+             <quote>Nichts mehr merken, nichts mehr spüren</quote>
+             <year>1983</year>
+             <country>DE</country>    
+      </track>
+      <track><artist>Thomas Kagermann</artist>
+             <title>Nachtgleiter</title>
+             <quote>Schnelle Tanzmusik</quote>
+             <year>1982</year>
+             <country>DE</country>    
+      </track>
+      <track><artist>Kiz</artist>
+             <title>Mein Herz Ist Klein</title>
+             <quote>Heute um zehn da hab ich es kapiert, wie's mit der Liebe funktioniert</quote>
+             <year>1982</year>
+             <country>DE</country>    
+      </track>
+      <track><artist>Haindling</artist>
+             <title>Lang Scho Nimmer G'sehn</title>
+             <quote>I geh a oft ans Telefon und wähl dei Nummer, die i auswendig ka</quote>
+             <year>1984</year>
+             <country>DE</country>    
+      </track>
+      <track><artist>Clowns &amp; Helden</artist>
+             <title>Ich Liebe Dich</title>
+             <quote>Wir haben '86 und ich altes Trottelgesicht hab mich verliebt</quote>
+             <year>1986</year>
+             <country>DE</country>    
+      </track>
+      <track><artist>Biggi</artist>
+             <title>Feuer</title>
+             <quote>Alarm, es brennt in meinem Herz</quote>
+             <year>1985</year>
+             <country>DE</country>    
+      </track>
+      <track><artist>Münchener Freiheit</artist>
+             <title>Ich Steh' Auf Licht</title>
+             <quote>Die Sonne war mal ganz allein doch dann kam ich</quote>
+             <year>1983</year>
+             <country>DE</country>    
+      </track>
+      <track><artist>Die Conditors</artist>
+             <title>Himbeereis Im Heissen Tee</title>
+             <quote>Die Milch zaubert Wolken in den Tee</quote>
+             <year>1984</year>
+             <country>DE</country>    
+      </track>
+      <track><artist>Kraftzwerg</artist>
+             <title>Müll-Idyll</title>
+             <quote>Wasserski klappt wie nie so weit der Ölfilm hält</quote>
+             <year>1983</year>
+             <country>DE</country>    
+      </track>
+      <track><artist>Frolleinwunder</artist>
+             <title>Männer Ham' Wir Gerne</title>
+             <quote>Der lacht nur einmal und nie wieder</quote>
+             <year>1982</year>
+             <country>DE</country>    
+      </track>
+   </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" type = "jpg">dnj20222</cover>
+    <fontsize>10.7</fontsize>
+    <adj>11.5</adj>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2022</year>
+    <month>5</month>
+    <by>Z</by>
+  </meta>
+</wgcompilation>
+

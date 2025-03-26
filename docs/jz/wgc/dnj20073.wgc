@@ -1,0 +1,151 @@
+<wgcompilation>
+
+  <title>Reaktor Disko</title>
+  <season>Jansen / Zeileis - Das Nächste Jahrtausend</season>
+  <number>2007.3</number>
+
+  <content>
+   <cd>
+    <track><artist>Klaxons</artist>
+           <title>Magick</title>
+           <quote>the way to golden dawn, the way to koh phangan</quote>
+           <year>2006</year>
+           <country>GB</country>    
+    </track>
+    <track><artist>Neon Plastix</artist>
+           <title>Prick Tease</title>
+           <quote>just a dirty sleaze</quote>
+           <year>2006</year>
+           <country>GB</country>    
+    </track>
+    <track><artist>Shitdisco</artist>
+           <title>Reactor Party</title>
+           <quote>furthest outpost of bourgeois hardcore, cossack dancing on a concrete dancefloor</quote>
+           <year>2006</year>
+           <country>GB</country>    
+    </track>
+    <track><artist>Hadouken!</artist>
+           <title>Liquid Lives</title>
+           <quote>i damaged my brain, next weekend let's do it again!</quote>
+           <year>2007</year>
+           <country>GB</country>    
+    </track>
+    <track><artist>Goose</artist>
+           <title>British Mode</title>
+           <quote>give me a reason to cool you down</quote>
+           <year>2006</year>
+           <country>BE</country>    
+    </track>
+    <track><artist>The Whip</artist>
+           <title>Trash</title>
+           <quote>i have become the trigger for your gun</quote>
+           <year>2006</year>
+           <country>GB</country>    
+    </track>
+    <track><artist>Clor</artist>
+           <title>Love + Pain</title>
+           <quote>wide-eyed and open-mouthed, you look a little lost and found</quote>
+           <year>2005</year>
+           <country>GB</country>    
+    </track>
+    <track><artist>Cansei De Ser Sexy</artist>
+           <title>Fuck Off Is Not The Only Thing You Have To Show</title>
+           <quote>you feel like you wanna change the life today, you feel bad you didn't make it yesterday</quote>
+           <year>2005</year>
+           <country>BR</country>    
+    </track>
+    <track><artist>New Young Pony Club</artist>
+           <title>Hiding On The Staircase</title>
+           <quote>it's the sound of them cursing their existence, jungle drums beat in the bathroom, separation's in the distance</quote>
+           <year>2006</year>
+           <country>GB</country>    
+    </track>
+    <track><artist>Datarock</artist>
+           <title>Fa-Fa-Fa (Radio Edit)</title>
+           <quote>i left my brain in the past, i'm gonna ride fast to where i don't care</quote>
+           <year>2005</year>
+           <country>NO</country>    
+    </track>
+    <track><artist>The Rapture</artist>
+           <title>Get Myself Into It</title>
+           <quote>on the train feel insane</quote>
+           <year>2006</year>
+           <country>US</country>    
+    </track>
+    <track><artist>The Sounds</artist>
+           <title>Hurt You</title>
+           <quote>don't say you just wanna go! don't you know you're on your own?</quote>
+           <year>2006</year>
+           <country>SE</country>    
+    </track>
+    <track><artist>Infadels</artist>
+           <title>Love Like Semtex</title>
+           <quote>we ain't so sick, we're just part of the list</quote>
+           <year>2006</year>
+           <country>GB</country>    
+    </track>
+    <track><artist>The Automatic</artist>
+           <title>Raoul</title>
+           <quote>our ambition got cast aside, thrown away when the batteries died</quote>
+           <year>2006</year>
+           <country>GB</country>    
+    </track>
+    <track><artist>The Sunshine Underground</artist>
+           <title>Put You In Your Place</title>
+           <quote>you can't stand to see that smile on my face</quote>
+           <year>2006</year>
+           <country>GB</country>    
+    </track>
+    <track><artist>Death From Above 1979</artist>
+           <title>Blood On Our Hands (Justice Remix)</title>
+           <quote>there is blood on all the shoes you've worn from the people you've been stepping on</quote>
+           <year>2004</year>
+           <country>CA</country>    
+    </track>
+    <track><artist>Simian Mobile Disco</artist>
+           <title>It's The Beat</title>
+           <quote>on the dancefloor i am a world-class freak</quote>
+           <year>2007</year>
+           <country>GB</country>    
+    </track>
+    <track><artist>Digitalism</artist>
+           <title>Idealistic</title>
+           <quote>i have an idea that you are here, i have the idea that you were near</quote>
+           <year>2007</year>
+           <country>DE</country>    
+    </track>
+    <track><artist>The Presets</artist>
+           <title>Are You The One?</title>
+           <quote>slipping and sliding, i'm out of control</quote>
+           <year>2005</year>
+           <country>AU</country>    
+    </track>
+    <track><artist>Dandi Wind</artist>
+           <title>Balloon Factory</title>
+           <quote>what the fuck you saying? is that cantonese?</quote>
+           <year>2005</year>
+           <country>CA</country>    
+    </track>
+    <track><artist>Shy Child</artist>
+           <title>Noise Won't Stop</title>
+           <quote>scream and shout</quote>
+           <year>2007</year>
+           <country>US</country>    
+    </track>
+   </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" type = "jpg">dnj20073</cover>
+    <fontsize>10</fontsize>
+    <adj>13</adj>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2007</year>
+    <month>6</month>
+    <by>Z</by>
+  </meta>
+
+</wgcompilation>

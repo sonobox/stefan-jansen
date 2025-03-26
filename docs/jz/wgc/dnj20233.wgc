@@ -1,0 +1,149 @@
+<wgcompilation>
+  <title>Sweded</title> 
+  <season>Jansen / Zeileis - Das Nächste Jahrtausend</season>
+  <number>2023.3</number>
+  <content>
+    <cd>
+      <track><artist>Bastille</artist>
+             <title>We Can't Stop</title>
+             <quote>don't break his heart, his achy breaky heart, I just don't think he'll understand</quote>
+             <year>2014</year>
+             <country>GB</country>
+      </track>
+      <track><artist>Tokyo Police Club</artist>
+             <title>Since U Been Gone</title>
+             <quote>I'm so moving on</quote>
+             <year>2011</year>
+             <country>CA</country>
+      </track>
+      <track><artist>Twenty One Two</artist>
+             <title>Shake It Off</title>
+             <quote>and that's what they don't know</quote>
+             <year>2014</year>
+             <country>SE</country>
+      </track>
+      <track><artist>Pomplamoose</artist>
+             <title>Harder, Better, Faster, Stronger</title>
+             <quote>work it harder, make it better, do it faster, makes us stronger</quote>
+             <year>2019</year>
+             <country>US</country>
+      </track>
+      <track><artist>The Boy Least Likely To</artist>
+             <title>Faith</title>
+             <quote>I know all the games you play because I played them too</quote>
+             <year>2018</year>
+             <country>GB</country>
+      </track>
+      <track><artist>Of Montreal</artist>
+             <title>Jimmy</title>
+             <quote>are you coming, are you going, are you leaving, are you staying</quote>
+             <year>2009</year>
+             <country>US</country>
+      </track>
+      <track><artist>Weezer</artist>
+             <title>Unbreak My Heart</title>
+             <quote>uncry these tears</quote>
+             <year>2010</year>
+             <country>US</country>
+      </track>
+      <track><artist>The Holophonics</artist>
+             <title>(I Just) Died In Your Arms Tonight</title>
+             <quote>broken hearts lie all around me</quote>
+             <year>2017</year>
+             <country>US</country>
+      </track>
+      <track><artist>The Interrupters</artist>
+             <title>Bad Guy</title>
+             <quote>duh</quote>
+             <year>2019</year>
+             <country>US</country>
+      </track>
+      <track><artist>They Might Be Giants</artist>
+             <title>Bills, Bills, Bills</title>
+             <quote>Do you pay my automo' bills?</quote>
+             <year>2015</year>
+             <country>US</country>
+      </track>
+      <track><artist>Ben Folds</artist>
+             <title>Such Great Heights</title>
+             <quote>and that shit just will not fly</quote>
+             <year>2007</year>
+             <country>US</country>
+      </track>
+      <track><artist>The Divine Comedy</artist>
+             <title>Blue Monday &amp; Don't You Want Me</title>
+             <quote>12" version</quote>
+             <year>2010</year>
+             <country>GB</country>
+      </track>
+      <track><artist>Youth Group</artist>
+             <title>Forever Young</title>
+             <quote>hoping for the best but expecting the worst</quote>
+             <year>2006</year>
+             <country>AU</country>
+      </track>
+      <track><artist>Norman Palm</artist>
+             <title>Girls Just Wanna Have Fun</title>
+             <quote>I wanna be the one to walk in the sun</quote>
+             <year>2007</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Milky Chance</artist>
+             <title>Save Your Tears</title>
+             <quote>I broke your heart like someone did to mine</quote>
+             <year>2023</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Beautiful Small Machines</artist>
+             <title>Paper Planes</title>
+             <quote>some some some some I murder, some some I let go</quote>
+             <year>2014</year>
+             <country>US</country>
+      </track>
+      <track><artist>Cats On Fire</artist>
+             <title>Your Woman</title>
+             <quote>so much for all your highbrow Marxist ways</quote>
+             <year>2010</year>
+             <country>FI</country>
+      </track>
+      <track><artist>The Last Royals</artist>
+             <title>Unbelievable</title>
+             <quote>you're always asking what it's all about but don't listen to my replies</quote>
+             <year>2011</year>
+             <country>US</country>
+      </track>
+      <track><artist>On Video</artist>
+             <title>Temporary Secretary</title>
+             <quote>she can be a neurosurgeon if she's doing nothing urgent</quote>
+             <year>2019</year>
+             <country>GB</country>
+      </track>
+      <track><artist>Muse</artist>
+             <title>Can't Take My Eyes Off You</title>
+             <quote>the sight of you leaves me weak, there are no words left to speak</quote>
+             <year>2002</year>
+             <country>GB</country>
+      </track>
+      <track><artist>The Fratellis</artist>
+             <title>Yes Sir, I Can Boogie</title>
+             <quote>ask all your friends, I'm a sensation</quote>
+             <year>2021</year>
+             <country>GB</country>
+      </track>
+   </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" type = "jpg">dnj20233</cover>
+    <fontsize>10.5</fontsize>
+    <adj>11.5</adj>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2023</year>
+    <month>7</month>
+    <by>Z</by>
+  </meta>
+</wgcompilation>
+

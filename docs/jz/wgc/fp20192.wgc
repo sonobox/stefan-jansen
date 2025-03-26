@@ -1,0 +1,92 @@
+<wgcompilation>
+  <title>Disco Tech</title>
+  <season>Future Pop</season>
+  <number>2019.2</number>
+
+  <content>
+   <cd>
+    <track><artist>Alba</artist>
+           <title>Philomena Part I</title>
+           <year>2010</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Surf Dancer</artist>
+           <title>Everybody Dance Tonight</title>
+           <year>2017</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Andy Romano</artist>
+           <title>Run To Love (Extended Version)</title>
+           <year>2009</year>
+           <country>IT</country>
+    </track>
+    <track><artist>Wolfram feat. Peaches</artist>
+           <title>Automatic Lover</title>
+           <year>2015</year>
+           <country>AT</country>
+    </track>
+    <track><artist>Videogirl</artist>
+           <title>Optical Illusions</title>
+           <year>2016</year>
+           <country>IT</country>
+    </track>
+    <track><artist>Tobias Bernstrup</artist>
+           <title>27 (Laser Mix)</title>
+           <year>2002</year>
+           <country>SE</country>
+    </track>
+    <track><artist>Nouvelle Phénomène</artist>
+           <title>Cruel Game (Vanzetti &amp; Sacco Remix)</title>
+           <year>2015</year>
+           <country>HU</country>
+    </track>
+    <track><artist>Amaya</artist>
+           <title>I Never Said This Before</title>
+           <year>2018</year>
+           <country>ES</country>
+    </track>
+    <track><artist>Sally Shapiro</artist>
+           <title>Skating In The Moonshine</title>
+           <year>2008</year>
+           <country>SE</country>
+    </track>
+    <track><artist>Cloetta Paris</artist>
+           <title>Did We Collide?</title>
+           <year>2008</year>
+           <country>SE</country>
+    </track>
+    <track><artist>Miss Plug Inn</artist>
+           <title>You And I</title>
+           <year>2014</year>
+           <country>ES</country>
+    </track>
+    <track><artist>Tommy Sun</artist>
+           <title>Dancer (Radio Mix)</title>
+           <year>2012</year>
+           <country>NL</country>
+    </track>
+    <track><artist>Italove</artist>
+           <title>Follow Me To Mexico</title>
+           <year>2013</year>
+           <country>SE</country>
+    </track>
+    <track><artist>Mr Pauli</artist>
+           <title>Together</title>
+           <year>2017</year>
+           <country>NL</country>
+    </track>
+   </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" back = "TRUE" type = "jpg">fp20192</cover>
+    <fontsize>7</fontsize>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2019</year>
+    <month>10</month>
+    <by>Z</by>
+  </meta>
+</wgcompilation>

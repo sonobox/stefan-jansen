@@ -1,0 +1,132 @@
+<wgcompilation>
+  <title>Two Synthesizers And A Microphone</title>
+  <season>Future Pop</season>
+  <number>2008.1</number>
+
+  <content>
+   <cd>
+    <track><artist>Kids On TV</artist>
+           <title>Breakdance Hunx</title>
+           <year>2007</year>
+           <country>CA</country>
+    </track>
+    <track><artist>Scream Club vs. Ben Adorable feat. Peaches</artist>
+           <title>Fine As Fuck</title>
+           <year>2006</year>
+           <country>US</country>
+    </track>
+    <track><artist>Avenue D</artist>
+           <title>O-Tron</title>
+           <year>2004</year>
+           <country>US</country>
+    </track>
+    <track><artist>Motormark</artist>
+           <title>Eat Drink Sleep Think</title>
+           <year>2004</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Crystal Castles</artist>
+           <title>Love And Caring</title>
+           <year>2006</year>
+           <country>CA</country>
+    </track>
+    <track><artist>Uffie</artist>
+           <title>Dismissed</title>
+           <year>2007</year>
+           <country>US</country>
+    </track>
+    <track><artist>Princess Superstar</artist>
+           <title>Initially</title>
+           <year>2005</year>
+           <country>US</country>
+    </track>
+    <track><artist>Ping Pong Bitches</artist>
+           <title>Roc Ya Body</title>
+           <year>2006</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Mother Inc.</artist>
+           <title>ATM No TLC</title>
+           <year>2005</year>
+           <country>US</country>
+    </track>
+    <track><artist>Mel Merio</artist>
+           <title>Remmidemmi (Yippie Yippie Yeah)</title>
+           <year>2007</year>
+           <country>AT</country>
+    </track>
+    <track><artist>Räuberhöhle</artist>
+           <title>Micro-Rap</title>
+           <year>2004</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Egotronic feat. Koljah &amp; Tai Phun</artist>
+           <title>Du Weiszt</title>
+           <year>2006</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Saalschutz</artist>
+           <title>Saalschutz, Den Ganzen Tag</title>
+           <year>2006</year>
+           <country>CH</country>
+    </track>
+    <track><artist>Fettes Brot</artist>
+           <title>Schwule Mädchen</title>
+           <year>2001</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Deichkind</artist>
+           <title>Limit (Radio Version)</title>
+           <year>2002</year>
+           <country>DE</country>
+    </track>
+    <track><artist>The Dance Inc.</artist>
+           <title>Matador (Frittenbude - Zerknau Deine Knebel Remix)</title>
+           <year>2008</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Mediengruppe Telekommander</artist>
+           <title>Bild Dir Deine Meinung</title>
+           <year>2006</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Rainer Von Vielen</artist>
+           <title>Innen An Aussen</title>
+           <year>2005</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Harris &amp; H.P. Baxxter</artist>
+           <title>Eisbär</title>
+           <year>2007</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Moonbootica</artist>
+           <title>Jump Around</title>
+           <year>2007</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Aux Raus</artist>
+           <title>Fall</title>
+           <year>2006</year>
+           <country>NL</country>
+    </track>
+    <track><artist>The Aim Of Design Is To Define Space</artist>
+           <title>Melancholie Der Standorte (Gabbagabi vs. DJ Ostdeutschland Version)</title>
+           <year>2003</year>
+           <country>DE</country>
+    </track>
+   </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" back = "TRUE" type = "jpg">fp20081</cover>
+    <fontsize>7</fontsize>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2008</year>
+    <month>4</month>
+    <by>Z</by>
+  </meta>
+</wgcompilation>

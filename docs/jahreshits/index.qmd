@@ -1,0 +1,489 @@
+---
+pagetitle: Homepage von Stefan Jansen
+lang: de
+format:
+  html:
+    include-in-header: hero-image-jahreshits.html
+    toc: false
+---
+
+## ECHT JETZT?! -- Die Hits 2024
+
+01 **European Sex** -- Helium  
+02 **Edwin Rosen** -- Balancieren  
+03 **Kissing Disease und Larasüß** -- Exil  
+04 **Sofia Portanet** -- Entre Nos Lèvres  
+05 **Manu Chao feat. Laeti** -- Tu Te Vas  
+06 **Northern Lite** -- A History Of Love  
+07 **Andreas Dorau** -- Das Ist Nur Musik  
+08 **Faber** -- Sie Ist Wieder In Der Stadt  
+09 **Die Ärzte** -- Demokratie  
+10 **KMFDM** -- Let Go  
+11 **New Model Army** -- Language  
+12 **Frustration** -- Riptide  
+13 **The Cure** -- A Fragile Thing  
+14 **Twin Noir** -- Ostkreuz  
+15 **Das Future** -- We Will Dance Again (FCK BDS)  
+16 **Wiener Planquadrat feat. Rossvanboss** -- Austriano Celentano (Tutto Gas)  
+17 **Alles** -- D.I.Y.  
+18 **Minuit Machine** -- Hold Me  
+19 **SDH** -- Hectic  
+20 **Frittenbude** -- Der Weg Zu Zweit  
+21 **Brutalismus 3000** -- Europaträume  
+
+
+## KRIEGE, KRÖNUNG, KAOS! -- Die Hits 2023 
+
+01 **Days Of Sorrow** -- Silent Lovesong   
+02 **European Sex** -- Fast Da     
+03 **Edwin Rosen** -- Kontrollverlust     
+04 **Brockdorff Klang Labor** -- The Autumn Almanac Part 1: Miss Cul-De-Sac And The Laughing God     
+05 **Kaffkiez** -- Scooter     
+06 **Resi Reiner** -- Naja, Geht So     
+07 **Wingtips** -- Innocent Blood (Twin Tribes Remix)     
+08 **Echoberyl** -- Fading Away     
+09 **No** -- Crowds     
+10 **Grande Amore** -- Anos 20    
+11 **Karl Kave** -- Mitternacht     
+12 **Andreas Dorau** -- Mein Englischer Winter     
+13 **LEATHERS** -- Highrise     
+14 **Jovana** --  Ποτέ Μαζί      
+15 **Belgrado** -- Tu I Teraz     
+16 **Garbage** -- Cities In Dust     
+17 **Accident Sentimental** -- Accident Sentimental      
+18 **Brutalismus 3000** -- Gewalt Gewalt     
+19 **Grossstadtgeflüster** -- Ich Kündige     
+20 **Joost Klein, Ski Aggu & Otto Waalkes** -- Friesenjung     
+21 **The Kolors** -- Italodisco     
+22 **Italove** -- Viva La Victoria     
+
+## STAND WITH UKRAINE! -- Die Hits 2022
+
+01 **Edwin Rosen** -- Vertigo     
+02 **Je T'Aime** -- Give Me More Kohl    
+03 **Metric** -- What Feels Like Eternity     
+04 **The Kiffness feat. Boombox** -- Oy U Luzi Chervona Kalyna (Army Remix)     
+05 **Swiss** -- Linksradikaler Schlager     
+06 **Kraftklub** -- Wittenberg Ist Nicht Paris     
+07 **Faber** -- Tausendfrankenlang       
+08 **Von Wegen Lisbeth** -- Opti     
+09 **Carrousel** -- Maintenant Ou Jamais     
+10 **T.O.Y. feat. Marian Gold** -- Turn On!    
+11 **Walter Frosch** -- Under A Spell     
+12 **Flawless Issues** -- Self Reflection     
+13 **Editors** -- Picturesque     
+14 **Echoberyl** -- Rising From The Dead     
+15 **Cinemascope** -- Sometimes     
+16 **Karl Kave** -- Oh Kolibri     
+17 **Welle: Erdball** -- Ich Habe Die Zukunft Gesehen     
+18 **Boy Harsher feat. Mariana Saldaña** --  Machina     
+19 **Die Ärzte** -- Nie Wieder Stereo, Nie Wieder High Fidelity!     
+20 **Jens Friebe** -- Am Ende Aller Feiern     
+21 **Jan Zookowski Und Seine Freunde** -- Lass Das Gürteltier In Ruhe!     
+22 **Kate Bush** -- Running Up That Hill     
+
+
+## GESCHWURBEL! -- Die Hits 2021
+
+01 **Flawless Issues** -- Good Vibrations     
+02 **Edwin Rosen** -- Leichter // Kälter     
+03 **Konstantin Unwohl** -- Ich Wollte Nie Museumsbauer Werden     
+04 **Kælan Mikla** -- Ósýnileg     
+05 **Deathsomnia** -- Akinesia (She Past Away Remix)     
+06 **Arab Strap** -- The Turning Of Our Bones       
+07 **ACTORS** -- Like Suicide     
+08 **LEATHERS** -- Reckless     
+09 **Ätna & Meute** -- Weirdo     
+10 **La Femme** -- Paradigme     
+11 **Danger Dan** -- Das Ist Alles Von Der Kunstfreiheit Gedeckt     
+12 **Die Ärzte** -- Dunkel      
+13 **Egotronic feat. Andreas Dorau** --  Jubiläen    
+14 **Confrontational feat. Adrien Grousset** -- Happy Children     
+15 **Tobias Bernstrup** -- Stranger     
+16 **Tilly Electronics** -- Discolicht     
+17 **Purple Disco Machine feat. Eyelar** -- Dopamine     
+18 **The Toten Crackhuren Im Kofferraum** -- Zurück In Der Gosse      
+19 **Tommy Tellerlift und Die Fangzauner Schneebrunzer** -- Ischgl-Fieber     
+20 **Die Virologen** -- Junge (Covid Version)     
+
+## LOCKDOWN! -- Die Hits 2020
+
+01 **Purple Disco Machine feat. Sophie And The Giants** -- Hypnotized     
+02 **Tobias Bernstrup** -- Private Eye     
+03 **Chromeo** -- Clorox Wipe     
+04 **Daði Freyr** -- Think About Things     
+05 **Die Ärzte** -- True Romance     
+06 **ZSK** -- Ich Habe Besseres Zu Tun     
+07 **This Eternal Decay** -- I Want     
+08 **Walter Frosch** -- Blood     
+09 **The Sounds** -- Things We Do For Love     
+10 **New Order** -- Be A Rebel (Edit)     
+11 **Apoptygma Berzerk** -- Atom & Eve    
+12 **Clan Of Xymox** -- Lovers     
+13 **Sixth June** -- Trust     
+14 **Moons.s** -- Ghost     
+15 **Carlo Onda** -- Viele Grüße Aus Yokohoma           
+16 **Mia.** -- No Bad Days    
+17 **Tilly Electronics** -- Intergalaktisch     
+18 **Grossstadtgeflüster** -- Feierabend     
+19 **Scooter feat. RTO Ehrenfeld** -- FCK 2020    
+20 **Welle: Erdball** -- Mumien Im Autokino (Orchester Version)    
+21 **Karpov Not Kasparov** -- Nothing Is As Healing As The Human Touch (Flora's Edit)     
+
+## HOW DARE YOU! -- Die Hits 2019
+
+01 **Teleman** -- Song For A Seagull     
+02 **Pet Shop Boys** -- On Social Media      
+03 **Von Wegen Lisbeth** -- 30 Segways, Ein Ferrari     
+04 **RTO Ehrenfeld feat. Greta Thunberg** -- Right Here, Right Now       
+05 **Andreas Dorau** -- Die Namen Der Menschen     
+06 **Pauls Jets feat. Die Situps** -- Los Angeles     
+07 **Metronomy** -- Salted Caramel Ice Cream     
+08 **Ladytron** -- Deadzone     
+09 **Boy Harsher** -- Fate     
+10 **Totengeläut** -- Deprived     
+11 **Pop:sch** -- Für Immer     
+12 **Tilly Electronics** -- Telefon      
+13 **Welle: Erdball** -- Die Unsichbaren     
+14 **Deichkind** -- Keine Party     
+15 **POL1Z1STENS0HN** -- Herz Und Faust Und Zwinkerzwinker     
+16 **Stephan Eicher & Traktorkestar** -- Les Filles Du Limmatquai    
+17 **Faber** -- Vivaldi     
+18 **Yvon Im Kreis Der Liebe** -- Sprezzatura     
+19 **Rocko Schamoni** -- Loch In Der Welt (Reprise)     
+20 **Jan Böhmermann** -- Licht An! Licht An!
+
+## BAVARIA ONE! -- Die Hits 2018
+
+01 **Muse** -- The Dark Side     
+02 **Death From Above 1979** -- Freeze Me      
+03 **Metric** -- Dressed To Suppress      
+04 **Fischerspooner** -- TopBrazil    
+05 **Boy Harsher** -- Lust    
+06 **Das Moon** -- Gone     
+07 **Now Now** -- SGL    
+08 **Dream Wife** -- Somebody      
+09 **Editors** -- Violence    
+10 **MGMT** -- TSLAMP     
+11 **Dominik Nicolas** -- Underground (Adan & Ilse Remix)      
+12 **Peter Zimmermann feat. Lady Diamond** -- Ranz Statt Glanz    
+13 **Jemek Jemowit** -- Meine Tabletten      
+14 **Susanne Blech** -- Mit Dem Erreichen Meiner Ziele, Frei Von Illusionen, Beginnt Nun Endlich Das Sorgenvolle Leben, Das Ich Mir Immer Gewünscht Habe     
+15 **Vive La Fête** -- Destination Amour    
+16 **Zoot Woman** -- Information First (Redesigned)      
+17 **Starcluster And Marc Almond** -- Get Closer    
+18 **Ladytron** -- The Animals     
+19 **Poems For Laila** -- Battlefield     
+20 **Wintergatan** -- Music Box, Harp & Hammered Dulcimer    
+21 **Künstler Mit Herz** -- Mia Ned!     
+
+## INDEPENDÈNCIA! -- Die Hits 2017
+
+01 **Carrousel** -- Elle Danse     
+02 **Wintergatan** -- Emerson     
+03 **Andreas Dorau** -- Imitier Mich     
+04 **Faber** -- Wem Du's Heute Kannst Besorgen    
+05 **Oleg & The Popovs** -- Für Die Straße     
+06 **Morrissey** -- Spent The Day In Bed     
+07 **The Sounds** -- Thrill     
+08 **Blondie** -- My Monster     
+09 **Kraftklub** -- Fenster     
+10 **Slime** -- Ernie Und Bert In Guantanamo     
+11 **Rendez-Vous** -- The Distance     
+12 **Bondage Fairies** -- Expectations     
+13 **Welle: Erdball** -- L'Inconnue De La Seine     
+14 **Marnie** -- Alphabet Block     
+15 **MGMT** -- Little Dark Age    
+16 **Boytronic** -- Time After Midnight     
+17 **Poni Hoax** -- I Never Knew You Were You    
+18 **New Order** -- Singularity (Live in Brixton)     
+19 **Walk Off The Earth** -- Taekwondo    
+20 **Schnipo Schranke** -- Murmelbahn     
+
+## FUCK YOU 2016! -- Die Hits 2016
+
+01 **Teleman** -- Düsseldorf     
+02 **I Heart Sharks** -- Lost Forever     
+03 **Carrousel** --  Eva     
+04 **Oleg And The Popovs** -- Tanzlied Für Barfuß-Hippies    
+05 **Nikolai Tomás** -- Indien     
+06 **Von Wegen Lisbeth** -- Wenn Du Tanzt     
+07 **Wintergatan** -- Marble Machine      
+08 **Le Couleur** -- L'Amour Le Jour      
+09 **Gidropony** -- Rebirth      
+10 **Egotronic & Johnny Weltraum** -- Odenwald     
+11 **257ers** -- Holland       
+12 **Pet Shop Boys** -- The Pop Kids     
+13 **Abstürzende Brieftauben** -- Nie Wieder Pegida     
+14 **Das Flug** -- Tablette Fang An       
+15 **Jan Böhmermann** -- Be Deutsch!     
+16 **Villa Nah** -- Spy     
+17 **La Femme** -- Elle T'Aime Pas     
+18 **Walk Off The Earth (feat. KRNFX)** -- Hello     
+19 **Justice** -- Stop     
+20 **David Bowie** -- Lazarus      
+
+## VERDIESELT! -- Die Hits 2015
+
+01 **Metric** -- Lie Lie Lie     
+02 **The Chemical Brothers** --  Go!     
+03 **Die Zimmermänner** -- Die Große Sporadische     
+04 **Tubbe** --  Betonmeer     
+05 **Schnipo Schranke** -- Pisse     
+06 **Little Boots** -- Get Things Done     
+07 **Annie** -- Cara Mia     
+08 **Deichkind** --  Die Welt Ist Fertig     
+09 **Welle: Erdball** -- Zeitverbot     
+10 **Fraktus** --  Musik Aus Strom    
+11 **Das Flug** -- Auto     
+12 **Die Krupps** -- Alive In A Glass Cage     
+13 **New Order** -- Restless (Single Version)     
+14 **The Chap** -- Guitar Messiah     
+15 **Editors** --  Life Is A Fear     
+16 **Tocotronic** -- Zucker     
+17 **I'm Not A Band** -- Lion     
+18 **Cœur De Pirate** -- Oublie-Moi     
+19 **Rocko Schamoni & L'Orchestre Mirage** - Das Zelt     
+20 **Phrasenmäher** -- Der Ganze Osten Heißt Mandy     
+
+## WELTMEISTER! -- Die Hits 2014
+
+01 **JP Nataf** - Pas Faux     
+02 **Carrousel** - J'Avais Rendez-Vous     
+03 **Andreas Dorau** - Faul Und Bequem     
+04 **Jens Friebe** - (I'm Not Born For) Plot Driven Porn     
+05 **Zoot Woman** - Coming Up For Air     
+06 **I Heart Sharks** - To Be Young     
+07 **Klaxons** - There Is No Other Time     
+08 **Röyksopp & Robyn** - Do It Again     
+09 **B-Movie** - So Far Away     
+10 **Keule** - Dick Sein Ist Fett     
+11 **Kraftklub** - Schüsse In Die Luft     
+12 **Farin Urlaub Racing Team** - Herz? Verloren     
+13 **Uns** - Sven Väth     
+14 **Sexy Sushi** - Retour De Bâton (Ms Mix)    
+15 **Vive La Fête** - Ping Pong     
+16 **2raumwohnung** - Bye Bye Bye     
+17 **Susanne Blech** - Manhattan     
+18 **Welle: Erdball** - Spiel Mit Der Welt     
+19 **Depeche Ambros** - Live Is Life     
+20 **Peine Perdue** - Francfort Aéroport     
+21 **Anne Clark feat. herrB** - Meine Fremde Seele     
+22 **Morrissey** - The Bullfighter Dies     
+
+## WHISTLEBLOWER! -- Die Hits 2013
+
+01 **The Sounds** - Too Young To Die     
+02 **Grossstadtgeflüster** - Meine Sonne     
+03 **Röyksopp & Susanne Sundfør** - Ice Machine (live)     
+04 **Marnie** - Sugarland     
+05 **Tubbe** - Heute Oder Hier     
+06 **Zaz** - On Ira     
+07 **Phillip Boa And The Voodooclub** - Sunny When It Rains     
+08 **Poni Hoax** - There's Nothing Left For You Here     
+09 **Franz Ferdinand** - Love Illumination     
+10 **Fakepunk** - Fakepunk Is Dead     
+11 **Die Krupps** - Robo Sapien     
+12 **Apoptygma Berzerk** - Major Tom (Coming Home)    
+13 **Testsieger** - Wir Machen Das!     
+14 **Plemo feat. Streuner** - Superhelden     
+15 **Deine Jugend** - Herzmuskeldisziplin    
+16 **Little Boots** - Crescendo     
+17 **Annie** - Ralph Macchio     
+18 **Chvrches** - Gun     
+19 **Daft Punk feat. Pharrell Williams** - Get Lucky     
+20 **Fraktus** - Affe Sucht Liebe     
+
+## APOKALYPSE! -- Die Hits 2012
+
+01 **I'm Not A Band** - Time On Fire     
+02 **Brockdorff Klang Labor** - Wortdickicht     
+03 **If The Kids** - Life Is Now     
+04 **Vive La Fête** - Contraire     
+05 **Metric** - Synthetica     
+06 **Citizens!** - She Said     
+07 **Turntablerocker** - Alles Auf Die 303     
+08 **Deichkind** - Der Mond     
+09 **Die Ärzte** - M&    F     
+10 **Kraftklub** - Mein Leben     
+11 **Diskocrunch feat. Egotronic** - Jeden Tag Im Mai     
+12 **Bratze** - Strafplanet     
+13 **Susanne Blech** - Helmut Kohl     
+14 **Hertzinfarkt** - Bis Ans Ende     
+15 **Welle: Erdball** - Computerklang     
+16 **Bondage Fairies** - Morphine     
+17 **Crystal Castles** - Sad Eyes     
+18 **Frittenbude** - Von Allem Zuviel     
+19 **Raketenkind** - Im Frühtau Zu Berge     
+20 **Tubbe** - 5 Minute Love     
+21 **Stephan Eicher** - Envolées     
+22 **Walk Off The Earth** - Somebody That I Used To Know     
+
+## DOKTOR A.D.! -- Die Hits 2011
+
+01 **The Sounds** - It's So Easy     
+02 **Men** - Credit Card Babies     
+03 **CSS** - City Grrrl     
+04 **Fuck Art, Let's Dance!** - The Conqueror     
+05 **I Heart Sharks** - Neuzeit (Plemo Remix)     
+06 **The Wombats** - Our Perfect Disease     
+07 **Egotronic** - Dich Glücklich Sehen     
+08 **Fakepunk** - On Sunday I Am Kissing You (Radio Edit)     
+09 **Supershirt** - Aber Am Schlimmsten     
+10 **Pornophonique** - Space Invaders     
+11 **Hertzinfarkt** - Teufels Tänzer     
+12 **Brockdorff Klang Labor** - Festung Europa     
+13 **Oh Land** - Sun Of A Gun     
+14 **Die Funkhausgruppe** - Liebe Zu Viert      
+15 **Welle: Erdball** - Der Kalte Krieg     
+16 **Andreas Dorau** - Stimmen In Der Nacht     
+17 **Räuberhöhle** - Stop This Religion!     
+18 **Robots In Disguise** - Chains     
+19 **Light Asylum** - Dark Allies     
+20 **Die Atzen Mit Nena** - Strobo Pop (Atzen Musik Mix)     
+
+
+## EYJAFJALLAJÖKULL! -- Die Hits 2010 
+
+01 **Curry & Coco** - Ultrasonic     
+02 **Ou Est Le Swimmingpool** - Dance The Way I Feel     
+03 **Neon Plastix** - Gentlemen's Gold     
+04 **Hadouken!** - Mecha Love (Radio Edit)     
+05 **Deine Jugend** - Sonnenbrille Im Club     
+06 **Frittenbude** - Bilder Mit Katze     
+07 **Zaz** - Je Veux     
+08 **Olive Et Moi** - L'Ascenseur     
+09 **Element Of Crime** - Le Vent Nous Portera     
+10 **MIT** - Mairie    
+11 **Ladytron** - Ace Of Hz     
+12 **Crystal Castles feat. Robert Smith** - I'm Not In Love     
+13 **Die Sterne** - Depressionen Aus Der Hölle     
+14 **Egotronic feat. Rüde & Yari** - Was Solls     
+15 **Saalschutz** - Honi Soit Qui Mal Y Pense     
+16 **GammaBlitzBoys** - Alles Was War     
+17 **Robots In Disguise** - Wake Up! (Robots In Disguise Mix)     
+18 **Squishy Squid** - Christkind     
+19 **Duck Sauce** - Barbra Streisand (UK Radio Edit)    
+20 **Alphaville** - Song For No One     
+21 **Lena Meyer-Landrut** - Satellite     
+22 **The Grand Spectacular** - Being A Dickhead's Cool    
+
+## PANDEMIE! -- Die Hits 2009
+
+01 **Marina & The Diamonds** -- Seventeen     
+02 **Lily Allen** -- Back To The Start     
+03 **Metric** -- Gold Guns Girls     
+04 **Vive La Fête** -- Baiser Canon     
+05 **Datarock** -- Back In The Seventies     
+06 **Patrick Wolf** -- Oblivion     
+07 **Editors** -- Papillon     
+08 **MSTRKRFT** -- Heartbreaker      
+09 **Simian Mobile Disco** -- Audacity Of Huge (Radio Edit)    
+10 **Frittenbude vs. We Are Enfant Terrible** -- Steven Seagull     
+11 **Supershirt** -- Prinzessin Bad     
+12 **Bosse** -- Tanz Mit Mir     
+13 **Jan Delay** -- Jonny     
+14 **Schnuffel Das Total Süße Eichhörnchen** -- Wichtig     
+15 **Testsieger** -- Je Danse!     
+16 **Bondage Fairies** -- Zeta Reticuli     
+17 **Ghost In The Water** -- Dodging Lasers (Fear Of Tigers Remix)     
+18 **Lady Gaga** -- Poker Face     
+19 **Little Boots** -- Symmetry     
+20 **Röyksopp** -- Happy Up There     
+21 **Calvin Harris** -- Worst Day     
+22 **Flight Of The Conchords** -- Too Many Dicks (On The Dancefloor)    
+
+## YES, WE CAN! -- Die Hits 2008
+
+01 **Ladyhawke** -- Magic    
+02 **Poni Hoax** -- Hypercommunication     
+03 **CSS** -- How I Became Paranoid     
+04 **Ladytron** -- Versus     
+05 **Fischerspooner** -- The Best Revenge     
+06 **Woog Riots** -- Frank Backwards    
+07 **MGMT** -- Kids     
+08 **Grossstadtgeflüster** -- Lebenslauf     
+09 **Brockdorff Klang Labor mit Jens Friebe** - Mädchenmusik     
+10 **Mia.** -- Mein Freund     
+11 **Frittenbude** -- Mindestens In 1000 Jahren (Radio Edit)    
+12 **Bratze** -- D.U.T.T. Royal     
+13 **Angelika Express** -- Was Wollt Ihr Alle?     
+14 **Kettcar** -- Graceland (Frittenbude Raveland Remix)    
+15 **Lützenkirchen** -- 3 Tage Wach     
+16 **The Presets** -- Talk Like That     
+17 **The Whip** -- Save My Soul     
+18 **Crystal Castles** -- Black Panther     
+19 **Welle: Erdball & Die Perlen** -- Wir Hören Mit     
+20 **Flight Of The Conchords** -- If You're Into It     
+
+
+## ES WAR NICHT ALLES SCHLECHT! -- Die Hits 2007 
+
+01 **Klaxons** -- Two Receivers     
+02 **New Young Pony Club** -- The Get Go     
+03 **Mika** -- Relax (Take It Easy)     
+04 **Calvin Harris** -- Acceptable In The 80's (Radio Edit)     
+05 **Poni Hoax** -- Antibodies     
+06 **Velojet** -- I Follow My Heart     
+07 **Aux Raus** -- Wire     
+08 **Dan Le Sac vs. Scroobius Pip** -- Thou Shalt Always Kill     
+09 **Die Fantastischen Vier** -- Ernten Was Wir Säen     
+10 **Die Ärzte** -- Junge     
+11 **Manu Chao** -- Rainin' In Paradize     
+12 **Jens Friebe** -- Du Freust Dich Ja Gar Nicht     
+13 **Client** -- Drive (Radio Edit)     
+14 **2raumwohnung** -- 36 Grad     
+15 **Die Zimmermänner** -- Letzter Tango In Bad Ems     
+16 **Stephan Eicher** -- Eldorado     
+17 **Plexus Solaire** -- Les Hirondelles     
+18 **Tocotronic** -- Imitationen     
+19 **PoP!** -- PoP! Goes My Heart     
+20 **La Plage** -- EPO, Te Quiero     
+
+## EUPHORISMUS! -- Die Hits 2006
+
+01 **The Organ** -- Brother     
+02 **The Long Blondes** -- Giddy Stratospheres     
+03 **Morrissey** -- You Have Killed Me     
+04 **Razorlight** -- In The Morning     
+05 **Mando Diao** -- TV And Me     
+06 **Electric Six** -- Pulling The Plug On The Party     
+07 **She Wants Revenge** -- I Don't Wanna Fall In Love     
+08 **Kid Alex** -- USA     
+09 **The Sounds** -- Painted By Numbers     
+10 **Wir Sind Helden** -- Le Vide     
+11 **Nouvelle Vague** -- Sweet And Tender Hooligan     
+12 **The Pipettes** -- Pull Shapes     
+13 **Mia.** -- Tanz Der Moleküle     
+14 **New Young Pony Club** -- Ice Cream     
+15 **Cansei De Ser Sexy** -- Music Is My Hot Hot Sex     
+16 **Bondage Fairies** -- He-Man     
+17 **Metric** -- Glass Ceiling     
+18 **Scissor Sisters** -- Kiss You Off     
+19 **Cassius** -- Toop Toop     
+20 **Tiptop** -- Tiptop     
+21 **Welle: Erdball** -- Der Telegraph     
+22 **And One** -- Schmerzengel     
+
+## WIR SIND PAPST! -- Die Hits 2005
+
+01 **The Arcade Fire** -- Neighborhood \#1 (Tunnels)     
+02 **Franz Ferdinand** -- Walk Away     
+03 **Electric Six** -- Future Is In The Future     
+04 **Bloc Party** -- Banquet     
+05 **Baby Shambles** -- Fuck Forever     
+06 **Mando Diao** -- God Knows     
+07 **Farin Urlaub** -- Dusche     
+08 **Wir Sind Helden** -- Von Hier An Blind (Japanische Version)     
+09 **Tocotronic** -- Aber Hier Leben, Nein Danke     
+10 **Amadou & Mariam** -- Sènègal Fast Food     
+11 **Manu Chao** -- 100.000 Remords     
+12 **Jem** -- They     
+13 **Ladytron** -- International Dateline     
+14 **Binder & Krieglstein** -- Alles Verloren (Remix)     
+15 **Röyksopp** -- Go Away     
+16 **Vive La Fête** -- Claude François     
+17 **The Ark** -- Clamour For Glamour     
+18 **The Chemical Brothers** -- Galvanize (Edit)     
+19 **Daft Punk** -- Television Rules The Nation     
+20 **Welle: Erdball** -- Sternenkind     

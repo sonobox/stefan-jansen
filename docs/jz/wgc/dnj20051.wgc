@@ -1,0 +1,157 @@
+<wgcompilation>
+
+  <title>School Of Rock</title>
+  <season>Jansen / Zeileis - Das Nächste Jahrtausend</season>
+  <number>2005.1</number>
+
+  <content>
+   <cd>
+    <track><artist>Franz Ferdinand</artist>
+           <title>Jacqueline</title>
+           <quote>it's always better on holiday, that's why we only work when we need the money</quote>
+           <year>2004</year>
+           <country>GB</country>
+    </track>
+    <track><artist>The Killers</artist>
+           <title>Somebody Told Me</title>
+           <quote>it's not confidential i've got potential</quote>
+           <year>2004</year>
+           <country>US</country>
+    </track>
+    <track><artist>Mando Diao</artist>
+           <title>Down In The Past</title>
+           <quote>i'm getting fine girl, dressing up for stormy weather</quote>
+           <year>2004</year>
+           <country>SE</country>
+    </track>
+    <track><artist>The Libertines</artist>
+           <title>The Man Who Would Be King</title>
+           <quote>well i know you know i know you know i know</quote>
+           <year>2004</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Slut</artist>
+           <title>Why Pourquoi (I Think I Like You)</title>
+           <quote>none of the sunshine lovers like on tv</quote>
+           <year>2004</year>
+           <country>DE</country>
+    </track>
+    <track><artist>The Stills</artist>
+           <title>Still In Love Song</title>
+           <quote>you'll be dancing senseless in your bedroom and you find yourself out of a job and before too long you'll be selling lemonade to the overpaid</quote>
+           <year>2003</year>
+           <country>CA</country>
+    </track>
+    <track><artist>The Von Bondies</artist>
+           <title>C'mon C'mon</title>
+           <quote>with my teeth locked down i can see the blood of a thousand men who have come and gone</quote>
+           <year>2003</year>
+           <country>US</country>
+    </track>
+    <track><artist>Morrissey</artist>
+           <title>The First Of The Gang To Die</title>
+           <quote>and he stole from the rich and the poor and the not-very-rich and the very poor</quote>
+           <year>2004</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Modest Mouse</artist>
+           <title>A Different City</title>
+           <quote>i will remember to remember to forget you</quote>
+           <year>2000</year>
+           <country>US</country>
+    </track>
+    <track><artist>Rammstein</artist>
+           <title>Moskau</title>
+           <quote>sie macht mich geil, ich leide qualen, sie tanzt für mich, ich muss bezahlen</quote>
+           <year>2004</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Exilia</artist>
+           <title>Stop Playing God</title>
+           <quote>fuck the new millennium, we're learning how to kill</quote>
+           <year>2004</year>
+           <country>IT</country>
+    </track>
+    <track><artist>The Hives</artist>
+           <title>Walk Idiot Walk</title>
+           <quote>and if you don't wanna feel like a putz, collect the clues and connect the dots</quote>
+           <year>2004</year>
+           <country>SE</country>
+    </track>
+    <track><artist>Beatsteaks</artist>
+           <title>Hand In Hand</title>
+           <quote>i walk in haze why should i care i'm waiting out the days go anywhere</quote>
+           <year>2004</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Interpol</artist>
+           <title>Slow Hands</title>
+           <quote>can't you see what you've done to my heart and soul? this is a wasteland now</quote>
+           <year>2004</year>
+           <country>US</country>
+    </track>
+    <track><artist>JJ72</artist>
+           <title>Serpent Sky</title>
+           <quote>infinity of space, it destroys this special place</quote>
+           <year>2002</year>
+           <country>IE</country>
+    </track>
+    
+    <track><artist>Electric Six</artist>
+           <title>Dance Epidemic</title>
+           <quote>i'm dying for your sins on the dancefloor, can't you see?</quote>
+           <year>2005</year>
+           <country>US</country>
+   </track>
+    <track><artist>Muse</artist>
+           <title>Thoughts Of A Dying Atheist</title>
+           <quote>are you afraid to die?</quote>
+           <year>2003</year>
+           <country>GB</country>
+    </track>
+    <track><artist>The Ark</artist>
+           <title>2000 Light-Years Of Darkness</title>
+           <quote>together at last in the same black hole</quote>
+           <year>2002</year>
+           <country>SE</country>
+    </track>
+    <track><artist>Adam Green</artist>
+           <title>Emily</title>
+           <quote>everbody said that she is underaged, i could try to shoot me with a seven gauge</quote>
+           <year>2005</year>
+           <country>US</country>
+    </track>
+    <track><artist>Johnny Cash</artist>
+           <title>One</title>
+           <quote>did i disappoint you or leave a bad taste in your mouth</quote>
+           <year>2000</year>
+           <country>US</country>
+    </track>
+    <track><artist>Tocotronic</artist>
+           <title>Pure Vernunft Darf Niemals Siegen</title>
+           <quote>wir brauchen dringend neue lügen</quote>
+           <year>2005</year>
+           <country>DE</country>
+    </track>
+    <track><artist>School Of Rock</artist>
+           <title>School Of Rock</title>
+           <quote>now could i please have the attention of the class, today's assignment, kick some ass!</quote>
+           <year>2003</year>
+           <country>US</country>
+    </track>        
+   </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" type = "jpg">dnj20051</cover>
+    <fontsize>10</fontsize>
+    <adj>10</adj>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2005</year>
+    <month>3</month>
+    <by>DJ MAD.e</by>
+  </meta>
+</wgcompilation>

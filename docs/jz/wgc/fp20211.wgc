@@ -1,0 +1,112 @@
+<wgcompilation>
+  <title>Nuclear Fusion</title>
+  <season>Future Pop</season>
+  <number>2021.1</number>
+
+ <content>
+ <cd>
+   <track><artist>Empathy Test</artist>
+         <title>Fear Of Disappearing</title>
+         <year>2020</year>
+         <country>GB</country>
+  </track>
+  <track><artist>Geneva Jacuzzi</artist>
+         <title>Casket</title>
+         <year>2016</year>
+         <country>US</country>
+  </track>
+  <track><artist>Minuit Machine</artist>
+        <title>Danger</title>
+        <year>2021</year>
+        <country>FR</country>
+  </track>
+  <track><artist>Ash Code</artist>
+         <title>Tide (Orax Remix)</title>
+         <year>2018</year>
+         <country>IT</country>
+  </track>
+  <track><artist>Skeleton Hands</artist>
+         <title>The River (Skeleton Hands Remix)</title>
+         <year>2021</year>
+         <country>US</country>
+  </track>  
+  <track><artist>Rendez-Vous</artist>
+         <title>Demian</title>
+         <year>2016</year>
+         <country>FR</country>
+  </track>
+  <track><artist>This Eternal Decay</artist>
+         <title>Error#1 (Love Is Gone)</title>
+         <year>2020</year>
+         <country>IT</country>
+  </track>
+  <track><artist>Carlo Onda</artist>
+         <title>Your Heart So Tender</title>
+         <year>2021</year>
+         <country>CH</country>
+  </track>
+  <track><artist>She Past Away</artist>
+         <title>Girdap</title>
+         <year>2019</year>
+         <country>TR</country>
+  </track>
+  <track><artist>Risk Risk</artist>
+         <title>Scientists</title>
+         <year>2015</year>
+         <country>DE</country>
+  </track>
+  <track><artist>Konstantin Unwohl</artist>
+         <title>Experimente Mit Auftrieb</title>
+         <year>2020</year>
+         <country>DE</country>
+  </track>
+  <track><artist>Inhalt</artist>
+         <title>Vehicle</title>
+         <year>2012</year>
+         <country>US</country>
+  </track>
+    <track><artist>QEK Junior</artist>
+         <title>Trümmer</title>
+         <year>2021</year>
+         <country>DE</country>
+  </track>
+  <track><artist>DIAF</artist>
+         <title>Liacht</title>
+         <year>2020</year>
+         <country>DE</country>
+  </track>
+  <track><artist>Velvet Condom</artist>
+         <title>Samt Und Stein</title>
+         <year>2011</year>
+         <country>DE</country>
+  </track>
+  <track><artist>RAVM</artist>
+         <title>Eisbär</title>
+         <year>2020</year>
+         <country>DE</country>
+  </track>
+  <track><artist>Zanias</artist>
+         <title>Harmaline</title>
+         <year>2020</year>
+         <country>DE</country>
+  </track>
+  <track><artist>Sixth June</artist>
+         <title>Falling</title>
+         <year>2017</year>
+         <country>DE</country>
+ </track>
+ </cd>  
+</content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" back = "TRUE" type = "jpg">fp20211</cover>
+    <fontsize>8</fontsize>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2021</year>
+    <month>4</month>
+    <by>DJ MAD.e</by>
+  </meta>
+</wgcompilation>

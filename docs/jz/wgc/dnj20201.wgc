@@ -1,0 +1,136 @@
+<wgcompilation>
+  <title>Jazzmatazz</title> 
+  <season>Jansen / Zeileis - Das Nächste Jahrtausend</season>
+  <number>2020.1</number>
+  <content>
+    <cd>
+      <track><artist>Us3</artist>
+             <title>Cantaloop (Flip Fantasia)</title>
+             <quote>groovy, groovy, jazzy, funky, pounce, bounce, dance</quote>
+             <year>1992</year>
+             <country>GB</country>
+      </track>
+      <track><artist>Dream Warriors</artist>
+             <title>My Definition Of A Boombastic Jazz Style</title>
+             <quote>i'm talkin' all that jazz</quote>
+             <year>1990</year>
+             <country>CA</country>
+      </track>
+      <track><artist>Del Tha Funkee Homosapien</artist>
+             <title>Mistadabolina</title>
+             <quote>first he was my money grip, then he stole my honey dip</quote>
+             <year>1991</year>
+             <country>US</country>
+      </track>
+      <track><artist>Digable Planets</artist>
+             <title>Where I'm From</title>
+             <quote>i'm interplanetary, my insect movements vary</quote>
+             <year>1993</year>
+             <country>US</country>
+      </track>
+      <track><artist>A Tribe Called Quest</artist>
+             <title>Jazz (We've Got)</title>
+             <quote>the jazz can move that ass cuz the tribe originates that feelin' of pizzazz</quote>
+             <year>1991</year>
+             <country>US</country>
+      </track>
+      <track><artist>De La Soul</artist>
+             <title>Ring Ring Ring (Ha Ha Hey)</title>
+             <quote>it's 222-2222, i got an answering machine that can talk to you</quote>
+             <year>1991</year>
+             <country>US</country>
+      </track>
+      <track><artist>Guru feat. MC Solaar</artist>
+             <title>Le Bien, Le Mal</title>
+             <quote>us black folks we ain't free yet</quote>
+             <year>1993</year>
+             <country>US</country>
+      </track>
+      <track><artist>MC Solaar</artist>
+             <title>Victime De La Mode</title>
+             <quote>clap, prise 1, vision panoramique</quote>
+             <year>1991</year>
+             <country>FR</country>
+      </track>
+      <track><artist>Soon E MC</artist>
+             <title>500 One For All</title>
+             <quote>je vais ici sous l'ombre du 500</quote>
+             <year>1993</year>
+             <country>FR</country>
+      </track>
+      <track><artist>Sens Unik</artist>
+             <title>A Gauche, À Droite</title>
+             <quote>tu as l'embarras choix</quote>
+             <year>1993</year>
+             <country>CH</country>
+      </track>
+      <track><artist>IAM</artist>
+             <title>Tam Tam De L'Afrique (Home Remix)</title>
+             <quote>pillé leur culture, brûlé leurs racines de l'afrique du sud, jusqu'aux rives du nil</quote>
+             <year>1991</year>
+             <country>FR</country>
+      </track>
+      <track><artist>Jazzkantine mit Smudo</artist>
+             <title>Respekt (Groove Mix)</title>
+             <quote>respekt ist unsere aufgabe und nicht 'ne falsche maske, die ich aufhabe</quote>
+             <year>1994</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Guru feat. Donald Byrd</artist>
+             <title>Loungin' (Jazz Not Jazz Mix By Smash)</title>
+             <quote>you should witness the slickness of the horn player and the dope rhyme sayer</quote>
+             <year>1993</year>
+             <country>US</country>
+      </track>
+      <track><artist>Gang Starr</artist>
+             <title>No More Mr. Nice Guy</title>
+             <quote>this is the season for breezin' with reason</quote>
+             <year>1989</year>
+             <country>US</country>
+      </track>
+      <track><artist>Black Sheep</artist>
+             <title>The Choice Is Yours</title>
+             <quote>if my train goes off the track, pick it up, pick it up, pick it up</quote>
+             <year>1991</year>
+             <country>US</country>
+      </track>
+      <track><artist>Eric B. &amp; Rakim</artist>
+             <title>Don't Sweat The Technique</title>
+             <quote>too intelligent to be radical</quote>
+             <year>1992</year>
+             <country>US</country>
+      </track>
+      <track><artist>Pete Rock &amp; C.L. Smooth</artist>
+             <title>Straighten It Out</title>
+             <quote>more disciplined than a shaolin monk</quote>
+             <year>1992</year>
+             <country>US</country>
+      </track>
+      <track><artist>The Pharcyde</artist>
+             <title>Passing Me By</title>
+             <quote>i signed: sincerely, the one who loves you dearly, ps love me tender. the letter came back three days later: return to sender</quote>
+             <year>1993</year>
+             <country>US</country>
+      </track>
+      <track><artist>Souls Of Mischief</artist>
+             <title>93 'Til Infinity</title>
+             <quote>kill all that wack shit</quote>
+             <year>1993</year>
+             <country>US</country>
+      </track>
+   </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" type = "jpg">dnj20201</cover>
+    <fontsize>10.5</fontsize>
+    <adj>11.5</adj>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2020</year>
+    <month>2</month>
+    <by>Z</by>
+  </meta>
+</wgcompilation>

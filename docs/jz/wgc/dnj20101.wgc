@@ -1,0 +1,161 @@
+<wgcompilation>
+  <title>¡Madrid Me Mata!</title>
+  <season>Jansen / Zeileis - Das Nächste Jahrtausend</season>
+  <number>2010.1</number>
+  <content>
+    <cd>
+      <track><artist>Séptimo Sello</artist>
+            <title>Espacio Vacio</title>
+            <quote>y yo, soy el fruto de un sueño irreal</quote>
+	          <year>1985</year>
+            <country>ES</country>    
+      </track>
+      <track><artist>Ultima Emoción</artist>
+            <title>Sentir Tu Cuerpo</title>
+            <quote>nubes del alcohol, licores de amor</quote>
+	          <year>1983</year>
+            <country>ES</country>    
+      </track>
+      <track><artist>La Mode</artist>
+             <title>Aquella Canción De Roxy</title>
+             <quote>tu piel se fundió con mi piel y bryan ferry dijo ok</quote>
+	           <year>1982</year>
+             <country>ES</country>    
+      </track>
+      <track><artist>Alaska Y Dinarama</artist>
+             <title>Ni Tú Ni Nadie</title>
+             <quote>mil campanas suenan en mi corazón</quote>
+	           <year>1985</year>
+             <country>ES</country>    
+      </track>
+      <track><artist>Betty Troupe</artist>
+             <title>El Vinilo</title>
+             <quote>¿qué le pasa a tu mente?</quote>
+	           <year>1983</year>
+             <country>ES</country>    
+      </track>
+      <track><artist>Los Nikis</artist>
+             <title>Olaf El Vikingo</title>
+             <quote>no existe el miedo para olaf</quote>
+	           <year>1985</year>
+             <country>ES</country>    
+      </track>
+      <track><artist>Vulpes</artist>
+             <title>Me Gusta Ser Una Zorra</title>
+             <quote>prefiero joder con ejecutivos</quote>
+	           <year>1983</year>
+             <country>ES</country>    
+      </track>
+      <track><artist>Alaska Y Los Pegamoides</artist>
+             <title>Horror En El Hipermercado</title>
+             <quote>¿de quién es esta cabeza, este brazo, esta pierna?</quote>
+	           <year>1980</year>
+             <country>ES</country>    
+      </track>
+      <track><artist>Paralisis Permanente</artist>
+             <title>Quiero Ser Tu Perro</title>
+             <quote>ahora quiero ser tu esclavo</quote>
+	           <year>1982</year>
+             <country>ES</country>    
+      </track>
+      <track><artist>Gabinete Caligari</artist>
+             <title>Olor A Carne Quermeda</title>
+             <quote>de repente me di cuenta de lo fácil es matar</quote>
+	           <year>1982</year>
+             <country>ES</country>    
+      </track>
+      <track><artist>Las Chinas</artist>
+             <title>El Hombre Salvaje</title>
+             <quote>se ha arruinado mi peinado</quote>
+	           <year>1980</year>
+             <country>ES</country>    
+      </track>
+      <track><artist>091</artist>
+             <title>Fuego En Mi Oficina</title>
+             <quote>hoy me decidí, eché el combustible, quise verla arder pero tuve que irme.</quote>
+	           <year>1983</year>
+             <country>ES</country>    
+      </track>
+      <track><artist>Ole Ole</artist>
+             <title>No Controles</title>
+             <quote>porque es total y a todo el mundo gusto</quote>
+	           <year>1983</year>
+             <country>ES</country>    
+      </track>
+      <track><artist>Metal Y Ca</artist>
+             <title>Velocidad</title>
+             <quote>ya no se con que jugar</quote>
+	           <year>1983</year>
+             <country>ES</country>    
+      </track>  
+      <track><artist>Aviador Dro</artist>
+             <title>La Chica De Plexiglas</title>
+             <quote>una mirada incandescente, una descarga de corriente</quote>
+	           <year>1980</year>
+             <country>ES</country>    
+      </track>
+      <track><artist>Hombres G</artist>
+             <title>Venezia</title>
+             <quote>pasaremos de la mafia, nos bañaremos en la playa</quote>
+	           <year>1980</year>
+             <country>ES</country>    
+      </track>
+      <track><artist>Los Secretos</artist>
+             <title>Déjame</title>
+             <quote>tuviste una oportunidad y la dejaste escapar</quote>
+	           <year>1981</year>
+             <country>ES</country>    
+      </track>
+      <track><artist>Almodóvar &amp; McNamara</artist>
+             <title>Voy A Ser Mama</title>
+             <quote>le enseñaré a vivir de la prostitución, le enseñaré a matar</quote>
+	           <year>1983</year>
+             <country>ES</country>    
+      </track>    
+      <track><artist>Ejecutivos Agresivos</artist>
+             <title>Mari Pili</title>
+             <quote>no, no, no, no me excites, por favor</quote>
+	           <year>1980</year>
+             <country>ES</country>    
+      </track>
+      <track><artist>Los Funkcionarios</artist>
+             <title>Honolulu</title>
+             <quote>no quiero verte jamás</quote>
+	           <year>1982</year>
+             <country>ES</country>    
+      </track>
+      <track><artist>Dulce Venganze</artist>
+             <title>Quiero Matar A Una Chica</title>
+             <quote>es la historia de un amigo con un transtorno mental</quote>
+	           <year>1983</year>
+             <country>ES</country>    
+      </track>
+      <track><artist>Objetivo Birmania</artist>
+             <title>Desidia</title>
+             <quote>pues no quiero trabajar</quote>
+	           <year>1984</year>
+             <country>ES</country>    
+      </track>
+      <track><artist>Décima Victima</artist>
+             <title>Tan Lejos</title>
+             <quote>sé que ya es tarde</quote>
+	           <year>1982</year>
+             <country>ES</country>    
+      </track>
+      </cd>    
+      
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" type = "jpg">dnj20101</cover>
+    <fontsize>11</fontsize>
+    <adj>13</adj>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2010</year>
+    <month>2</month>
+    <by>DJ MAD.e</by>
+  </meta>
+</wgcompilation>

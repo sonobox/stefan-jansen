@@ -1,0 +1,138 @@
+<wgcompilation>
+
+  <title>Blast Off!</title>
+  <season>Jansen / Zeileis - Das Nächste Jahrtausend</season>
+  <number>2004.1</number>
+
+  <content>
+   <cd>
+    <track><artist>Venus In Furs</artist>
+           <title>When I Acquire You</title>
+           <quote>so don't lose your head till we reach the guillotine; come join all your friends in my happiness-maschine</quote>
+           <year>1989</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Neon</artist>
+           <title>Dark Age</title>
+           <quote>day after day you're away</quote>
+           <year>1984</year>
+           <country>IT</country>
+    </track>
+    <track><artist>Class Action</artist>
+           <title>Blast Off</title>
+           <quote>all i want to do is... blast off!</quote>
+           <year>1984</year>
+           <country>US</country>
+    </track>
+    <track><artist>Charles De Goal</artist>
+           <title>Un Jeu D'Enfant</title>
+           <quote>un cris, un choc, un accident</quote>
+           <year>1985</year>
+           <country>FR</country>
+    </track>
+    <track><artist>X-Ray Pop</artist>
+           <title>La Machine Á Rêver</title>
+           <quote>a soûlé le réell dépassant l'immortal</quote>
+           <year>1984</year>
+           <country>FR</country>
+    </track>
+    <track><artist>Aviador Dro</artist>
+           <title>El Último Asalto A La Bastilla</title>
+           <quote>la potencia del futuro</quote>
+           <year>1982</year>
+           <country>ES</country>
+    </track>
+    <track><artist>Das Kabinette</artist>
+           <title>The Cabinet</title>
+           <quote>how long should i live</quote>
+           <year>1983</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Sexy Angels</artist>
+           <title>Mathematic Mind</title>
+           <quote>all the things are in my mind, 'cause i got a mathematic mind</quote>
+           <year>1983</year>
+           <country>IT</country>
+    </track>
+    <track><artist>Martin Dupont</artist>
+           <title>I Met The Beast</title>
+           <quote>see, there's a logic they don't need</quote>
+           <year>1985</year>
+           <country>FR</country>
+    </track>
+    <track><artist>Gleitzeit</artist>
+           <title>Ich Komme Aus Der DDR</title>
+           <quote>ich werde einfach millionär und kaufe dann die ddr</quote>
+           <year>1982</year>
+           <country>DE</country>
+    </track>
+    <track><artist>The Actor</artist>
+           <title>Deutsches Mädchen</title>
+           <quote>sie trinkt zuviel likör und sie raucht sich bald zu tod</quote>
+           <year>1982</year>
+           <country>NL</country>
+    </track>
+    <track><artist>Der Fluch</artist>
+           <title>Rattengift</title>
+           <quote>ich geb' euch rattengift und zyklon b gibt's auch</quote>
+           <year>1982</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Grauzone</artist>
+           <title>Hinter Den Bergen</title>
+           <quote>hinter den bergen kneift maggie t. queen elisabeth in den hintern</quote>
+           <year>1981</year>
+           <country>CH</country>
+    </track>
+    <track><artist>Die Radierer</artist>
+           <title>Angriff Auf's Schlaraffenland</title>
+           <quote>klappen auf zwo drei, napalm 'raus</quote>
+           <year>1980</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Soft Cell</artist>
+           <title>Metro MRX</title>
+           <quote>he's my favourite mutant</quote>
+           <year>1981</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Trisomie 21</artist>
+           <title>Breaking Down</title>
+           <quote>logic of life</quote>
+           <year>1983</year>
+           <country>FR</country>
+    </track>
+    <track><artist>The Neon Judgement</artist>
+           <title>T.V. Treated</title>
+           <quote>to get your moment, moment, moment, moment, moment, moment, moment you and me</quote>
+           <year>1982</year>
+           <country>NL</country>
+    </track>
+    <track><artist>XTC</artist>
+           <title>Making Plans For Nigel</title>
+           <quote>we only want what's best for him</quote>
+           <year>1979</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Caroline K</artist>
+           <title>Don't Believe It's Over</title>
+           <quote>don't believe it's over...</quote>
+           <year>1983</year>
+           <country>GB</country>
+    </track>
+   </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" type = "jpg">dnj20041</cover>
+    <fontsize>12</fontsize>
+    <adj>10</adj>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2004</year>
+    <month>2</month>
+    <by>DJ MAD.e</by>
+  </meta>
+</wgcompilation>

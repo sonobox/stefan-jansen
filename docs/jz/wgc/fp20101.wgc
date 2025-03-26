@@ -1,0 +1,121 @@
+<wgcompilation>
+  <title>Just Like 1981</title>
+  <season>Future Pop</season>
+  <number>2010.1</number>
+  <content>
+   <cd>
+    <track><artist>Datafreq</artist>
+           <title>Just Like 1981</title>
+           <year>2006</year>
+           <country>CA</country>
+    </track>
+    <track><artist>Suicide Booth</artist>
+           <title>Back In Time</title>
+           <year>2008</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Das M</artist>
+           <title>Sturzflug Durch Das Weltbild</title>
+           <year>2008</year>
+           <country>AT</country>
+    </track>
+    <track><artist>QEK Junior</artist>
+           <title>Kopfkino</title>
+           <year>2009</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Neongrau</artist>
+           <title>Photographic</title>
+           <year>2007</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Bondage Fairies</artist>
+           <title>nv4.dll</title>
+           <year>2009</year>
+           <country>SE</country>
+    </track>
+    <track><artist>Testsieger</artist>
+           <title>Actionfiguren</title>
+           <year>2009</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Kinder Aus Asbest</artist>
+           <title>Kraftstoff</title>
+           <year>2007</year>
+           <country>SE</country>
+    </track>      
+    <track><artist>Bleiburg</artist>
+           <title>Pokoljenje (Remix by Rhesus Factor)</title>
+           <year>2007</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Dr. Doomsday &amp; His Nuclear Wisemen</artist>
+           <title>Keine Synthese</title>
+           <year>2007</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Acid.Milch&amp;Honig</artist>
+           <title>All This Freebie Things</title>
+           <year>2008</year>
+           <country>DE</country>
+    </track>    
+    <track><artist>File Not Found</artist>
+           <title>Shut Up!</title>
+           <year>2009</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Legopop</artist>
+           <title>Legopop</title>
+           <year>2006</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Slagsmålsklubben</artist>
+           <title>Hänt</title>
+           <year>2007</year>
+           <country>SE</country>
+    </track>
+    <track><artist>Trans-Active Nightzone</artist>
+           <title>She's Lost Control</title>
+           <year>2008</year>
+           <country>DE</country>
+    </track>
+    <track><artist>The Rorschach Garden</artist>
+           <title>Private Games</title>
+           <year>2005</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Fan Of '83</artist>
+           <title>For All Friends</title>
+           <year>2007</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Lesbian Mouseclicks</artist>
+           <title>Double Déjà-Vu</title>
+           <year>2008</year>
+           <country>NL</country>
+    </track>    
+    <track><artist>Klement</artist>
+           <title>Derby</title>
+           <year>2008</year>
+           <country>FR</country>
+    </track>
+    <track><artist>Solitude FX</artist>
+           <title>Amore</title>
+           <year>2006</year>
+           <country>DE</country>
+    </track>
+  
+   </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" back = "TRUE" type = "jpg">fp20101</cover>
+    <fontsize>7</fontsize>
+    <frame>TRUE</frame>
+  </layout>
+  <meta>
+    <year>2010</year>
+    <month>7</month>
+    <by>DJ MAD.e</by>
+  </meta>
+</wgcompilation>

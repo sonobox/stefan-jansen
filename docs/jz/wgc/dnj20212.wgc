@@ -1,0 +1,124 @@
+<wgcompilation>
+  <title>Mistress Of The Dark</title> 
+  <season>Jansen / Zeileis - Das Nächste Jahrtausend</season>
+  <number>2021.2</number>
+  <content>
+    <cd>
+      <track><artist>The Chameleons</artist>
+             <title>Don't Fall</title>
+             <quote>in his autumn before the winter comes man's last mad surge of youth. what on earth are you talking about?</quote>
+             <year>1983</year>
+             <country>GB</country>
+      </track>
+      <track><artist>Killing Joke</artist>
+             <title>Love Like Blood</title>
+             <quote>strength and beauty destined to decay</quote>
+             <year>1985</year>
+             <country>GB</country>
+      </track>
+      <track><artist>The Bollock Brothers</artist>
+             <title>Faith Healer</title>
+             <quote>you want to take away the pain, go out walking in the rain</quote>
+             <year>1986</year>
+             <country>GB</country>
+      </track>
+      <track><artist>Lords Of The New Church</artist>
+             <title>Dance With Me</title>
+             <quote>love can be like bondage, seduce me once again</quote>
+             <year>1983</year>
+             <country>GB</country>
+      </track>
+      <track><artist>The House Of Love</artist>
+             <title>Shine On</title>
+             <quote>little jesus are you watching me?</quote>
+             <year>1989</year>
+             <country>GB</country>
+      </track>
+      <track><artist>The Church</artist>
+             <title>Under The Milky Way</title>
+             <quote>i think about the loveless fascination</quote>
+             <year>1988</year>
+             <country>AU</country>
+      </track>
+      <track><artist>Echo &amp; The Bunnymen</artist>
+             <title>The Killing Moon</title>
+             <quote>i know it must be the killing time, unwillingly mine</quote>
+             <year>1983</year>
+             <country>GB</country>
+      </track>
+      <track><artist>Clan Of Xymox</artist>
+             <title>Louise</title>
+             <quote>my heart used to beat, now it only weeps</quote>
+             <year>1986</year>
+             <country>NL</country>
+      </track>
+      <track><artist>The Cure</artist>
+             <title>Fascination Street</title>
+             <quote>let's move to the beat like we know that it's over</quote>
+             <year>1989</year>
+             <country>GB</country>
+      </track>
+      <track><artist>The Bolshoi</artist>
+             <title>A Way</title>
+             <quote>today's a special day, so let's not fight, ok?</quote>
+             <year>1986</year>
+             <country>GB</country>
+      </track>
+      <track><artist>The Sisters Of Mercy</artist>
+             <title>This Corrosion</title>
+             <quote>on days like this, in times like these, i feel an animal deep inside</quote>
+             <year>1987</year>
+             <country>GB</country>
+      </track>
+      <track><artist>Pink Turns Blue</artist>
+             <title>Walking On Both Sides</title>
+             <quote>who likes to sit around and wait but to act that means to fail</quote>
+             <year>1987</year>
+             <country>DE</country>
+      </track>
+      <track><artist>The Mission</artist>
+             <title>Wasteland</title>
+             <quote>i live for the sword, the steel, and the gun</quote>
+             <year>1986</year>
+             <country>GB</country>
+      </track>
+      <track><artist>The Cult</artist>
+             <title>She Sells Sanctuary</title>
+             <quote>the heads that turn make my back burn</quote>
+             <year>1985</year>
+             <country>GB</country>
+      </track>
+      <track><artist>Fields Of The Nephilim</artist>
+             <title>Preacher Man</title>
+             <quote>we don't feel no contamination</quote>
+             <year>1987</year>
+             <country>GB</country>
+      </track>
+      <track><artist>New Model Army</artist>
+             <title>No Rest</title>
+             <quote>four o'clock in the morning and still we cannot sleep</quote>
+             <year>1985</year>
+             <country>GB</country>
+      </track>
+      <track><artist>Phillip Boa &amp; The Voodooclub</artist>
+             <title>Kill Your Ideals</title>
+             <quote>little sailors, galactic loosers, sail in the harbour of fate</quote>
+             <year>1987</year>
+             <country>DE</country>
+      </track>
+   </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" type = "jpg">dnj20212</cover>
+    <fontsize>11.4</fontsize>
+    <adj>11.7</adj>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2021</year>
+    <month>8</month>
+    <by>Z</by>
+  </meta>
+</wgcompilation>

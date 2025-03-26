@@ -1,0 +1,132 @@
+<wgcompilation>
+  <title>Nachtlinie</title>
+  <season>Future Pop</season>
+  <number>2022.1</number>
+
+  <content>
+   <cd>
+    <track><artist>Edwin Rosen</artist>
+           <title>Verschwende Deine Zeit</title>
+           <year>2021</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Leuchtstoff</artist>
+           <title>Einfach Sein (Demo)</title>
+           <year>2021</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Traumatin</artist>
+           <title>Verdien Dich Nicht</title>
+           <year>2021</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Risikotoleranz</artist>
+           <title>Elektrodeponie</title>
+           <year>2019</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Konstantin Unwohl</artist>
+           <title>Der Duft Des Roggens</title>
+           <year>2021</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Herr Schneidenbach</artist>
+           <title>Klebriger Mond</title>
+           <year>2017</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Carlo Onda</artist>
+           <title>Kein Klare Gedanke</title>
+           <year>2019</year>
+           <country>CH</country>
+    </track>
+    <track><artist>Werner Karloff</artist>
+           <title>Dreiecke Und Quadrate</title>
+           <year>2016</year>
+           <country>MX</country>
+    </track>
+    <track><artist>Oberst Panizza</artist>
+           <title>Im Kalten See</title>
+           <year>2019</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Sickdoll &amp; The Nuclear Shades</artist>
+           <title>Neues Aus Nimmerland</title>
+           <year>2015</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Karl Kave</artist>
+           <title>Halt Dich Fest</title>
+           <year>2020</year>
+           <country>CH</country>
+    </track>
+    <track><artist>Anti Trust</artist>
+           <title>Tentakel</title>
+           <year>2014</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Tilly Electronics</artist>
+           <title>Roboterliebe</title>
+           <year>2019</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Zweite Jugend &amp; Liss Eulenherz</artist>
+           <title>Die Ganze Nacht</title>
+           <year>2020</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Plastikstrom</artist>
+           <title>Grosny</title>
+           <year>2019</year>
+           <country>DE</country>
+    </track>
+    <track><artist>QEK Junior</artist>
+           <title>Erörterung Basaler Kapitalistischer Prinzipien In Knapp Drei Minuten (Jawoll Herr Schmidt)</title>
+           <year>2019</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Endlose Emotion</artist>
+           <title>Mirage</title>
+           <year>2020</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Division Fledermaus</artist>
+           <title>Allein</title>
+           <year>2019</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Ton8</artist>
+           <title>Dein Blick In Der Discotheque</title>
+           <year>2019</year>
+           <country>DE</country>
+    </track>
+    <track><artist>LisaWars</artist>
+           <title>Daida</title>
+           <year>2018</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Metal Disco feat. Chroma Carbon</artist>
+           <title>Pulverfass</title>
+           <year>2019</year>
+           <country>GR</country>
+    </track>
+    <track><artist>Nomen Est Omen</artist>
+           <title>...Niemals Kannt</title>
+           <year>2021</year>
+           <country></country>
+    </track>
+   </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" back = "TRUE" type = "jpg">fp20221</cover>
+    <fontsize>7</fontsize>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2022</year>
+    <month>2</month>
+    <by>Z</by>
+  </meta>
+</wgcompilation>

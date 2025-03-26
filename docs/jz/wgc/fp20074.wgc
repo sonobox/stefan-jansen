@@ -1,0 +1,116 @@
+<wgcompilation>
+  <title>We Do Electro</title>
+  <season>Future Pop</season>
+  <number>2007.4</number>
+  <content>
+   <cd>
+    <track><artist>The Capricorns</artist>
+           <title>The New Sound</title>
+           <year>2001</year>
+           <country>US</country>
+    </track>
+    <track><artist>Fiji</artist>
+           <title>Le Loup</title>
+           <year>2006</year>
+           <country>CH</country>
+    </track>
+    <track><artist>Client</artist>
+           <title>Down To The Underground</title>
+           <year>2004</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Robots In Disguise</artist>
+           <title>Hot Gossip (IAMX Sexual Helium Mix)</title>
+           <year>2006</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Rhythm King And Her Friends</artist>
+           <title>Get Paid (Smash Up Mix by Robots In Disguise / IAMX)</title>
+           <year>2004</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Alien Skull Paint</artist>
+           <title>Nobody Dies Twice</title>
+           <year>2004</year>
+           <country>DE</country>
+    </track>
+    <track><artist>The Presets</artist>
+           <title>Down Down Down (Midnight Juggernauts Remix)</title>
+           <year>2006</year>
+           <country>AU</country>
+    </track>
+    <track><artist>Dan Le Sac vs. Scroobius Pip</artist>
+           <title>Thou Shalt Always Kill (Knifehandchop Remix)</title>
+           <year>2007</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Christopher Just &amp; Raphael Just</artist>
+           <title>Popper (Shinichi Osawa Distortion Remix)</title>
+           <year>2006</year>
+           <country>AT</country>
+    </track>
+    <track><artist>Der Tante Renate</artist>
+           <title>Betarock</title>
+           <year>2007</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Digitalism</artist>
+           <title>The Pulse</title>
+           <year>2007</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Peaches</artist>
+           <title>Sex (I'm A)</title>
+           <year>2002</year>
+           <country>CA</country>
+    </track>
+    <track><artist>Calvin Harris</artist>
+           <title>Vegas</title>
+           <year>2007</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Kid Alex</artist>
+           <title>Young &amp; Beautiful (Radio Edit)</title>
+           <year>2006</year>
+           <country>DE</country>
+    </track>
+    <track><artist>IAMX</artist>
+           <title>After Every Party I Die</title>
+           <year>2006</year>
+           <country>GB</country>
+    </track>
+    <track><artist>MSTRKRFT</artist>
+           <title>She's Good For Business</title>
+           <year>2006</year>
+           <country>CA</country>
+    </track>
+    <track><artist>Poni Hoax</artist>
+           <title>Budapest</title>
+           <year>2005</year>
+           <country>FR</country>
+    </track>
+    <track><artist>The Knife</artist>
+           <title>Girls' Night Out</title>
+           <year>2003</year>
+           <country>SE</country>
+    </track>
+    <track><artist>The Mighty Boosh</artist>
+           <title>Electro</title>
+           <year>2004</year>
+           <country>GB</country>
+    </track>
+   </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" back = "TRUE" type = "jpg">fp20074</cover>
+    <fontsize>7</fontsize>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2007</year>
+    <month>9</month>
+    <by>DJ MAD.e</by>
+  </meta>
+</wgcompilation>

@@ -1,0 +1,112 @@
+<wgcompilation>
+  <title>Time And Relative Dimension In Space</title>
+  <season>Future Pop</season>
+  <number>2006.4</number>
+
+  <content>
+   <cd>
+    <track><artist>Ron Grainer / Peter Howell</artist>
+           <title>Doctor Who</title>
+           <year>1980</year>
+           <country>AU</country>
+    </track>
+    <track><artist>Spleen United</artist>
+           <title>She Falls In Love With Machines</title>
+           <year>2005</year>
+           <country>DK</country>
+    </track>
+    <track><artist>Covenant</artist>
+           <title>The Men</title>
+           <year>2006</year>
+           <country>SE</country>
+    </track>
+    <track><artist>DMX Krew</artist>
+           <title>Adrenalin Flow (Re-Edit)</title>
+           <year>2005</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Terry Grant</artist>
+           <title>Komputers Are The Devil (Deus Ex Machina Mix)</title>
+           <year>2006</year>
+           <country>US</country>
+    </track>
+    <track><artist>Members Of Mayday</artist>
+           <title>Sonic Empire</title>
+           <year>1997</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Das Bierbeben</artist>
+           <title>Sturm Brich Los</title>
+           <year>2002</year>
+           <country>DE</country>
+    </track>
+    <track><artist>XLOVER</artist>
+           <title>Lovesucker</title>
+           <year>2005</year>
+           <country>US</country>
+    </track>
+    <track><artist>Ladytron</artist>
+           <title>Nothing To Hide</title>
+           <year>2005</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Tiga</artist>
+           <title>Sir, Sir, Sir</title>
+           <year>2006</year>
+           <country>CA</country>
+    </track>
+    <track><artist>James Figurine</artist>
+           <title>55566688833</title>
+           <year>2006</year>
+           <country>US</country>
+    </track>
+    <track><artist>Welle:Erdball</artist>
+           <title>Nur Tote Frauen Sind Schön</title>
+           <year>2003</year>
+           <country>DE</country>
+    </track>
+    <track><artist>David Michael Cross</artist>
+           <title>Future Man</title>
+           <year>2003</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Jimi Tenor</artist>
+           <title>Sugardaddy</title>
+           <year>1997</year>
+           <country>FI</country>
+    </track>
+    <track><artist>She Wants Revenge</artist>
+           <title>Spend The Night</title>
+           <year>2006</year>
+           <country>US</country>
+    </track>
+    <track><artist>Millenia Nova feat. Iggy Pop</artist>
+           <title>Rockicide</title>
+           <year>2003</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Lesbians On Ecstasy</artist>
+           <title>Tell Me Does She Love The Bass</title>
+           <year>2004</year>
+           <country>CA</country>
+    </track>
+    <track><artist>Zyon</artist>
+           <title>No Fate (Struggle Continous Mix)</title>
+           <year>1991</year>
+           <country>DE</country>
+    </track>
+   </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" back = "TRUE" type = "jpg">fp20064</cover>
+    <fontsize>7</fontsize>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2006</year>
+    <month>9</month>
+    <by>Z</by>
+  </meta>
+</wgcompilation>

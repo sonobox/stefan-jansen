@@ -1,0 +1,118 @@
+<wgcompilation>
+  <title>Kraftwerkesk</title>
+  <season>Future Pop</season>
+  <number>2010.2</number>
+
+  <content>
+   <cd>
+    <track><artist>MIT</artist>
+           <title>Hydra</title>
+           <year>2010</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Welle:Erdball</artist>
+           <title>Der Telefonanruf</title>
+           <year>1998</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Sonnenbrandt</artist>
+           <title>Radio</title>
+           <year>2008</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Mutter</artist>
+           <title>Heb Dir Deine Tränen Für Jemand Anders Auf (317 Wurst Remix)</title>
+           <year>2001</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Erstes Wiener Heimorgelorchester</artist>
+           <title>Oliven &amp; Schafkäse</title>
+           <year>2005</year>
+           <country>AT</country>
+    </track>
+    <track><artist>Ascii Disko</artist>
+           <title>Photos</title>
+           <year>2003</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Karl Bartos</artist>
+           <title>15 Minutes Of Fame (Radio Edit)</title>
+           <year>2000</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Ken Hayakawa</artist>
+           <title>Wien Bei Nacht</title>
+           <year>2010</year>
+           <country>AT</country>
+    </track>
+    <track><artist>Justus Köhncke</artist>
+           <title>Was Ist Musik?</title>
+           <year>2002</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Amanshauser &amp; Wenzl</artist>
+           <title>Stalin</title>
+           <year>2005</year>
+           <country>AT</country>
+    </track>
+    <track><artist>Jeans Team</artist>
+           <title>Silizium</title>
+           <year>2006</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Komputer</artist>
+           <title>Looking Down On London</title>
+           <year>1996</year>
+           <country>GB</country>
+    </track>
+    <track><artist>FPU</artist>
+           <title>Crockett's Theme (Tiga's White Linen Vox)</title>
+           <year>2002</year>
+           <country>SE</country>
+    </track>
+    <track><artist>DMX Krew</artist>
+           <title>1-2-3</title>
+           <year>2002</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Steril</artist>
+           <title>Amor Electronique</title>
+           <year>2000</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Dopplereffekt</artist>
+           <title>Scientist</title>
+           <year>2001</year>
+           <country>US</country>
+    </track>
+    <track><artist>Japanese Telecom</artist>
+           <title>Virtual Origami</title>
+           <year>2001</year>
+           <country>US</country>
+    </track>
+    <track><artist>Futon</artist>
+           <title>I Wanna Be Your Dog</title>
+           <year>2003</year>
+           <country>TH</country>
+    </track>
+    <track><artist>Hikashu</artist>
+           <title>The Model</title>
+           <year>1982</year>
+           <country>JP</country>
+    </track>
+   </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" back = "TRUE" type = "jpg">fp20102</cover>
+    <fontsize>7</fontsize>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2010</year>
+    <month>12</month>
+    <by>Z</by>
+  </meta>
+
+</wgcompilation>

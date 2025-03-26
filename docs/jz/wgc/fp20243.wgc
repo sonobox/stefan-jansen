@@ -1,0 +1,121 @@
+<wgcompilation>
+  <title>Welcome To The Desert Of The Real</title>
+  <season>Future Pop</season>
+  <number>2024.3</number>
+  <content>
+   <cd>
+    <track><artist>The Masqs</artist>
+           <title>Dancing On Your Grave</title>
+           <year>2023</year>
+           <country>US</country>
+    </track>
+    <track><artist>Vilevo</artist>
+           <title>The Light</title>
+           <year>2024</year>
+           <country>MX</country>
+    </track>
+    <track><artist>Sydney Valette</artist>
+           <title>Please</title>
+           <year>2016</year>
+           <country>FR</country>
+    </track>
+    <track><artist>SDH</artist>
+           <title>Hectic</title>
+           <year>2023</year>
+           <country>ES</country>
+    </track>
+    <track><artist>Amor De Paris</artist>
+           <title>Don't Let Me Go</title>
+           <year>2023</year>
+           <country>US</country>
+    </track>
+     <track><artist>Cuffed</artist>
+           <title>Possessed</title>
+           <year>2023</year>
+           <country>US</country>
+    </track>
+     <track><artist>Darkways</artist>
+           <title>Lies</title>
+           <year>2024</year>
+           <country>ES</country>
+    </track>
+     <track><artist>No+Ana</artist>
+           <title>Stop Me</title>
+           <year>2023</year>
+           <country>CA</country>
+    </track>
+    <track><artist>Ohne Nomen</artist>
+           <title>No Fear</title>
+           <year>2023</year>
+           <country>IT</country>
+    </track>    
+    <track><artist>Nuovo Testamento</artist>
+           <title>Golden Boy</title>
+           <year>2021</year>
+           <country>US</country>
+    </track>
+    <track><artist>Riki</artist>
+           <title>Böse Lügen (Body Mix)</title>
+           <year>2020</year>
+           <country>US</country>
+     </track>
+     <track><artist>Mr. Kitty</artist>
+            <title>0% Angel</title>
+            <year>2019</year>
+            <country>US</country>
+     </track>
+     <track><artist>Continues</artist>
+            <title>Unsweetened</title>
+            <year>2018</year>
+            <country>US</country>
+     </track>
+     <track><artist>Carlo Onda feat. Blanche Biau</artist>
+            <title>Kette</title>
+            <year>2023</year>
+            <country>CH</country>
+     </track>
+     <track><artist>Büro</artist>
+            <title>Bouquet</title>
+            <year>2023</year>
+            <country>CH</country>
+     </track>
+     <track><artist>Молчат Дома</artist>
+            <title>Утонуть / Utonut'</title>
+            <year>2020</year>
+            <country>BY</country>
+     </track>
+     <track><artist>Sashadidntwakeup</artist>
+            <title>От Винта</title>
+            <year>2023</year>
+            <country>UA</country>
+     </track>
+     <track><artist>XTR Human</artist>
+            <title>Hammerhart</title>
+            <year>2022</year>
+            <country>DE</country>
+     </track>
+     <track><artist>Kasvot</artist>
+            <title>Huominen</title>
+            <year>2023</year>
+            <country>FI</country>
+     </track>
+     <track><artist>DIAF</artist>
+            <title>Nacht</title>
+            <year>2020</year>
+            <country>DE</country>
+     </track>  
+   </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" back = "TRUE" type = "jpg">fp20243</cover>
+    <fontsize>7</fontsize>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2024</year>
+    <month>6</month>
+    <by>DJ MAD.e</by>
+  </meta>
+</wgcompilation>

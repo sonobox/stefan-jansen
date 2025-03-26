@@ -1,0 +1,133 @@
+<wgcompilation>
+  <title>Technikscheiße</title>
+  <season>Future Pop</season>
+  <number>2014.1</number>
+  <content>
+   <cd>
+
+    <track><artist>Fettes Brot</artist>
+           <title>KussKussKuss (Als Wär's Ein D.A.F. Remix)</title>
+           <year>2014</year>
+           <country>DE</country>
+    </track>
+    <track><artist>RockRainer &amp; Typ:t.u.r.b.o.</artist>
+           <title>Völlig Überschätzt</title>
+           <year>2011</year>
+           <country>DE</country>
+    </track>
+    <track><artist>GammaBlitzBoys</artist>
+           <title>Testversion</title>
+           <year>2014</year>
+           <country>DE</country>
+    </track>
+    <track><artist>E123</artist>
+           <title>Einfach Lauter</title>
+           <year>2013</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Freakatronic</artist>
+           <title>Krötenwanderung</title>
+           <year>2010</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Egotronic</artist>
+           <title>Freakatronic</title>
+           <year>2013</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Diskocrunch feat. Ricco Raw</artist>
+           <title>Plastik</title>
+           <year>2012</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Inglorious Bassnerds feat. MC Schimmelkotze</artist>
+           <title>Bullenwagen Klaun</title>
+           <year>2012</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Granate Möller</artist>
+           <title>Zubroter</title>
+           <year>2012</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Typ:t.u.r.b.o.</artist>
+           <title>Provokation Hyperschall</title>
+           <year>2011</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Susanne Blech</artist>
+           <title>1000 Jahre Kraftwerk</title>
+           <year>2014</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Deichkind</artist>
+           <title>Leider Geil (Solomun Remix)</title>
+           <year>2012</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Keule</artist>
+           <title>Bisschen</title>
+           <year>2013</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Deine Jugend</artist>
+           <title>Serotonin</title>
+           <year>2013</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Saalschutz</artist>
+           <title>Die Von Freddie Mercury</title>
+           <year>2013</year>
+           <country>CH</country>
+    </track>
+    <track><artist>Testsieger</artist>
+           <title>Ausweg</title>
+           <year>2013</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Walter Kovacs</artist>
+           <title>Was Euch Gehört</title>
+           <year>2012</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Kratzeis</artist>
+           <title>Input/Output</title>
+           <year>2005</year>
+           <country>DE</country>
+    </track>
+    <track><artist>2:38</artist>
+           <title>Feuerwerk (Beat!Beat!Beat! Rmx)</title>
+           <year>2011</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Tubbe</artist>
+           <title>Lied Anstatt</title>
+           <year>2013</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Welle:Erdball</artist>
+           <title>Computerklang</title>
+           <year>2013</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Jeans Team</artist>
+           <title>Menschen (Sind Zum Träumen Da)</title>
+           <year>2013</year>
+           <country>DE</country>
+    </track>
+
+   </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" back = "TRUE" type = "jpg">fp20141</cover>
+    <fontsize>7</fontsize>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2014</year>
+    <month>3</month>
+    <by>Z</by>
+  </meta>
+</wgcompilation>

@@ -1,0 +1,113 @@
+<wgcompilation>
+  <title>Reuse, Reduce, Recycle</title>
+  <season>Future Pop</season>
+  <number>2019.1</number>
+
+<content>
+<cd>
+<track><artist>Dead Disco</artist>
+       <title>You're Out (Frankmuzik Remix)</title>
+       <year>2007</year>
+       <country>GB</country>
+</track>
+<track><artist>Ladyhawke</artist>
+       <title>My Delirium (Suggardaddy Remix)</title>
+       <year>2008</year>
+       <country>AU</country>
+</track>
+<track><artist>Näd Mika feat. Sexy Sushi</artist>
+       <title>Girlfriend (Schwefelgelb Mix)</title>
+       <year>2007</year>
+       <country>DE</country>
+</track>
+<track><artist>Cansei De Ser Sexy</artist>
+       <title>City Grrrl (Men Remix)</title>
+       <year>2011</year>
+       <country>BR</country>
+</track>
+<track><artist>Wintergatan</artist>
+       <title>Marble Machine (Julian Gray Remix)</title>
+       <year>2017</year>
+       <country>SE</country>
+</track>
+<track><artist>Kinder Aus Asbest</artist>
+       <title>Kraftstoff (Weltklang Remix)</title>
+       <year>2009</year>
+       <country>SE</country>
+</track>
+<track><artist>Dominik Nicolas</artist>
+       <title>Underground (Adan &amp; Ilse Remix)</title>
+       <year>2015</year>
+       <country>FR</country>
+</track>
+<track><artist>Bondage Fairies</artist>
+       <title>He-Man (Der Tante Renate Remix)</title>
+       <year>2006</year>
+       <country>SE</country>
+</track>
+<track><artist>Klaxons</artist>
+       <title>Atlantis To Interzone (Crystal Castles Remix)</title>
+       <year>2007</year>
+       <country>GB</country>
+</track>
+<track><artist>Johnny X</artist>
+       <title>Rodeo (Peter's Horny Mix)</title>
+       <year>2010</year>
+       <country>DE</country>
+</track>
+<track><artist>Crystal Casles</artist>
+       <title>Crimewave (LA Riots Remix)</title>
+       <year>2008</year>
+       <country>CA</country>
+</track>
+<track><artist>Kid Alex</artist>
+       <title>My Way (Kid Alex Boys Noize Remix)</title>
+       <year>2004</year>
+       <country>DE</country>
+</track>
+<track><artist>Ghost In The Water</artist>
+       <title>Dodging Lasers (Fear Of Tigers Remix)</title>
+       <year>2009</year>
+       <country>US</country>
+</track>
+<track><artist>Neongrau</artist>
+       <title>E-Chicks Hero (Datafreq Remix)</title>
+       <year>2007</year>
+       <country>DE</country>
+</track>
+<track><artist>Brigade Rosse</artist>
+       <title>Interzone BRD (The Rorschach Garden Remix)</title>
+       <year>2009</year>
+       <country>DE</country>
+</track>
+<track><artist>The 3 Cold Men</artist>
+       <title>3 Cold Men (Celluloide Remix)</title>
+       <year>2004</year>
+       <country>BR</country>
+</track>
+<track><artist>Celluloide</artist>
+       <title>Wounds Of Love (Classic Synthpop Edit)</title>
+       <year>2001</year>
+       <country>FR</country>
+</track>
+<track><artist>Nina Simone</artist>
+       <title>Sinnerman (Felix Da Housecat's Heavenly House Mix)</title>
+       <year>2003</year>
+       <country>US</country>
+</track>
+
+</cd>  
+</content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" back = "TRUE" type = "jpg">fp20191</cover>
+    <fontsize>8</fontsize>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2019</year>
+    <month>2</month>
+    <by>DJ MAD.e</by>
+  </meta>
+</wgcompilation>

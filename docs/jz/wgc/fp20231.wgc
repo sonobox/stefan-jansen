@@ -1,0 +1,124 @@
+<wgcompilation>
+  <title>Set The Night Ablaze</title>
+  <season>Future Pop</season>
+  <number>2023.1</number>
+  <content>
+   <cd>
+   <track><artist>Confrontational feat. Cody Carpenter</artist>
+           <title>Set The Night Ablaze</title>
+           <year>2017</year>
+           <country>IT</country>
+    </track>
+    <track><artist>Je T'Aime</artist>
+           <title>Give Me More Kohl</title>
+           <year>2022</year>
+           <country>FR</country>
+    </track>
+    <track><artist>A Projection</artist>
+           <title>No Control</title>
+           <year>2021</year>
+           <country>SE</country>
+    </track>
+    <track><artist>Undertheskin</artist>
+           <title>End This Summer(Single Version)</title>
+           <year>2020</year>
+           <country>PL</country>
+    </track>
+    <track><artist>Rue Oberkampf</artist>
+           <title>Somebody Else</title>
+           <year>2022</year>
+           <country>FR</country>
+    </track>
+    <track><artist>Bragolin</artist>
+           <title>Into Those Woods</title>
+           <year>2018</year>
+           <country>NL</country>
+   </track>
+   <track><artist>Geometric Vision</artist>
+           <title>Monodrone (Demo Version)</title>
+           <year>2016</year>
+           <country>IT</country>
+   </track>
+   <track><artist>Deus Ex Lumina</artist>
+           <title>Fight Back!</title>
+           <year>2023</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Nürnberg</artist>
+           <title>Himn</title>
+           <year>2023</year>
+           <country>BY</country>
+    </track>
+    <track><artist>Dade City Days</artist>
+           <title>Tenax</title>
+           <year>2016</year>
+           <country>IT</country>
+    </track>
+    <track><artist>Diavol Strâin</artist>
+           <title>Destino Destrucción</title>
+           <year>2021</year>
+           <country>CL</country>
+    </track>
+    <track><artist>Hoffen</artist>
+           <title>Ayer Me Dijo Un Ave</title>
+           <year>2021</year>
+           <country>MX</country>
+    </track>
+    <track><artist>This Eternal Decay</artist>
+           <title>Nocturnæ</title>
+           <year>2022</year>
+           <country>IT</country>
+    </track>     
+    <track><artist>Danny Elfman</artist>
+           <title>Happy (Boy Harsher Remix)</title>
+           <year>2022</year>
+           <country>US</country>
+    </track>
+    <track><artist>Vanseveren</artist>
+           <title>Black Sky</title>
+           <year>2022</year>
+           <country>FR</country>
+    </track>
+    <track><artist>BARI HARI</artist>
+           <title>Weapon</title>
+           <year>2021</year>
+           <country>US</country>
+    </track>
+    <track><artist>Ici Dixt-Sept</artist>
+           <title>Distance</title>
+           <year>2021</year>
+           <country>FR</country>
+    </track>
+    <track><artist>Jovana</artist>
+           <title>Sto Antitheto Revma</title>
+           <titleoriginal>Στο Αντίθετο Ρεύμα</titleoriginal>
+           <year>2023</year>
+           <country>GR</country>
+    </track>
+   <track><artist>Echoberyl feat. Gloria De Oliveira</artist>
+           <title>The Siren And The Ghost</title>
+           <year>2021</year>
+           <country>FR</country>
+   </track>
+   <track><artist>Kælan Mikla</artist>
+           <title>Stormurinn</title>
+           <year>2021</year>
+           <country>IS</country>
+    </track>
+    
+    
+   </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" back = "TRUE" type = "jpg">fp20231</cover>
+    <fontsize>7</fontsize>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2023</year>
+    <month>2</month>
+    <by>DJ MAD.e</by>
+  </meta>
+</wgcompilation>

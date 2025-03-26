@@ -1,0 +1,116 @@
+<wgcompilation>
+  <title>Kuschelelektro</title>
+  <season>Future Pop</season>
+  <number>2007.3</number>
+  <content>
+   <cd>
+    <track><artist>Sally Shapiro</artist>
+           <title>I'll Be By Your Side (Club Mix)</title>
+           <year>2006</year>
+           <country>SE</country>
+    </track>
+    <track><artist>Annie</artist>
+           <title>Heartbeat (Phones Maximo Remix)</title>
+           <year>2004</year>
+           <country>NO</country>
+    </track>
+    <track><artist>The Knife</artist>
+           <title>Heartbeats</title>
+           <year>2002</year>
+           <country>SE</country>
+    </track>
+    <track><artist>Ladytron</artist>
+           <title>Beauty*2</title>
+           <year>2005</year>
+           <country>GB</country>
+    </track>
+    <track><artist>New Young Pony Club</artist>
+           <title>Take Me I'm Yours</title>
+           <year>2007</year>
+           <country>GB</country>
+    </track>
+    <track><artist>The Presets</artist>
+           <title>Girls And The Sea</title>
+           <year>2005</year>
+           <country>AU</country>
+    </track>
+    <track><artist>Soffy O.</artist>
+           <title>Don't Go Away</title>
+           <year>2006</year>
+           <country>SE</country>
+    </track>
+    <track><artist>Client</artist>
+           <title>Here And Now</title>
+           <year>2003</year>
+           <country>GB</country>
+    </track>
+    <track><artist>No Comment</artist>
+           <title>This Is Your Lover Speaking (Celluloide Remix)</title>
+           <year>2002</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Sneaky Sound System</artist>
+           <title>I Love It</title>
+           <year>2006</year>
+           <country>AU</country>
+    </track>
+    <track><artist>Bondage Fairies</artist>
+           <title>Miss Volkova</title>
+           <year>2006</year>
+           <country>SE</country>
+    </track>
+    <track><artist>Les Rythmes Digitales</artist>
+           <title>Sometimes</title>
+           <year>1998</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Jay-Jay Johanson</artist>
+           <title>Déjà Vu</title>
+           <year>2002</year>
+           <country>SE</country>
+    </track>
+    <track><artist>Kid Alex</artist>
+           <title>True To You</title>
+           <year>2006</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Scissor Sisters</artist>
+           <title>The Other Side</title>
+           <year>2006</year>
+           <country>US</country>
+    </track>
+    <track><artist>Boytronic</artist>
+           <title>Photographs</title>
+           <year>1985</year>
+           <country>DE</country>
+    </track>
+    <track><artist>The Chemical Brothers</artist>
+           <title>Let Forever Be</title>
+           <year>1999</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Röyksopp</artist>
+           <title>Follow My Ruin</title>
+           <year>2005</year>
+           <country>NO</country>
+    </track>
+    <track><artist>Datarock</artist>
+           <title>The Most Beautiful Girl</title>
+           <year>2005</year>
+           <country>NO</country>
+    </track>
+   </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" back = "TRUE" type = "jpg">fp20073</cover>
+    <fontsize>7</fontsize>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2007</year>
+    <month>5</month>
+    <by>DJ MAD.e</by>
+  </meta>
+</wgcompilation>

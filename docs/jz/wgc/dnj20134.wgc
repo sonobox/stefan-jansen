@@ -1,0 +1,137 @@
+<wgcompilation>
+  <title>Mad Cow Disease</title> 
+  <season>Jansen / Zeileis - Das Nächste Jahrtausend</season>
+  <number>2013.4</number>
+  <content>
+    <cd>
+      <track><artist>Orbital</artist>
+             <title>Satan (Industry Standard Edit)</title>
+             <quote>it's better to regret something you have done than to regret something you haven't done</quote>
+	           <year>1996</year>
+	           <country>GB</country>
+      </track>
+      <track><artist>Empirion</artist>
+             <title>Narcotic Influence (Edit)</title>
+             <quote>giving them drugs taking their lives away</quote>
+	           <year>1996</year>
+	           <country>GB</country>
+      </track>
+      <track><artist>The Prodigy</artist>
+             <title>Poison (95EQ)</title>
+             <quote>i got the pulsating rhythmical remedy</quote>
+	           <year>1995</year>
+	           <country>GB</country>
+      </track>
+      <track><artist>The Chemical Brothers</artist>
+             <title>Elektrobank (Radio Edit)</title>
+             <quote>who is this, doing this, some static type of alpha beta psychedelic fuckin'?</quote>
+	           <year>1997</year>
+	           <country>GB</country>
+      </track>
+      <track><artist>Fluke</artist>
+             <title>Atom Bomb</title>
+             <quote>baby got a nobel prize given for the perfect crime</quote>
+	           <year>1996</year>
+	           <country>GB</country>
+      </track>
+      <track><artist>The Future Sound Of London</artist>
+             <title>We Have Explosive (Radio Edit)</title>
+             <quote>bovine spongiform encephalopathy</quote>
+	           <year>1997</year>
+	           <country>GB</country>
+      </track>
+      <track><artist>The Orb</artist>
+             <title>Toxygene</title>
+             <quote>now wait a minute</quote>
+	           <year>1997</year>
+	           <country>GB</country>
+      </track>
+      <track><artist>Fatboy Slim</artist>
+             <title>Right Here Right Now</title>
+             <quote>waking up to find your love's not real</quote>
+      	     <year>1998</year>
+	           <country>GB</country>
+      </track>
+      <track><artist>Lo Fidelity Allstars feat. Pigeonhead</artist>
+             <title>Battleflag (Radio Edit)</title>
+             <quote>got a revolution behind my eyes, we got to get up and organize</quote>
+	           <year>1998</year>
+	           <country>GB</country>
+      </track>
+      <track><artist>Apollo 440</artist>
+             <title>Raw Power</title>
+             <quote>right in your face</quote>
+      	     <year>1997</year>
+	           <country>GB</country>
+      </track>
+      <track><artist>Propellerheads</artist>
+             <title>Bang On!</title>
+             <quote>banks and banks of humming machinery, i've never seen so many knobs</quote>
+	           <year>1998</year>
+	           <country>GB</country>
+      </track>
+      <track><artist>CJ Bolland</artist>
+             <title>It Ain't Gonna Be Me</title>
+             <quote>who's gonna burn on the y2k too?</quote>
+	           <year>1998</year>
+	           <country>GB</country>
+      </track>
+      <track><artist>Goldie</artist>
+             <title>Temper Temper (Short Temper)</title>
+             <quote>you don't have to worry, what's done is done</quote>
+	           <year>1998</year>
+	           <country>GB</country>
+      </track>
+      <track><artist>Clint Mansell</artist>
+             <title>π\r² (Radio Edit)</title>
+             <quote>variant creutzfeldt-jakob disease</quote>
+	           <year>1998</year>
+	           <country>GB</country>
+      </track>
+      <track><artist>Autechre</artist>
+             <title>Second Bad Vilbel</title>
+             <quote>meat and bone meal</quote>
+	           <year>1995</year>
+	           <country>GB</country>
+      </track>
+      <track><artist>Squarepusher</artist>
+             <title>Vic Acid</title>
+             <quote>neurodegenerative disease</quote>
+      	     <year>1997</year>
+	           <country>GB</country>
+      </track>
+      <track><artist>Aphex Twin</artist>
+             <title>Girl/Boy Song</title>
+             <quote>epizootic</quote>
+	           <year>1996</year>
+	           <country>GB</country>
+      </track>
+      <track><artist>Finitribe</artist>
+             <title>Frantic (Radio Edit)</title>
+             <quote>his reaction: horror</quote>
+	           <year>1998</year>
+	           <country>GB</country>
+      </track>
+      <track><artist>Red</artist>
+             <title>Squealer</title>
+             <quote>buy british beef</quote>
+	           <year>1995</year>
+	           <country>GB</country>
+      </track>
+   </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" type = "jpg">dnj20134</cover>
+    <fontsize>11.5</fontsize>
+    <adj>12</adj>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2013</year>
+    <month>9</month>
+    <by>Z</by>
+  </meta>
+</wgcompilation>
+

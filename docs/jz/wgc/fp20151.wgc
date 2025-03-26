@@ -1,0 +1,122 @@
+<wgcompilation>
+  <title>Synthpop Is Dead, Future Wave Is Now!</title>
+  <season>Future Pop</season>
+  <number>2015.1</number>
+
+  <content>
+   <cd>
+    <track><artist>Neon Electronics</artist>
+           <title>Over And Over</title>
+           <year>2015</year>
+           <country>BE</country>
+    </track>
+    <track><artist>Le Cliché</artist>
+           <title>Red Movies</title>
+           <year>2015</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Sexy Sushi</artist>
+           <title>Calvaire</title>
+           <year>2013</year>
+           <country>FR</country>
+    </track>
+    <track><artist>Kinder Aus Asbest</artist>
+           <title>Dark</title>
+           <year>2012</year>
+           <country>SE</country>
+    </track>
+    <track><artist>Alien Skull Paint</artist>
+           <title>Desire At The Bad One</title>
+           <year>2006</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Solitude FX</artist>
+           <title>Starry Night</title>
+           <year>2014</year>
+           <country>DE</country>
+    </track>
+    <track><artist>The Neon Judgement</artist>
+           <title>Too Cold To Breathe (Vive La Fête Remix)</title>
+           <year>2005</year>
+           <country>BE</country>
+    </track>
+    <track><artist>Vive La Fête</artist>
+           <title>Everybody Hates Me</title>
+           <year>2010</year>
+           <country>BE</country>
+    </track>
+    <track><artist>La Femme</artist>
+           <title>Sur La Planche 2013</title>
+           <year>2013</year>
+           <country>FR</country>
+    </track>
+    <track><artist>Captain Capa</artist>
+           <title>A Forest On Fire</title>
+           <year>2012</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Crystal Castles feat. Robert Smith</artist>
+           <title>I'm Not In Love</title>
+           <year>2012</year>
+           <country>CA</country>
+    </track>
+    <track><artist>Die Krupps</artist>
+           <title>Robo Sapien (Mono Inc. Remix)</title>
+           <year>2014</year>
+           <country>DE</country>
+    </track>
+    <track><artist>QEK Junior</artist>
+           <title>1-0</title>
+           <year>2009</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Adán &amp; Ilse</artist>
+           <title>Puppets</title>
+           <year>2014</year>
+           <country>ES</country>
+    </track>
+    <track><artist>Oppenheimer MKII</artist>
+           <title>The Presence Of The Abnormal</title>
+           <year>2013</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Deine Jugend</artist>
+           <title>Sandstrand</title>
+           <year>2013</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Graphik Magazin</artist>
+           <title>Where Have The Years Gone? (The Time And The Rain)</title>
+           <year>2003</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Fraktus</artist>
+           <title>Supergau</title>
+           <year>2012</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Anne Clark feat. herrB</artist>
+           <title>Form</title>
+           <year>2014</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Peine Perdue</artist>
+           <title>Ectoplasme</title>
+           <year>2013</year>
+           <country>FR</country>
+    </track>
+ </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" back = "TRUE" type = "jpg">fp20151</cover>
+    <fontsize>7</fontsize>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2015</year>
+    <month>2</month>
+    <by>DJ MAD.e</by>
+  </meta>
+</wgcompilation>

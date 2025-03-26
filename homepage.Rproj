@@ -1,0 +1,18 @@
+Version: 1.0
+ProjectId: 732f8844-a905-4c08-ba2c-e3289c579243
+
+RestoreWorkspace: No
+SaveWorkspace: No
+AlwaysSaveHistory: No
+
+EnableCodeIndexing: Yes
+UseSpacesForTab: Yes
+NumSpacesForTab: 2
+Encoding: UTF-8
+
+RnwWeave: knitr
+LaTeX: pdfLaTeX
+
+PythonType: system
+PythonVersion: 3.12.3
+PythonPath: /usr/bin/python3.12

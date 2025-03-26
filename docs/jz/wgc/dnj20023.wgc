@@ -1,0 +1,150 @@
+<wgcompilation>
+
+  <title>Lambada, Lolita, Latino</title>
+  <season>Jansen / Zeileis - Das Nächste Jahrtausend</season>
+  <number>2002.3</number>
+
+  <content>
+   <cd>
+    <track><artist>Badesalz</artist>
+           <title>Das Rhythmusgerät</title>
+           <quote>wenn de lambada nisch dabei gewese wär, hätt isch das gerät nisch genomme</quote>
+           <year>1990</year>
+           <country>DE</country>    
+    </track>
+    <track><artist>Kaoma</artist>
+           <title>Lambada</title>
+           <quote>chorando se foi quem um dia so me fez chorar</quote>
+           <year>1989</year>
+           <country>FR</country>    
+    </track>
+    <track><artist>Britney Spears</artist>
+           <title>...Baby One More Time</title>
+           <quote>i must confess that my loneliness is killing me</quote>
+           <year>1998</year>
+           <country>US</country>    
+    </track>
+    <track><artist>Kylie Minogue</artist>
+           <title>Can't Get You Out Of My Head</title>
+           <quote>there's a dark secret in me</quote>
+           <year>2001</year>
+           <country>AU</country>    
+    </track>
+    <track><artist>Alizée</artist>
+           <title>Moi Lolita (Single Version)</title>
+           <quote>collégienne aux bas bleus de méthylène</quote>
+           <year>2000</year>
+           <country>FR</country>    
+    </track>
+    <track><artist>Jennifer Lopez</artist>
+           <title>Ain't It Funny</title>
+           <quote>life can be cruel in a way i can't explain</quote>
+           <year>2001</year>
+           <country>US</country>    
+    </track>
+    <track><artist>Shakira</artist>
+           <title>Suerte (Album Version)</title>
+           <quote>contigo, mi vida - quiero vivir la vida</quote>
+           <year>2001</year>
+           <country>CO</country>    
+    </track>
+    <track><artist>Natalia Oreiro</artist>
+           <title>Tu Veneno</title>
+           <quote>derrema el veneno que me esta matando</quote>
+           <year>2000</year>
+           <country>UY</country>    
+    </track>
+    <track><artist>Marcela Morelo</artist>
+           <title>No Me Lastimes</title>
+           <quote>déjame ver que el sol vuelve a brillar, no oh oh oh</quote>
+           <year>1997</year>
+           <country>AR</country>    
+    </track>
+    <track><artist>Christina Aguilera</artist>
+           <title>Genio Atrapado</title>
+           <quote>ohhh..., mi cuerpo dice quiero ohhh..., pero mi alma tiene miedo</quote>
+           <year>1999</year>
+           <country>US</country>    
+    </track>
+    <track><artist>Nosoträsh</artist>
+           <title>Mis Muñecas</title>
+           <quote>y me quedo sin jugar y me cuentan suicios cuentos que me hacen vomitar</quote>
+           <year>1997</year>
+           <country>ES</country>    
+    </track>
+    <track><artist>Marc Anthony</artist>
+           <title>I Need To Know</title>
+           <quote>it's getting harder not to think of you</quote>
+           <year>1999</year>
+           <country>US</country>    
+    </track>
+    <track><artist>Maná</artist>
+           <title>En El Muelle De San Blas</title>
+           <quote>sola, sola, en el olvido - sola, sola con su espíritu</quote>
+           <year>1997</year>
+           <country>MX</country>    
+    </track>
+    <track><artist>Gipsy Kings</artist>
+           <title>Hotel California (Spanish Mix)</title>
+           <quote>tenia una mercedes rodeada de chicos guapos</quote>
+           <year>1990</year>
+           <country>FR</country>    
+    </track>
+    <track><artist>Willy De Ville</artist>
+           <title>Demasiado Corazón</title>
+           <quote>standing in the rain - in the streets outside</quote>
+           <year>1993</year>
+           <country>US</country>    
+    </track>
+    <track><artist>Manu Chao</artist>
+           <title>Clandestino</title>
+           <quote>solo voy con mi pena - sola va mi condena</quote>
+           <year>1998</year>
+           <country>FR</country>    
+    </track>
+    <track><artist>Manu Chao</artist>
+           <title>Desaparecido</title>
+           <quote>me llaman el desapareciso - fantasma que nunca esta</quote>
+           <year>1998</year>
+           <country>FR</country>    
+    </track>
+    <track><artist>Mano Negra</artist>
+           <title>Mala Vida</title>
+           <quote>cada día se la traga mi corazón</quote>
+           <year>1988</year>
+           <country>FR</country>    
+    </track>
+    <track><artist>Molotov</artist>
+           <title>Gimme Tha Power</title>
+           <quote>viva méxico cabrones</quote>
+           <year>1997</year>
+           <country>MX</country>    
+    </track>
+    <track><artist>Alizée</artist>
+           <title>Moi Lolita (The Piano Version)</title>
+           <quote>dr.zoidberg: if i only had my wallet with me!</quote>
+           <year>2000</year>
+           <country>FR</country>    
+    </track>
+    <track><artist>Enrique Iglesias</artist>
+           <title>Rhythm Divine (Polish TV Version)</title>
+           <quote>can you feel the rhythm?</quote>
+           <year>2000</year>
+           <country>ES</country>    
+    </track>
+   </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" type = "jpg">dnj20023</cover>
+    <fontsize>11</fontsize>
+    <adj>11</adj>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2002</year>
+    <month>8</month>
+    <by>DJ MAD.e</by>
+  </meta>
+</wgcompilation>

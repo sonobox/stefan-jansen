@@ -1,0 +1,107 @@
+<wgcompilation>
+  <title>PC Legacy Technology</title>
+  <season>Future Pop</season>
+  <number>2021.3</number>
+
+  <content>
+   <cd>
+    <track><artist>Covenant</artist>
+           <title>Figurehead</title>
+           <year>1995</year>
+           <country>SE</country>
+    </track>
+    <track><artist>Apoptygma Berzerk</artist>
+           <title>Bitch</title>
+           <year>1993</year>
+           <country>NO</country>
+    </track>
+    <track><artist>The Eternal Afflict</artist>
+           <title>We Libanon You</title>
+           <year>1992</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Evils Toy</artist>
+           <title>Dear God</title>
+           <year>1994</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Project Pitchfork</artist>
+           <title>K.N.K.A.</title>
+           <year>1991</year>
+           <country>DE</country>
+    </track>
+    <track><artist>The Mao Tse Tung Experience</artist>
+           <title>Irregular Times</title>
+           <year>1991</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Zero Defects</artist>
+           <title>Duracell</title>
+           <year>1994</year>
+           <country>DE</country>
+    </track>
+    <track><artist>And One</artist>
+           <title>Techno Man</title>
+           <year>1991</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Second Decay</artist>
+           <title>Basement / Movement</title>
+           <year>1993</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Beborn Beton</artist>
+           <title>Torture</title>
+           <year>1993</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Der Liederkranz</artist>
+           <title>Eine Neue Zeit</title>
+           <year>1992</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Welle:Erdball</artist>
+           <title>Sinnlos</title>
+           <year>1994</year>
+           <country>DE</country>
+    </track>
+    <track><artist>PP?</artist>
+           <title>Ohnmacht</title>
+           <year>1994</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Dorsetshire</artist>
+           <title>Straße Der Verdammnis</title>
+           <year>1994</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Eco</artist>
+           <title>Hass Und Liebe</title>
+           <year>1990</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Suicide Commando</artist>
+           <title>Save Me (Full Version)</title>
+           <year>1995</year>
+           <country>BE</country>
+    </track>
+    <track><artist>Haujobb</artist>
+           <title>Eye Over You (Extended Surveillance)</title>
+           <year>1994</year>
+           <country>DE</country>
+    </track>
+   </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" back = "TRUE" type = "jpg">fp20213</cover>
+    <fontsize>7</fontsize>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2021</year>
+    <month>12</month>
+    <by>Z</by>
+  </meta>
+</wgcompilation>

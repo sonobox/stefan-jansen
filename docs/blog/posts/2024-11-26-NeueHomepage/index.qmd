@@ -1,0 +1,15 @@
+---
+title: Neue Homepage Online!
+format:
+  html:
+    include-in-header: ../../hero-image-blog.html
+lang: de
+subtitle: Endlich ist es mir gelungen eine neue Homepage online zu stellen!
+description: |
+categories:
+  - Homepage
+author: Stefan Jansen
+date: 11/26/2024
+image: ../../../../bilder/SJ-Balken.png 
+---
+

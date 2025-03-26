@@ -1,0 +1,122 @@
+<wgcompilation>
+  <title>Shutdown</title>
+  <season>Future Pop</season>
+  <number>2020.2</number>
+
+<content>
+ <cd>
+ <track><artist>Rendez-Vous</artist>
+        <title>The Others</title>
+        <year>2014</year>
+        <country>FR</country>
+ </track>
+ <track><artist>Geometric Vision feat. Volkan Caner</artist>
+        <title>Jelly Dream</title>
+        <year>2018</year>
+        <country>IT</country>
+ </track>
+ <track><artist>She Past Away</artist>
+        <title>Kasvetli Kutlama (Tobias Bernstrup Remix)</title>
+        <year>2020</year>
+        <country>TR</country>
+ </track>
+ <track><artist>Hante.</artist>
+        <title>Respect</title>
+        <year>2019</year>
+        <country>FR</country>
+ </track>
+ <track><artist>Minuit Machine</artist>
+        <title>Empty Shell</title>
+        <year>2019</year>
+        <country>FR</country>
+ </track>
+ <track><artist>Kælan Mikla</artist>
+        <title>Nornalagið</title>
+        <year>2018</year>
+        <country>IS</country>
+ </track>
+ <track><artist>Xibling</artist>
+        <title>Yesbody</title>
+        <year>2019</year>
+        <country>US</country>
+ </track>
+ <track><artist>Las Eras</artist>
+        <title>Constitución</title>
+        <year>2019</year>
+        <country>AR</country>
+ </track>
+  <track><artist>Double Echo</artist>
+        <title>Sylvia</title>
+        <year>2014</year>
+        <country>GB</country>
+ </track>
+  <track><artist>Twin Tribes</artist>
+        <title>Fantasmas</title>
+        <year>2019</year>
+        <country>US</country>
+ </track>
+ <track><artist>Фирма-Однодневка</artist>
+        <title>Соль</title>
+        <year>2018</year>
+        <country>RU</country>
+ </track>
+ <track><artist>Hapax</artist>
+        <title>Vitriol</title>
+        <year>2016</year>
+        <country>IT</country>
+ </track>
+ <track><artist>Buzz Kull</artist>
+        <title>Last In The Club</title>
+        <year>2019</year>
+        <country>AU</country>
+ </track>
+  <track><artist>Die Krupps</artist>
+        <title>New York</title>
+        <year>2019</year>
+        <country>DE</country>
+ </track>
+  <track><artist>Kurs Valüt</artist>
+        <title>Ni</title>
+        <year>2018</year>
+        <country>UA</country>
+ </track>
+ <track><artist>Tobias Bernstrup</artist>
+        <title>Surround</title>
+        <year>2005</year>
+        <country>SE</country>
+ </track>
+ <track><artist>Police Des Moeurs</artist>
+        <title>Alice</title>
+        <year>2019</year>
+        <country>CA</country>
+ </track>
+ <track><artist>Alles</artist>
+        <title>My</title>
+        <year>2014</year>
+        <country>PL</country>
+ </track>
+  <track><artist>Linea Aspera</artist>
+        <title>Hinterland</title>
+        <year>2012</year>
+        <country>GB</country>
+ </track>
+ <track><artist>Sixth June</artist>
+        <title>Oh Boy</title>
+        <year>2019</year>
+        <country>DE</country>
+ </track>
+</cd>  
+</content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" back = "TRUE" type = "jpg">fp20202</cover>
+    <fontsize>7</fontsize>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2020</year>
+    <month>8</month>
+    <by>DJ MAD.e</by>
+  </meta>
+</wgcompilation>

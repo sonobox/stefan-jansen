@@ -1,0 +1,39 @@
+---
+pagetitle: Homepage von Stefan Jansen
+lang: de
+format:
+  html:
+    include-in-header: hero-image.html
+listing:
+  id: News
+  contents: docs/blog/posts/*/index.qmd
+  sort: "date desc"
+  type: table
+  filter-ui: false
+  sort-ui: false
+  max-items: 5
+---
+
+# Willkommen auf meiner Homepage!
+
+:::{.columns}
+
+:::{.column width="70%"}
+
+Mein Name ist Stefan Jansen und ich bin seit 2013 Dozent an der [Technischen Hochschule Augsburg](http://www.tha.de){.external target="_blank"}. Ich unterrichte Mathematik, Data Analytics und Statistik, hauptsächlich in den Studiengängen [Data Science](https://www.tha.de/Geistes-und-Naturwissenschaften/Data-Science.html){.external target="_blank"} und [Wirtschaftspsychologie](https://www.tha.de/Wirtschaft/Wirtschaftspsychologie.html){.external target="_blank"}.
+
+:::
+
+:::{.column width="4%"}
+:::
+
+:::{.column width="25%"}
+![](bilder/fotoSJ_ohne.jpg)
+:::
+
+:::
+
+### Neuigkeiten / Blog
+
+::: {#NightOfTheProf2024}
+:::

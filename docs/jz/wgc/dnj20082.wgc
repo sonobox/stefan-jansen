@@ -1,0 +1,145 @@
+<wgcompilation>
+
+  <title>Nuklear Klub</title>
+  <season>Jansen / Zeileis - Das Nächste Jahrtausend</season>
+  <number>2008.2</number>
+
+  <content>
+   <cd>
+    <track><artist>The Presets</artist>
+           <title>My People</title>
+           <quote>i'll find my way tonight so i can find my way to you</quote>
+           <year>2007</year>
+           <country>AU</country>    
+    </track>
+    <track><artist>Gossip</artist>
+           <title>Standing In The Way Of Control</title>
+           <quote>it's part not giving in and part trusting your friends</quote>
+           <year>2006</year>
+           <country>US</country>    
+    </track>
+    <track><artist>Hadouken!</artist>
+           <title>Bounce</title>
+           <quote>i could just be pop's latest fad, i wanna have a dance like whigfield had, credibility i can ditch if they can make me filthy rich</quote>
+           <year>2007</year>
+           <country>GB</country>    
+    </track>
+    <track><artist>Robots In Disguise</artist>
+           <title>The Sex Has Made Me Stupid</title>
+           <quote>tequila's made me stupid, the grass has made me stupid, success has made me stupid</quote>
+           <year>2007</year>
+           <country>GB</country>    
+    </track>
+    <track><artist>The Chemical Brothers feat. Klaxons</artist>
+           <title>All Rights Reversed</title>
+           <quote>down on earth the primal chaos is pushing backwards but even then the danger never stops</quote>
+           <year>2007</year>
+           <country>GB</country>    
+    </track>
+    <track><artist>Operator Please</artist>
+           <title>Just A Song About Ping Pong (Kissy Sell Out White Stallion Remix Edit)</title>
+           <quote>i bet you know beef jerky has an after taste</quote>
+           <year>2006</year>
+           <country>AU</country>    
+    </track>
+    <track><artist>Late Of The Pier</artist>
+           <title>Space And The Woods (Neon Plastix Remix)</title>
+           <quote>suicide is in my blood, it always was</quote>
+           <year>2007</year>
+           <country>GB</country>    
+    </track>
+    <track><artist>The Tigerpicks</artist>
+           <title>Pow Pow Pow</title>
+           <quote>you know my pistol's gonna blow</quote>
+           <year>2007</year>
+           <country>GB</country>    
+    </track>
+    <track><artist>Punks Jump Up</artist>
+           <title>Dance To Our Disco</title>
+           <quote>bowing to the wisdom of insanity</quote>
+           <year>2007</year>
+           <country>GB</country>    
+    </track>
+    <track><artist>Trash Fashion</artist>
+           <title>It's A Rave Dave</title>
+           <quote>just lots of people in a room spreading love and listening to tunes</quote>
+           <year>2006</year>
+           <country>GB</country>    
+    </track>
+    <track><artist>The Ting Tings</artist>
+           <title>That's Not My Name</title>
+           <quote>they call me quiet girl but i'm a riot</quote>
+           <year>2007</year>
+           <country>GB</country>    
+    </track>
+    <track><artist>The Wombats</artist>
+           <title>Kill The Director (CSS Remix)</title>
+           <quote>carrots help us see much better in the dark</quote>
+           <year>2007</year>
+           <country>GB</country>    
+    </track>
+    <track><artist>To My Boy</artist>
+           <title>Model</title>
+           <quote>and i am on the scrap heap now</quote>
+           <year>2007</year>
+           <country>GB</country>    
+    </track>
+    <track><artist>Tiga</artist>
+           <title>Far From Home (Digitalism Remix)</title>
+           <quote>now i'm gonna roll like i got nothing but luck with a spring in my step as i strut down the block</quote>
+           <year>2006</year>
+           <country>CA</country>    
+    </track>
+    <track><artist>Boys Noize</artist>
+           <title>&amp; Down</title>
+           <quote>dance dance dance</quote>
+           <year>2007</year>
+           <country>DE</country>    
+    </track>
+    <track><artist>Justice</artist>
+           <title>Waters Of Nazareth</title>
+           <quote>dr. cal meacham: you boys like to call this the pushbutton age. it isn't, not yet. not until we can team up atomic energy with electronics.</quote>
+           <year>2005</year>
+           <country>FR</country>    
+    </track>
+    <track><artist>Riot In Belgium</artist>
+           <title>La Musique</title>
+           <quote>au son de la rythmique, les heures sont platoniques, les boissons atomiques</quote>
+           <year>2006</year>
+           <country>AU</country>    
+    </track>
+    <track><artist>Yelle</artist>
+           <title>A Cause Des Garçons (Tepr Remix)</title>
+           <quote>les femmes pratiques qui en ont pas marre des cosmo vogue et tout le bazar</quote>
+           <year>2007</year>
+           <country>FR</country>    
+    </track>
+    <track><artist>Vitalic</artist>
+           <title>My Friend Dario</title>
+           <quote>the noise the wheels make screeching on the tarmac echoes in his head, then echoes in his pants</quote>
+           <year>2004</year>
+           <country>FR</country>    
+    </track>
+    <track><artist>Kylie Minogue</artist>
+           <title>Can't Get You Out Of My Head (Soulwax KYLUSS Remix)</title>
+           <quote>don't leave me locked in your heart: set me free</quote>
+           <year>2007</year>
+           <country>AU</country>    
+    </track>
+   </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" type = "jpg">dnj20082</cover>
+    <fontsize>10</fontsize>
+    <adj>10</adj>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2008</year>
+    <month>2</month>
+    <by>Z</by>
+  </meta>
+
+</wgcompilation>

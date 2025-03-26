@@ -1,0 +1,136 @@
+<wgcompilation>
+  <title>Brussels Calling</title>
+  <season>Jansen / Zeileis - Das Nächste Jahrtausend</season>
+  <number>2010.4</number>
+  <content>
+    <cd>
+      <track><artist>Bene Gesserit</artist>
+             <title>Mickey, Please...</title>
+             <quote>forever you told me</quote>
+             <year>1984</year>
+             <country>BE</country>    
+      </track>
+      <track><artist>The Names</artist>
+             <title>Spectators Of Life</title>
+             <quote>you know what we mean</quote>
+             <year>1979</year>
+             <country>BE</country>    
+      </track>
+      <track><artist>1000 Ohm</artist>
+             <title>I Think She Understood</title>
+             <quote>america is far away</quote>
+             <year>1983</year>
+             <country>BE</country>    
+      </track>
+      <track><artist>Polyphonic Size</artist>
+             <title>Winston &amp; Julia</title>
+             <quote>when the people make love, it's not to be happy</quote>
+             <year>1982</year>
+             <country>BE</country>    
+      </track>
+      <track><artist>Poésie Noire</artist>
+             <title>Gioconda Smile</title>
+             <quote>kill me for an hour, and hurt me for my life</quote>
+             <year>1985</year>
+             <country>BE</country>    
+      </track>
+      <track><artist>Linear Movement</artist>
+             <title>Way Out Of Living</title>
+             <quote>i feel like alienated</quote>
+             <year>1985</year>
+             <country>BE</country>    
+      </track>  
+            <track><artist>Pas De Deux</artist>
+             <title>Cardiocleptomanie</title>
+             <quote>cardiocleptomanie</quote>
+             <year>1983</year>
+             <country>BE</country>    
+      </track>
+      <track><artist>Isolation Ward</artist>
+             <title>Lamina Christus</title>
+             <quote>anxiety is meant to fear</quote>
+             <year>1982</year>
+             <country>BE</country>    
+      </track>
+      <track><artist>Subject</artist>
+             <title>I See You</title>
+             <quote>how can you live your life without shame?</quote>
+             <year>1982</year>
+             <country>BE</country>    
+      </track>
+      <track><artist>Kaa Antilope</artist>
+             <title>Rise Up Helicopter</title>
+             <quote>protect my house from the spirit</quote>
+             <year>1982</year>
+             <country>BE</country>    
+      </track>
+      <track><artist>The Arch</artist>
+             <title>Babsi Ist Tot</title>
+             <quote>i just wanna keep you alive in everyone's memory</quote>
+             <year>1986</year>
+             <country>BE</country>    
+      </track>
+      <track><artist>Aimless Device</artist>
+             <title>No Friend Of Mine</title>
+             <quote>you're skating on your tears</quote>
+             <year>1985</year>
+             <country>BE</country>    
+      </track>
+      <track><artist>Siglo XX</artist>
+             <title>Dreams Of Pleasure</title>
+             <quote>i saw your face laughing in the darkness</quote>
+             <year>1983</year>
+             <country>BE</country>    
+      </track>
+      <track><artist>Front 242</artist>
+             <title>Don't Crash</title>
+             <quote>timeless terror is taking over</quote>
+             <year>1985</year>
+             <country>BE</country>    
+      </track>
+      <track><artist>A Split-Second</artist>
+             <title>On Command</title>
+             <quote>catch and dive, jump and dive, suck and blow</quote>
+             <year>1988</year>
+             <country>BE</country>    
+      </track>
+      <track><artist>The Neon Judgement</artist>
+             <title>The Fashion Party</title>
+             <quote>look at me now, making love to myself</quote>
+             <year>1983</year>
+             <country>BE</country>    
+      </track>
+      <track><artist>Nacht Und Nebel</artist>
+             <title>Zafari</title>
+             <quote>the boys with the dogs and the girls with the cats</quote>
+             <year>1983</year>
+             <country>BE</country>    
+      </track>
+      <track><artist>Red Zebra</artist>
+             <title>I Can't Live In A Living Room</title>
+             <quote>doctor doctor can't you see, i'm not the man i used to be</quote>
+             <year>1980</year>
+             <country>BE</country>    
+      </track>      
+      <track><artist>Arbeid Adelt!</artist>
+             <title>De Dag Dat Het Zonlicht Niet Meer Scheen</title>
+             <quote>nu stolt het bloed in deze hersens, nicotine kraakt de zeven wervels</quote>
+             <year>1982</year>
+             <country>BE</country>    
+      </track>
+    </cd>    
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" type = "jpg">dnj20104</cover>
+    <fontsize>12</fontsize>
+    <adj>13</adj>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2010</year>
+    <month>6</month>
+    <by>DJ MAD.e</by>
+  </meta>
+</wgcompilation>

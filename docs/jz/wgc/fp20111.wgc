@@ -1,0 +1,128 @@
+<wgcompilation>
+  <title>Nntss Nntss</title>
+  <season>Future Pop</season>
+  <number>2011.1</number>
+
+  <content>
+   <cd>
+    <track><artist>Schluck Den Druck</artist>
+           <title>Der Stockfisch Tanzt</title>
+           <year>2010</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Deichkind</artist>
+           <title>Remmidemmi (Yippie Yippie Yeah)</title>
+           <year>2006</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Deine Jugend</artist>
+           <title>Deine Jugend</title>
+           <year>2010</year>
+           <country>DE</country>
+    </track>
+    <track><artist>GammaBlitzBoys</artist>
+           <title>Bound Of Destiny</title>
+           <year>2010</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Saalschutz</artist>
+           <title>Ravepunk Für Eine Bessere Welt</title>
+           <year>2010</year>
+           <country>CH</country>
+    </track>
+    <track><artist>Bratze</artist>
+           <title>Das Einfache Fluten</title>
+           <year>2010</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Supershirt &amp; Captain Capa</artist>
+           <title>Tote Tiere</title>
+           <year>2010</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Frittenbude</artist>
+           <title>Ob Es Reicht Sie Zu Finden</title>
+           <year>2010</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Herrenmagazin</artist>
+           <title>Gold Für Eisen (Gebrüder Panzerfaust Remix)</title>
+           <year>2010</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Schwefelgelb</artist>
+           <title>Von Allem Zu Viel</title>
+           <year>2010</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Schmidt &amp; Schmidtchen</artist>
+           <title>St. Tropez</title>
+           <year>2009</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Plemo feat. Torsun</artist>
+           <title>Fuck Audiolith</title>
+           <year>2011</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Egotronic feat. Saalschutz</artist>
+           <title>Das Leben Ist Tödlich</title>
+           <year>2010</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Ira Atari &amp; Rampue</artist>
+           <title>Children Of The Night (Partymonsters Unite Anthem)</title>
+           <year>2009</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Juri Gagarin feat. Ashi</artist>
+           <title>Flashgold</title>
+           <year>2009</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Renate Rhymes</artist>
+           <title>Dangerous Black Touch</title>
+           <year>2009</year>
+           <country>CH</country>
+    </track>
+    <track><artist>Skero</artist>
+           <title>Kabinenparty (Gerassimoff Remix)</title>
+           <year>2010</year>
+           <country>AT</country>
+    </track>
+    <track><artist>Trackshittaz</artist>
+           <title>Oida Taunz</title>
+           <year>2010</year>
+           <country>AT</country>
+    </track>
+    <track><artist>Die Atzen</artist>
+           <title>Disco Pogo</title>
+           <year>2010</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Springstil</artist>
+           <title>Springstil (Happy Jump Mix)</title>
+           <year>2008</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Torsun &amp; The Kirmestechno Allstars</artist>
+           <title>Mein Karussell</title>
+           <year>2007</year>
+           <country>DE</country>
+    </track>
+   </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" back = "TRUE" type = "jpg">fp20111</cover>
+    <fontsize>7</fontsize>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2011</year>
+    <month>5</month>
+    <by>Z</by>
+  </meta>
+</wgcompilation>
+

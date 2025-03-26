@@ -1,0 +1,146 @@
+<wgcompilation>
+  <title>I Need You Cool! Are You Cool?</title>
+  <season>Jansen / Zeileis - Das Nächste Jahrtausend</season>
+  <number>2015.2</number>
+  <content>
+    <cd>
+      <track><artist>New Order</artist>
+             <title>Sub-culture (Remix Edit)</title>
+             <quote>these crazy words of mine, so wrong they could be right</quote>
+             <year>1987</year>
+             <country>GB</country>
+      </track>
+             
+      <track><artist>Shark Vegas</artist>
+             <title>Love Habit</title>
+             <quote>if i live for a thousand years would i ever remember what i ever saw in a girl like you?</quote>
+             <year>1986</year>
+             <country>GB</country>
+      </track>
+ 
+      <track><artist>Boytronic</artist>
+             <title>Trigger Track</title>
+             <quote>a message comes to every dancefloor maniac</quote>
+             <year>1989</year>
+             <country>DE</country>
+      </track>
+
+      <track><artist>Psyche</artist>
+             <title>Unveiling The Secret</title>
+             <quote>no great army, no soldier of fortune could get me through that day</quote>
+             <year>1986</year>
+             <country>CA</country>
+      </track>
+       
+      <track><artist>Axodry</artist>
+             <title>Surrender</title>
+             <quote>give it to me, give it to you</quote>
+             <year>1984</year>
+             <country>DE</country>
+      </track>
+ 
+      <track><artist>Play</artist>
+             <title>Red Movies</title>
+             <quote>there is no time like this time, there is not wind that doesn't blow</quote>
+             <year>1984</year>
+             <country>GB</country>
+      </track>
+      
+      <track><artist>Techniques Berlin</artist>
+             <title>Secret Lies</title>
+             <quote>secret lies you tell the rest of the world</quote>
+             <year>1990</year>
+             <country>CA</country>
+      </track>
+      
+      <track><artist>Soft Cell</artist>
+             <title>Chips On My Shoulder</title>
+             <quote>misery, complaints, self pity, injustice</quote>
+             <year>1981</year>
+             <country>GB</country>
+      </track>
+      
+      <track><artist>Public Image Limited</artist>
+             <title>This Is Not A Lovesong</title>
+             <quote>big business is very wise</quote>
+             <year>1983</year>
+             <country>GB</country>
+      </track>
+      
+      <track><artist>Kim Wilde</artist>
+             <title>The Second Time</title>
+             <quote>don't start to fumble it up</quote>
+             <year>1984</year>
+             <country>GB</country>
+      </track>
+      
+      <track><artist>Missing Persons</artist>
+             <title>Walking In L.A.</title>
+             <quote>i don't know could've been a lame jogger maybe</quote>
+             <year>1982</year>
+             <country>US</country>
+      </track>
+      
+      <track><artist>Voister Litz</artist>
+             <title>Shame</title>
+             <quote>you are everybody's friend when you are wallowing in the fame, but you are all alone in the shame</quote>
+             <year>1993</year>
+             <country>SE</country>
+      </track>
+      
+      <track><artist>Talk Talk</artist>
+             <title>Today</title>
+             <quote>cover me with shades of disbelief, can happiness be someone else's dream</quote>
+             <year>1982</year>
+             <country>GB</country>
+      </track>
+      
+      <track><artist>Cetu Javu</artist>
+             <title>Por Favor</title>
+             <quote>a tu fotografía, ¡cogí una manía!</quote>
+             <year>1987</year>
+             <country>DE</country>
+      </track>
+      
+      <track><artist>Malaria!</artist>
+             <title>Your Turn To Run</title>
+             <quote>the moon is full and i don't really know where i am, stones change to human</quote>
+             <year>1982</year>
+             <country>DE</country>
+      </track>
+
+    <track><artist>Anne Clark</artist>
+             <title>Sleeper In Metropolis</title>
+             <quote>confined in the helpless safety of desires and dreams we fight our insignificance</quote>
+             <year>1983</year>
+             <country>GB</country>
+      </track>
+
+      <track><artist>Angelo &amp; His Egos</artist>
+             <title>Fire And Water</title>
+             <quote>and here comes the flood</quote>
+             <year>1985</year>
+             <country>GR</country>
+      </track>
+      
+      <track><artist>P1/E</artist>
+             <title>49 Second Romance</title>
+             <quote>modern times, modern times</quote>
+             <year>1980</year>
+             <country>DE</country>
+      </track>
+    </cd>    
+  </content>
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" type = "jpg">dnj20152</cover>
+    <fontsize>11.2</fontsize>
+    <adj>12</adj>
+    <frame>TRUE</frame>
+  </layout>
+  
+  <meta>
+    <year>2015</year>
+    <month>12</month>
+    <by>DJ MAD.e</by>
+  </meta>
+</wgcompilation>

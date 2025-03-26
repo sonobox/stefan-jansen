@@ -1,0 +1,161 @@
+<wgcompilation>
+
+  <title>Not Really A Kerfuffle</title>
+  <season>Jansen / Zeileis - Das Nächste Jahrtausend</season>
+  <number>2006.1</number>
+
+  <content>
+   <cd>
+    <track><artist>The Bravery</artist>
+           <title>Unconditional</title>
+           <quote>i never wonder why the easiest things are so hard</quote>
+           <year>2004</year>
+           <country>US</country>
+    </track>
+    <track><artist>Bloc Party</artist>
+           <title>Helicopter</title>
+           <quote>why can't you be more european? bastard child of guilt and shame - bury your head in the sand - i'm thinking six, six, six</quote>
+           <year>2004</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Editors</artist>
+           <title>Blood</title>
+           <quote>this wicked city just drags you down</quote>
+           <year>2005</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Mando Diao</artist>
+           <title>God Knows</title>
+           <quote>i get excited by the moves you do</quote>
+           <year>2004</year>
+           <country>SE</country>
+    </track>
+    <track><artist>Maxïmo Park</artist>
+           <title>Apply Some Pressure</title>
+           <quote>you know that i would love to see you in that dress, i hope that i will live to see you undress</quote>
+           <year>2004</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Hard-Fi</artist>
+           <title>Cash Machine</title>
+           <quote>message on the screen says: don't make plans, you're broke</quote>
+           <year>2004</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Shout Out Louds</artist>
+           <title>Please Please Please</title>
+           <quote>but we're all happy cause the streets they're always there for us</quote>
+           <year>2003</year>
+           <country>SE</country>
+    </track>
+    <track><artist>The Dead 60s</artist>
+           <title>Riot Radio</title>
+           <quote>airwaves beam from the light on the tower, get my kicks from your eleventh hour</quote>
+           <year>2004</year>
+           <country>GB</country>
+    </track>
+    <track><artist>The Good Life</artist>
+           <title>Lovers Need Lawyers</title>
+           <quote>i swear to speak the whole truth, nothing but the truth - oh, so help me god, i wasn't cheating on you</quote> 
+           <year>2004</year>
+           <country>US</country>
+    </track>
+    <track><artist>The Arcade Fire</artist>
+           <title>Rebellion (Lies)</title>
+           <quote>come on baby, in our dreams we can live our misbehavior</quote>
+           <year>2004</year>
+           <country>CA</country>
+    </track>
+    <track><artist>Kaiser Chiefs</artist>
+           <title>I Predict A Riot</title>
+           <quote>girls run around with no clothes on to borrow a pound for a condom</quote>
+           <year>2004</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Franz Ferdinand</artist>
+           <title>Take Me Out</title>
+           <quote>you leave me broken, shattered i lie</quote>
+           <year>2004</year>
+           <country>GB</country>
+    </track>
+    <track><artist>The Strokes</artist>
+           <title>The Ize Of The World</title>
+           <quote>how do you wake someone up from inside a dream?</quote>
+           <year>2005</year>
+           <country>US</country>
+    </track>
+    <track><artist>The Arctic Monkeys</artist>
+           <title>The View From The Afternoon</title>
+           <quote>and they're all looking quite full on in bunny ears and devil horns and hats</quote>
+           <year>2005</year>
+           <country>GB</country>
+    </track>   
+    <track><artist>The Ark</artist>
+           <title>Clamour For Glamour</title>
+           <quote>i kick them where the sun don't shine</quote>
+           <year>2004</year>
+           <country>SE</country>
+    </track>
+    <track><artist>The Subways</artist>
+           <title>I Want To Hear What You Have Got To Say</title>
+           <quote>my head is spinning around, i don't know what to do</quote>
+           <year>2005</year>
+           <country>GB</country>
+    </track>
+    <track><artist>The Rakes</artist>
+           <title>Strasbourg</title>
+           <quote>dann sind wir helden</quote>
+           <year>2004</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Art Brut</artist>
+           <title>Good Weekend</title>
+           <quote>first time i saw her, i wanted more than just to hold her</quote>
+           <year>2005</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Babyshambles</artist>
+           <title>Loyalty Song</title>
+           <quote>what did i dream?</quote>
+           <year>2005</year>
+           <country>GB</country>
+    </track>
+    <track><artist>The White Stripes</artist>
+           <title>Hotel Yorba</title>
+           <quote>i said 39 times that i love you</quote>
+           <year>2001</year>
+           <country>US</country>
+    </track>
+    <track><artist>Kasabian</artist>
+           <title>Reason Is Treason</title>
+           <quote>tell his family that he will be ok, k-i-l-l!</quote>
+           <year>2004</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Lodger</artist>
+           <title>I'm Leaving</title>
+           <quote>i'm sick and tired of being your skinny whore</quote>
+           <year>1998</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Tenacious D</artist>
+           <title>Fuck Her Gently</title>
+           <quote>what's your favorite dish? i'm not gonna cook it but i'll order it from zanzibar</quote>
+           <year>2001</year>
+           <country>US</country>
+    </track>
+   </cd> 
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" type = "jpg">dnj20061</cover>
+    <fontsize>10</fontsize>
+    <adj>10</adj>
+  </layout>
+
+  <meta>
+    <year>2006</year>
+    <month>2</month>
+    <by>DJ MAD.e</by>
+  </meta>
+</wgcompilation>

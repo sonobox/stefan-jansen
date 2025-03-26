@@ -1,0 +1,118 @@
+<wgcompilation>
+  <title>Bollertechno</title>
+  <season>Future Pop</season>
+  <number>2009.1</number>
+
+  <content>
+   <cd>
+    <track><artist>Frittenbude</artist>
+           <title>Irgendwie Lieb Ich Das</title>
+           <year>2008</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Egotronic</artist>
+           <title>Raven Gegen Deutschland</title>
+           <year>2007</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Deichkind</artist>
+           <title>Arbeit Nervt</title>
+           <year>2008</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Mediengruppe Telekommander</artist>
+           <title>Kommanda</title>
+           <year>2004</year>
+           <country>DE</country>
+    </track>
+    <track><artist>GammaBlitzBoys</artist>
+           <title>Performensch</title>
+           <year>2008</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Fettes Brot &amp; Modeselektor</artist>
+           <title>Bettina (Zieh Dir Bitte Etwas An)</title>
+           <year>2008</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Supershirt</artist>
+           <title>Kauf Weniger Ein</title>
+           <year>2007</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Plemo And Rampue</artist>
+           <title>Fancy Uncontrolled (Supershirt Melt! Like Teen Spirit Remix)</title>
+           <year>2009</year>
+           <country>DE</country>
+    </track>
+    <track><artist>The Fashion</artist>
+           <title>Like Knives (Tiger Baby Remix)</title>
+           <year>2008</year>
+           <country>DK</country>
+    </track>
+    <track><artist>Kettcar</artist>
+           <title>Graceland (Frittenbude Raveland Remix)</title>
+           <year>2008</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Bratze</artist>
+           <title>D.U.T.T. Royal</title>
+           <year>2008</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Grossstadtgeflüster</artist>
+           <title>Lebenslauf</title>
+           <year>2008</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Juri Gagarin</artist>
+           <title>Presidator</title>
+           <year>2008</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Missill</artist>
+           <title>Glitch (Tepr Remix)</title>
+           <year>2008</year>
+           <country>FR</country>
+    </track>
+    <track><artist>Don Rimini</artist>
+           <title>Hools</title>
+           <year>2008</year>
+           <country>FR</country>
+    </track>
+    <track><artist>Digitalism</artist>
+           <title>Taken Away (ULTRNX Remix)</title>
+           <year>2009</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Lützenkirchen</artist>
+           <title>3 Tage Wach (Scooter Remix)</title>
+           <year>2008</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Rampue</artist>
+           <title>Play Me (Short Version)</title>
+           <year>2008</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Torsun &amp; The Kirmestechno Allstars</artist>
+           <title>Autoscooter</title>
+           <year>2006</year>
+           <country>DE</country>
+    </track>
+
+   </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" back = "TRUE" type = "jpg">fp20091</cover>
+    <fontsize>7</fontsize>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2009</year>
+    <month>2</month>
+    <by>Z</by>
+  </meta>
+</wgcompilation>

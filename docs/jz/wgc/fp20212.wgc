@@ -1,0 +1,123 @@
+<wgcompilation>
+  <title>Overload</title>
+  <season>Future Pop</season>
+  <number>2021.2</number>
+
+ <content>
+ <cd>
+    <track><artist>So What?</artist>
+         <title>Enter The Batcave (And Dance)</title>
+         <year>2017</year>
+         <country>FR</country>
+    </track>
+    <track><artist>Agent Side Grinder</artist>
+         <title>Stripdown</title>
+         <year>2019</year>
+         <country>SE</country>
+    </track>
+    <track><artist>Buzz Kull</artist>
+         <title>Avoiding The Light</title>
+         <year>2018</year>
+         <country>AU</country>
+    </track>
+    <track><artist>She Past Away</artist>
+         <title>Ritüel</title>
+         <year>2012</year>
+         <country>TR</country>
+    </track>
+    <track><artist>Double Echo</artist>
+         <title>Rendezvous</title>
+         <year>2021</year>
+         <country>GB</country>
+    </track>
+    <track><artist>ACTORS</artist>
+         <title>Love U More</title>
+         <year>2021</year>
+         <country>CA</country>
+   </track>
+   <track><artist>Empathy Test</artist>
+         <title>Doubts</title>
+         <year>2020</year>
+         <country>GB</country>
+   </track>
+   <track><artist>Kælan Mikla feat. Alcest</artist>
+         <title>Hvítir Sandar</title>
+         <year>2021</year>
+         <country>IS</country>
+   </track>
+   <track><artist>Neila Invo</artist>
+         <title>Bright and Tempting</title>
+         <year>2021</year>
+         <country>IT</country>
+   </track>
+   <track><artist>Confrontational feat. Hélène De Thoury</artist>
+         <title>Keep Faith</title>
+         <year>2016</year>
+         <country>IT</country>
+   </track>
+   <track><artist>Rosegarden Funeral Party</artist>
+         <title>Once In A While</title>
+         <year>2019</year>
+         <country>US</country>
+   </track>
+   <track><artist>Union Of Knives feat. Helen Marnie</artist>
+         <title>A Little Life</title>
+         <year>2021</year>
+         <country>GB</country>
+   </track>
+   <track><artist>Minuit Machine</artist>
+         <title>Don't Run From The Fire</title>
+         <year>2021</year>
+         <country>FR</country>
+   </track>
+   <track><artist>Replicant</artist>
+         <title>The Resistance</title>
+         <year>2018</year>
+         <country>US</country>
+    </track>
+    <track><artist>Ash Code</artist>
+         <title>Night Rite</title>
+         <year>2018</year>
+         <country>IT</country>
+   </track>
+   <track><artist>Twin Tribes</artist>
+         <title>Portal To The Void</title>
+         <year>2018</year>
+         <country>US</country>
+   </track>
+   <track><artist>Alles</artist>
+          <title>Konflikt</title>
+          <year>2016</year>
+         <country>PL</country>
+   </track>
+   <track><artist>Молчат Дома</artist>
+          <title>Танцевать</title>
+          <year>2017</year>
+         <country>BY</country>
+   </track>
+   <track><artist>Чайки Улетают С Моря</artist>
+         <title>Вернись</title>
+         <year>2020</year>
+         <country>RU</country>
+   </track>
+   <track><artist>Paradox Obscur</artist>
+         <title>A Different Hum</title>
+         <year>2017</year>
+         <country>GR</country>
+  </track>
+
+ </cd>
+</content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" back = "TRUE" type = "jpg">fp20212</cover>
+    <fontsize>8</fontsize>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2021</year>
+    <month>12</month>
+    <by>DJ MAD.e</by>
+  </meta>
+</wgcompilation>

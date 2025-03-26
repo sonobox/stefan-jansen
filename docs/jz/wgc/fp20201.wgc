@@ -1,0 +1,117 @@
+<wgcompilation>
+  <title>Blackout</title>
+  <season>Future Pop</season>
+  <number>2020.1</number>
+
+<content>
+  <cd>
+   <track><artist>Alles</artist>
+          <title>Utopia</title>
+          <year>2015</year>
+          <country>PL</country>
+    </track>
+    <track><artist>Boy Harsher</artist>
+          <title>LA</title>
+          <year>2019</year>
+          <country>US</country>
+    </track>
+    <track><artist>Linea Aspera</artist>
+           <title>Synapse</title>
+           <year>2012</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Ladytron</artist>
+           <title>Deadzone</title>
+           <year>2019</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Keluar</artist>
+           <title>Rivers</title>
+           <year>2013</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Kælan Mikla</artist>
+           <title>Kalt</title>
+           <year>2016</year>
+           <country>IS</country>
+    </track>
+    <track><artist>Crystal Castles</artist>
+           <title>Untrust Us</title>
+           <year>2008</year>
+           <country>CA</country>
+    </track>
+    <track><artist>She Past Away</artist>
+           <title>Disko Anksiyete</title>
+           <year>2019</year>
+           <country>TR</country>
+    </track>
+    <track><artist>Agent Side Grinder</artist>
+           <title>Into The Wild</title>
+           <year>2015</year>
+           <country>SE</country>
+    </track>
+    <track><artist>Ash Code</artist>
+           <title>Dry Your Eyes</title>
+           <year>2014</year>
+           <country>IT</country>
+    </track>
+    <track><artist>Neon Electronics</artist>
+           <title>Les Enfants Du Paradis</title>
+           <year>2007</year>
+           <country>BE</country>
+    </track>
+    <track><artist>Dropping Dishes feat. Dirk Da Davo</artist>
+           <title>Toyboy</title>
+           <year>2007</year>
+           <country>BE</country>
+    </track>
+    <track><artist>Haujobb feat. Jean-Luc De Meyer</artist>
+           <title>We Must Wait</title>
+           <year>2014</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Selofan</artist>
+           <title>Ist Die Liebe Tot?</title>
+           <year>2018</year>
+           <country>GR</country>
+    </track>
+    <track><artist>Das Moon</artist>
+           <title>Gold</title>
+           <year>2017</year>
+           <country>PL</country>
+    </track>
+    <track><artist>Sixth June</artist>
+           <title>Remind Me Of The Time</title>
+           <year>2020</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Figure Study</artist>
+           <title>Wait</title>
+           <year>2013</year>
+           <country>US</country>
+    </track>
+    <track><artist>Skeleton Hands</artist>
+           <title>Oxygen</title>
+           <year>2013</year>
+           <country>US</country>
+    </track>
+    <track><artist>Lebanon Hanover</artist>
+           <title>Gellowdance</title>
+           <year>2013</year>
+           <country>CH</country>
+    </track>
+  </cd>  
+</content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" back = "TRUE" type = "jpg">fp20201</cover>
+    <fontsize>8</fontsize>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2020</year>
+    <month>2</month>
+    <by>DJ MAD.e</by>
+  </meta>
+</wgcompilation>

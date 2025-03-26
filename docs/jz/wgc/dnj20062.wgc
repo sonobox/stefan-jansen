@@ -1,0 +1,139 @@
+<wgcompilation>
+  <title>Burn, Paris, Burn!</title>
+  <season>Jansen / Zeileis - Das Nächste Jahrtausend</season>
+  <number>2006.2</number>
+
+  <content>
+   <cd>
+
+    <track><artist>Galleon</artist>
+           <title>So I Begin</title>
+           <quote>can you feel the other place?</quote>
+           <year>2001</year>
+           <country>FR</country>
+    </track>
+    <track><artist>Supermen Lovers feat. Mani Hoffman</artist>
+           <title>Starlight (Radio Edit)</title>
+           <quote>can you give me the fame?</quote>
+           <year>2001</year>
+           <country>FR</country>
+    </track>
+    <track><artist>Moloko</artist>
+           <title>Sing It Back (Boris Musical Mix Radio Edit)</title>
+           <quote>can i control this empty delusion?</quote>
+           <year>1999</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Dakar &amp; Grinser</artist>
+           <title>Stay With Me (Video Version)</title>
+           <quote>we are the lovers 'cause we believe in love - we say it loud, it makes us happy, strong and proud</quote>
+           <year>2001</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Cassius</artist>
+           <title>The Sound Of Violence (Original Radio Edit)</title>
+           <quote>changing the way i kill by changing the way i feel</quote>
+           <year>2002</year>
+           <country>FR</country>
+    </track>
+    <track><artist>Alex Gopher</artist>
+           <title>Party People (Radio Mix by Etienne De Crecy)</title>
+           <quote>welcome back to funky town</quote>
+           <year>1999</year>
+           <country>FR</country>
+    </track>
+    <track><artist>The Bravery</artist>
+           <title>An Honest Mistake (Superdiscount Remix)</title>
+           <quote>don't look at me that way</quote>
+           <year>2005</year>
+           <country>US</country>
+    </track>
+    <track><artist>Modjo</artist>
+           <title>Lady (Hear Me Tonight) (Radio Edit)</title>
+           <quote>i can tell by the look in your eyes</quote>
+           <year>2000</year>
+           <country>FR</country>
+    </track>
+    <track><artist>Stardust</artist>
+           <title>Music Sounds Better With You (Radio Edit)</title>
+           <quote>love might bring us back together</quote>
+           <year>1998</year>
+           <country>FR</country>
+    </track>
+    <track><artist>Superfunk</artist>
+           <title>The Young MC (Radio Edit)</title>
+           <quote>this generation rules the nation</quote>
+           <year>2000</year>
+           <country>FR</country>
+    </track>
+    <track><artist>Deep Swing</artist>
+           <title>In The Music (Streetvibes Radio Edit)</title>
+           <quote>getting deep in the mix</quote>
+           <year>2001</year>
+           <country>US</country>
+    </track>
+    <track><artist>Shakedown</artist>
+           <title>At Night</title>
+           <quote>some days just don't feel right</quote>
+           <year>2001</year>
+           <country>CH</country>
+    </track>
+    <track><artist>Spiller</artist>
+           <title>Groovejet (If This Ain't Love) (Radio Edit)</title>
+           <quote>we beg, steal or borrow</quote>
+           <year>2000</year>
+           <country>IT</country>
+    </track>
+    <track><artist>Hollis P. Monroe</artist>
+           <title>I'm Lonely (Original Radio Edit)</title>
+           <quote>i need to be with someone tonight</quote>
+           <year>1998</year>
+           <country>CA</country>
+    </track>
+    <track><artist>Gus Gus</artist>
+           <title>Starlovers (Edit)</title>
+           <quote>they need guidance from above</quote>
+           <year>1999</year>
+           <country>IS</country>
+    </track>
+    <track><artist>Jean Jacques Smoothie</artist>
+           <title>2 People (Original Radio Edit)</title>
+           <quote>two spirits greeting</quote>
+           <year>2001</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Etienne De Crecy</artist>
+           <title>Prix Choc (Radio Edit) (High Mix)</title>
+           <quote>sensimilla, marijuana</quote>
+           <year>1998</year>
+           <country>FR</country>
+    </track>
+    <track><artist>Laurent Garnier</artist>
+           <title>Flashback (Laboratoire Mix)</title>
+           <quote>a time where house music and acid house was a state of mind</quote>
+           <year>1997</year>
+           <country>FR</country>
+    </track>
+    <track><artist>Le Tone</artist>
+           <title>Joli Dragon</title>
+           <quote>où es tu?</quote>
+           <year>1998</year>
+           <country>FR</country>
+    </track>
+   </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" type = "jpg">dnj20062</cover>
+    <fontsize>11</fontsize>
+    <adj>15</adj>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2006</year>
+    <month>5</month>
+    <by>Z</by>
+  </meta>
+</wgcompilation>
+

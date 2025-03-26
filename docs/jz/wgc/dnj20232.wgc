@@ -1,0 +1,171 @@
+<wgcompilation>
+  <title>Absolute Giganten</title>
+  <season>Jansen / Zeileis - Das Nächste Jahrtausend</season>
+  <number>2023.2</number>
+  <content>
+    <cd>
+      <track>
+             <artist>IFA Wartburg</artist>
+             <title>FDJ</title>
+             <quote>sie erfahren von gebaren, von manier und takt und ton, sozialismus, kommunismus, lenin und revolution</quote>
+             <year>1998</year>
+             <country>SE</country>
+      </track>
+      <track>
+             <artist>Isar 12</artist>
+             <title>Für Das MfS In Sofia</title>
+             <quote>neue order aus berlin kamen keine</quote>
+             <year>1997</year>
+             <country>DE</country>
+      </track>
+      <track>
+             <artist>Milch</artist>
+             <title>Geil, Du Bist</title>
+             <quote>ja früher war ich auch mal so'n spacken wie du</quote>
+             <year>1999</year>
+             <country>DE</country>
+      </track>
+      <track>
+             <artist>Andreas Dorau</artist>
+             <title>Girls In Love</title>
+             <quote>sie ging arbeiten und er ging fremd</quote>
+             <year>1997</year>
+             <country>DE</country>
+      </track>
+      <track>
+             <artist>Falco</artist>
+             <title>Titanic</title>
+             <quote>denn wer sich retten tut, der hat zum untergang kein mut       </quote>
+             <year>1992</year>
+             <country>AT</country>
+      </track>
+      <track>
+             <artist>Gautsch</artist>
+             <title>Ravemädchen</title>
+             <quote>ich trat die lautsprecherbox ein um mehr stress zu vermeiden</quote>
+             <year>1998</year>
+             <country>DE</country>
+      </track>
+      <track>
+             <artist>Die Fantastischen Vier</artist>
+             <title>MfG</title>
+             <quote>abc, daf und omd</quote>
+             <year>1999</year>
+             <country>DE</country>
+      </track>     
+      <track>
+             <artist>Fettes Brot</artist>
+             <title>Jein (Long Ride)</title>
+             <quote>na kleiner, hast du bock auf schweinereien?</quote>
+             <year>1996</year>
+             <country>DE</country>
+      </track>
+      <track>
+             <artist>Thomas D &amp; Good Men Gone Bad</artist>
+             <title>Rückenwind (Single Version)</title>
+             <quote>ich hab nur unsinn im sinn und ich hab dich im visier</quote>
+             <year>1997</year>
+             <country>DE</country>
+      </track>
+      <track>
+             <artist>Die Ärzte</artist>
+             <title>Mit Dem Schwert Nach Polen, Warum René?</title>
+             <quote>du machst kampfsport wie jean-claude van damme</quote>
+             <year>1993</year>
+             <country>DE</country>
+      </track>
+      <track>
+             <artist>Beigeschmack</artist>
+             <title>Klartraum</title>
+             <quote>ich werde mit euch untergehen - ihr werdet es schon noch sehen</quote>
+             <year>1999</year>
+             <country>DE</country>
+      </track>
+      <track>
+             <artist>Die Sterne</artist>
+             <title>Was Hat Dich Bloss So Ruiniert</title>
+             <quote>bist du nicht immer noch gott-weiß-wie privilegiert?</quote>
+             <year>1996</year>
+             <country>DE</country>
+      </track>    
+      <track>
+             <artist>Die Toten Hosen</artist>
+             <title>All Die Ganzen Jahren</title>
+             <quote>ohne ein wort zu sagen, geh ich an dir vorbei</quote>
+             <year>1990</year>
+             <country>DE</country>
+      </track>
+      <track>
+             <artist>Tocotronic</artist>
+             <title>Let There Be Rock</title>
+             <quote>das haben sich die jugendlichen selbst aufgebaut</quote>
+             <year>1999</year>
+             <country>DE</country>
+      </track>
+      <track>
+             <artist>Die Goldenen Zitronen</artist>
+             <title>Alles Was Ich Will (Nur Die Regierung Stürzen)</title>
+             <quote>die lüge im Gesicht auf ihrer Stirn ein großes l,
+es folgt im alphabet dem k, k für kriminiell</quote>
+             <year>1990</year>
+             <country>DE</country>
+      </track>
+      <track>
+             <artist>Jan Delay</artist>
+             <title>Irgendwie, Irgendwo, Irgendwann</title>
+             <quote>dann wird für den, der mit Duden feilscht das Leben zart wie putenfleisch</quote>
+             <year>1999</year>
+             <country>DE</country>
+      </track>
+      <track>
+             <artist>Stereo Total</artist>
+             <title>Schön Von Hinten</title>
+             <quote>löse dich in luft auf, hiterlass keine spuren</quote>
+             <year>1997</year>
+             <country>DE</country>
+      </track>
+      <track>
+             <artist>Die Lassie Singers</artist>
+             <title>Liebe Wird Oft Überbewertet</title>
+             <quote>liebe ist baldrian für's volk</quote>
+             <year>1996</year>
+             <country>DE</country>
+      </track>
+      <track>
+             <artist>Bernd Begemann</artist>
+             <title>Hitler (Menschlich Gesehen)</title>
+             <quote>gelähmt durch filme, vergiftet durch fotos und eine überdosis guns n' roses</quote>
+             <year>1993</year>
+             <country>DE</country>
+      </track>
+   <track>
+             <artist>Freundeskreis</artist>
+             <title>A-N-N-A (Radio Version '96)</title>
+             <quote>die dunkeln augen funkelten wie 'ne nacht in asien</quote>
+             <year>1997</year>
+             <country>DE</country>
+      </track>
+      <track>
+             <artist>Element Of Crime</artist>
+             <title>Weißes Papier</title>
+             <quote>am liebsten wär ich ein Astronaut und flöge auf Sterne wo gar nichts vertraut</quote>
+             <year>1993</year>
+             <country>DE</country>
+      </track>
+    </cd>    
+      
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" type = "jpg">dnj20232</cover>
+    <fontsize>10</fontsize>
+    <adj>10</adj>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2023</year>
+    <month>5</month>
+    <by>DJ MAD.e</by>
+  </meta>
+</wgcompilation>

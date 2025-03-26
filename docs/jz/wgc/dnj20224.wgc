@@ -1,0 +1,147 @@
+<wgcompilation>
+  <title>The Adventures Of Buckaroo Banzai Across The 8th Dimension</title>
+  <season>Jansen / Zeileis - Das Nächste Jahrtausend</season>
+  <number>2022.4</number>
+
+  <content>
+   <cd name = "Pop">
+    <track><artist>Pet Shop Boys</artist>
+           <title>It's A Sin (Disco Mix)</title>
+           <quote>mea culpa, mea culpa, mea maxima culpa</quote>
+           <year>1987</year>
+           <country>GB</country>    
+    </track>
+    <track><artist>Depeche Mode</artist>
+           <title>Personal Jesus (Holier Than Thou Approach)</title>
+           <quote>lift up the receiver, i'll make you a believer</quote>
+           <year>1987</year>
+           <country>GB</country>    
+    </track>
+    <track><artist>New Order</artist>
+           <title>True Faith (Shep Pettibone Remix)</title>
+           <quote>when I was a very small boy very small boys talked to me</quote>
+           <year>1987</year>
+           <country>GB</country>    
+    </track>
+    <track><artist>A-ha</artist>
+           <title>The Sun Always Shines On T.V. (Extended Version)</title>
+           <quote>there's got to be some way to keep my troubles distant</quote>
+           <year>1985</year>
+           <country>NO</country>    
+    </track>
+    <track><artist>Soft Cell</artist>
+           <title>Tainted Love/Where Did Our Love Go</title>
+           <quote>you think love is to pray but i'm sorry i don't pray that way</quote>
+           <year>1981</year>
+           <country>GB</country>    
+    </track>
+    <track><artist>Kim Wilde</artist>
+           <title>You Keep Me Hangin' On (WCH Mix)</title>
+           <quote>let me get over you the way you've gotten over me</quote>
+           <year>1986</year>
+           <country>GB</country>    
+    </track>
+    <track><artist>Bronski Beat</artist>
+           <title>Why? (Extended Mix)</title>
+           <quote>you and me together, fighting for our love</quote>
+           <year>1984</year>
+           <country>GB</country>    
+    </track>
+    <track><artist>Bananarama</artist>
+           <title>Venus (Extended Version)</title>
+           <quote>the summit of beauty and love</quote>
+           <year>1986</year>
+           <country>GB</country>    
+    </track>
+    <track><artist>Falco</artist>
+           <title>Rock Me Amadeus (Salieri-Version)</title>
+           <quote>1784, wolfgang amadeus mozart becomes a free mason</quote>
+           <year>1985</year>
+           <country>AT</country>    
+    </track>
+    <track><artist>O.K.</artist>
+           <title>Okay! (Mixed Media Edit)</title>
+           <quote>also das allerschönste was Füße tun können ist: tanzen</quote>
+           <year>1988</year>
+           <country>DE</country>    
+    </track>
+   </cd>  
+
+   <cd name = "Wave">
+    <track><artist>New Order</artist>
+           <title>Blue Monday (12" Version)</title>
+           <quote>but if it wasn't for your misfortunes, i'd be a heavenly person today</quote>
+           <year>1983</year>
+           <country>GB</country>    
+    </track>
+    <track><artist>Depeche Mode</artist>
+           <title>Never Let Me Down Again (Split Mix)</title>
+           <quote>we're flying high, we're watching the world pass us by</quote>
+           <year>1987</year>
+           <country>GB</country>    
+    </track>
+    <track><artist>Camouflage</artist>
+           <title>The Great Commandment (Extended Dance Mix)</title>
+           <quote>believe the scholars, read the readings</quote>
+           <year>1987</year>
+           <country>DE</country>    
+    </track>
+    <track><artist>Boytronic</artist>
+           <title>You (Extended Version)</title>
+           <quote>why don't you feel the same?</quote>
+           <year>1983</year>
+           <country>DE</country>    
+    </track>
+    <track><artist>Visage</artist>
+           <title>Fade To Grey (Dance Mix)</title>
+           <quote>devenir gris</quote>
+           <year>1980</year>
+           <country>GB</country>    
+    </track>
+    <track><artist>Yazoo</artist>
+           <title>Don't Go (Re-Mix + Re-Re-Mix)</title>
+           <quote>i turned around when i heard the sound of footsteps on the floor</quote>
+           <year>1982</year>
+           <country>GB</country>    
+    </track>
+    <track><artist>Frankie Goes To Hollywood</artist>
+           <title>Relax (New York Mix)</title>
+           <quote>hit me with those laser beams</quote>
+           <year>1984</year>
+           <country>GB</country>    
+    </track>
+    <track><artist>Propaganda</artist>
+           <title>Dr. Mabuse</title>
+           <quote>he's devoted to the devil, fascinated by crime</quote>
+           <year>1984</year>
+           <country>DE</country>    
+    </track>
+    <track><artist>Anne Clark</artist>
+           <title>Our Darkness (Razormaid Mix)</title>
+           <quote>doubting all the time, fearing all the time</quote>
+           <year>1985</year>
+           <country>GB</country>    
+    </track>
+    <track><artist>Soft Cell</artist>
+           <title>Bedsitter (12" Version)</title>
+           <quote>clothes and records on the floor, the memories of the night before</quote>
+           <year>1981</year>
+           <country>GB</country>    
+    </track>
+   </cd>
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" type = "jpg">dnj20224</cover>
+    <fontsize>10.2</fontsize>
+    <titlesize>9.8</titlesize>
+    <adj>9</adj>
+    <frame>FALSE</frame>
+  </layout>
+
+  <meta>
+    <year>2022</year>
+    <month>8</month>
+    <by>DJ MAD.e &amp; Z</by>
+  </meta>
+</wgcompilation>

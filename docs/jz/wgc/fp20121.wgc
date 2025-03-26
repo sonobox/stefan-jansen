@@ -1,0 +1,127 @@
+<wgcompilation>
+  <title>Neue Digitale Welle</title>
+  <season>Future Pop</season>
+  <number>2012.1</number>
+  <content>
+   <cd>
+
+    <track><artist>Supershirt</artist>
+           <title>8000 Mark</title>
+           <year>2009</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Deichkind</artist>
+           <title>Illegale Fans</title>
+           <year>2012</year>
+           <country>DE</country>
+    </track>
+    <track><artist>goJA moon ROCKAH</artist>
+           <title>3 Uhr 10</title>
+           <year>2011</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Grossstadtgeflüster</artist>
+           <title>Weil Das Morgen Noch So Ist</title>
+           <year>2010</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Hertzinfarkt</artist>
+           <title>Stimme Verkauft</title>
+           <year>2011</year>
+           <country>DE</country>
+    </track>
+    <track><artist>The Plasmareds</artist>
+           <title>Getanzte Lebenszeit</title>
+           <year>2010</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Sonnenbrandt</artist>
+           <title>Lüdenscheid</title>
+           <year>2004</year>
+           <country>DE</country>
+    </track>
+    <track><artist>New Days Delay</artist>
+           <title>Neonflut</title>
+           <year>2007</year>
+           <country>DE</country>
+    </track>
+     <track><artist>Frittenbude</artist>
+           <title>Und Täglich Grüßt Das Murmeltier</title>
+           <year>2010</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Susanne Blech</artist>
+           <title>Die Maschinen Laufen Heiss</title>
+           <year>2012</year>
+           <country>DE</country>
+    </track> 
+    <track><artist>I Heart Sharks</artist>
+           <title>Neuzeit (Plemo Version)</title>
+           <year>2011</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Die Funkhausgruppe</artist>
+           <title>Myspace</title>
+           <year>2011</year>
+           <country>DE</country>
+    </track>        
+    <track><artist>Björn Peng</artist>
+           <title>Murmeln</title>
+           <year>2011</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Kraftklub</artist>
+           <title>Eure Mädchen</title>
+           <year>2012</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Nachlader</artist>
+           <title>Raus Auf Die Strasse</title>
+           <year>2010</year>
+           <country>DE</country>
+    </track>
+    <track><artist>GammaBlitzBoys</artist>
+           <title>Jimmy</title>
+           <year>2010</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Monophone Struktur</artist>
+           <title>Weiss-Schwarz</title>
+           <year>2009</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Alienphobie</artist>
+           <title>Plan B</title>
+           <year>2010</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Homo~Futura</artist>
+           <title>Links-Rechts</title>
+           <year>2011</year>
+           <country>DE</country>
+    </track>    
+    <track><artist>Das M</artist>
+           <title>Leidenschaft Und Produktion</title>
+           <year>2008</year>
+           <country>AT</country>
+    </track>
+    <track><artist>QEK Junior</artist>
+           <title>Plastination</title>
+           <year>2011</year>
+           <country>DE</country>
+    </track>
+   </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" back = "TRUE" type = "jpg">fp20121</cover>
+    <fontsize>7</fontsize>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2012</year>
+    <month>3</month>
+    <by>DJ MAD.e</by>
+  </meta>
+</wgcompilation>

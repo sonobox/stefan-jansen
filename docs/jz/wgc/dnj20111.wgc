@@ -1,0 +1,166 @@
+<wgcompilation>
+  <title>The League Of Evil Exes</title> 
+  <season>Jansen / Zeileis - Das Nächste Jahrtausend</season>
+  <number>2011.1</number>
+  <content>
+    <cd>
+      <track><artist>Sex Bob-Omb</artist>
+             <title>We Are Sex Bob-Omb</title>
+             <quote>i got a breathalyzer and my body's clean</quote>
+             <year>2010</year>
+             <country>US</country>    
+      </track>
+      <track><artist>Crash And The Boys</artist>
+             <title>I'm So Sad, So Very, Very Sad/We Hate You, Please Die</title>
+             <quote>love don't stink like that cottage cheese</quote>
+             <year>2010</year>
+             <country>US</country>    
+      </track>
+      <track><artist>The Thermals</artist>
+             <title>I Don't Believe You</title>
+             <quote>you're going through a phase, you're just acting your age</quote>
+             <year>2010</year>
+             <country>US</country>    
+      </track>
+      <track><artist>Blood Red Shoes</artist>
+             <title>Don't Ask</title>
+             <quote>you started on two feet and ended on your knees</quote>
+             <year>2010</year>
+             <country>GB</country>    
+      </track>
+      <track><artist>Art vs. Science</artist>
+             <title>Parlez Vous Francais?</title>
+             <quote>si tu peux le parler allez tombez la chemise</quote>
+             <year>2009</year>
+             <country>AU</country>    
+      </track>
+      <track><artist>LCD Soundsystem</artist>
+             <title>Drunk Girls</title>
+             <quote>drunk girls are boringly wild</quote>
+             <year>2010</year>
+             <country>US</country>    
+      </track>
+      <track><artist>Chikinki</artist>
+             <title>Bitte Bitte</title>
+             <quote>disco dancing to electro rock</quote>
+             <year>2011</year>
+             <country>GB</country>    
+      </track>
+      <track><artist>The Wombats</artist>
+             <title>Tokyo (Vampires &amp; Wolves)</title>
+             <quote>astrophysics you'll never be my closest friend</quote>
+             <year>2010</year>
+             <country>GB</country>    
+      </track>
+      <track><artist>Yeasayer</artist>
+             <title>Madder Red</title>
+             <quote>always had sense enough to lie</quote>
+             <year>2010</year>
+             <country>US</country>    
+      </track>
+      <track><artist>The Vaccines</artist>
+             <title>Wreckin' Bar (Ra Ra Ra)</title>
+             <quote>the angels gave f. scott fitzgerald the evening news and the morning herald</quote>
+             <year>2010</year>
+             <country>GB</country>    
+      </track>
+      <track><artist>Les Incompétents</artist>
+             <title>How It All Went Wrong</title>
+             <quote>or just get a drink, or maybe another fifteen</quote>
+             <year>2006</year>
+             <country>GB</country>    
+      </track>
+      <track><artist>The Black Ghosts</artist>
+             <title>Repetition Kills You</title>
+             <quote>dancing needs a repetition to work</quote>
+             <year>2007</year>
+             <country>GB</country>    
+      </track>
+      <track><artist>Neon Plastix</artist>
+             <title>Gentleman's Gold</title>
+             <quote>you got me dreaming of you</quote>
+             <year>2010</year>
+             <country>GB</country>    
+      </track>
+      <track><artist>Trash Fashion</artist>
+             <title>Mom &amp; Daddy</title>
+             <quote>shake your body if you love your mom and daddy</quote>
+             <year>2007</year>
+             <country>GB</country>    
+      </track>
+      <track><artist>Hadouken!</artist>
+             <title>Mecha Love (Radio Edit)</title>
+             <quote>the planets cry, we'll rip the stellar sky</quote>
+             <year>2010</year>
+             <country>GB</country>    
+      </track>
+      <track><artist>She Wants Revenge</artist>
+             <title>Animal Attraction</title>
+             <quote>you don't have the patience for the smallest conversation that would let me know the trouble ahead</quote>
+             <year>2011</year>
+             <country>US</country>    
+      </track>
+      <track><artist>Sawoff Shotgun</artist>
+             <title>Feet Not Inches</title>
+             <quote>that's how we measure it</quote>
+             <year>2011</year>
+             <country>AT</country>    
+      </track>
+      <track><artist>Men</artist>
+             <title>Off Our Backs</title>
+             <quote>the second time is gonna cost some money</quote>
+             <year>2010</year>
+             <country>US</country>    
+      </track>
+      <track><artist>Goldielocks</artist>
+             <title>Provider</title>
+             <quote>will I find my sanity where I find my glory?</quote>
+             <year>2008</year>
+             <country>GB</country>    
+      </track>
+      <track><artist>Little Birdy</artist>
+             <title>Bodies</title>
+             <quote>i have survivors to revive</quote>
+             <year>2006</year>
+             <country>AU</country>    
+      </track>
+      <track><artist>Bell X1</artist>
+             <title>The Great Defector</title>
+             <quote>you're the chocolate at the end of my cornetto</quote>
+             <year>2009</year>
+             <country>GB</country>    
+      </track>
+      <track><artist>Kissy Sell Out</artist>
+             <title>Garden Friends</title>
+             <quote>tiptoeing out identical twins drunken asleep on the floor</quote>
+             <year>2009</year>
+             <country>GB</country>    
+      </track>
+      <track><artist>David E. Sugar</artist>
+             <title>Chelsea Girls</title>
+             <quote>it's been six months, well, i'd have thought by now you would have cleaned it up</quote>
+             <year>2007</year>
+             <country>GB</country>    
+      </track>
+      <track><artist>Brian LeBarton</artist>
+             <title>Threshold (8 Bit)</title>
+             <quote>scott pilgrim: we are sex bob-omb and we are here to make you think about death and get sad and stuff.</quote>
+             <year>2010</year>
+             <country>US</country>    
+      </track>
+    </cd>    
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" type = "jpg">dnj20111</cover>
+    <fontsize>10</fontsize>
+    <adj>11</adj>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2011</year>
+    <month>2</month>
+    <by>Z</by>
+  </meta>
+</wgcompilation>

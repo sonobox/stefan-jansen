@@ -1,0 +1,149 @@
+<wgcompilation>
+  <title>Восток-1</title>
+  <season>Jansen / Zeileis - Das Nächste Jahrtausend</season>
+  <number>2019.1</number>
+  <content>
+    <cd>
+      <track><artist>Lucie Bílá</artist>
+             <title>Neposlušné Tenisky</title>
+             <quote>mám ráda zábavy a hrozně rada tancuju</quote>
+             <year>1985</year>
+             <country>CS</country>
+      </track>
+      <track><artist>Videosex</artist>
+             <title>Ti Si Moja Roža,</title>
+             <quote>svetloba neona beži, mimo leti, nate mislim le, nate...</quote>
+             <year>1984</year>
+             <country>SI</country>
+      </track>
+      <track><artist>Denis &amp; Denis</artist>
+             <title>Program Tvog Kompjutera</title>
+             <quote>neka jaka zelja upija mi strah</quote>
+             <year>1984</year>
+             <country>HR</country>
+      </track>
+      <track><artist>Bonanza Banzai</artist>
+             <title>Újra Élsz</title>
+             <quote>újra játszol, újra élsz, magányodról nem beszélsz</quote>
+             <year>1989</year>
+             <country>HU</country>
+      </track>
+      <track><artist>Max &amp; Intro</artist>
+             <title>Loš Je Dan</title>
+             <quote>mrzim dan kada nestao si</quote>
+             <year>1985</year>
+             <country>RS</country>
+      </track>
+      <track><artist>Kapitan Nemo</artist>
+             <title>Wideonarkomania</title>
+             <quote>na dzień dobry - clips, po południu garść kowbojskich scen, a po bruce'ie lee trochę seksu nim zapadniesz w sen</quote>
+             <year>1986</year>
+             <country>PL</country>
+      </track>
+      <track><artist>Romantične Boje</artist>
+             <title>Bez Tebe</title>
+             <quote>ne vidim nista ne osecam nista a znam da sve je uzalud</quote>
+             <year>1986</year>
+             <country>RS</country>
+      </track>
+      <track><artist>Альянс</artist>
+             <title>На Заре</title>
+             <quote>солнца свет и сердца звук</quote>
+             <year>1987</year>
+             <country>SU</country>
+      </track>
+      <track><artist>Első Emelet</artist>
+             <title>Sorsvonat</title>
+             <quote>hány alagút, vagy fénykoszorú</quote>
+             <year>1986</year>
+             <country>HU</country>
+      </track>
+      <track><artist>Laco Lučenič</artist>
+             <title>Byt Plný Snov</title>
+             <quote>tak pojd mám byt plný snov, možna nám to stačí</quote>
+             <year>1987</year>
+             <country>CS</country>
+      </track>
+      <track><artist>Frank Schöbel</artist>
+             <title>Wir Fliegen Mit Dem Wind</title>
+             <quote>mut, übermut, spaß, alles ist dabei</quote>
+             <year>1985</year>
+             <country>DD</country>
+      </track>
+      <track><artist>IC</artist>
+             <title>Wunderland</title>
+             <quote>lass uns erde, mond und sonne sein</quote>
+             <year>1987</year>
+             <country>DD</country>
+      </track>
+      <track><artist>Klincz</artist>
+             <title>Jak Lodu Bryła</title>
+             <quote>chcesz uciekać w cień po co jednak ta komedia</quote>
+             <year>1985</year>
+             <country>PL</country>
+      </track>     
+      <track><artist>Zana</artist>
+             <title>Dordini Mi Kolena</title>
+             <quote>lepo ugosti i zadovolji me</quote>
+             <year>1982</year>
+             <country>RS</country>
+      </track>
+      <track><artist>Bastion</artist>
+             <title>Deca Sunca</title>
+             <quote>susret nam je vruć</quote>
+             <year>1984</year>
+             <country>MK</country>
+      </track>
+      <track><artist>Data</artist>
+             <title>Ne Zovi To Ljubavlju</title>
+             <quote>da te budim, da te ljubim, da te volim, da te nerviram</quote>
+             <year>1984</year>
+             <country>RS</country>
+      </track>           
+      <track><artist>Поп-Комбинат</artist>
+             <title>Э.В.М. (В Моей Голове)</title>
+             <quote>сто тысяч операций за одну секунду, я слышал, что такое тоже не предел</quote>
+             <year>1987</year>
+             <country>SU</country>
+      </track>
+      <track><artist>La Card</artist>
+             <title>Једно Збогом За Тебе</title>
+             <quote>а ето дошао је крај и једно збогом за тебе</quote>
+             <year>1984</year>
+             <country>RS</country>
+      </track>
+      <track><artist>НРГ</artist>
+             <title>Тревожные Сны</title>
+             <quote>странный мотив, тревожный мотив, слышится нам с тобой</quote>
+             <year>1988</year>
+             <country>SU</country>
+      </track>
+      
+      <track><artist>Форум</artist>
+             <title>Давайте Созвонимся!</title>
+             <quote>давайте созвонимся давайте трубку снимем</quote>
+             <year>1987</year>
+             <country>SU</country>
+      </track>
+     <track><artist>Beograd</artist>
+             <title>Opasne Igre</title>
+             <quote>sex and drugs and alcohol</quote>
+             <year>1982</year>
+             <country>RS</country>
+      </track>
+    </cd>    
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" type = "jpg">dnj20191</cover>
+    <fontsize>11.4</fontsize>
+    <adj>13</adj>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2019</year>
+    <month>5</month>
+    <by>DJ MAD.e &amp; Z</by>
+  </meta>
+</wgcompilation>

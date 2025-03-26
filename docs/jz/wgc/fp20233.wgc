@@ -1,0 +1,122 @@
+<wgcompilation>
+  <title>Science &amp; Sparks</title>
+  <season>Future Pop</season>
+  <number>2023.3</number>
+  <content>
+   <cd>
+     <track><artist>No</artist>
+           <title>Crowds</title>
+           <year>2023</year>
+           <country>CA</country>
+    </track>
+    <track><artist>Dead Cool</artist>
+           <title>Stranger Kind</title>
+           <year>2023</year>
+           <country>US</country>
+   </track>
+   <track><artist>Darkways</artist>
+           <title>I Like The Night (And The Night Likes Me)</title>
+           <year>2023</year>
+           <country>ES</country>
+    </track>
+    <track><artist>IVUR</artist>
+           <title>Feel</title>
+           <year>2023</year>
+           <country>AT</country>
+    </track>
+   <track><artist>Accident Sentimental</artist>
+           <title>Accident Sentimental</title>
+           <year>2023</year>
+           <country>FR</country>
+   </track>
+   <track><artist>European Sex</artist>
+           <title>Emily</title>
+           <year>2022</year>
+           <country>EU</country>
+    </track>
+    <track><artist>Risk Risk</artist>
+           <title>Dawn Patrol</title>
+           <year>2015</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Days Of Sorrow</artist>
+           <title>Bleed</title>
+           <year>2022</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Confrontational</artist>
+           <title>Temptation</title>
+           <year>2023</year>
+           <country>IT</country>
+    </track>
+    <track><artist>Deus Ex Lumina</artist>
+           <title>We Are Dead Tonight</title>
+           <year>2023</year>
+           <country>DE</country>
+   </track>
+   <track><artist>Молчат Дома</artist>
+           <title>Судно</title>
+           <year>2018</year>
+           <country>BY</country>
+    </track>
+    <track><artist>Je T'Aime</artist>
+           <title>Out Of Sight</title>
+           <year>2022</year>
+           <country>FR</country>
+    </track>
+    <track><artist>Videotraum</artist>
+           <title>Schwarze Herzen</title>
+           <year>2023</year>
+           <country>DE</country>
+    </track>
+   <track><artist>Stridulum</artist>
+           <title>Flesh</title>
+           <year>2023</year>
+           <country>PL</country>
+    </track>
+   <track><artist>BARI HARI</artist>
+           <title>Artificial</title>
+           <year>2021</year>
+           <country>US</country>
+    </track>
+   <track><artist>Echoberyl</artist>
+           <title>Fading Away</title>
+           <year>2023</year>
+           <country>FR</country>
+    </track>    
+
+    <track><artist>Twin Tribes</artist>
+           <title>Monolith</title>
+           <year>2023</year>
+           <country>US</country>
+    </track>
+   <track><artist>Nürnberg</artist>
+           <title>U Nikudy</title>
+           <year>2018</year>
+           <country>BY</country>
+    </track>  
+   <track><artist>Ploho</artist>
+           <title>Вечер Грустных Пар</title>
+           <year>2018</year>
+           <country>RU</country>
+    </track>
+    <track><artist>Koma Koma</artist>
+           <title>New Choices</title>
+           <year>2023</year>
+           <country>GB</country>
+    </track>
+   </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" back = "TRUE" type = "jpg">fp20233</cover>
+    <fontsize>7</fontsize>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2023</year>
+    <month>12</month>
+    <by>DJ MAD.e</by>
+  </meta>
+</wgcompilation>

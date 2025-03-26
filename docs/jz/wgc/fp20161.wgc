@@ -1,0 +1,132 @@
+<wgcompilation>
+  <title>Nuclear Winter</title>
+  <season>Future Pop</season>
+  <number>2016.1</number>
+
+  <content>
+   <cd>
+    <track><artist>The Invincible Spirit</artist>
+           <title>Final</title>
+           <year>2015</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Björn Peng</artist>
+           <title>Nichts</title>
+           <year>2014</year>
+           <country>DE</country>
+     </track>
+    <track><artist>Das Flug</artist>
+           <title>Deutsche Polizei</title>
+           <year>2016</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Kommando Elefant</artist>
+           <title>Ich Find Dich Seltsam</title>
+           <year>2014</year>
+           <country>AT</country>
+    </track>
+    <track><artist>Beborn Beton</artist>
+           <title>Anorexic World</title>
+           <year>2015</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Torul</artist>
+           <title>Saviour Of Love</title>
+           <year>2016</year>
+           <country>SI</country>
+    </track>
+    <track><artist>Solitude FX</artist>
+           <title>Die Vierte Dimension</title>
+           <year>2014</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Velvet Condom</artist>
+           <title>Kalter Lippenstift</title>
+           <year>2005</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Dyko</artist>
+           <title>Elektro Leiber</title>
+           <year>2007</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Erstes Wiener Heimorgelorchester</artist>
+           <title>Wurst-Käs-Szenario</title>
+           <year>2015</year>
+           <country>AT</country>
+    </track>
+    <track><artist>Villa Nah</artist>
+           <title>Spy</title>
+           <year>2016</year>
+           <country>FI</country>
+    </track>
+    <track><artist>IAMX</artist>
+           <title>Happiness</title>
+           <year>2015</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Sono</artist>
+           <title>Flames Get Higher</title>
+           <year>2013</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Etienne De Crecy</artist>
+           <title>Hashtag My Ass</title>
+           <year>2014</year>
+           <country>FR</country>
+    </track>
+    <track><artist>Mario Basanov feat. Stee Downes</artist>
+           <title>Say What Ya Want</title>
+           <year>2012</year>
+           <country>LT</country>
+    </track>
+    <track><artist>Tiga</artist>
+           <title>3 Rules</title>
+           <year>2016</year>
+           <country>CA</country>
+    </track>
+    <track><artist>Fraktus</artist>
+           <title>Jeder Gegen Jeden</title>
+           <year>2015</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Heartsrevolution</artist>
+           <title>Dance Till Dawn</title>
+           <year>2008</year>
+           <country>US</country>
+    </track>
+    <track><artist>POW!</artist>
+           <title>Switchboard Scientist</title>
+           <year>2014</year>
+           <country>US</country>
+    </track>
+    <track><artist>Power Glove</artist>
+           <title>Power Core</title>
+           <year>2013</year>
+           <country>AU</country>
+    </track>
+    <track><artist>Powernerd</artist>
+           <title>Neon Nights</title>
+           <year>2016</year>
+           <country>AT</country>
+    </track>
+    <track><artist>Zlad!</artist>
+           <title>Elektronik Supersonik</title>
+           <year>2004</year>
+           <country>AU</country>
+    </track>
+   </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" back = "TRUE" type = "jpg">fp20161</cover>
+    <fontsize>7</fontsize>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2016</year>
+    <month>12</month>
+    <by>Z</by>
+  </meta>
+</wgcompilation>

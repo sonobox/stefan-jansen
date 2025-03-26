@@ -1,0 +1,132 @@
+<wgcompilation>
+  <title>Turn On Your Tenori-on</title>
+  <season>Future Pop</season>
+  <number>2009.3</number>
+
+  <content>
+   <cd>
+    <track><artist>Little Boots</artist>
+           <title>Meddle (Designer Drugs 80s Coke Jam Remix)</title>
+           <year>2008</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Telepathe</artist>
+           <title>So Fine</title>
+           <year>2009</year>
+           <country>US</country>
+    </track>
+    <track><artist>La Roux</artist>
+           <title>Quicksand</title>
+           <year>2008</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Pnau</artist>
+           <title>Lover</title>
+           <year>2007</year>
+           <country>AU</country>
+    </track>
+    <track><artist>Dadajugend Polyform</artist>
+           <title>Dada Jeunesse</title>
+           <year>2008</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Yuksek</artist>
+           <title>Tonight</title>
+           <year>2009</year>
+           <country>FR</country>
+    </track>
+    <track><artist>The Human League</artist>
+           <title>The Things That Dreams Are Made Of (Richard Stone Radio Edit)</title>
+           <year>2007</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Lady Gaga</artist>
+           <title>Just Dance</title>
+           <year>2008</year>
+           <country>US</country>
+    </track>
+    <track><artist>Mel Merio</artist>
+           <title>The Mercy Seat</title>
+           <year>2007</year>
+           <country>AT</country>
+    </track>
+    <track><artist>Neon Neon</artist>
+           <title>Belfast</title>
+           <year>2008</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Pet Shop Boys</artist>
+           <title>Love Etc.</title>
+           <year>2009</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Frankmusik</artist>
+           <title>3 Little Words</title>
+           <year>2008</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Chromeo</artist>
+           <title>Fancy Footwork</title>
+           <year>2007</year>
+           <country>CA</country>
+    </track>
+    <track><artist>Friendly Fires</artist>
+           <title>Paris</title>
+           <year>2008</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Cut Copy</artist>
+           <title>Hearts On Fire</title>
+           <year>2008</year>
+           <country>AU</country>
+    </track>
+    <track><artist>Midnight Juggernauts</artist>
+           <title>Into The Galaxy</title>
+           <year>2008</year>
+           <country>AU</country>
+    </track>
+    <track><artist>Ladyhawke</artist>
+           <title>Dusk Till Dawn</title>
+           <year>2008</year>
+           <country>NZ</country>
+    </track>
+    <track><artist>Dragonette</artist>
+           <title>The Boys</title>
+           <year>2007</year>
+           <country>CA</country>
+    </track>
+    <track><artist>Woog Riots</artist>
+           <title>Frank Backwards</title>
+           <year>2008</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Juri Gagarin</artist>
+           <title>Electric Fucker</title>
+           <year>2009</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Crystal Castles</artist>
+           <title>Alice Practice</title>
+           <year>2006</year>
+           <country>CA</country>
+    </track>
+    <track><artist>You Love Her Coz She's Dead</artist>
+           <title>Superheroes</title>
+           <year>2008</year>
+           <country>GB</country>
+    </track>
+   </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" back = "TRUE" type = "jpg">fp20093</cover>
+    <fontsize>7</fontsize>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2009</year>
+    <month>3</month>
+    <by>Z</by>
+  </meta>
+</wgcompilation>

@@ -1,0 +1,132 @@
+<wgcompilation>
+  <title>#PSB Or #NotPSB</title>
+  <season>Jansen / Zeileis - Das Nächste Jahrtausend</season>
+  <number>2016.3</number>
+
+<content>
+<cd>
+<track><artist>My Robot Friend</artist>
+       <title>We're The Pet Shop Boys</title>
+       <quote>then i feel you touch me and it's 1984</quote>
+       <year>2002</year>
+       <country>US</country>
+</track>
+<track><artist>Nathan Jay</artist>
+       <title>The Pet Shop Boys Blocked Me On Twitter</title>
+       <quote>i wasn't an obsessive fan, that's just not me, but you're b.l.o.c.k.i.n.g.</quote>
+       <year>2009</year>
+       <country>GB</country>
+</track>
+<track><artist>Pet Shop Boys</artist>
+       <title>Try It (I'm In Love With A Married Man)</title>
+       <quote>do you think about me, darling, when you make love to your wife?</quote>
+       <year>2002</year>
+       <country>GB</country>
+</track>
+<track><artist>And One</artist>
+       <title>It's A Sin</title>
+       <quote>whatever you taught me, i didn't believe it</quote>
+       <year>2009</year>
+       <country>DE</country>
+</track>
+<track><artist>Eläkeläiset</artist>
+       <title>Päivätanssit</title>
+       <quote>harmaa rippipuku, saumat soimina. hei c'mon mummot, tulkaa humppaamaan</quote>
+       <year>2002</year>
+       <country>FI</country>
+</track>
+<track><artist>Carter The Unstoppable Sex Machine</artist>
+       <title>Rent</title>
+       <quote>we never calculate the currency we spent</quote>
+       <year>1990</year>
+       <country>GB</country>
+</track>
+<track><artist>Hidemi Ishikawa</artist>
+       <title>Love Comes Quickly</title>
+       <quote>love will always get to you</quote>
+       <year>1986</year>
+       <country>JP</country>
+</track>
+<track><artist>Claudia Brücken</artist>
+       <title>King's Cross</title>
+       <quote>good luck, bad luck waiting in a line, it takes more than the matter of time</quote>
+       <year>2012</year>
+       <country>DE</country>
+</track>
+<track><artist>Element Of Crime</artist>
+       <title>You Only Tell Me You Love Me When You're Drunk</title>
+       <quote>you're a devil, now an angel, suddenly subtle and solemn and silent as a monk</quote>
+       <year>2010</year>
+       <country>DE</country>
+</track>
+
+<track><artist>Flight Of The Conchords</artist>
+       <title>Inner City Pressure</title>
+       <quote>you know you're not in high finance, considering second hand underpants</quote>
+       <year>2008</year>
+       <country>NZ</country>
+</track>
+<track><artist>Blur</artist>
+       <title>Girls And Boys (Pet Shop Boys 12" Remix)</title>
+       <quote>you get nasty blisters. du bist sehr schön! but we haven't been introduced</quote>
+       <year>1994</year>
+       <country>GB</country>
+</track>
+<track><artist>David Bowie</artist>
+       <title>Hallo Spaceboy (Single Version)</title>
+       <quote>do you like girls or boys? it's confusing these days</quote>
+       <year>1996</year>
+       <country>GB</country>
+</track>
+<track><artist>Pet Shop Boys</artist>
+       <title>So Hard (The KLF Versus Pet Shop Boys)</title>
+       <quote>why don't we try?</quote>
+       <year>1990</year>
+       <country>GB</country>
+</track>
+<track><artist>Lady Gaga</artist>
+       <title>Eh Eh (Pet Shop Boys Remix)</title>
+       <quote>there's nothing else i can say</quote>
+       <year>2010</year>
+       <country>US</country>
+</track>
+<track><artist>West End Girls</artist>
+       <title>Being Boring</title>
+       <quote>we dressed up and fought then thought make amends</quote>
+       <year>2006</year>
+       <country>SE</country>
+</track>
+<track><artist>Inga Humpe</artist>
+       <title>Do I Have To (Radio Edit)</title>
+       <quote>say you phoned your best friend and scotland yard</quote>
+       <year>1990</year>
+       <country>DE</country>
+</track>
+<track><artist>Morten Harket</artist>
+       <title>Listening</title>
+       <quote>what's going on inside your head?</quote>
+       <year>2012</year>
+       <country>NO</country>
+</track>
+<track><artist>Joachim Witt</artist>
+       <title>Pet Shop Boy</title>
+       <quote>heißer strand, weißer sand, nächste woche filmfest in cannes</quote>
+       <year>1988</year>
+       <country>DE</country>
+</track>
+</cd>  
+</content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" back = "FALSE" type = "jpg">dnj20163</cover>
+    <fontsize>10.5</fontsize>
+    <adj>12</adj>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2016</year>
+    <month>11</month>
+    <by>DJ MAD.e</by>
+  </meta>
+</wgcompilation>

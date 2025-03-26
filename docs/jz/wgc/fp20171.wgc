@@ -1,0 +1,122 @@
+<wgcompilation>
+  <title>Kapitalismuskritik</title>
+  <season>Future Pop</season>
+  <number>2017.1</number>
+
+<content>
+ <cd>
+  <track><artist>Nicolas Sturm</artist>
+         <title>Deine Pläne</title>
+         <year>2017</year>
+         <country>DE</country>
+  </track>
+  <track><artist>Bratze</artist>
+         <title>Jean Claude</title>
+         <year>2007</year>
+         <country>DE</country>
+  </track>
+  <track><artist>Großstadtgeflüster</artist>
+         <title>Ich Boykottiere Dich</title>
+         <year>2016</year>
+         <country>DE</country>
+  </track>
+  <track><artist>Susanne Blech</artist>
+         <title>Fortschrittsoptimismus</title>
+         <year>2008</year>
+         <country>DE</country>
+  </track>
+  <track><artist>Sternrekorder</artist>
+         <title>Geh Lieber Nie</title>
+         <year>2011</year>
+         <country>DE</country>
+  </track>
+  <track><artist>Das M</artist>
+         <title>Neonlicht</title>
+         <year>2009</year>
+         <country>AT</country>
+  </track>
+  <track><artist>Raumheld</artist>
+         <title>Konformisten</title>
+         <year>2012</year>
+         <country>DE</country>
+  </track>
+  <track><artist>Acid.Milch&amp;Honig</artist>
+         <title>Discospielplatz</title>
+         <year>2007</year>
+         <country>DE</country>
+  </track>
+  <track><artist>Tubbe feat. Torsun</artist>
+         <title>Punkopa</title>
+         <year>2015</year>
+         <country>DE</country>
+  </track>
+  <track><artist>Saalschutz</artist>
+         <title>Headliner Der Herzen (DiskoCrunch Remix)</title>
+         <year>2010</year>
+         <country>CH</country>
+  </track>
+  <track><artist>DiskoCrunch feat. Egotronic</artist>
+         <title>Jeden Tag Im Mai</title>
+         <year>2012</year>
+         <country>DE</country>
+  </track>
+  <track><artist>Supershirt</artist>
+         <title>Am Arsch Des Triumphs</title>
+         <year>2011</year>
+         <country>DE</country>
+  </track>
+  <track><artist>Björn Peng</artist>
+         <title>Saufen</title>
+         <year>2011</year>
+         <country>DE</country>
+  </track>
+  <track><artist>Das Flug</artist>
+         <title>Verfahren</title>
+         <year>2016</year>
+         <country>DE</country>
+  </track>
+  <track><artist>Nachlader</artist>
+         <title>Sarrazinisiert</title>
+         <year>2011</year>
+         <country>DE</country>
+  </track>
+  <track><artist>The Toten Crackhuren Im Kofferraum</artist>
+         <title>Ich Brauch' Keine Wohnung</title>
+         <year>2013</year>
+         <country>DE</country>
+  </track>
+  <track><artist>MIA.</artist>
+       <title>United States Of Ich &amp; Du</title>
+       <year>2015</year>
+         <country>DE</country>
+  </track>
+  <track><artist>Brockdorff Klang Labor</artist>
+         <title>Wortdickicht</title>
+         <year>2012</year>
+         <country>DE</country>
+  </track>
+  <track><artist>Deine Jugend</artist>
+         <title>Nur Tanzen</title>
+         <year>2013</year>
+         <country>DE</country>
+  </track>
+  <track><artist>Gertrud Stein</artist>
+         <title>Zusammen</title>
+         <year>2011</year>
+         <country>CH</country>
+  </track>
+</cd>  
+</content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" back = "TRUE" type = "jpg">fp20171</cover>
+    <fontsize>7</fontsize>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2017</year>
+    <month>7</month>
+    <by>DJ MAD.e</by>
+  </meta>
+</wgcompilation>

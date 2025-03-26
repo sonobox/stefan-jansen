@@ -1,0 +1,125 @@
+<wgcompilation>
+  <title>Heart Of Glory</title> 
+  <season>Jansen / Zeileis - Das Nächste Jahrtausend</season>
+  <number>2023.1</number>
+  <content>
+    <cd>    
+      <track><artist>Portion Control</artist>
+             <title>The Great Divide</title>
+             <quote>when everything's permitted, authority to kill, a sudden way to cultivate destruction over will</quote>
+             <year>1985</year>
+             <country>GB</country>
+      </track>
+      <track><artist>Borghesia</artist>
+             <title>Ni Upanja, Ni Strahu = No Hope No Fear</title>
+             <quote>poišči me v mestu po zakotnih ulicah</quote>
+             <year>1987</year>
+             <country>SI</country>
+      </track>
+      <track><artist>Nitzer Ebb</artist>
+             <title>Hearts And Minds</title>
+             <quote>your empty words, your empty soul</quote>
+             <year>1988</year>
+             <country>GB</country>
+      </track>
+      <track><artist>Front 242</artist>
+             <title>U-Men</title>
+             <quote>I think it ain't just</quote>
+             <year>1982</year>
+             <country>BE</country>
+      </track>
+      <track><artist>Signal Aout 42</artist>
+             <title>Pro Patria</title>
+             <quote>dozens of millions dead</quote>
+             <year>1989</year>
+             <country>BE</country>
+      </track>
+      <track><artist>A Split-Second</artist>
+             <title>Flesh</title>
+             <quote>this is when you turn to sanctimonious rituals, the duty of the beast</quote>
+             <year>1987</year>
+             <country>BE</country>
+      </track>
+      <track><artist>Vomito Negro</artist>
+             <title>The New Force</title>
+             <quote>war, dance, fight, ignition</quote>
+             <year>1988</year>
+             <country>BE</country>
+      </track>
+      <track><artist>The Force Dimension</artist>
+             <title>Tension (Blue Version)</title>
+             <quote>you and me together, we're in the beat</quote>
+             <year>1989</year>
+             <country>NL</country>
+      </track>
+      <track><artist>à;GRUMH...</artist>
+             <title>Drama In The Subway</title>
+             <quote>it's not your problem, not your life</quote>
+             <year>1986</year>
+             <country>BE</country>
+      </track>
+      <track><artist>The Klinik</artist>
+             <title>Go Back</title>
+             <quote>let me hear your body talk</quote>
+             <year>1986</year>
+             <country>BE</country>
+      </track>
+      <track><artist>Front Line Assembly</artist>
+             <title>Digital Tension Dementia</title>
+             <quote>freedom is a luxury of self-induced hostility</quote>
+             <year>1989</year>
+             <country>CA</country>
+      </track>
+      <track><artist>Psyche</artist>
+             <title>The Brain Collapses</title>
+             <quote>another body falls to the floor and a disfigured face waits at the door</quote>
+             <year>1985</year>
+             <country>CA</country>
+      </track>
+      <track><artist>Skinny Puppy</artist>
+             <title>Assimilate</title>
+             <quote>rot and assimilate, hot to annihilate</quote>
+             <year>1985</year>
+             <country>CA</country>
+      </track>
+      <track><artist>Pankow</artist>
+             <title>Kunst Und Wahnsinn</title>
+             <quote>ich atme Kunst, fresse Wahnsinn</quote>
+             <year>1989</year>
+             <country>IT</country>
+      </track>
+      <track><artist>Tribantura</artist>
+             <title>Lack Of Sense</title>
+             <quote>blinded by genial words</quote>
+             <year>1988</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Bigod 20</artist>
+             <title>Body To Body (An Afternoon Of Aggression)</title>
+             <quote>stand up and move, you lazy pack</quote>
+             <year>1988</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Public Relation</artist>
+             <title>Eighty Eight</title>
+             <quote>action, vision, eighty eight</quote>
+             <year>1988</year>
+             <country>BE</country>
+      </track>
+   </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" type = "jpg">dnj20231</cover>
+    <fontsize>12</fontsize>
+    <adj>12.5</adj>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2023</year>
+    <month>2</month>
+    <by>Z</by>
+  </meta>
+</wgcompilation>
+

@@ -1,0 +1,113 @@
+<wgcompilation>
+  <title>Meltdown</title>
+  <season>Future Pop</season>
+  <number>2020.3</number>
+
+ <content>
+ <cd>
+  <track><artist>Replicant</artist>
+        <title>Drifter</title>
+        <year>2015</year>
+        <country>US</country>
+ </track>
+ <track><artist>Jorge Elbrecht feat. Geneva Jacuzzi</artist>
+        <title>Perish</title>
+        <year>2019</year>
+        <country>US</country>
+ </track>
+ <track><artist>Ploho</artist>
+        <title>Сердце Получает Нож</title>
+        <year>2018</year>
+        <country>RU</country>
+ </track>
+  <track><artist>Carlo Onda</artist>
+        <title>Schnee Fällt</title>
+        <year>2020</year>
+        <country>CH</country>
+ </track>
+ <track><artist>Getsuga Tenshou</artist>
+        <title>2095</title>
+        <year>2019</year>
+        <country>RU</country>
+ </track>
+ <track><artist>Twin Tribes</artist>
+        <title>Shadows</title>
+        <year>2018</year>
+        <country>US</country>
+ </track>
+ <track><artist>Echoberyl</artist>
+        <title>Broken Pieces</title>
+        <year>2019</year>
+        <country>FR</country>
+ </track> 
+ <track><artist>Minuit Machine</artist>
+        <title>Fear Of Missing Out</title>
+        <year>2019</year>
+        <country>FR</country>
+ </track>
+ <track><artist>Prospexx</artist>
+        <title>Terrifying World</title>
+        <year>2020</year>
+        <country>SG</country>
+ </track>
+ <track><artist>She Past Away</artist>
+        <title>Durdu Dünya</title>
+        <year>2019</year>
+        <country>TR</country>
+ </track>
+ <track><artist>The Dancing Plague Of 1518</artist>
+        <title>Atrophy</title>
+        <year>2019</year>
+        <country>US</country>
+ </track> 
+ <track><artist>Buzz Kull</artist>
+        <title>Into The Void</title>
+        <year>2017</year>
+        <country>AU</country>
+ </track>
+ <track><artist>Ritual Howls</artist>
+        <title>I Can Hear Your Tears</title>
+        <year>2019</year>
+        <country>US</country>
+ </track>
+ <track><artist>Selofan</artist>
+        <title>There Must Be Somebody</title>
+        <year>2020</year>
+        <country>GR</country>
+ </track>
+ <track><artist>Dead Husband</artist>
+        <title>Plastic Mind</title>
+        <year>2018</year>
+        <country>US</country>
+ </track>
+ <track><artist>Linea Aspera</artist>
+        <title>Solar Flare</title>
+        <year>2020</year>
+        <country>GB</country>
+ </track>
+ <track><artist>Lebanon Hanover</artist>
+        <title>The Last Thing</title>
+        <year>2020</year>
+        <country>CH</country>
+ </track>
+ <track><artist>Peine Perdue</artist>
+        <title>Aleister</title>
+        <year>2016</year>
+        <country>DE</country>
+ </track>
+
+   </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" back = "TRUE" type = "jpg">fp20203</cover>
+    <fontsize>8</fontsize>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2020</year>
+    <month>12</month>
+    <by>DJ MAD.e</by>
+  </meta>
+</wgcompilation>

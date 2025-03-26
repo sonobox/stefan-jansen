@@ -1,0 +1,118 @@
+<wgcompilation>
+  <title>Darkness Rising</title>
+  <season>Future Pop</season>
+  <number>2022.2</number>
+  <content>
+   <cd>
+    <track><artist>Echoberyl</artist>
+           <title>Mother Solitude (Club Version)</title>
+           <year>2021</year>
+           <country>FR</country>
+    </track>
+    <track><artist>Minuit Machine</artist>
+           <title>Battles</title>
+           <year>2015</year>
+           <country>FR</country>
+    </track>
+    <track><artist>Rue Oberkampf</artist>
+           <title>Hope And Fear</title>
+           <year>2022</year>
+           <country>FR</country>
+    </track>
+    <track><artist>NNHMN</artist>
+           <title>In Darkness</title>
+           <year>2020</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Diavol Strâin</artist>
+           <title>El Reflejo De Mi Muerte</title>
+           <year>2021</year>
+           <country>CL</country>
+    </track>
+    <track><artist>Kontravoid</artist>
+           <title>Judgment</title>
+           <year>2021</year>
+           <country>US</country>
+    </track>
+    <track><artist>Bragolin vs. Adam Tristar</artist>
+           <title>The End Dwells In Us All</title>
+           <year>2019</year>
+           <country>NL</country>
+    </track>
+   <track><artist>SYZYGYX</artist>
+           <title>Heart Frequencies</title>
+           <year>2019</year>
+           <country>US</country>
+    </track>
+    <track><artist>Neila Invo</artist>
+           <title>Murder's Prayer</title>
+           <year>2021</year>
+           <country>IT</country>
+    </track>
+    <track><artist>Kælan Mikla</artist>
+           <title>Næturblóm</title>
+           <year>2018</year>
+           <country>IS</country>
+    </track>
+    <track><artist>Sólveig Matthildur feat. Drap Majesty</artist>
+           <title>Dystopian Boy</title>
+           <year>2019</year>
+           <country>IS</country>
+    </track>
+    <track><artist>Glaare</artist>
+           <title>For Sale</title>
+           <year>2021</year>
+           <country>US</country>
+    </track>
+    <track><artist>Death Loves Veronica</artist>
+           <title>The Sinner</title>
+           <year>2021</year>
+           <country>US</country>
+    </track>
+    <track><artist>Ploho</artist>
+           <title>Plattenbauten</title>
+           <year>2022</year>
+           <country>RU</country>
+    </track>
+    <track><artist>Hoffen</artist>
+           <title>Shuriken</title>
+           <year>2019</year>
+           <country>MX</country>
+    </track>
+     <track><artist>Deathsomnia feat. Gabriel Franco</artist>
+           <title>Void Oblivion</title>
+           <year>2021</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Чайки Улетают С Моря</artist>
+           <title>Что Мне Здесь Делать</title>
+           <year>2020</year>
+           <country>RU</country>
+    </track>
+    <track><artist>Human Tetris</artist>
+           <title>Things I Don't Need</title>
+           <year>2012</year>
+           <country>RU</country>
+    </track>
+    <track><artist>TRAITRS</artist>
+           <title>The Suffering Of Spiders</title>
+           <year>2018</year>
+           <country>CA</country>
+    </track>
+
+
+   </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" back = "TRUE" type = "jpg">fp20222</cover>
+    <fontsize>7</fontsize>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2022</year>
+    <month>5</month>
+    <by>DJ MAD.e</by>
+  </meta>
+</wgcompilation>

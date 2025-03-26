@@ -1,0 +1,130 @@
+<wgcompilation>
+  <title>Artificial Intelligence</title>
+  <season>Jansen / Zeileis - Das Nächste Jahrtausend</season>
+  <number>2001.2</number>
+  <content>
+   <cd>
+    <track><artist>Shock Therapy</artist>
+           <title>Hate Is A 4-Letter Word</title>
+           <quote>i hate to disgust what this man has made</quote>
+           <year>1985</year>
+           <country>US</country>    
+    </track>
+    <track><artist>The Sisters Of Mercy</artist>
+           <title>Alice</title>
+           <quote>the safest way is straight and narrow</quote>
+           <year>1982</year>
+           <country>GB</country>    
+    </track>
+    <track><artist>The Cure</artist>
+           <title>Why Can't I Be You</title>
+           <quote>i run around in circles til i run out of breath</quote>
+           <year>1987</year>
+           <country>GB</country>    
+    </track>
+    <track><artist>The Invincible Spirit</artist>
+           <title>Contact (Radio Browbeat Mix)</title>
+           <quote>it feels like the kissing of absolut pain</quote>
+           <year>1988</year>
+           <country>DE</country>    
+    </track>
+    <track><artist>No More</artist>
+           <title>Suicide Commando</title>
+           <quote>king kong was a murderer</quote>
+           <year>1981</year>
+           <country>DE</country>    
+    </track>
+    <track><artist>à;GRUMH...</artist>
+           <title>Kill</title>
+           <quote>you got a life to kill the pain to kill the pain</quote>
+           <year>1988</year>
+           <country>BE</country>    
+    </track>
+    <track><artist>Tommi Stumpff</artist>
+           <title>Massaker</title>
+           <quote>blut, gehirn, massaker</quote>
+           <year>1989</year>
+           <country>DE</country>    
+    </track>
+    <track><artist>Laibach</artist>
+           <title>Geburt Einer Nation</title>
+           <quote>so reicht mir eure hände und gebt mir eure herzen - ich warte</quote>
+           <year>1987</year>
+           <country>YU/SI</country>    
+    </track>
+    <track><artist>Front 242</artist>
+           <title>Quite Unusual</title>
+           <quote>my eyes roamed over the burning ruins</quote>
+           <year>1986</year>
+           <country>BE</country>    
+    </track>
+    <track><artist>The Normal</artist>
+           <title>Warm Leatherette</title>
+           <quote>join the car crash set</quote>
+           <year>1978</year>
+           <country>GB</country>    
+    </track>
+    <track><artist>Liaisons Dangereuses</artist>
+           <title>Los Niños Del Parque</title>
+           <quote>eins zwei drei vier</quote>
+           <year>1981</year>
+           <country>DE</country>    
+    </track>
+    <track><artist>Charles De Goal</artist>
+           <title>Exposition</title>
+           <quote>rideau tiré sur le carreau cassé protéger non intinité</quote>
+           <year>1980</year>
+           <country>FR</country>    
+    </track>
+    <track><artist>The Fall</artist>
+           <title>Big New Prinz</title>
+           <quote>rockin' records rockin' rec rock's records</quote>
+           <year>1988</year>
+           <country>GB</country>    
+    </track>
+    <track><artist>Toy Dolls</artist>
+           <title>Nellie The Elephant</title>
+           <quote>and off she ran to hindustan and was never seen again</quote>
+           <year>1982</year>
+           <country>GB</country>    
+    </track>
+    <track><artist>B-Movie</artist>
+           <title>Nowhere Girl (Original)</title>
+           <quote>nowhere girl, what you have you need</quote>
+           <year>1980</year>
+           <country>GB</country>    
+    </track>
+    <track><artist>Einstürzende Neubauten</artist>
+           <title>Yü Gung (Adrian Sherwood Mix)</title>
+           <quote>niemals sterbe ich, niemals</quote>
+           <year>1985</year>
+           <country>DE</country>    
+    </track>
+    <track><artist>The Klinik</artist>
+           <title>Moving Hands</title>
+           <quote>looks like a man, looks like a beast</quote>
+           <year>1988</year>
+           <country>BE</country>    
+    </track>
+    <track><artist>Skinny Puppy</artist>
+           <title>Smothered Hope</title>
+           <quote>life shifts up and down everybody knows it's wrong, why don't you care?</quote>
+           <year>1984</year>
+           <country>CA</country>    
+    </track>
+   </cd> 
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" type = "jpg">dnj20012</cover>
+    <fontsize>12</fontsize>
+    <adj>12</adj>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2001</year>
+    <month>12</month>
+    <by>DJ MAD.e</by>
+  </meta>
+</wgcompilation>

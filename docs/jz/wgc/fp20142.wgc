@@ -1,0 +1,142 @@
+<wgcompilation>
+  <title>I \heart Cylons</title>
+  <season>Future Pop</season>
+  <number>2014.2</number>
+
+<content>
+<cd>
+<track><artist>Bondage Fairies</artist>
+       <title>Devil</title>
+       <year>2012</year>
+       <country>SE</country>
+</track>
+
+<track><artist>Robots In Disguise</artist>
+       <title>I Don't Have A God</title>
+       <year>2008</year>
+       <country>GB</country>
+</track>
+
+<track><artist>Deine Jugend</artist>
+       <title>Du Mich Auch</title>
+       <year>2013</year>
+       <country>DE</country>
+</track>
+
+<track><artist>Grossstadtgeflüster</artist>
+       <title>Spass</title>
+       <year>2006</year>
+       <country>DE</country>
+</track>
+
+<track><artist>2raumwohnung</artist>
+       <title>Bei Dir Bin Ich Schön</title>
+       <year>2013</year>
+       <country>DE</country>
+</track>
+
+<track><artist>Brockdorff Klang Labor</artist>
+       <title>1989</title>
+       <year>2012</year>
+       <country>DE</country>
+</track>
+
+<track><artist>I'm Not A Band</artist>
+       <title>Woody</title>
+       <year>2012</year>
+       <country>DE</country>
+</track>
+
+<track><artist>Marnie</artist>
+       <title>The Hunter</title>
+       <year>2013</year>
+       <country>GB</country>
+</track>
+
+<track><artist>Oh Land</artist>
+       <title>Helicopter</title>
+       <year>2011</year>
+       <country>DK</country>
+</track>
+
+<track><artist>Soho Dolls</artist>
+       <title>Right And Right Again (Radio Edit)</title>
+       <year>2007</year>
+       <country>GB</country>
+</track>
+
+<track><artist>Little Boots</artist>
+       <title>Click</title>
+       <year>2009</year>
+       <country>GB</country>
+</track>
+
+<track><artist>Client</artist>
+       <title>Obsession</title>
+       <year>2014</year>
+       <country>GB</country>
+</track>
+
+<track><artist>Foretaste</artist>
+       <title>Victim's Heart</title>
+       <year>2005</year>
+       <country>FR</country>
+</track>
+
+<track><artist>Sonnenbrandt</artist>
+       <title>Dancer</title>
+       <year>2009</year>
+       <country>DE</country>
+</track>
+
+<track><artist>Architecture In Helsinki</artist>
+       <title>Contact High</title>
+       <year>2011</year>
+       <country>AU</country>
+</track>
+
+<track><artist>Hot Chip</artist>
+       <title>One Life Stand (Radio Edit)</title>
+       <year>2010</year>
+       <country>GB</country>
+</track>
+
+<track><artist>Suidide Booth</artist>
+       <title>Pretty Soon</title>
+       <year>2010</year>
+       <country>DE</country>
+</track>
+
+<track><artist>Katsen</artist>
+       <title>What You Want</title>
+       <year>2009</year>
+       <country>DE</country>
+</track>
+
+<track><artist>Hjördis-Britt Åström</artist>
+       <title>La Fantôme Chanson</title>
+       <year>2014</year>
+       <country>RU</country>
+</track>
+
+<track><artist>Kriistal Ann</artist>
+       <title>She Walks In Beauty</title>
+       <year>2014</year>
+       <country>GR</country>
+</track>
+
+</cd>  
+</content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" back = "TRUE" type = "jpg">fp20142</cover>
+    <fontsize>7</fontsize>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2014</year>
+    <month>12</month>
+    <by>DJ MAD.e</by>
+  </meta>
+</wgcompilation>

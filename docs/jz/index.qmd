@@ -1,0 +1,331 @@
+---
+pagetitle: Homepage von Stefan Jansen
+lang: de
+format:
+  html:
+    grid:
+      sidebar-width: 80px
+      body-width: 830px
+      margin-width: 420px
+    include-in-header: hero-image-jz.html
+    include-after-body: kurznamen-toc.html
+    toc: true
+    language: 
+      de: 
+        toc-title-website: "Inhalt"
+        toc-title-document: "Inhalt"
+---
+
+# Suche
+
+```{r}
+#| include: false
+
+library(pacman)
+p_load(wgc, DT, tidyverse, kableExtra)
+
+# Voreinstellungen für Tabellen
+kbl <- function(Daten, align="l", ...) {
+  Daten |> 
+  kableExtra::kbl(align=align, booktabs = TRUE, ...) |> 
+  kable_styling(full_width = FALSE)
+}
+
+remove_load <- c("jz6.wgc")
+remove      <- c("jz4.wgc", "jz5.wgc", "dnj20121.wgc") # ggf. für #Statistiken
+
+# Namen der Dateien
+path_wgc = "wgc/"
+path_pix = "pix/"
+
+wgc_files_all <- dir(path = path_wgc, pattern = "*\\.wgc") 
+wgc_files <- wgc_files_all[wgc_files_all != remove_load] %>% paste0(path_wgc, .)
+
+
+# Datentabelle mit allen Compis erstellen:
+
+change_season <- function(x){
+  rval <- {if(x == "Future Pop" ) {"FP"}  else if(x == "Jansen / Zeileis") {"JZ"} else if(x == "Jansen / Zeileis - Das Nächste Jahrtausend") {"DnJ"}
+  }
+return(rval)
+}
+
+
+all_wgc <- wgc_files |> 
+           lapply(FUN = read.wgc) |> 
+           lapply(FUN = as_tibble) |> 
+           do.call(what = "bind_rows") |> 
+           mutate(season_new = case_when(season == "Future Pop" ~ "FP",
+                                         season == "Jansen / Zeileis" ~ "J/Z",
+                                         season == "Jansen / Zeileis - Das Nächste Jahrtausend" ~ "DnJ")) |> 
+           mutate(month_name = case_when(wgcmonth == 1 ~ "Januar",
+                                         wgcmonth == 2 ~ "Februar",
+                                         wgcmonth == 3 ~ "März",
+                                         wgcmonth == 4 ~ "April",
+                                         wgcmonth == 5 ~ "Mai",
+                                         wgcmonth == 6 ~ "Juni",
+                                         wgcmonth == 7 ~ "Juli",
+                                         wgcmonth == 8 ~ "August",
+                                         wgcmonth == 9 ~ "September",
+                                         wgcmonth == 10 ~ "Oktober",
+                                         wgcmonth == 11 ~ "November",
+                                         wgcmonth == 12 ~ "Dezember"))
+             
+             
+             
+```
+
+
+```{r}
+#| echo: false
+#| message: false
+
+all_wgc |> arrange(artist, title) |> 
+           select(Artist = artist,
+                  Title = title,
+                  Season = season_new,
+                  Number = number, 
+                  CD = cd, 
+                  No = track) |> 
+                  DT::datatable(options = list(paging = FALSE, 
+                                               language = list(search = "Schlagwort: ")))
+```
+
+
+
+```{r}
+#| echo: false
+#| message: false
+
+## Generiere Einzelne CDs:
+
+alle_ordnung <- all_wgc |> 
+                filter(cd == 1, track == 1) |> 
+                pull(filename)
+
+alle_jz <- all_wgc |> 
+                filter(cd == 1, track == 1,
+                       season_new == "J/Z") |>
+                
+                pull(filename)
+
+alle_dnj <- all_wgc |> 
+                filter(cd == 1, track == 1,
+                       season_new == "DnJ") |> 
+                pull(filename)
+
+alle_fp <- all_wgc |> 
+                filter(cd == 1, track == 1,
+                       season_new == "FP") |> 
+                pull(filename) 
+
+all2one <- function(data, file){
+        data |> filter(filename == file) |> 
+                arrange(cd, track) 
+}
+
+ 
+# Eine CD erstellen:
+
+print_one <- function(data) {
+   artist   <- data$artist
+   title    <- data$title
+   cd       <- data$cd    
+   track    <- data$track 
+   wgcmonth <- data$wgcmonth |> unique()
+   wgcyear  <- data$wgcyear |> unique()
+   season   <- data$season     |> unique()
+   wgctitle <- data$wgctitle |> unique()
+   filename <- data$filename |> unique()
+   number   <- data$number   |> unique()
+   by       <- data$by |> unique()
+   month    <- data$month_name |> unique()
+
+
+# 
+# title 
+cat(paste0("### ",number,": ", wgctitle," {toc-text=\"", number, ": ", wgctitle, "\"}", "\ \n"))
+cat(paste0("*von ", by, " (", month, " ", wgcyear,")*\ \n\n"))
+
+# track listing:   
+if(length(unique(cd)) < 2){
+  cat(paste(" ", str_pad(track, width = 2, "left", 0),  " **", artist, "**", " -- ", title, " \ \n", sep = ""))
+  cat(paste("\n\n"))
+} else {
+  cat(paste(" ", cd, str_pad(track, width = 2, "left", 0)," **", artist, "**", " -- ", title, " \ \n", sep = ""))
+  cat(paste("\n\n"))
+}
+}
+
+
+```
+
+```{r}
+#| echo: false
+#| output: asis
+#| message: false
+
+cat(paste("# Jansen/Zeileis: Classics \n\n"))
+
+
+for(i in alle_jz){
+  print_one(all2one(all_wgc, i))
+}
+
+cat(paste("# Das Nächste Jahrtausend \n\n"))
+
+
+for(i in alle_dnj){
+  print_one(all2one(all_wgc, i))
+}
+
+cat(paste("# Future Pop \n\n"))
+
+
+for(i in alle_fp){
+  print_one(all2one(all_wgc, i))
+}
+
+```
+
+# Statistiken
+
+
+```{r}
+#| message: false
+#| echo: false
+
+all_wgc %>%  group_by(season, number, by) %>% 
+         summarize(n = n()) %>% 
+         group_by(season, by) %>% 
+         summarize(anzahl = n()) %>% 
+         pivot_wider(names_from = season, values_from = anzahl) %>% 
+         DT::datatable(options = list(paging = FALSE))
+
+```
+
+
+
+## Anzahl Songs
+
+```{r}
+#| echo: false
+#| message: false
+
+all_wgc %>%  group_by(season, by) %>% 
+         summarize(n = n()) %>% 
+       #  group_by(season) %>% 
+        # summarize(anzahl = n()) %>% 
+         pivot_wider(names_from = season, values_from = n) %>% 
+         DT::datatable(options = list(paging = FALSE))
+
+```
+
+## Häufigkeit Bands
+
+```{r}
+#| echo: false
+
+all_wgc %>% group_by(artist) %>% 
+  #  filter(season == "Jansen / Zeileis", number %in% c("4", "5"))
+  # filter(season != "Future Pop") %>%  
+  # filter(season == "Future Pop") %>%
+  summarize(Anzahl = n()) %>% 
+  rename(Artist = artist) %>%
+  filter(Anzahl > 4) %>% 
+  arrange(desc(Anzahl)) %>%
+  DT::datatable(options = list(paging = FALSE))
+
+
+all_wgc %>% group_by(artist) %>% 
+    summarize(n= n()) %>%
+    group_by(n) %>% 
+    summarize(Häufigkeit = n()) %>% 
+    arrange(desc(n)) %>% 
+    rename(`Songs einer Band` = n) %>% 
+    DT::datatable(options = list(paging = FALSE))
+
+```
+
+
+## Anzahl Songs nach Jahr und Season
+
+```{r}
+#| echo: false
+
+all_wgc %>%  rename(Season = season) %>% 
+        ggplot(aes(y = wgcyear, fill = Season)) + 
+           geom_bar() + 
+           theme(legend.position="bottom") + 
+           labs(x = "Anzahl", y = "Jahr")
+
+```
+
+
+## Anzahl Songs nach Jahr und Ersteller
+
+```{r}
+#| echo: false
+
+all_wgc %>%  rename(Ersteller = by) %>% 
+        ggplot(aes(y = wgcyear, fill = Ersteller)) + 
+           geom_bar() + 
+           theme(legend.position="bottom") + 
+           labs(x = "Anzahl", y = "Jahr") 
+
+```
+
+## Anzahl Länder
+
+```{r}
+#| echo: false
+
+all_wgc %>% drop_na(country) %>% 
+         rename(Ersteller = by) %>% 
+         ggplot(aes(y = fct_rev(fct_infreq(fct_lump(country, 25, other_level = "Sonstige"))), 
+                    fill = Ersteller)) + 
+         geom_bar() + 
+         labs(x = "Anzahl", y = "Land") + 
+         theme(legend.position="bottom")
+
+```
+
+## Länge Titelname
+
+```{r}
+#| echo: false
+
+all_wgc %>% mutate(titleLength = nchar(title)) %>% 
+            arrange(desc(titleLength)) %>% 
+            select(n = titleLength, artist, title) %>% 
+            ggplot(aes(x = n)) + 
+            geom_bar()
+
+# all_wgc %>% mutate(titleLength = nchar(title)) %>%  
+#             group_by(titleLength) %>% 
+#             summarize(n = n()) %>% 
+#             kbl
+```
+
+## Anzahl Songs pro Erscheinungsjahr
+
+```{r}
+#| echo: false
+
+all_wgc %>% group_by(year) %>% 
+        filter(year != "") %>% 
+        rename(Ersteller = by) %>% 
+        ggplot(aes(y = year, fill = Ersteller)) +
+        geom_bar() + 
+        labs(y = "Jahr", x = "Anzahl")+ 
+        theme(legend.position="bottom")
+#        summarise(n = n()) %>%  
+#        arrange(desc(n)) %>%  
+#        kbl
+
+```
+
+
+
+
+

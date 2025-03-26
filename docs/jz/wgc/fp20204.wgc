@@ -1,0 +1,117 @@
+<wgcompilation>
+  <title>Atomic Autumn</title>
+  <season>Future Pop</season>
+  <number>2020.4</number>
+
+  <content>
+   <cd>
+    <track><artist>Die Antwoord</artist>
+           <title>No 1</title>
+           <year>2020</year>
+           <country>ZA</country>
+    </track>
+    <track><artist>Apoptygma Berzerk</artist>
+           <title>Soma Coma</title>
+           <year>2020</year>
+           <country>NO</country>
+    </track>
+    <track><artist>ACTORS</artist>
+           <title>Face Meets Glass</title>
+           <year>2018</year>
+           <country>CA</country>
+    </track>
+    <track><artist>The Faint</artist>
+           <title>Young &amp; Realistic</title>
+           <year>2019</year>
+           <country>US</country>
+    </track>
+    <track><artist>Risk Risk</artist>
+           <title>Disconnected Lines</title>
+           <year>2015</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Tobias Bernstrup</artist>
+           <title>1984</title>
+           <year>2011</year>
+           <country>SE</country>
+    </track>
+    <track><artist>The Buttons</artist>
+           <title>Be My Creature</title>
+           <year>2013</year>
+           <country>US</country>
+    </track>
+    <track><artist>Carlo Onda</artist>
+           <title>Kopf Oder Zahl</title>
+           <year>2019</year>
+           <country>CH</country>
+    </track>
+    <track><artist>Lebanon Hanover</artist>
+           <title>Du Scrollst</title>
+           <year>2018</year>
+           <country>CH</country>
+    </track>
+    <track><artist>Hante.</artist>
+           <title>In Raptures</title>
+           <year>2020</year>
+           <country>FR</country>
+    </track>
+    <track><artist>Dance With The Dead</artist>
+           <title>Scar</title>
+           <year>2020</year>
+           <country>US</country>
+    </track>
+    <track><artist>Jennifer Touch</artist>
+           <title>Chemistry</title>
+           <year>2019</year>
+           <country>DE</country>
+    </track>
+    <track><artist>DRAMAS</artist>
+           <title>Undercover Dreamer</title>
+           <year>2020</year>
+           <country>AT</country>
+    </track>
+    <track><artist>Electrogenic</artist>
+           <title>In The Night</title>
+           <year>2017</year>
+           <country>IT</country>
+    </track>
+    <track><artist>Korine</artist>
+           <title>Elegance &amp; Youth</title>
+           <year>2018</year>
+           <country>US</country>
+    </track>
+    <track><artist>Kindest Cuts</artist>
+           <title>F.D.N.E.</title>
+           <year>2016</year>
+           <country>CA</country>
+    </track>
+    <track><artist>Kontravoid</artist>
+           <title>Native State</title>
+           <year>2012</year>
+           <country>US</country>
+    </track>
+    <track><artist>Plastic Ivy</artist>
+           <title>Never Caught In Amber</title>
+           <year>2018</year>
+           <country>US</country>
+    </track>
+    <track><artist>Mr.Kitty</artist>
+           <title>Hold Me Down</title>
+           <year>2014</year>
+           <country>US</country>
+    </track>
+   </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" back = "TRUE" type = "jpg">fp20204</cover>
+    <fontsize>7</fontsize>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2020</year>
+    <month>12</month>
+    <by>Z</by>
+  </meta>
+</wgcompilation>

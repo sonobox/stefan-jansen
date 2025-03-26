@@ -1,0 +1,117 @@
+<wgcompilation>
+  <title>I Wanna Watch Monster Trucks</title>
+  <season>Future Pop</season>
+  <number>2006.1</number>
+
+  <content>
+   <cd>
+    <track><artist>Bodyrockers</artist>
+           <title>I Like The Way (Radio Edit)</title>
+           <year>2004</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Armand Van Helden feat. Spalding Rockwell</artist>
+           <title>Je T'Apelle</title>
+           <year>2004</year>
+           <country>US</country>
+    </track>
+    <track><artist>Junior Jack</artist>
+           <title>Stupidisco (Radio Edit)</title>
+           <year>2004</year>
+           <country>IT</country>
+    </track>
+    <track><artist>Mylo vs. Miami Sound Machine</artist>
+           <title>Doctor Pressure (Dirty Radio Edit)</title>
+           <year>2005</year>
+           <country>GB</country>
+    </track>
+    <track><artist>The Disco Boys feat. Manfred Mann's Earth Band</artist>
+           <title>For You (Original Radio Edit)</title>
+           <year>2005</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Waldorf</artist>
+           <title>Fashionist (Disco Metal)</title>
+           <year>2002</year>
+           <country>CH</country>
+    </track>
+    <track><artist>Infernal</artist>
+           <title>From Paris To Berlin</title>
+           <year>2004</year>
+           <country>DK</country>
+    </track>
+    <track><artist>Fischerspooner</artist>
+           <title>Emerge</title>
+           <year>2000</year>
+           <country>US</country>
+    </track>
+    <track><artist>Goldfrapp</artist>
+           <title>Ooh La La</title>
+           <year>2005</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Timo Maas</artist>
+           <title>To Get Down</title>
+           <year>2002</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Soulwax</artist>
+           <title>E Talking (Tiga's Disco Drama Remix)</title>
+           <year>2005</year>
+           <country>BE</country>
+    </track>
+    <track><artist>Eigner</artist>
+           <title>Go</title>
+           <year>2005</year>
+           <country>AT</country>
+    </track>
+    <track><artist>Röyksopp</artist>
+           <title>What Else Is There? (Jacques Lu Cont Radio Mix)</title>
+           <year>2006</year>
+           <country>NO</country>
+    </track>
+    <track><artist>DMX Krew</artist>
+           <title>The Fallen Kings</title>
+           <year>2005</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Apoptygma Berzerk</artist>
+           <title>Cambodia</title>
+           <year>2005</year>
+           <country>NO</country>
+    </track>
+    <track><artist>Electric Six</artist>
+           <title>Dance Commander (Soulchild Extended Night Version)</title>
+           <year>2003</year>
+           <country>US</country>
+    </track>
+    <track><artist>Le Tigre</artist>
+           <title>After Dark (NDB Vocal Disco Mix)</title>
+           <year>2005</year>
+           <country>US</country>
+    </track>
+    <track><artist>Spalding Rockwell</artist>
+           <title>Flake</title>
+           <year>2004</year>
+           <country>US</country>
+    </track>
+    <track><artist>Stereo Total</artist>
+           <title>Everybody In The Discotheque (I Hate)  (We Love Motor Mark Mix)</title>
+           <year>2006</year>
+           <country>DE</country>
+    </track>
+   </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" back = "TRUE" type = "jpg">fp20061</cover>
+    <fontsize>7</fontsize>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2006</year>
+    <month>2</month>
+    <by>Z</by>
+  </meta>
+</wgcompilation>

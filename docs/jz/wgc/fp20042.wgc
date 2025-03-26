@@ -1,0 +1,113 @@
+<wgcompilation>
+  <title>Radioaktive Gedanken</title>
+  <season>Future Pop</season>
+  <number>2004.2</number>
+
+  <content>
+   <cd>
+    <track><artist>Nena feat. TokTok</artist>
+           <title>Ich Häng Immer Noch An Dir</title>
+           <year>2002</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Kid Alex</artist>
+           <title>Emergency</title>
+           <year>2004</year>
+           <country>DE</country>
+    </track>
+    <track><artist>MIA.</artist>
+           <title>Hoffnung / Mit Diesem Trick</title>
+           <year>2004</year>
+           <country>DE</country>
+    </track>
+    <track><artist>PeterLicht</artist>
+           <title>Die Transsylvanische Verwandte Ist Da</title>
+           <year>2001</year>
+           <country>DE</country>
+    </track>
+    <track><artist>2raumwohnung</artist>
+           <title>Spiel Mit (2raum Club Mix)</title>
+           <year>2004</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Gautsch</artist>
+           <title>König Des Pop</title>
+           <year>1998</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Klee</artist>
+           <title>Erinner Dich</title>
+           <year>2002</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Paula</artist>
+           <title>Von Guten Eltern</title>
+           <year>2001</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Sono</artist>
+           <title>Blame</title>
+           <year>2002</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Märtini Brös.</artist>
+           <title>Flash</title>
+           <year>2002</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Rosenstolz</artist>
+           <title>Was Kann Ich Für Eure Welt</title>
+           <year>2003</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Spillsbury</artist>
+           <title>Die Wahrheit</title>
+           <year>2003</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Tocotronic vs. Console</artist>
+           <title>Freiburg V3.0</title>
+           <year>2000</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Ascii Disko</artist>
+           <title>Einfach</title>
+           <year>2002</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Das Präparat</artist>
+           <title>Tanz' Mit Deinem Gefühl (Tanz Der Abgrenzung)</title>
+           <year>2004</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Welle:Erdball</artist>
+           <title>Starfighter F-104G (Album Version)</title>
+           <year>2000</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Mikron 64</artist>
+           <title>Schwitzen</title>
+           <year>1999</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Düse</artist>
+           <title>Nackig (Original Mix)</title>
+           <year>2002</year>
+           <country>DE</country>
+    </track>
+   </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" back = "TRUE" type = "jpg">fp20042</cover>
+    <fontsize>7</fontsize>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2004</year>
+    <month>12</month>
+    <by>DJ MAD.e</by>
+  </meta>
+</wgcompilation>
+

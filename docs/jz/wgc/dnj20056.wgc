@@ -1,0 +1,138 @@
+<wgcompilation>
+  <title>International Labs For Outer Space Science</title>
+  <season>Jansen / Zeileis - Das Nächste Jahrtausend</season>
+  <number>2005.6</number>
+
+  <content>
+   <cd>
+    <track><artist>The Invincible Spirit</artist>
+           <title>Provoke You</title>
+           <quote>remember when you were hot-tempered and i was too frightened to move</quote>
+            <year>1987</year>
+            <country>DE</country>
+    </track>
+    <track><artist>Tommi Stumpff</artist>
+           <title>Lobotomie</title>
+           <quote>extase, kommando an, dann lobotomie</quote>
+           <year>1989</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Aviador Dro</artist>
+           <title>La Televisión Es Nutritiva (Live)</title>
+           <quote>su imagen estimula mi amor informativo</quote>
+           <year>1982</year>
+           <country>ES</country>
+    </track>
+    <track><artist>Azul 29</artist>
+           <title>Ciências Sensuais</title>
+           <quote>ano 2010, aprendo na escola amar: pura matemática, física astral-lunar, química avançada, anatomia erótica</quote>
+           <year>1984</year>
+           <country>BR</country>
+    </track>
+    <track><artist>John Foxx</artist>
+           <title>This City</title>
+           <quote>why aren't you dissolving yet?</quote>
+           <year>1981</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Deo</artist>
+           <title>Exakt Neutral</title>
+           <quote>kein mensch, kein tier</quote>
+           <year>1982</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Grosse Freiheit</artist>
+           <title>Ein Mann Zuviel</title>
+           <quote>herzschrittmacher im mambotakt</quote>
+           <year>1982</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Palais Schaumburg</artist>
+           <title>Hockey</title>
+           <quote>the wildest game of love, the toughest game</quote>
+           <year>1983</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Die Doraus Und Die Marinas</artist>
+           <title>Diebstahl Oder Mädchen</title>
+           <quote>agent oder spion oder revolution</quote>
+           <year>1983</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Stephan Eicher</artist>
+           <title>Nice</title>
+           <quote>die kleinen weichen pudel, so naiv im rudel</quote>
+           <year>1983</year>
+           <country>CH</country>
+    </track>
+    <track><artist>Lars Falk</artist>
+           <title>Hello Hello</title>
+           <quote>wherever i go i say</quote>
+           <year>1983</year>
+           <country>SE</country>
+    </track>
+    <track><artist>Fad Gadget</artist>
+           <title>Ricky's Hand</title>
+           <quote>six pints later it waved goodbye, picked his nose and squashed a fly</quote>
+           <year>1980</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Cabaret Voltaire</artist>
+           <title>Nag Nag Nag</title>
+           <quote>so far so good, please recall if you could</quote>
+           <year>1979</year>
+           <country>GB</country>
+    </track>
+    <track><artist>UV Pop</artist>
+           <title>Sleep Don't Talk</title>
+           <quote>talk to me, shout, shout</quote>
+           <year>1983</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Die Gesunden</artist>
+           <title>Die Gesunden Kommen</title>
+           <quote>komm mit uns</quote>
+           <year>1982</year>
+           <country>DE</country>
+    </track>
+    <track><artist>The Neon Judgement</artist>
+           <title>Too Cold To Breathe</title>
+           <quote>it is the time for us to get paid</quote>
+           <year>1983</year>
+           <country>BE</country>
+    </track>
+    <track><artist>Tones On Tail</artist>
+           <title>Performance</title>
+           <quote>we take control today</quote>
+           <year>1984</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Nichts</artist>
+           <title>Ein Deutsches Lied</title>
+           <quote>deutsch sein, niemandem sagen, nur angst vor fragen, scham für mein land</quote>
+           <year>1982</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Hotel Morphila Orchester</artist>
+           <title>Sex In Der Stadt</title>
+           <quote>lena: tiefe kehle, liebestanz, hausbesuche, knabenhaftes mädchen erduldet griechisch</quote>
+           <year>1979</year>
+           <country>AT</country>
+    </track>
+   </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" type = "jpg">dnj20056</cover>
+    <fontsize>11</fontsize>
+    <adj>13</adj>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2005</year>
+    <month>10</month>
+    <by>DJ MAD.e &amp; Z</by>
+  </meta>
+</wgcompilation>
+

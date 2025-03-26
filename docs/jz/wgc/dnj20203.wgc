@@ -1,0 +1,148 @@
+<wgcompilation>
+  <title>Honneur Et Douleur</title> 
+  <season>Jansen / Zeileis - Das Nächste Jahrtausend</season>
+  <number>2020.3</number>
+  <content>
+    <cd>
+      <track><artist>Bandolero</artist>
+             <title>Paris Latino</title>
+             <quote>z comme zorro, ça se bouscule dans les couloirs</quote>
+             <year>1983</year>
+             <country>FR</country>
+      </track>
+      <track><artist>Elegance</artist>
+             <title>Vacances J'Oublie Tout</title>
+             <quote>cette chanson bien cotée, c'est le tube de l'été, me fait flipper de la tête aux pieds</quote>
+             <year>1982</year>
+             <country>FR</country>
+      </track>
+      <track><artist>Regrets</artist>
+             <title>Je Ne Veux Pas Rentrer Chez Moi Seule</title>
+             <quote>il a disparu et j'me suis perdue</quote>
+             <year>1983</year>
+             <country>FR</country>
+      </track>
+      <track><artist>Goûts De Luxe</artist>
+             <title>Les Yeux De Laura</title>
+             <quote>sa tête se bat mais son corps abdique</quote>
+             <year>1986</year>
+             <country>FR</country>
+      </track>
+      <track><artist>Indochine</artist>
+             <title>Miss Paramount</title>
+             <quote>c'est effrayant ce qu'il y a sur l'écran, la panique gagne les premiers rangs</quote>
+             <year>1983</year>
+             <country>FR</country>
+      </track>
+      <track><artist>Comix</artist>
+             <title>Touche Pas Mon Sexe</title>
+             <quote>petite fille mal éduquée, retourne à l'index, tu me donnes de mauvaises idées</quote>
+             <year>1981</year>
+             <country>FR</country>
+      </track>
+      <track><artist>Elli &amp; Jacno</artist>
+             <title>Main Dans La Main</title>
+             <quote>tous ces regards, qui te rendent fou, me laissent de glace, embrassons nous</quote>
+             <year>1980</year>
+             <country>FR</country>
+      </track>
+      <track><artist>Lio</artist>
+             <title>Amoureux Solitaires</title>
+             <quote>de plaisir chimique pour nos cerveaux trop ternes, que nos vies aient l'air d'un film parfait</quote>
+             <year>1980</year>
+             <country>BE</country>
+      </track>
+      <track><artist>Yianna Katsoulos</artist>
+             <title>Les Autres Sont Jaloux</title>
+             <quote>chérie, chérie, elle fait c'qu'elle veut, oh ma chérie, elle est la fille du dieu</quote>
+             <year>1986</year>
+             <country>US</country>
+      </track>
+      <track><artist>Laroche Valmont</artist>
+             <title>T'As Le Look, Coco</title>
+             <quote>pas de doute, coco, t'as le look qui te colle à la peau</quote>
+             <year>1984</year>
+             <country>FR</country>
+      </track>
+      <track><artist>Magazine 60</artist>
+             <title>Don Quichotte</title>
+             <quote>no señor, don quijote y sancho panza no están aquí</quote>
+             <year>1984</year>
+             <country>FR</country>
+      </track>
+      <track><artist>Images</artist>
+             <title>Les Démons De Minuit</title>
+             <quote>m'entraînent jusqu'à l'insomnie, les fantômes de l'ennui</quote>
+             <year>1986</year>
+             <country>FR</country>
+      </track>
+      <track><artist>Jeanne Mas</artist>
+             <title>Toute Première Fois</title>
+             <quote>et tu recherche dans le vague, une ombre, un sourire qui soulage, une voix sans image</quote>
+             <year>1984</year>
+             <country>FR</country>
+      </track>
+      <track><artist>Stéphanie</artist>
+             <title>Ouragan</title>
+             <quote>la tempête en moi a balayé le passé</quote>
+             <year>1986</year>
+             <country>FR</country>
+      </track>
+      <track><artist>Christine Roque</artist>
+             <title>Premiers Frissons D'Amour</title>
+             <quote>ivresse tendresse caresses on aime ça</quote>
+             <year>1986</year>
+             <country>FR</country>
+      </track>
+      <track><artist>Corynne Charby</artist>
+             <title>Boule De Flipper</title>
+             <quote>les souvenirs c'est du poison au goût citron</quote>
+             <year>1986</year>
+             <country>FR</country>
+      </track>
+      <track><artist>Partenaire Particulier</artist>
+             <title>Elle Est Partie</title>
+             <quote>c'était une fille bien trop jolie, et qui pendant toutes ses nuits d'ivresse, de tendresse, allait cacher le corps de ses amants</quote>
+             <year>1986</year>
+             <country>FR</country>
+      </track>
+      <track><artist>Muriel Dacq</artist>
+             <title>Tropique</title>
+             <quote>sorti de la playa, mamma mia que calor nella discoteca</quote>
+             <year>1985</year>
+             <country>BE</country>
+      </track>
+      <track><artist>Les Avions</artist>
+             <title>Nuit Sauvage</title>
+             <quote>la nuit est chaude, elle est sauvage, la nuit est belle pour ses otages</quote>
+             <year>1985</year>
+             <country>FR</country>
+      </track>
+      <track><artist>A Caus' Des Garçons</artist>
+             <title>A Caus' Des Garçons</title>
+             <quote>on mets des bas nylon, on se crêpe le chignon</quote>
+             <year>1987</year>
+             <country>FR</country>
+      </track>
+      <track><artist>Niagara</artist>
+             <title>Tchiki Boum</title>
+             <quote>et si tu prends mon cœur ça ne me fait pas peur, et si tu prends mon corps tu n'as pas vraiment tort</quote>
+             <year>1985</year>
+             <country>FR</country>
+      </track>
+    </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" type = "jpg">dnj20203</cover>
+    <fontsize>10</fontsize>
+    <adj>10.8</adj>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2020</year>
+    <month>4</month>
+    <by>Z</by>
+  </meta>
+</wgcompilation>

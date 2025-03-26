@@ -1,0 +1,329 @@
+<wgcompilation>
+  <title>Dekade Eins</title>
+  <season>Jansen / Zeileis</season>
+  <number>4</number>
+
+  <content>
+   <cd name = "Jansen spielt Zeileis">
+   <track><artist>Zombies</artist>
+          <title>Groenlandia</title>
+          <quote>atravesaré el mundo y volando llegaré hasta el espacio exterior</quote>
+          <year>1980</year>
+          <country>ES</country>
+   </track>
+   <track><artist>Alaska</artist>
+          <title>Bailando</title>
+          <quote>muevo la cabeza, muevo el esternón</quote>
+          <year>1982</year>
+          <country>ES</country>
+   </track>
+          <track><artist>N&amp;SK</artist>
+          <title>Kangourou Nomade</title>
+          <quote>est un monstre imaginaire</quote>
+          <year>2001</year>
+          <country>FR</country>
+   </track>
+   <track><artist>Ленинград</artist>
+   	      <title>WWW</title>
+   	      <quote>давай, шеф, поехали к дому, дорогу сейчас покажу</quote>
+          <year>2002</year>
+          <country>RU</country>
+   </track>
+   <track><artist>Carter The Unstoppable Sex Machine</artist>
+   	      <title>And God Created Brixton</title>
+   	      <quote>tonight, big brother is watching you and i am watching too</quote>
+          <year>1997</year>
+          <country>GB</country>
+   </track>
+   <track><artist>The Frank Popp Ensemble</artist>
+   	      <title>Breakaway (Radio Edit)</title>
+   	      <quote>it's never easy</quote>
+          <year>2001</year>
+          <country>DE</country>
+   </track>
+   <track><artist>Munk feat. James Murphy</artist>
+   	      <title>Kick Out The Chairs</title>
+   	      <quote>we are not so complicated</quote>
+          <year>2004</year>
+          <country>DE</country>
+   </track>
+   <track><artist>The Sounds</artist>
+   	      <title>Living In America</title>
+       	  <quote>it's hardcore honey</quote>
+          <year>2002</year>
+          <country>SE</country>
+   </track>
+   <track><artist>Au Pairs</artist>
+   	      <title>You</title>
+   	      <quote>you are just a social disease</quote>
+          <year>1979</year>
+          <country>GB</country>
+   </track>
+   <track><artist>The Whip</artist>
+   	      <title>Trash</title>
+   	      <quote>i wanna be trash!</quote>
+          <year>2006</year>
+          <country>GB</country>
+   </track>
+   <track><artist>Mittageisen</artist>
+   	      <title>Automaten (Radio Edit)</title>
+       	  <quote>geschichte wird weiter gemacht</quote>
+          <year>1985</year>
+          <country>CH</country>
+   </track>
+   <track><artist>Berlin</artist>
+   	      <title>The Metro</title>
+   	      <quote>i remember the letter wrinkled in my hand "i'll love you always" filled my eyes</quote>
+          <year>1981</year>
+          <country>US</country>
+   </track>  
+   <track><artist>Boytronic</artist>
+      	  <title>Luna Square</title>
+      	  <quote>all your tries are in vain, you must go the dusty way</quote>
+          <year>1983</year>
+          <country>DE</country>
+   </track>
+   <track><artist>Ascii Disko</artist>
+   	      <title>Straßen</title>
+   	      <quote>so wie wir unsere haare tragen</quote>
+          <year>2003</year>
+          <country>DE</country>
+   </track>
+   <track><artist>The Fashion</artist>
+          <title>Like Knives (Tiger Baby Remix)</title>
+          <quote>watch the flash of the blade as it grinds right to our bones without a sound</quote>
+          <year>2008</year>
+          <country>DK</country>
+   </track>
+   <track><artist>Crystal Castles</artist>
+   	      <title>Alice Practice</title>
+   	      <quote>scars will heal soon</quote>
+          <year>2006</year>
+          <country>CA</country>
+   </track>
+   <track><artist>Egotronic</artist>
+          <title>Raven Gegen Deutschland</title>
+          <quote>wir haben euch was mitgebracht</quote>
+          <year>2007</year>
+          <country>DE</country>
+   </track>
+   <track><artist>DJ Tocadisco</artist>
+          <title>Nobody (Likes The Records That I Play)</title>
+          <quote>it is completely whack! face it!</quote>
+          <year>2003</year>
+          <country>DE</country>
+   </track>
+   <track><artist>The Postal Service</artist>
+   	      <title>Such Great Heights</title>
+    	    <quote>but everything looks perfect from far away</quote>
+          <year>2003</year>
+          <country>US</country>
+   </track>
+   </cd>  
+    
+   <cd name = "Zeileis spielt Jansen">
+   <track><artist>Fischer-Z</artist>
+           <title>Wristcutters Lullaby</title>
+           <quote>i ran but i wish that i stayed</quote>
+           <year>1981</year>
+           <country>GB</country>
+   </track>
+   <track><artist>Bénabar</artist>
+           <title>Y'A Une Fille Qui Habite Chez Moi</title>
+           <quote>il y'a des vêtements pliés</quote>
+           <year>2001</year>
+           <country>FR</country>
+   </track>
+   <track><artist>Jean Pierre Mader</artist>
+           <title>Macumba</title>
+           <quote>elle a quitté son île pour un monde nouveau loin des bidonvilles</quote>
+           <year>1985</year>
+           <country>FR</country>
+   </track>
+   <track><artist>Baxendale</artist>
+           <title>Music For Girls</title>
+           <quote>this is your life, this looks like it's goona be fun</quote>
+           <year></year>
+           <country>GB</country>
+   </track>
+   <track><artist>Testsieger</artist>
+           <title>Ich Tanze</title>
+           <quote>ich stürze mich aus dem fenster meiner erdgeschosswohnung...und tanze</quote>
+           <year>2004</year>
+           <country>DE</country>
+   </track>
+   <track><artist>Acid.Milch&amp;Honig</artist>
+           <title>Panzersong</title>
+           <quote>ab jetzt wir hier nur noch mit fäusten diskutiert</quote>
+           <year>2008</year>
+           <country>DE</country>
+   </track>
+   <track><artist>WestBam</artist>
+           <title>Computerstaat</title>
+           <quote>mittwoch ist der krieg sehr kalt, breschnew lauert in der badeanstalt</quote>
+           <year>1999</year>
+           <country>DE</country>
+   </track>
+   <track><artist>MIA.</artist>
+           <title>Alles Neu (Album Version)</title>
+           <quote>zwischen dir und mir geht's hin und her</quote>
+           <year>2002</year>
+           <country>DE</country>
+   </track>
+   <track><artist>The Automatic</artist>
+           <title>Monster</title>
+           <quote>brain fried tonight through misuse</quote>
+           <year>2006</year>
+           <country>GB</country>
+   </track>
+   <track><artist>Cansei De Ser Sexy</artist>
+           <title>Music Is My Hot Hot Sex</title>
+           <quote>from all the drugs the one i like more is music</quote>
+           <year>2005</year>
+           <country>BR</country>
+   </track>
+   <track><artist>Deo</artist>
+           <title>Killerautomat</title>
+           <quote>zu allem bereit, was uns von langeweile befreit</quote>
+           <year>1982</year>
+           <country>DE</country>
+   </track>
+   <track><artist>Kerosin</artist>
+           <title>Der Mod</title>
+           <quote>die pseudos sind für mich ganz einfach blöd und unsere gesellschaft find ich öd</quote>
+           <year>1982</year>
+           <country>AT</country>
+   </track>
+   <track><artist>Talking Heads</artist>
+           <title>Psycho Killer</title>
+           <quote>réalisant mon espoir je me lance vers la gloire, okay</quote>
+           <year>1977</year>
+           <country>US</country>
+   </track>
+   <track><artist>Venus In Furs</artist>
+           <title>When I Acquire You</title>
+           <quote>my absence leaves a question and a question mark</quote>
+           <year>1989</year>
+           <country>GB</country>
+   </track>
+   <track><artist>Comix</artist>
+           <title>Walkman Video</title>
+           <quote>pas de disco: la musique plutôt hitech</quote>
+           <year>1981</year>
+           <country>FR</country>
+   </track>
+   <track><artist>U-BahnX</artist>
+           <title>Young Hearts Of Europe (Extended Version)</title>
+           <quote>heidi fell in love with rudi in a disco on a saturday night</quote>
+           <year>1985</year>
+           <country>GB</country>
+   </track>
+   <track><artist>Bobby Orlando</artist>
+           <title>I Pretend</title>
+           <quote>i never thought it would come to this: such trouble from just one kiss</quote>
+           <year>1983</year>
+           <country>US</country>
+   </track>
+   <track><artist>Ultima Emoción</artist>
+           <title>Sentir Tu Cuerpo</title>
+           <quote>sonrisas de metal</quote>
+           <year>1983</year>
+           <country>ES</country>
+   </track>
+   <track><artist>Fischerspooner</artist>
+           <title>Megacolon</title>
+           <quote>my man calls me cherry, thinks i'm uptight, but i'm gonna blow him off 'cause i'm dynamite</quote>
+           <year>2002</year>
+           <country>US</country>
+   </track>
+   <track><artist>Goto80</artist>
+           <title>Fantasy</title>
+           <quote>by night you come to me with hands so loving and firm: l o a d dot dot dollar dot dot comma eight and return</quote>
+           <year>2005</year>
+           <country>SE</country>
+   </track>
+   <track><artist>The Mighty Boosh</artist>
+           <title>Electro</title>
+           <quote>crystal moccasins, bionic jeans</quote>
+           <year>2004</year>
+           <country>GB</country>
+    </track>
+   </cd>  
+  </content>
+
+  <layout>
+    <jzquotes>
+      <jzq>666-Party</jzq>
+      <jzq>Filmquiz</jzq>
+      <jzq>Poll</jzq>
+      <jzq>TheMightyBoosh</jzq>
+      <jzq>FlightOfTheConchords</jzq>
+      <jzq>Monatshits</jzq>
+      <jzq>QI</jzq>
+      <jzq>IGotHam,ButI'mNotAHamster</jzq>
+      <jzq>Poker-Profis</jzq>
+      <jzq>Medienkaufsucht</jzq>
+      <jzq>Audiolith</jzq>
+      <jzq>TourDeDarts</jzq>
+      <jzq>I'mNotSoSure</jzq>
+      <jzq>ComputerSaysNo!</jzq>
+      <jzq>Universaldysfunktionalisator</jzq>
+      <jzq>FuturePop</jzq>
+      <jzq>Silvesterparty</jzq>
+      <jzq>Cobretti</jzq>
+      <jzq>Heimkino</jzq>
+      <jzq>DieBesteFischthekeDeutschlands</jzq>
+      <jzq>Orgon-Strahlung</jzq>
+      <jzq>Sushi</jzq>
+      <jzq>PartysSprengen</jzq>
+      <jzq>Rhabarberkuchen</jzq>
+      <jzq>Schwarzwald-Radtour</jzq>
+      <jzq>Coupling</jzq>
+      <jzq>LittleBritain</jzq>
+      <jzq>Serienquiz</jzq>
+      <jzq>AppliedEconometricsWithR</jzq>
+      <jzq>PedroAlmodóvar</jzq>
+      <jzq>LePop</jzq>
+      <jzq>BlackBooks</jzq>
+      <jzq>Rave</jzq>
+      <jzq>NewRave</jzq>
+      <jzq>CaféMalaria!</jzq>
+      <jzq>CD-Sortierung</jzq>
+      <jzq>FM4</jzq>
+      <jzq>NeverMindTheBuzzcocks</jzq>
+      <jzq>01189998119991197253-OhThat'sEasyToRemember</jzq>
+      <jzq>Ohrensessel</jzq>
+      <jzq>WiiBowling</jzq>
+      <jzq>VerschwendeDeineJugend</jzq>
+      <jzq>MinimalWave</jzq>
+      <jzq>Regaflex</jzq>
+      <jzq>Gunkl</jzq>
+      <jzq>FünfEierDeluxe</jzq>
+      <jzq>Laufen</jzq>
+      <jzq>www.Jansen-Zeileis.de</jzq>
+      <jzq>Jahreshits</jzq>
+      <jzq>IAmElectroBoy</jzq>
+      <jzq>PrinciplesOfBadDataDisplay</jzq>
+      <jzq>ICan'tDetectAQuestionHere</jzq>
+      <jzq>Zwiebelkuchen</jzq>
+      <jzq>Roller-Downhill</jzq>
+      <jzq>LesbiansArePornEfficient</jzq>
+      <jzq>AnEveningWithKevinSmith</jzq>
+      <jzq>AfghanEck</jzq>
+      <jzq>Welle:Erdball</jzq>
+      <jzq>Klapprechner</jzq>
+      <jzq>Crash</jzq>
+    </jzquotes>
+
+    <cover front = "FALSE" small = "TRUE" inside = "TRUE" inlay = "TRUE" type = "jpg">jz4</cover>
+    <fontsize>7.6</fontsize>
+    <adj>11</adj>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2010</year>
+    <month>11</month>
+    <by>DJ MAD.e &amp; Z</by>
+  </meta>
+</wgcompilation>

@@ -1,0 +1,123 @@
+project:
+  type: website
+  output-dir: _www
+  
+
+website:
+  site-url: https://www.stefan-jansen.de/
+  image: "/bilder/SJ-Balken.png"
+  favicon: favicon.png
+  open-graph: true
+  twitter-card: true
+  page-navigation: true
+  search: true
+  
+  page-footer:
+     right: "Stefan Jansen, 2024"
+
+  navbar:
+    background: dark
+    search: true
+    logo: bilder/SJ-Balken.png
+    pinned: false
+    collapse: true
+    collapse-below: lg
+    left:
+      - text: "Start"
+        href: index.qmd
+      - text: Blog
+        href: docs/blog/index.qmd
+      - text: "Skripte"
+        menu:
+          - text: Wirtschaftsmathematik (WP)
+            icon: clipboard2-data
+            href: http://www.stefan-jansen.de/wipsy/da
+            target: _blank
+          - text: Data Analytics (DS)
+            icon: graph-up
+            href: http://www.stefan-jansen.de/datascience/da
+            target: _blank 
+          - text: Brückenkurs Mathematik
+            icon: calculator
+            href: http://www.stefan-jansen.de/brueckenkurs/
+            target: _blank
+     #  - text: "Seminare"
+     #    menu:      
+     #      - text: "Seminar: Zahlengeschichte(n)"
+     #        icon: calculator
+     #        href: docs/seminar/zahlen/index.qmd
+     #  - text: Literatur
+     #   href: docs/literatur/index.qmd
+      - text: Links
+        href: docs/links/index.qmd
+      - text: Musik
+        menu:
+          - text: Jansen / Zeileis Compilations  
+            icon: boombox
+            href: docs/jz/index.qmd
+          - text: Jahreshits
+            icon: vinyl-fill
+            href: docs/jahreshits/index.qmd
+          - text: discogs
+            icon: disc
+            href: https://www.discogs.com/user/sonobox/collection?page=1&limit=250
+            target: _blank
+
+    tools:
+      - icon: person-circle
+        href: docs/vita/index.qmd
+        target: _blank
+        text: Vita
+      - icon: envelope
+        href: docs/kontakt/index.qmd
+        target: _blank
+        text: Kontakt
+      - icon: youtube
+        href: https://tinyurl.com/sonobox
+        target: _blank
+        text: Mein Youtube Kanal
+      - icon: mastodon
+        href: https://tinyurl.com/sonobox02
+        target: _blank
+        text: mastadon
+      # - icon: twitter
+      #   href: https://x.com/laeufergott
+      #   target: _blank
+      #   text: twitter
+      - icon: github
+        href: https://github.com/sonobox
+        target: _blank
+        text: GitHub
+    #  - icon: 
+     #   href: https://www.researchgate.net/profile/Stefan-Jansen-2
+      - icon: exclamation-triangle
+        href: docs/disclaimer/index.qmd
+        text: Haftungsausschluss
+
+
+ 
+bibliography: buecherStudium.bib
+
+format:
+  html:
+    toc: false
+    language: 
+      de: 
+        toc-title-website: "Inhalt:"
+        toc-title-document: "Inhalt Kapitel:"
+    theme:
+      light: [cosmo, theme.scss]
+    code-copy: true
+    code-overflow: wrap
+    css: styles.css
+    include-after-body: js.html
+    grid:
+      sidebar-width: 260px
+      body-width: 900px
+      margin-width: 200px
+
+freeze: true
+
+profile:
+  group: 
+    - [rc,prerelease]

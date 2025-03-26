@@ -1,0 +1,119 @@
+<wgcompilation>
+
+  <title>Execution Traxx</title>
+  <season>Jansen / Zeileis - Das Nächste Jahrtausend</season>
+  <number>2003.4</number>
+
+  <content>
+   <cd>
+    <track><artist>Robert Rental</artist>
+           <title>Double Heart</title>
+           <quote>different voices for you, different colours for me</quote>
+           <year>1980</year>
+           <country>GB</country>
+    </track>
+    <track><artist>HMB</artist>
+           <title>Wanted</title>
+           <quote>i am getting all i can</quote>
+           <year>2001</year>
+           <country>DE</country>
+    </track>
+    <track><artist>à;GRUMH...</artist>
+           <title>Danger Zone</title>
+           <quote>use protections, accept protections, rubber is better than death or pain</quote>
+           <year>1989</year>
+           <country>BE</country>
+    </track>
+    <track><artist>The Fair Sex</artist>
+           <title>No Excuse</title>
+           <quote>two killers are her legs and taking a walk and a razor blade</quote>
+           <year>1989</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Skinny Puppy</artist>
+           <title>Censor</title>
+           <quote>guilty grey formaldehyde cripples hound a wheelchair guilty grey a wheelchair hounds you asshole</quote>
+           <year>1988</year>
+           <country>CA</country>
+    </track>
+    <track><artist>Christ Analogue</artist>
+           <title>Optima (Organic Radio)</title>
+           <quote>i am not alive</quote>
+           <year>1996</year>
+           <country>US</country>
+    </track>
+    <track><artist>Steril</artist>
+           <title>No Remission (Neuter King Mix)</title>
+           <quote>what i feel is what i get - i shot you</quote>
+           <year>1994</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Dementia Simplex</artist>
+           <title>Slice 1088</title>
+           <quote>lucifer's hellfire began to burn and it is waiting greedy</quote>
+           <year>1998</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Leæther Strip</artist>
+           <title>Kill A Raver</title>
+           <quote>you're going down</quote>
+           <year>1997</year>
+           <country>DK</country>
+    </track>
+    <track><artist>KMFDM</artist>
+           <title>Sucks (Original 12" Mix)</title>
+           <quote>we don't like michael jackson, we hate depeche mode, we don't care for madonna or kylie minogue</quote>
+           <year>1992</year>
+           <country>US</country>
+    </track>
+    <track><artist>Haujobb</artist>
+           <title>Cleaned Visions (Extended Radiation)</title>
+           <quote>aerials, three dimensional wonderful sensetive complexity</quote>
+           <year>1996</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Babyland</artist>
+           <title>Kill Bugs</title>
+           <quote>you never listen to a fucking word she says, keep the myth alive, all bugs must die</quote>
+           <year>1994</year>
+           <country>US</country>
+    </track>
+    <track><artist>Welle:Erdball</artist>
+           <title>Wo Kommen All Die Geister Her</title>
+           <quote>wer hat sich das ausgedacht - oder ist es längst die wirklichkeit?</quote>
+           <year>1996</year>
+           <country>DE</country>
+    </track>
+    <track><artist>ECO</artist>
+           <title>Ich Will Dich</title>
+           <quote>ich spür' dich nicht, ich seh' dich nicht, wie konnte ich dir trauen?</quote>
+           <year>1998</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Tommi Stumpff</artist>
+           <title>13 Minuten Massaker</title>
+           <quote>die schutzräume sind schnellstens aufzusuchen</quote>
+           <year>1991</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Liaisons Dangereuses</artist>
+           <title>Los Niños Del Parque (Original 7" Version)</title>
+           <quote>los niños de las niños</quote>
+           <year>1981</year>
+           <country>DE</country>
+    </track>
+   </cd> 
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "FALSE" inlay = "FALSE" type = "jpg">dnj20034</cover>
+    <fontsize>12</fontsize>
+    <adj>10</adj>
+  </layout>
+
+  <meta>
+    <year>2003</year>
+    <month>8</month>
+    <by>DJ MAD.e</by>
+  </meta>
+</wgcompilation>
