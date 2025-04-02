@@ -1,0 +1,261 @@
+---
+title: Reacher-Zahlen 
+format:
+  html:
+    include-in-header: ../../hero-image-blog.html
+lang: de
+# subtitle: 
+description: "Reacher-Zahlen sind Zahlen $n$, deren Ziffern man summiert und das Ergebnis mit einer Potenz $m$ potenziert, so dass sich wieder die Zahl $n$ selbst ergibt."
+categories:
+  - "Mathematik"
+  - "Reacher-Zahlen"
+author: Stefan Jansen
+date: 04/02/2025
+image: ../../../../bilder/Reacher_Zahlen.png
+---
+
+Im letzten Eintrag habe ich kurz über die Zahl 2025 geschrieben, die viele tolle Eigenschaften hat, unter anderem die Eigenschaft, dass $(20+25)^2 = 2025$ ist. Im Zuge dessen habe ich mich gefragt, welche weiteren vierstelligen Jahreszahlen diese Eigenschaft haben. Dazu habe ich mir ein kleines (nicht sehr elegantes) R-Programm geschrieben, das die gewünschten vierstelligen Zahlen liefert.
+
+```{r}
+for(TH in 10:99) {
+  for(ZE in 0:99) {
+    if((TH+ZE)^2 == (TH*100 + ZE)) {
+      print(TH*100 + ZE)
+    }
+  }
+}
+```
+
+Schon 1917 wurde mit dem [Problem 113 - The Torn Number](https://archive.org/details/AmusementsInMathematicspdf/page/n29/mode/2up?view=theater){.external target="_blank"} von Henry Ernest Dudeney ein derartiges Probelm publiziert. Dank Computern ist die Suche nach solchen Zahlen nicht mehr schwierig.
+
+Ich fand es nun naheliegend zu fragen, ob es noch mehr solcher Zahlen gibt, die diese oder eine ähnliche Eigenschaft haben. Der allgemeinste (sinnvolle) Fall der mir eingefallen ist wäre eine $k$-stellige Zahl, die man in beliebig viele Teile zerschneidet deren Summe zu einer beliebigen natürlichen Potenz wieder die Zahl selbst ist. Da das doch sehr allgemein und relativ wenig strukturiert ist, habe ich mich entschieden mir ein paar Spezialfälle anzusehen. Man könnte das nun auch in verschiedenen Zahlensyetemen untersuchen, aber das fürht dann wirklich zu weit :-).
+
+
+### Geraden Anzahl $2k$ Ziffern, jeder Summand hat $k$ Stellen, Exponent ist $2$.
+
+Der erste (sehr nahe liegende Fall) sind Zahlen mit einer geraden Anzahl Ziffern $2k$, wobei $k$ eine natürliche Zahl ist. Dies wäre die *natürliche* Erweiterung von unserem Jahreszahl-Problem. Wir suchen also Zahlen, die folgende Eigenschaft haben
+
+\begin{align*}
+n_1n_2n_3\cdots n_{2k} = (n_1n_2\cdots n_{k} + n_{k+1}n_{k+2}\cdots n_{2k})^2
+\end{align*}
+
+wobei $n_i$ jeweils Ziffern sind und $n_1 \neq 0$ sein soll. Man könnte argumentieren, dass auch $n_{k+1} \neq 0$ sein sollte, aber ich lasse diese Zahlen mal.   
+
+:::{.columns}
+:::{.column width="47%"}
+
+| k  | Zahlen       |
+|:---|:-------------|
+| 1  | 81           |
+| 2  | 2025         |
+| 2  | 3025         |
+| 2  | 9801         |
+| 3  | 494209       |
+| 3  | 998001       |
+| 4  | 24502500     |
+| 4  | 25502500     |
+| 4  | 52881984     |
+| 4  | 60481729     |
+| 4  | 99980001     |
+| 5  | 6049417284   |
+
+
+:::
+:::{.column width="5%"}
+:::
+
+:::{.column width="47%"}
+
+| k  | Zahlen       |
+|:---|:-------------|
+| 5  | 6832014336   |
+| 5  | 9048004641   |
+| 5  | 9999800001   |
+| 6  | 101558217124 |
+| 6  | 108878221089 |
+| 6  | 123448227904 |
+| 6  | 127194229449 |
+| 6  | 152344237969 |
+| 6  | 213018248521 |
+| 6  | 217930248900 |
+| 6  | 249500250000 |
+| 6  | 250500250000 |
+:::
+
+
+Man kann schon erkennen, dass es Muster gibt: so scheinen die Zahlen der Form:
+
+\begin{align*}
+\underbrace{9....9}_{k-1 \text{ mal}}8\underbrace{0....0}_{k-1 \text{ mal}}1
+\end{align*}
+
+immer diese Eigenschaft zu haben. Wobei $k=1$ die $81$ liefert, die auch die Eigenschaft hat, dass $(8+1)^2 = 81$ ist.
+
+:::{.callout-note}
+## Satz
+Es gibt unendliche viele Zahlen mit $2k$ Stellen, so dass die ersten $k$-Stellen addiert zu den zweiten $k$-Stellen quadriert die Zahl selbst gibt. DAs sind die Zahlen der Form: 
+
+\begin{align*}
+(10^k-2)\cdot 10^k + 1 & = (10^{2k}-2 \cdot 10^{k} +1) \\ & = (10^n -k)^2
+\end{align*}
+:::
+
+
+
+### Reacher-Zahlen (Basis 10)
+
+Bei den Reacher-Zahlen potenziert man die Summer aller Ziffern mit einer natürlichen Zahl und erhält die ursprüngliche Zahl. Man nennt die Zahlen Reacher-Zahlen, weil Jack Reacher in einem der Bücher von Lee Child die Zahl 81 mag, da diese das Quadrat der Summe ihrer Ziffern ist.
+
+Seien nun $n_1, n_2, \cdots, n_k$ Ziffern, wobei $n_1 \neq 0$ sein soll, und $p \in \mathbb{N}$ sei ein ganzzahliger, positiver Exponent. 
+
+Schauen wir uns nun die Zahlen an, die die folgende eigenschaft haben: 
+
+\begin{align*}
+ n_1n_2n_3\cdots n_k = (n_1 + n_2 + n_3 + \cdots + n_k)^p 
+\end{align*}
+
+wobei die linke Seite die Dezimaldarstellung der jeweiligen Zahl ist. Wie ich 
+
+
+:::{columns}
+
+:::{.column width="47%"}
+
+| Zahl         | Exponent $p$ | Ziffern $k$ |
+|--------------:|---------:|---------:|
+| 0             | alle     | 1        | 
+| 1             | alle     | 1        | 
+| 2             | 1        | 1        | 
+| 3             | 1        | 1        | 
+| 4             | 1        | 1        | 
+| 5             | 1        | 1        | 
+| 6             | 1        | 1        | 
+| 7             | 1        | 1        | 
+| 8             | 1        | 1        | 
+| 9             | 1        | 1        | 
+| 81            | 2        | 2        |
+| 512           | 3        | 3        |
+| 2401          | 4        | 4        |         
+| 4913          | 3        | 4        |        
+| 5832          | 3        | 4        |  
+| 17576         | 3        | 5        |  
+| 19683         | 3        | 5        |     
+| 234256        | 4        | 6        | 
+| 390625        | 4        | 6        |  
+| 614656        | 4        | 6        |  
+| 1679616       | 4        | 7        |
+| 17210368      | 5        | 8        |
+
+
+:::
+
+:::{.column width="5%"}
+
+:::
+
+:::{.column width="47%"}
+
+ 
+| Zahl             | Exponent $p$ | Ziffern $k$ |
+|----------------:|---------:|---------:|
+| 34012224          | 6        | 8        | 
+| 52521875          | 5        | 8        |  
+| 60466176          | 5        | 8        |  
+| 205962976         | 5        | 9        |
+| 612220032         | 7        | 9        |
+| 8303765625        | 6        | 10       |
+| 10460353203       | 7        | 11       |
+| 24794911296       | 6        | 11       |
+| 27512614111       | 7        | 11       |
+| 52523350144       | 7        | 11       |
+| 68719476736       | 6        | 11       |
+| 271818611107      | 7        | 12       |
+| 1174711139837     | 7        | 13       |
+| 2207984167552     | 7        | 13       |
+| 6722988818432     | 7        | 13       | 
+| 20047612231936    | 8        | 14       |
+| 72301961339136    | 8        | 14       |  
+| 248155780267521   | 8        | 15       |
+| 3904305912313344  | 9        | 16       |
+| 45848500718449031 | 9        | 17       |
+| 81920000000000000 | 13       | 17       |
+:::
+
+:::
+
+Bei der Suche nach den Zahlen stellt man schnell fest, dass es sehr zeitintensiv ist, jede Zahl auf die Eigenschaft zu überprüfen, zumal man ja jede der Zahl bis zu einem Exponenten $m$ prüfen müsste. Daher bin ich den umgekehrten Weg gegangen, der sehr viel einfacher ist: die Summe von $n$ Ziffern kann höchstens $9n$ sein, so dass man lediglich überprüfen muss, ob es für eine Zahl $1 \le b \le 9n$ einen Exponenten $m$ gibt, so dass 
+
+* die entstehende Zahl $b^m$ genau $n$ Ziffern hat, und
+* die Summe der Ziffern der so entstandenen Zahl gleich $b$ ist.
+
+Den Fall $b = 1$ muss man nicht betrachten, da $1^m = 1$ für alle $m \in \mathbb{N}$ ist.
+
+Wie viele Zahlen muss man nun untersuchen, um beispielsweise alle 12-stelligen Zahlen Reacher-Zahlen zu finden?
+
+Für die 12-stelligen Zahlen müssen also nicht 900.000.000.000 Zahlen überprüft werden, sondern weniger als 
+$9 \cdot 12 \cdot 40 = 4320$, da $2^{40}$ schon 13-stellig ist. 
+
+
+```{r}
+library(pacman)
+p_load(gmp)
+
+options(scipen = 99999, digits= 22)
+```
+
+Ein Problem, das sich ergeben wird ist, dass R für *gewöhnliche* Rechnungen gemacht ist, nicht aber für riesige oder sehr kleine Zahlen. Daher lagen wir das Paket `gmp`, was es ein wenig besser macht, wie das einfache Beispiel zeigt:
+
+```{r}
+71^9
+```
+Offenbar kann die letzte Ziffer nicht stimmen (die muss ungerade sein!). Mit der Funktion `as.bigz()` aus dem Paket `gmp` kann man das Problem lösen:
+
+```{r}
+as.bigz(71)^as.bigz(9)
+```
+
+Die `options()` stellen ferner sicher, dass keine wissenschaftliche Schreibweise für große Zahlen genutzt wird und genügend Stellen angezeigt werden.
+
+
+```{r}
+## Funktion zum Berechnen der Quersumme:
+
+sum_n <- function(x) {sum(floor(x / 10^(0:(nchar(as.character(x)) - 1))) %% 10)}
+```
+
+Die folgende Funktion gibt nun alle `n`-stelligen Reacher-Zahlen aus: in der Klammer steht der zugehörige Exponent.
+
+```{r} 
+
+get_number <- function(n, min.exp = 2){
+  for (basis in 2:(n*9)){
+    k <- as.bigz(min.exp) 
+    number <- as.bigz(basis)^as.bigz(k)
+    while(number < as.bigz(10^(n+1))){
+      number <- as.bigz(basis)^as.bigz(k)
+      if(nchar(as.character(number)) == n){
+      S <- sum_n(number)
+        if(S == basis) {cat(paste0(number, " (",k,")\n "))
+                        break}
+      }  
+     k <- k+1   
+    }
+  }
+}
+
+get_number(20)
+```
+
+Das Programm ist sicher nicht das eleganteste, aber es macht in einem gewissen Rahmen das was es soll :-). Es gibt übrigens Leute, die sich noch sehr viel mehr Mühe gemacht haben diese Zahlen zu finden, und so findet man hier [oeis.org/A023106](https://oeis.org/A023106/b023106.txt){.external target="_blank"} eine Liste der ersten 1138 Reacher-Zahlen.
+
+### Was kann man sonst noch machen?
+
+Man kann natürlich noch viel mehr machen, wenn man mag, zum Beispiel könnte man sich die Zahlen anschauen mit einer geraden Anzahl $2k$ Ziffern, jeder Summand hat $n$ Stellen, so wie bei unserem Eingangsproblem, aber man läßt nun auch beliebige Exponenten zu  $n \in \mathbb{N}$. Ein Beispiel dafür wäre $(10+00)^3 = 1000$.
+Oder Zahlen mit $n$ Stellen und beliebiges Trennen der Zahl ist zugelassen, der Exponent soll wieder $2$ sein oder gar beliebig. Ein Beispiel hierfür wäre $(10+0)^2 = 100$. Viel Spass beim Ausprobieren :-).
+
+
+
+
+
+
+
