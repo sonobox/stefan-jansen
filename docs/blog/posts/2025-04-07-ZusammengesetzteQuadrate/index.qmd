@@ -94,9 +94,20 @@ Die meisten der Paare sehen recht wild und relativ strukturlos aus, aber Quadrat
 \underbrace{(5 \cdot 10^{n} - 1)^2}_{\text{vordere Quadratzahl}}  \cdot \underbrace{10^{2n+2}}_{\text{Versatz}} + \underbrace{(10^{n+1} - 1)^2}_{\text{hintere Quadratzahl}}  & = (5 \cdot 10^{n} - 1)^2 \cdot 10^{2(n+1)}  + 10^{2n+2} - 2 \cdot 10^{n+1} +1 \\ & =  (5 \cdot 10^{n} - 1)^2 \cdot 10^{2(n+1)} + 10 \cdot 10^{n} \cdot 10^{n+1} - 2 \cdot  10^{n+1} +1 \\ & =  (5 \cdot 10^{n} - 1)^2 \cdot 10^{2(n+1)} - 2 \cdot (5 \cdot 10^{n} - 1) \cdot 10^{n+1} + 1 \\ & = ((5 \cdot 10^{n} -1)\cdot 10^{n+1} + 1)^2
 \end{align*}
 
-Man kann nun noch überlegen, ob die Länge der Zahlen stimmt. Wenn man kurz darüber nachdenkt sieht man schnell:
+Man kann nun noch überlegen, ob die Länge der Zahlen stimmt. 
 
-* Es gilt $10^{2n+1} < (5 \cdot 10^{n} - 1)^2 = 0.25\cdot 10^{2n+2} - 10^{n+1} +1  < 10^{2n+2}$  
-* Analog gilt $10^{2n-1} < (10^{n+1} - 1)^2 = 10^{2n+2} - 2\cdot 10^{n+1} +1 < 10^{2n+2}$. 
+* Es gilt 
+ 
+\begin{align*}
+10^{2n+1} < (5 \cdot 10^{n} - 1)^2 = 0.25\cdot 10^{2n+2} - 10^{n+1} +1  < 10^{2n+2}
+\end{align*}
+
+* und analog 
+
+\begin{align*}
+10^{2n-1} < (10^{n+1} - 1)^2 = 10^{2n+2} - 2\cdot 10^{n+1} +1 < 10^{2n+2}.
+\end{align*}
+
+
 
 Damit haben beide Zahlen die Länge $2n+2$. Da die vordere Quadratzahl mit $10^{2n+2}$ multipliziert wird ist die entstehende Quadratzahl von der Länge $4n+4$.   
