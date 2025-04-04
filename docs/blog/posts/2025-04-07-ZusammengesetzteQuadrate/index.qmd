@@ -1,0 +1,98 @@
+---
+title: Zusammengesetzte Quadrate
+format:
+  html:
+    include-in-header: ../../hero-image-blog.html
+lang: de
+# subtitle: 
+description: "Es gibt unendlich viele Qudratzahlen, die aus zwei gleichlangen Quadratzahlen zusammengesetzt sind."
+categories:
+  - "Mathematik"
+  - "Quadratzahlen"
+author: Stefan Jansen
+date: 07/02/2025
+image: ../../../../bilder/1681.png
+---
+
+Während meiner Schulzeit habe ich einmal an der Mathematik-Olympiade teilgenommen, und in einer der ersten Runden gab es eine schöne Aufgabe, die mir in Erinnerung geblieben ist:
+
+:::{.callout-note}
+## Aufgabe
+Die Zahl $1681=41^2$ ist eine Quadratzahl, die aus zwei Quadratzahlen $16 = 4^2$ und $81 = 9^2$ zusammengesetzt ist. Zeige, dass es unendlich viele solcher aus zwei gleich langen Quadratzahlen zusammengesetzten Quadratzahlen gibt. 
+:::
+
+Dabei soll keine der Quadratzahlen mit einer $0$ beginnen, also $256036 = 506^2$ ist nicht erlaubt.
+
+```{r}
+library(dplyr)
+
+sq <- (1:999)^2
+sq_comp <- outer(sq,sq,paste0)
+
+all_combs <- c(as.vector(sq_comp[1:3,1:3]),
+               as.vector(sq_comp[4:9,4:9]),
+               as.vector(sq_comp[10:31,10:31]),
+               as.vector(sq_comp[32:99,32:99]),
+               as.vector(sq_comp[100:316,100:316]),
+               as.vector(sq_comp[317:999,317:999])) |> 
+               as.numeric() |> 
+               unique() |> 
+               sort()
+
+
+is_near_integer <- function(x, tol = .Machine$double.eps^0.5) {
+  near(x, round(x), tol)
+}
+
+all_combs[is_near_integer(sqrt(all_combs))]
+
+```
+
+Der Trick die Aufgabe zu lösen bestand darin ein Muster zu erkennen. Schauen wir uns die ersten der Zahlen mal an, 
+
+|            | Wurzel | $W_1$ | $W_2$ |
+|:---------------|:---------|:-------|:-------| 
+| 49               | 7       |  2      | 3    |
+| 1681             | 41      |  4      | 9    |    
+| 144400           | 380     | 12      | 20   |
+| 225625           | 475     | 15      | 25   |
+| 324900           | 570     | 18      | 30   |
+| 24019801         | 4901    | 49      | 99   |
+| 1587624025       | 39845   | 126     | 155  | 
+| 2371690000       | 48700   | 154     | 300  |
+| 2528178961       | 50281   | 159     | 281  |
+| 3132976729       | 55973   | 177     | 277  |
+| 5198410000       | 72100   | 228     | 100  |
+| 6350496100       | 79690   | 252     | 310  |
+| 8122515625       | 90125   | 285     | 125  |
+| 249001998001     | 499001  | 499     | 999  |       
+| 10547295475600   | 3247660 | 1027    | 2340 |
+| 12232366350400   | 3497480 | 1106    | 2520 | 
+| 14042257290000   | 3747300 | 1185    | 2700 |
+| 15976968294400   | 3997120 | 1264    | 2880 |
+| 18036499363600   | 4246940 | 1343    | 3060 |
+| 23073612250000   | 4803500 | 1519    | 1500 | 
+| 25027247420176   | 5002724 | 1582    | 2724 |
+| 36633966760000   | 6052600 | 1914    | 2600 |
+| 48092491265625   | 6934875 | 2193    | 1125 |
+| 58660847767369   | 7659037 | 2422    | 2787 |
+| 61009002802276   | 7810826 | 2470    | 1674 |
+| 81054099030025   | 9003005 | 2847    | 3005 |
+| 85497762250000   | 9246500 | 2924    | 1500 |
+| 92294449000000   | 9607000 | 3038    | 3000 |
+| 1466124176580001 | 38290001 | 3829    | 8751 |
+| 2499000199980001 | 49990001 | 4999    | 9999 |
+
+
+
+
+Die meisten der Paare sehen recht wild und relativ strukturlos aus, aber Quadratzahlen, die aus den Paaren der Form $(5 \cdot 10^{n} - 1)^2$ ($4^2$, $49^2$, $499^2$, etc.) und $(10^{n+1} - 1)^2$ ($9^2$, $99^2$, $999^2$, etc.) zusammengesetzt sind.
+
+
+
+\begin{align*}
+\underbrace{(5 \cdot 10^{n} - 1)^2}_{\text{vordere Quadratzahl}}  \cdot \underbrace{10^{2n+2}}_{\text{Shift}} + \underbrace{(10^{n+1} - 1)^2}_{\text{hintere Quadratzahl}}  & = (5 \cdot 10^{n} - 1)^2 \cdot 10^{2(n+1)}  + 10^{2n+2} - 2 \cdot 10^{n+1} +1 \\ & =  (5 \cdot 10^{n} - 1)^2 \cdot 10^{2(n+1)} + 10 \cdot 10^{n} \cdot 10^{n+1} - 2 \cdot  10^{n+1} +1 \\ & =  (5 \cdot 10^{n} - 1)^2 \cdot 10^{2(n+1)} - 2 \cdot (5 \cdot 10^{n} - 1) \cdot 10^{n+1} + 1 \\ & = ((5 \cdot 10^{n} -1)\cdot 10^{n+1} + 1)^2
+\end{align*}
+
+
+
