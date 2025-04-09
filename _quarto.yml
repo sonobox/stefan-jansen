@@ -80,10 +80,10 @@ website:
         href: https://tinyurl.com/sonobox02
         target: _blank
         text: mastadon
-      # - icon: twitter
-      #   href: https://x.com/laeufergott
-      #   target: _blank
-      #   text: twitter
+      - icon: cup-hot-fill
+        href: https://buymeacoffee.com/sonobox
+        target: _blank
+        text: Buy Me A Coffee!
       - icon: github
         href: https://github.com/sonobox
         target: _blank

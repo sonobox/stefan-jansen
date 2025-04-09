@@ -5,16 +5,16 @@ format:
     include-in-header: ../../hero-image-blog.html
 lang: de
 # subtitle: 
-description: "Es gibt unendlich viele Qudratzahlen, die aus zwei gleichlangen Quadratzahlen zusammengesetzt sind."
+description: "Es gibt unendlich viele Qudratzahlen, die aus zwei gleich langen Quadratzahlen zusammengesetzt sind."
 categories:
   - "Mathematik"
   - "Quadratzahlen"
 author: Stefan Jansen
-date: 07/02/2025
-image: ../../../../bilder/1681.png
+date: 04/05/2025
+image: ../../../../bilder/1681.jpg
 ---
 
-Während meiner Schulzeit habe ich einmal an der Mathematik-Olympiade teilgenommen, und in einer der ersten Runden gab es eine schöne Aufgabe, die mir in Erinnerung geblieben ist:
+Während meiner Schulzeit habe ich einmal am Bundeswettbewerb Mathematik teilgenommen, und in einer der ersten Runden gab es eine schöne Aufgabe, die mir in Erinnerung geblieben ist:
 
 :::{.callout-note}
 ## Aufgabe
@@ -24,6 +24,9 @@ Die Zahl $1681=41^2$ ist eine Quadratzahl, die aus zwei Quadratzahlen $16 = 4^2$
 Dabei soll keine der Quadratzahlen mit einer $0$ beginnen, also $256036 = 506^2$ ist nicht erlaubt.
 
 ```{r}
+#| echo: false
+#| include: false
+
 library(dplyr)
 
 sq <- (1:999)^2
@@ -48,10 +51,11 @@ all_combs[is_near_integer(sqrt(all_combs))]
 
 ```
 
-Der Trick die Aufgabe zu lösen bestand darin ein Muster zu erkennen. Schauen wir uns die ersten der Zahlen mal an, 
+Der Trick die Aufgabe zu lösen bestand darin ein Muster zu erkennen. Schauen wir uns die ersten der Zahlen mal an: 
 
-|            | Wurzel | $W_1$ | $W_2$ |
-|:---------------|:---------|:-------|:-------| 
+
+| $Z$  | $\sqrt{Z}$ | $W_1$ | $W_2$ |
+|:---------|:-------|:-------|:-------| 
 | 49               | 7       |  2      | 3    |
 | 1681             | 41      |  4      | 9    |    
 | 144400           | 380     | 12      | 20   |
@@ -82,11 +86,11 @@ Der Trick die Aufgabe zu lösen bestand darin ein Muster zu erkennen. Schauen wi
 | 92294449000000   | 9607000 | 3038    | 3000 |
 | 1466124176580001 | 38290001 | 3829    | 8751 |
 | 2499000199980001 | 49990001 | 4999    | 9999 |
+| ...              | ...      | ...     | ...  |
+: Tabelle der ersten Zahlen $Z$, die aus zwei gleichlangen Quadrtazahlen zusammengesetzt sind. Dabei ist $W_1$ die Wurzel der vorderen Hälfte von $Z$ und $W_2$ die Wurzel der hinteren Hälfte von $Z$. 
 
 
-
-
-Die meisten der Paare sehen recht wild und relativ strukturlos aus, aber Quadratzahlen, die aus den Paaren der Form $(5 \cdot 10^{n} - 1)^2$ ($4^2$, $49^2$, $499^2$, etc.) und $(10^{n+1} - 1)^2$ ($9^2$, $99^2$, $999^2$, etc.) zusammengesetzt sind.
+Die meisten der Paare sehen recht wild und relativ strukturlos aus. Aber es gibt ein relativ leicht zu erkennenden Muster, nämlcih die Quadratzahlen, die aus den Paaren der Form $(5 \cdot 10^{n} - 1)^2$ (also $4^2$, $49^2$, $499^2$, etc.) und $(10^{n+1} - 1)^2$ (das sind $9^2$, $99^2$, $999^2$, etc.) zusammengesetzt sind.
 
 
 
@@ -105,9 +109,11 @@ Man kann nun noch überlegen, ob die Länge der Zahlen stimmt.
 * und analog 
 
 \begin{align*}
-10^{2n-1} < (10^{n+1} - 1)^2 = 10^{2n+2} - 2\cdot 10^{n+1} +1 < 10^{2n+2}.
+10^{2n+1} < (10^{n+1} - 1)^2 = 10^{2n+2} - 2\cdot 10^{n+1} +1 < 10^{2n+2}.
 \end{align*}
 
 
 
-Damit haben beide Zahlen die Länge $2n+2$. Da die vordere Quadratzahl mit $10^{2n+2}$ multipliziert wird ist die entstehende Quadratzahl von der Länge $4n+4$.   
+Damit haben beide Zahlen die Länge $2n+2$. Da die vordere Quadratzahl mit $10^{2n+2}$ multipliziert wird ist die entstehende Quadratzahl von der Länge $4n+4 = 4(n+1)$.   
+
+Interessant wäre zu wissen, ob es noch andere mehr oder minder einfach zu konstruierbare Zahlen dieser Art gibt. Gerne eine E-Mail an mich, wenn jemand eine Idee hat :-). Eine vollständigere Liste der Zahlen findet man hier, bzw. sind diese von dieser Seite aus verlink: [https://oeis.org/A145848](https://oeis.org/A145848){.external target="_blank"}.
