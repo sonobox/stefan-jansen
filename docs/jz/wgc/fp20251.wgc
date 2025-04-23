@@ -1,0 +1,122 @@
+<wgcompilation>
+  <title>Dancing With Machines</title>
+  <season>Future Pop</season>
+  <number>2025.1</number>
+
+  <content>
+   <cd>
+    <track><artist>Buzz Kull</artist>
+           <title>Dancing With Machines</title>
+           <year>2022</year>
+           <country>AU</country>
+    </track>
+    <track><artist>My Manifesto</artist>
+           <title>Eyes In The Back Of Her Head</title>
+           <year>2025</year>
+           <country>US</country>
+    </track>
+    <track><artist>Carriegoss</artist>
+           <title>Distant Spark</title>
+           <year>2021</year>
+           <country>FR</country>
+    </track>
+    <track><artist>Minuit Machine</artist>
+           <title>Cent Fois</title>
+           <year>2025</year>
+           <country>FR</country>
+    </track>
+    <track><artist>Dina Summer</artist>
+           <title>No More Tears</title>
+           <year>2025</year>
+           <country>DE</country>
+    </track>
+    <track><artist>Vioflesh</artist>
+           <title>Always</title>
+           <year>2024</year>
+           <country>CL</country>
+    </track>
+    <track><artist>SDH</artist>
+           <title>Maybe A Body</title>
+           <year>2022</year>
+           <country>ES</country>
+    </track>
+    <track><artist>Nuovo Testamento</artist>
+           <title>Electricity</title>
+           <year>2021</year>
+           <country>US</country>
+    </track>
+    <track><artist>Sydney Valette</artist>
+           <title>The Avenger (Club Edit)</title>
+           <year>2024</year>
+           <country>FR</country>
+    </track>
+    <track><artist>Doviak</artist>
+           <title>The Courtyard</title>
+           <year>2024</year>
+           <country>GB</country>
+    </track>
+    <track><artist>Darkways</artist>
+           <title>Shadowdancer</title>
+           <year>2024</year>
+           <country>ES</country>
+    </track>
+    <track><artist>William Bleak</artist>
+           <title>Stay Cold</title>
+           <year>2025</year>
+           <country>DE</country>
+    </track>
+    <track><artist>IVUR</artist>
+           <title>Fortify</title>
+           <year>2024</year>
+           <country>AT</country>
+    </track>
+    <track><artist>The Violent Youth</artist>
+           <title>Prah</title>
+           <year>2024</year>
+           <country>BY</country>
+    </track>
+    <track><artist>Ductape</artist>
+           <title>Veil Of Lies</title>
+           <year>2024</year>
+           <country>TR</country>
+    </track>
+    <track><artist>Sashadidntwakeup</artist>
+           <title>Я Устал</title>
+           <year>2024</year>
+           <country>UA</country>
+    </track>
+    <track><artist>Son, Fire!</artist>
+           <title>Это Мы</title>
+           <year>2023</year>
+           <country>RU</country>
+    </track>
+    <track><artist>Fragrance.</artist>
+           <title>So Typical</title>
+           <year>2019</year>
+           <country>FR</country>
+    </track>
+    <track><artist>Selofan</artist>
+           <title>Sticky Fingers</title>
+           <year>2024</year>
+           <country>GR</country>
+    </track>
+    <track><artist>Cuffed</artist>
+           <title>Deceiver</title>
+           <year>2023</year>
+           <country>US</country>
+    </track>
+   </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" back = "TRUE" type = "jpg">fp20251</cover>
+    <fontsize>7</fontsize>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2025</year>
+    <month>4</month>
+    <by>DJ MAD.e</by>
+  </meta>
+</wgcompilation>
