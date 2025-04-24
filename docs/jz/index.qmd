@@ -4,8 +4,8 @@ lang: de
 format:
   html:
     grid:
-      sidebar-width: 80px
-      body-width: 830px
+      sidebar-width: 50px
+      body-width: 860px
       margin-width: 420px
     include-in-header: hero-image-jz.html
     include-after-body: kurznamen-toc.html
@@ -83,6 +83,7 @@ all_wgc <- wgc_files |>
 all_wgc |> arrange(artist, title) |> 
            select(Artist = artist,
                   Title = title,
+                  Year = year,
                   Season = season_new,
                   Number = number, 
                   CD = cd, 
