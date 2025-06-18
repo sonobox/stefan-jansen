@@ -9,6 +9,7 @@ description: "Reacher-Zahlen sind Zahlen $n$, deren Ziffern man summiert und das
 categories:
   - "Mathematik"
   - "Reacher-Zahlen"
+  - "Quadratzahlen"
 author: Stefan Jansen
 date: 04/02/2025
 image: ../../../../bilder/Reacher_Zahlen.png
@@ -81,7 +82,7 @@ wobei $n_i$ jeweils Ziffern sind und $n_1 \neq 0$ sein soll. Man könnte argumen
 | 6  | 249500250000 |
 | 6  | 250500250000 |
 :::
-
+:::
 
 Man kann schon erkennen, dass es Muster gibt: so scheinen die Zahlen der Form:
 
@@ -203,7 +204,7 @@ p_load(gmp)
 options(scipen = 99999, digits= 22)
 ```
 
-Ein Problem, das sich ergeben wird ist, dass R für *gewöhnliche* Rechnungen gemacht ist, nicht aber für riesige oder sehr kleine Zahlen. Daher lagen wir das Paket `gmp`, was es ein wenig besser macht, wie das einfache Beispiel zeigt:
+Ein Problem, das sich ergeben wird ist, dass R für *gewöhnliche* Rechnungen gemacht ist, nicht aber für riesige oder sehr kleine Zahlen. Daher laden wir das Paket `gmp`, was es ein wenig besser macht, wie das einfache Beispiel zeigt:
 
 ```{r}
 71^9

@@ -82,12 +82,13 @@ all_wgc <- wgc_files |>
 
 all_wgc |> arrange(artist, title) |> 
            select(Artist = artist,
-                  Title = title,
-                  Year = year,
+                  Titel = title,
+                #  Jahr = year,
+                  Land = country,
                   Season = season_new,
-                  Number = number, 
+                  Nummer = number, 
                   CD = cd, 
-                  No = track) |> 
+                  Nr = track) |> 
                   DT::datatable(options = list(paging = FALSE, 
                                                language = list(search = "Schlagwort: ")))
 ```
@@ -132,7 +133,9 @@ print_one <- function(data) {
    artist   <- data$artist
    title    <- data$title
    cd       <- data$cd    
-   track    <- data$track 
+   track    <- data$track
+   year     <- data$year
+   country  <- data$country
    wgcmonth <- data$wgcmonth |> unique()
    wgcyear  <- data$wgcyear |> unique()
    season   <- data$season     |> unique()
@@ -150,10 +153,10 @@ cat(paste0("*von ", by, " (", month, " ", wgcyear,")*\ \n\n"))
 
 # track listing:   
 if(length(unique(cd)) < 2){
-  cat(paste(" ", str_pad(track, width = 2, "left", 0),  " **", artist, "**", " -- ", title, " \ \n", sep = ""))
+  cat(paste(" ", str_pad(track, width = 2, "left", 0),  " **", artist, "**", " -- ", title, " [", year, ", ", country, "]"," \ \n", sep = ""))
   cat(paste("\n\n"))
 } else {
-  cat(paste(" ", cd, str_pad(track, width = 2, "left", 0)," **", artist, "**", " -- ", title, " \ \n", sep = ""))
+  cat(paste(" ", cd, str_pad(track, width = 2, "left", 0)," **", artist, "**", " -- ", title, " [", year, ", ", country, "]", " \ \n", sep = ""))
   cat(paste("\n\n"))
 }
 }
