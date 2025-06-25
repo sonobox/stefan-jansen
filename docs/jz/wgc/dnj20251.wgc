@@ -1,0 +1,142 @@
+<wgcompilation>
+  <title>Discoring</title>
+  <season>Jansen / Zeileis - Das Nächste Jahrtausend</season>
+  <number>2025.1</number>
+  <content>
+    <cd>
+      <track><artist>Nada</artist>
+             <title>Amore Disperato</title>
+             <quote>lei ballerà tra le stelle accese</quote>
+             <year>1983</year>
+             <country>IT</country>
+      </track>
+      <track><artist>Giuni Russo</artist>
+             <title>Un'Estate Al Mare</title>
+             <quote>toglimi il bikini</quote>
+             <year>1982</year>
+             <country>IT</country>
+      </track>
+      <track><artist>Matia Bazar</artist>
+             <title>Elettrochoc</title>
+             <quote>vorrei cambiare il mio vestito che vecchio ormai, non mi sta bene più su</quote>
+             <year>1983</year>
+             <country>IT</country>
+      </track>
+      <track><artist>Diana Est</artist>
+             <title>Le Louvre</title>
+             <quote>vincerà chi si distinguerà</quote>
+             <year>1983</year>
+             <country>IT</country>
+      </track>
+      <track><artist>Dori Ghezzi</artist>
+             <title>Margherita Non Lo Sa</title>
+             <quote>quando il mare dormirà e la luna ballerà sotto questo cielo</quote>
+             <year>1983</year>
+             <country>IT</country>
+      </track>
+      <track><artist>Alice</artist>
+             <title>Chan-son Egocentrique</title>
+             <quote>la luna scende i gradini di grattacieli per prendermi la vita</quote>
+             <year>1983</year>
+             <country>IT</country>
+      </track>
+      <track><artist>Franco Battiato</artist>
+             <title>Centro Di Gravità Permanente</title>
+             <quote>che non mi faccia mai cambiare idea sulle cose e sulla gente</quote>
+             <year>1981</year>
+             <country>IT</country>
+      </track>
+      <track><artist>Garbo</artist>
+             <title>A Berlino...Va Bene</title>
+             <quote>guardo le strade e non so che giorno è</quote>
+             <year>1981</year>
+             <country>IT</country>
+      </track>
+      <track><artist>Canton</artist>
+             <title>Sonnambulismo</title>
+             <quote>un telefono che non risponderà</quote>
+             <year>1984</year>
+             <country>IT</country>
+      </track>
+      <track><artist>Righeira</artist>
+             <title>Tanzen Mit Righeira</title>
+             <quote>mon ami s'il te plaît n'oublie jamais Mondrian</quote>
+             <year>1983</year>
+             <country>IT</country>
+      </track>
+      <track><artist>Alberto Camerini</artist>
+             <title>Rock 'n' Roll Robot</title>
+             <quote>se il mondo ti confonde, non lo capisci più</quote>
+             <year>1981</year>
+             <country>IT</country>
+      </track>
+      <track><artist>Scortilla</artist>
+             <title>Fahrenheit 451</title>
+             <quote>aspetta un ordine solo</quote>
+             <year>1984</year>
+             <country>IT</country>
+      </track>
+      <track><artist>Enrico Ruggeri</artist>
+             <title>Polvere</title>
+             <quote>non mi cercare, che non mi riconoscerai</quote>
+             <year>1983</year>
+             <country>IT</country>
+      </track>
+      <track><artist>Litfiba</artist>
+             <title>Tziganata</title>
+             <quote>Eva ballava sul fuoco, la notte in cui nacque l'odio</quote>
+             <year>1985</year>
+             <country>IT</country>
+      </track>
+      <track><artist>Gaznevada</artist>
+             <title>Agente Speciale</title>
+             <quote>un agente segreto dal tocco soffice e letale</quote>
+             <year>1982</year>
+             <country>IT</country>
+      </track>
+      <track><artist>Decibel</artist>
+             <title>Contessa</title>
+             <quote>vuoi solo le cose che non hai, parli delle cose che non sai</quote>
+             <year>1980</year>
+             <country>IT</country>
+      </track>
+      <track><artist>Ivan Cattaneo</artist>
+             <title>Una Zebra A Pois</title>
+             <quote>me l'ha data tempo fa uno strano maraja</quote>
+             <year>1981</year>
+             <country>IT</country>
+      </track>
+      <track><artist>CCCP - Fedeli Alla Linea</artist>
+             <title>Curami</title>
+             <quote>prendimi in cura da te</quote>
+             <year>1986</year>
+             <country>IT</country>
+      </track>
+      <track><artist>Diaframma</artist>
+             <title>Siberia</title>
+             <quote>aspettero' questa notte pensandoti</quote>
+             <year>1984</year>
+             <country>IT</country>
+      </track>
+      <track><artist>Banco</artist>
+             <title>Lontano Da</title>
+             <quote>quel lungo tram chiamato desiderio</quote>
+             <year>1983</year>
+             <country>IT</country>
+      </track>
+   </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" type = "jpg">dnj20251</cover>
+    <fontsize>11.3</fontsize>
+    <adj>11.5</adj>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2025</year>
+    <month>6</month>
+    <by>Z</by>
+  </meta>
+</wgcompilation>
