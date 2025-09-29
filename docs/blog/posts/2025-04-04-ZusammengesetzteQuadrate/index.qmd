@@ -1,5 +1,5 @@
 ---
-title: Zusammengesetzte Quadrate
+title: Zusammengesetzte Quadratzahlen
 format:
   html:
     include-in-header: ../../hero-image-blog.html

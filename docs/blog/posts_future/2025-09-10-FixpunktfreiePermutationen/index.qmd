@@ -1,0 +1,115 @@
+---
+title: Fixpunktfreie Permutationen
+format:
+  html:
+    include-in-header: ../../hero-image-blog.html
+lang: de
+# subtitle:
+description: ""
+categories:
+  - "Mathematik"
+  - "Permutationen"
+author: Stefan Jansen
+date: 09/15/2025
+image: ../../../../bilder/permutation.jpg
+---
+
+Vor einigen Jahren haben wir in einer Statistik-Klausur eine Aufgabe gestellt in der man sechs Lorenzkurven sechs gegebenen Datensätzen zuordnen musste. Für jede richtig zugewiesene Kurve gab es einen Punkt, für jede falsch zugeordnete gab es keinen Punkt.
+
+Wie in diesem Studiengang so oft, war nicht jeder _optimal_ auf die Klausur vorbereitet, so dass es eine ganze Reihe von Menschen gab, die geraten und irgendeine der möglichen Lösungen hingeschrieben haben (was auf jeden Fall nicht schlechter war, als die Aufgabe nicht zu bearbeiten).
+
+Beim Korrigieren der Aufgabe fiel mir dann auf, dass es neben den richtigen Lösungen (von denen, die offenbar gelernt hatten) es auch viele Lösungen gab, bei denen genau eine oder genau keine Graphik richtig zugewiesen wurde. Da ich mir darüber vorher noch nie Gedanken gemacht hatte, kam mir  die Frage in den Sinn:
+
+#### Wie groß ist die Wahrscheinlichkeit, dass man _keinen_ der Graphen richtig zuordnet, wenn man rät?
+
+Dazu müssen wir uns zuerst einmal klar machen wie viele Möglichkeiten der Zuordnung es überhaupt gibt: Für den ersten Graphen haben wir sechs Datensätze zur Auswahl und wählen davon einen aus. Für den zweiten haben wir noch fünf  zur Auswahl von denen wir einen wählen, und so weiter, am Ende ist noch genau einer für den letzten Graphen übrig. Da alle Kombinationen möglich sind ergibt sich
+
+\begin{align*}
+6 \cdot 5 \cdot 4 \cdot 3 \cdot 2 \cdot 1 = 6! = 720
+\end{align*}
+
+verschiedene Möglichkeiten.
+
+In der Kombinatorik spricht von von einer **Permutation** von Objekten einer bestimmten Reihenfolge. So gibt es zum Beispiel von den Buchstaben _ABC_ insgesamt 6 Permutationen, nämlich _ABC_, _ACB_, _BAC_, _BCA_, _CAB_ und _CBA_. In Fall der drei Buchstaben _ABC_ gibt es offenbar genau zwei Möglichkeiten, also $33.\overline{3}\%$, nämlich _BCA_ und _CAB_ keinen Buchstaben an der richtigen Stelle zu haben. Ich habe noch die 24 Möglichkeiten bei vier Zuweisungen ausprobiert: bei neun davon, also $\frac{9}{24} = 37.5\%$ ist keine der Zuordnungen korrekt.
+
+Wie aber ist es mit den 720 Möglichkeiten bei sechs Objekten? Offenbar war das ein wenig mehr Arbeit, die ich mir nicht machen wollte. Daher habe ich mir ein kleines Programm in R geschrieben, das alle Permutationen bestimmt und die die Anzahl der richtigen Zuordnungen zählt: 
+
+
+```{r}
+library(pacman)
+p_load(gtools)
+
+x <- 1:6
+y <- permutations(n = 6, r = 6, v = x)
+apply(t(t(y)==x), 1, sum) |>  table()
+
+## als Funktion:
+
+recontres <- function(n) {
+ x <- 1:n 
+ y <- permutations(n=n, r = n, v = x)
+ rval <- apply(t(t(y)==x), 1, sum) |>  table()
+ return(rval)
+}
+```
+
+Übrigens: die Option google zu nutzen (ChatGPT und Co gab es viele Jahre noch nicht) schloss ich erstmal aus, weil es doch viel befriedigender ist das Ergebnis selbst herauszufinden...
+
+
+::: {.callout-note}
+## Permutation und fixpunktfreie Permutation
+
+
+:::
+
+
+
+
+
+``
+
+* Wie viele richtige Lösungen hat man durchschnittlich, wenn man nur rät?
+* Bei wie vielen von den insgesamt 6! = 720 Möglichkeiten hat man 0, 1, 2, 3, 4, 5 oder 6 richtige Antworten?
+* Wie ist dies im allgemeinen Fall, wenn man $n$ Zuweisungen macht?
+
+
+### Die Recontres-Zahlen
+
+
+| n↓  k➔ | 0  | 1  | 2  | 3  | 4  | 5  | 6  | 7  | 8  | 9 | Summe |
+|:--:|--:|--:|--:|--:|--:|--:|--:|--:|----:|----:|----:|
+| 0  | 1     |       |      |      |     |     |    |   |   |  | 1     |
+| 1  | 0     | 1     |      |      |     |     |    |   |   |  | 1     |
+| 2  | 1     | 0     | 1    |      |     |     |    |   |   |  | 2     |
+| 3  | 2     | 3     | 0    | 1    |     |     |    |   |   |  | 6     |
+| 4  | 9     | 8     | 6    | 0    | 1   |     |    |   |   |  | 24    |
+| 5  | 44    | 45    | 20   | 10   | 0   | 1   |    |   |   |  | 120   |
+| 6  | 265   | 264   | 135  | 40   | 15  | 0   | 1  |   |   |  | 720   |
+| 7  | 1854  | 1855  | 924  | 315  | 70  | 21  | 0  | 1 |   |  | 5040  |
+| 8  | 14833 | 14832 | 7420 | 2464 | 630 | 112 | 28 | 0 | 1 |  | 40320 |
+| 9  | 133496| 133497| 66744| 22260| 5544| 1134| 168| 36| 0 | 1| 362880|
+: {tbl-colwidths="[8,8,8,8,8,8,8,8,8,8,8,12]"}
+
+Die **Recontres-Zahlen** $D_{n,k}$ ist der Anzahl der Permutationen einer Menge $n$ unterscheidbarer Elemente bei denen $k$ ihren ursprünglichen Platz behalten. $D_{n,n} = 1$ und $D_{n,n-1} = 0$. 
+
+Es gibt auch eine schöne Formel um diese Zahlen zu berechnen:
+
+\begin{align*}
+D_{n,k} = \frac{n!}{k!} \sum_{j = 0}^{n-k} \frac{(-1)^j}{j!}
+\end{align*}
+
+Wollen wir in unserem obigen Beispiel berechnen wie groß die Wahrscheinlichkeit ist bei zufälligem Zuordnen der 6 Graphen keinen richtig zu haben, so ergibt sich:
+
+\begin{align*}
+p & = \frac{\text{Anzahl der fixpunktfreien Permutationen}}{\text{Anzahl aller Permutationen}} \\ 
+  & = \frac{D_{6,0}}{6!} \\ 
+  & = \frac{1}{6!} \cdot \frac{6!}{0!} \cdot \sum_{j = 0}^{6} \frac{(-1)^j}{j!} \\ 
+  & = 1 - \frac{1}{2} + \frac{1}{6} -  \frac{1}{24} + \frac{1}{120} - \frac{1}{720} \\ & = \frac{53}{144}  \\   & = 0,3680\overline{5}
+\end{align*}
+
+Für die Anzahl der fixpunktfreien Permutationen, den Derangements $D_n$, gibt es auch eine rekursive Formel: 
+
+\begin{align*}
+D_n = (n-1) (D_{n-1} + D_{n-2})
+\end{align*}
+

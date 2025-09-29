@@ -39,7 +39,8 @@ path_wgc = "wgc/"
 path_pix = "pix/"
 
 wgc_files_all <- dir(path = path_wgc, pattern = "*\\.wgc") 
-wgc_files <- wgc_files_all[wgc_files_all != remove_load] %>% paste0(path_wgc, .)
+wgc_files <- paste0(path_wgc, 
+                    wgc_files_all[wgc_files_all != remove_load])
 
 
 # Datentabelle mit allen Compis erstellen:
@@ -51,7 +52,7 @@ return(rval)
 }
 
 
-all_wgc <- wgc_files |> 
+all.wgc <- wgc_files |> 
            lapply(FUN = read.wgc) |> 
            lapply(FUN = as_tibble) |> 
            do.call(what = "bind_rows") |> 
@@ -69,27 +70,33 @@ all_wgc <- wgc_files |>
                                          wgcmonth == 9 ~ "September",
                                          wgcmonth == 10 ~ "Oktober",
                                          wgcmonth == 11 ~ "November",
-                                         wgcmonth == 12 ~ "Dezember"))
-             
+                                         wgcmonth == 12 ~ "Dezember")) |>             mutate(wgclink = str_to_lower(wgctitle) |> 
+                           str_remove("[:punct:]") |> 
+                           str_replace_all(" ", "-") |> 
+                           str_replace_all("--","-"))  
              
              
 ```
-
 
 ```{r}
 #| echo: false
 #| message: false
 
-all_wgc |> arrange(artist, title) |> 
+all.wgc |> arrange(artist, title) |>  
+           mutate(Nummer = ifelse(
+                   is.na(wgclink) | wgclink == "", number,
+           paste0('<a href="#', sub("^#", "", wgclink), '">', number, '</a>')
+            )) |>  
            select(Artist = artist,
                   Titel = title,
                 #  Jahr = year,
                   Land = country,
                   Season = season_new,
-                  Nummer = number, 
+                  Nummer, 
                   CD = cd, 
                   Nr = track) |> 
-                  DT::datatable(options = list(paging = FALSE, 
+                  DT::datatable(escape = FALSE,
+                                options = list(paging = FALSE, 
                                                language = list(search = "Schlagwort: ")))
 ```
 
@@ -101,29 +108,29 @@ all_wgc |> arrange(artist, title) |>
 
 ## Generiere Einzelne CDs:
 
-alle_ordnung <- all_wgc |> 
+all.in.order <- all.wgc |> 
                 filter(cd == 1, track == 1) |> 
                 pull(filename)
 
-alle_jz <- all_wgc |> 
+all.jz <- all.wgc |> 
                 filter(cd == 1, track == 1,
                        season_new == "J/Z") |>
                 
                 pull(filename)
 
-alle_dnj <- all_wgc |> 
+all.dnj <- all.wgc |> 
                 filter(cd == 1, track == 1,
                        season_new == "DnJ") |> 
                 pull(filename)
 
-alle_fp <- all_wgc |> 
+all.fp <- all.wgc |> 
                 filter(cd == 1, track == 1,
                        season_new == "FP") |> 
                 pull(filename) 
 
 all2one <- function(data, file){
-        data |> filter(filename == file) |> 
-                arrange(cd, track) 
+             data |> filter(filename == file) |> 
+                     arrange(cd, track) 
 }
 
  
@@ -172,22 +179,22 @@ if(length(unique(cd)) < 2){
 cat(paste("# Jansen/Zeileis: Classics \n\n"))
 
 
-for(i in alle_jz){
-  print_one(all2one(all_wgc, i))
+for(i in all.jz){
+  print_one(all2one(all.wgc, i))
 }
 
 cat(paste("# Das Nächste Jahrtausend \n\n"))
 
 
-for(i in alle_dnj){
-  print_one(all2one(all_wgc, i))
+for(i in all.dnj){
+  print_one(all2one(all.wgc, i))
 }
 
 cat(paste("# Future Pop \n\n"))
 
 
-for(i in alle_fp){
-  print_one(all2one(all_wgc, i))
+for(i in all.fp){
+  print_one(all2one(all.wgc, i))
 }
 
 ```
@@ -199,12 +206,12 @@ for(i in alle_fp){
 #| message: false
 #| echo: false
 
-all_wgc %>%  group_by(season, number, by) %>% 
-         summarize(n = n()) %>% 
-         group_by(season, by) %>% 
-         summarize(anzahl = n()) %>% 
-         pivot_wider(names_from = season, values_from = anzahl) %>% 
-         DT::datatable(options = list(paging = FALSE))
+all.wgc |>  group_by(season, number, by) |> 
+            summarize(n = n()) |> 
+            group_by(season, by) |> 
+            summarize(anzahl = n()) |> 
+            pivot_wider(names_from = season, values_from = anzahl) |> 
+            DT::datatable(options = list(paging = FALSE))
 
 ```
 
@@ -216,12 +223,12 @@ all_wgc %>%  group_by(season, number, by) %>%
 #| echo: false
 #| message: false
 
-all_wgc %>%  group_by(season, by) %>% 
-         summarize(n = n()) %>% 
-       #  group_by(season) %>% 
-        # summarize(anzahl = n()) %>% 
-         pivot_wider(names_from = season, values_from = n) %>% 
-         DT::datatable(options = list(paging = FALSE))
+all.wgc |>  group_by(season, by) |> 
+            summarize(n = n()) |> 
+         # group_by(season) |> 
+         # summarize(anzahl = n()) |> 
+            pivot_wider(names_from = season, values_from = n) |> 
+            DT::datatable(options = list(paging = FALSE))
 
 ```
 
@@ -230,23 +237,23 @@ all_wgc %>%  group_by(season, by) %>%
 ```{r}
 #| echo: false
 
-all_wgc %>% group_by(artist) %>% 
+all.wgc |> group_by(artist) |> 
   #  filter(season == "Jansen / Zeileis", number %in% c("4", "5"))
-  # filter(season != "Future Pop") %>%  
-  # filter(season == "Future Pop") %>%
-  summarize(Anzahl = n()) %>% 
-  rename(Artist = artist) %>%
-  filter(Anzahl > 4) %>% 
-  arrange(desc(Anzahl)) %>%
+  # filter(season != "Future Pop") |>  
+  # filter(season == "Future Pop") |>
+  summarize(Anzahl = n()) |> 
+  rename(Artist = artist) |>
+  filter(Anzahl > 4) |> 
+  arrange(desc(Anzahl)) |>
   DT::datatable(options = list(paging = FALSE))
 
 
-all_wgc %>% group_by(artist) %>% 
-    summarize(n= n()) %>%
-    group_by(n) %>% 
-    summarize(Häufigkeit = n()) %>% 
-    arrange(desc(n)) %>% 
-    rename(`Songs einer Band` = n) %>% 
+all.wgc |> group_by(artist) |> 
+    summarize(n= n()) |>
+    group_by(n) |> 
+    summarize(Häufigkeit = n()) |> 
+    arrange(desc(n)) |> 
+    rename(`Songs einer Band` = n) |> 
     DT::datatable(options = list(paging = FALSE))
 
 ```
@@ -257,7 +264,7 @@ all_wgc %>% group_by(artist) %>%
 ```{r}
 #| echo: false
 
-all_wgc %>%  rename(Season = season) %>% 
+all.wgc |>  rename(Season = season) |> 
         ggplot(aes(y = wgcyear, fill = Season)) + 
            geom_bar() + 
            theme(legend.position="bottom") + 
@@ -271,7 +278,7 @@ all_wgc %>%  rename(Season = season) %>%
 ```{r}
 #| echo: false
 
-all_wgc %>%  rename(Ersteller = by) %>% 
+all.wgc |>  rename(Ersteller = by) |> 
         ggplot(aes(y = wgcyear, fill = Ersteller)) + 
            geom_bar() + 
            theme(legend.position="bottom") + 
@@ -284,8 +291,8 @@ all_wgc %>%  rename(Ersteller = by) %>%
 ```{r}
 #| echo: false
 
-all_wgc %>% drop_na(country) %>% 
-         rename(Ersteller = by) %>% 
+all.wgc |> drop_na(country) |> 
+         rename(Ersteller = by) |> 
          ggplot(aes(y = fct_rev(fct_infreq(fct_lump(country, 25, other_level = "Sonstige"))), 
                     fill = Ersteller)) + 
          geom_bar() + 
@@ -299,15 +306,15 @@ all_wgc %>% drop_na(country) %>%
 ```{r}
 #| echo: false
 
-all_wgc %>% mutate(titleLength = nchar(title)) %>% 
-            arrange(desc(titleLength)) %>% 
-            select(n = titleLength, artist, title) %>% 
+all.wgc |> mutate(titleLength = nchar(title)) |> 
+            arrange(desc(titleLength)) |> 
+            select(n = titleLength, artist, title) |> 
             ggplot(aes(x = n)) + 
             geom_bar()
 
-# all_wgc %>% mutate(titleLength = nchar(title)) %>%  
-#             group_by(titleLength) %>% 
-#             summarize(n = n()) %>% 
+# all.wgc |> mutate(titleLength = nchar(title)) |>  
+#             group_by(titleLength) |> 
+#             summarize(n = n()) |> 
 #             kbl
 ```
 
@@ -316,15 +323,15 @@ all_wgc %>% mutate(titleLength = nchar(title)) %>%
 ```{r}
 #| echo: false
 
-all_wgc %>% group_by(year) %>% 
-        filter(year != "") %>% 
-        rename(Ersteller = by) %>% 
+all.wgc |> group_by(year) |> 
+        filter(year != "") |> 
+        rename(Ersteller = by) |> 
         ggplot(aes(y = year, fill = Ersteller)) +
         geom_bar() + 
         labs(y = "Jahr", x = "Anzahl")+ 
         theme(legend.position="bottom")
-#        summarise(n = n()) %>%  
-#        arrange(desc(n)) %>%  
+#        summarise(n = n()) |>  
+#        arrange(desc(n)) |>  
 #        kbl
 
 ```

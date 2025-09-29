@@ -2,7 +2,6 @@ project:
   type: website
   output-dir: _www
   
-
 website:
   site-url: https://www.stefan-jansen.de/
   image: "/bilder/SJ-Balken.png"
@@ -13,7 +12,7 @@ website:
   search: true
   
   page-footer:
-     right: "Stefan Jansen, 2024"
+     right: "Stefan Jansen, 2025"
 
   navbar:
     background: dark
@@ -95,7 +94,6 @@ website:
         text: Haftungsausschluss
 
 
- 
 bibliography: buecherStudium.bib
 
 format:
