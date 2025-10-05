@@ -7,3 +7,6 @@
 /_www/
 /_freeze/
 /helper/
+.httr-oauth
+.DS_Store
+.quarto
