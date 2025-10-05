@@ -1,0 +1,135 @@
+<wgcompilation>
+  <title>Urban Ghosts</title>
+  <season>Jansen / Zeileis - Das Nächste Jahrtausend</season>
+  <number>2025.3</number>
+  <content>
+    <cd>
+      <track>
+             <artist>Olive</artist>
+             <title>You're Not Alone (Radio Edit)</title>
+             <quote>baby, there's time to be with me</quote>
+             <year>1996</year>
+             <country>GB</country>
+      </track>
+      <track>
+             <artist>Björk</artist>
+             <title>Play Dead</title>
+             <quote>curling up inside my private tortures, i nestle into pain</quote>
+             <year>1993</year>
+             <country>IS</country>
+      </track>
+      <track>
+             <artist>Massive Attack</artist>
+             <title>Teardrop</title>
+             <quote>love, love is a verb, love is a doing word</quote>
+             <year>1998</year>
+             <country>GB</country>
+      </track>
+      <track>
+             <artist>Portishead</artist>
+             <title>Roads</title>
+             <quote>we've got a war to fight, never found our way</quote>
+             <year>1994</year>
+             <country>GB</country>
+      </track>
+      <track>
+             <artist>Esthero</artist>
+             <title>Heaven Sent</title>
+             <quote>my mouth is clean, my hands are dirty</quote>
+             <year>1998</year>
+             <country>CA</country>
+      </track>
+      <track>
+             <artist>Everything But The Girl</artist>
+             <title>Single</title>
+             <quote>but if no one calls and i don't speak all day, do I disappear?</quote>
+             <year>1996</year>
+             <country>GB</country>
+      </track>
+      <track>
+             <artist>Hooverphonic</artist>
+             <title>2Wicky</title>
+             <quote>s h one zero one five one, this is the serial number of our orbital gun</quote>
+             <year>1996</year>
+             <country>BE</country>
+      </track>
+      <track>
+             <artist>Smoke City</artist>
+             <title>Underwater Love (Radio Edit)</title>
+             <quote>i touched your soft skin and you jumped in with your eyes closed</quote>
+             <year>1996</year>
+             <country>GB</country>
+      </track>
+      <track>
+             <artist>Lamb</artist>
+             <title>Górecki</title>
+             <quote>all this time i've loved you</quote>
+             <year>1997</year>
+             <country>GB</country>
+      </track>
+      <track>
+             <artist>Morcheeba</artist>
+             <title>Trigger Hippie</title>
+             <quote>forget the kill, it's far too sticky</quote>
+             <year>1996</year>
+             <country>GB</country>
+      </track>
+      <track>
+             <artist>Sneaker Pimps</artist>
+             <title>6 Underground</title>
+             <quote>i fake my life like i've lived too much</quote>
+             <year>1996</year>
+             <country>GB</country>
+      </track>
+      <track>
+             <artist>Mono</artist>
+             <title>Life In Mono</title>
+             <quote>i just don't know what to do</quote>
+             <year>1996</year>
+             <country>GB</country>
+      </track>
+      <track>
+             <artist>Beth Orton</artist>
+             <title>Stars All Seem To Weep</title>
+             <quote>i think about you on a moonlit night and the stars all seem to weep</quote>
+             <year>1998</year>
+             <country>GB</country>
+      </track>
+      <track>
+             <artist>Archive</artist>
+             <title>Londinium</title>
+             <quote>busy bee hive is alive and kicking</quote>
+             <year>1996</year>
+             <country>GB</country>
+      </track>
+      <track>
+             <artist>Tricky</artist>
+             <title>Hell Is Round The Corner</title>
+             <quote>the constant struggle ensures my insanity</quote>
+             <year>1995</year>
+             <country>GB</country>
+      </track>
+      <track>
+             <artist>UNKLE</artist>
+             <title>Rabbit In Your Headlights</title>
+             <quote>she laughs when she's cryin', she cries when she's laughin'</quote>
+             <year>1998</year>
+             <country>GB</country>
+      </track>
+    </cd>    
+      
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" type = "jpg">dnj20253</cover>
+    <fontsize>12.6</fontsize>
+    <adj>10</adj>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2025</year>
+    <month>10</month>
+    <by>DJ MAD.e</by>
+  </meta>
+</wgcompilation>
