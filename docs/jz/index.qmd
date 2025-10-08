@@ -22,7 +22,7 @@ format:
 #| include: false
 
 library(pacman)
-p_load(wgc, DT, tidyverse, kableExtra)
+p_load(wgc, DT, tidyverse, kableExtra, colorspace)
 
 # Voreinstellungen für Tabellen
 kbl <- function(Daten, align="l", ...) {
@@ -202,18 +202,25 @@ for(i in all.fp){
 # Statistiken
 
 
+## Anzahl Compilations
+
+Insgesamt gibt es `r all.wgc |> summarize(n = n_distinct(filename))` Compilations, davon sind `r all.wgc |> filter(season_new =="DnJ") |>  summarize(n = n_distinct(filename))` _Jansen / Zeileis - Das Nächste Jahrtausend_,  `r all.wgc |> filter(season_new =="FP") |>  summarize(n = n_distinct(filename))` _Future Pop_ und `r all.wgc |> filter(season_new =="J/Z") |>  summarize(n = n_distinct(filename))` _Jansen / Zeileis Classics_.  
+
+
 ```{r}
 #| message: false
 #| echo: false
 
-all.wgc |>  group_by(season, number, by) |> 
+all.wgc |>  rename(Ersteller = by) |> 
+            group_by(season, number, Ersteller) |> 
             summarize(n = n()) |> 
-            group_by(season, by) |> 
+            group_by(season, Ersteller) |> 
             summarize(anzahl = n()) |> 
             pivot_wider(names_from = season, values_from = anzahl) |> 
-            DT::datatable(options = list(paging = FALSE))
+            DT::datatable(options = list(paging = FALSE, searching = FALSE))
 
 ```
+
 
 
 
@@ -223,19 +230,22 @@ all.wgc |>  group_by(season, number, by) |>
 #| echo: false
 #| message: false
 
-all.wgc |>  group_by(season, by) |> 
+all.wgc |>  rename(Ersteller = by) |> 
+            group_by(season, Ersteller) |> 
             summarize(n = n()) |> 
          # group_by(season) |> 
          # summarize(anzahl = n()) |> 
             pivot_wider(names_from = season, values_from = n) |> 
-            DT::datatable(options = list(paging = FALSE))
+            DT::datatable(options = list(paging = FALSE, searching = FALSE))
 
 ```
 
 ## Häufigkeit Bands
 
+
 ```{r}
 #| echo: false
+
 
 all.wgc |> group_by(artist) |> 
   #  filter(season == "Jansen / Zeileis", number %in% c("4", "5"))
@@ -245,7 +255,7 @@ all.wgc |> group_by(artist) |>
   rename(Artist = artist) |>
   filter(Anzahl > 4) |> 
   arrange(desc(Anzahl)) |>
-  DT::datatable(options = list(paging = FALSE))
+  DT::datatable(options = list(paging = FALSE, searching = FALSE))
 
 
 all.wgc |> group_by(artist) |> 
@@ -254,7 +264,7 @@ all.wgc |> group_by(artist) |>
     summarize(Häufigkeit = n()) |> 
     arrange(desc(n)) |> 
     rename(`Songs einer Band` = n) |> 
-    DT::datatable(options = list(paging = FALSE))
+    DT::datatable(options = list(paging = FALSE, searching = FALSE))
 
 ```
 
@@ -268,8 +278,8 @@ all.wgc |>  rename(Season = season) |>
         ggplot(aes(y = wgcyear, fill = Season)) + 
            geom_bar() + 
            theme(legend.position="bottom") + 
-           labs(x = "Anzahl", y = "Jahr")
-
+           labs(x = "Anzahl", y = "Jahr")  +
+        scale_fill_discrete_qualitative(palette = "Dark 3", nmax = 5, order = c(1,5,3))
 ```
 
 
@@ -282,8 +292,8 @@ all.wgc |>  rename(Ersteller = by) |>
         ggplot(aes(y = wgcyear, fill = Ersteller)) + 
            geom_bar() + 
            theme(legend.position="bottom") + 
-           labs(x = "Anzahl", y = "Jahr") 
-
+           labs(x = "Anzahl", y = "Jahr")  +
+        scale_fill_discrete_qualitative(palette = "Harmonic", nmax = 5, order = c(2,5,1))
 ```
 
 ## Anzahl Länder
@@ -293,11 +303,12 @@ all.wgc |>  rename(Ersteller = by) |>
 
 all.wgc |> drop_na(country) |> 
          rename(Ersteller = by) |> 
-         ggplot(aes(y = fct_rev(fct_infreq(fct_lump(country, 25, other_level = "Sonstige"))), 
+         ggplot(aes(y = fct_rev(fct_infreq(fct_lump(country, 30, other_level = "Sonstige"))), 
                     fill = Ersteller)) + 
          geom_bar() + 
          labs(x = "Anzahl", y = "Land") + 
-         theme(legend.position="bottom")
+         theme(legend.position="bottom")  +
+        scale_fill_discrete_qualitative(palette = "Harmonic", nmax = 5, order = c(2,5,1))
 
 ```
 
@@ -310,7 +321,7 @@ all.wgc |> mutate(titleLength = nchar(title)) |>
             arrange(desc(titleLength)) |> 
             select(n = titleLength, artist, title) |> 
             ggplot(aes(x = n)) + 
-            geom_bar()
+            geom_bar() 
 
 # all.wgc |> mutate(titleLength = nchar(title)) |>  
 #             group_by(titleLength) |> 
@@ -322,14 +333,24 @@ all.wgc |> mutate(titleLength = nchar(title)) |>
 
 ```{r}
 #| echo: false
+#| fig-height: 10
+
+ymin <- all.wgc |> pull(year) |> min(na.rm = TRUE)
+ymax <- all.wgc |> pull(year) |> max(na.rm = TRUE)
+
+ystart <- ymin + (5 - ymin %% 5)
 
 all.wgc |> group_by(year) |> 
         filter(year != "") |> 
         rename(Ersteller = by) |> 
         ggplot(aes(y = year, fill = Ersteller)) +
         geom_bar() + 
-        labs(y = "Jahr", x = "Anzahl")+ 
-        theme(legend.position="bottom")
+        labs(y = "Jahr", x = "Anzahl") + 
+        theme(legend.position="bottom") + 
+        scale_y_continuous(breaks = seq(ystart, ymax, 5)) +
+        scale_fill_discrete_qualitative(palette = "Harmonic", nmax = 5, order = c(2,5,1))
+        
+
 #        summarise(n = n()) |>  
 #        arrange(desc(n)) |>  
 #        kbl
