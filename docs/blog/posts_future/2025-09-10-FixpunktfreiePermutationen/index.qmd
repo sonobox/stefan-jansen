@@ -30,9 +30,13 @@ Dazu müssen wir uns zuerst einmal klar machen wie viele Möglichkeiten der Zuor
 
 verschiedene Möglichkeiten.
 
-In der Kombinatorik spricht von von einer **Permutation** von Objekten einer bestimmten Reihenfolge. So gibt es zum Beispiel von den Buchstaben _ABC_ insgesamt 6 Permutationen, nämlich _ABC_, _ACB_, _BAC_, _BCA_, _CAB_ und _CBA_. In Fall der drei Buchstaben _ABC_ gibt es offenbar genau zwei Möglichkeiten, also $33.\overline{3}\%$, nämlich _BCA_ und _CAB_ keinen Buchstaben an der richtigen Stelle zu haben. Ich habe noch die 24 Möglichkeiten bei vier Zuweisungen ausprobiert: bei neun davon, also $\frac{9}{24} = 37.5\%$ ist keine der Zuordnungen korrekt.
+In der Kombinatorik spricht von von einer **Permutation** von Objekten einer bestimmten Reihenfolge.
 
-Wie aber ist es mit den 720 Möglichkeiten bei sechs Objekten? Offenbar war das ein wenig mehr Arbeit, die ich mir nicht machen wollte. Daher habe ich mir ein kleines Programm in R geschrieben, das alle Permutationen bestimmt und die die Anzahl der richtigen Zuordnungen zählt: 
+Schauen wir uns die obige Beispiel mal für drei Zuordnungen an. Insgesamt gibt es 6 Permutationen, nämlich _ABC_, _ACB_, _BAC_, _BCA_, _CAB_ und _CBA_. Wenn nun _ABC_ die gesuchte (also richtige) Reihenfolge wäre, so gibt es genau zwei Permutation, also $33.\overline{3}\%$, bei denen mal keinen der Buchstaben richtig zugeordnet hat, nämlich _BCA_ und _CAB_.
+
+Bei vier Buchstaben gibt es insgesamt 24 Möglichkeiten der Zuordnung bei denen neun, also $\frac{9}{24} = 37.5\%$ keinen richtigen Treffer haben.
+
+Wie aber ist das bei sechs zu Zuordnungen mit insgesamt 720 Möglichkeiten? Offenbar war das ein wenig mehr Arbeit, die ich mir natürlich nicht machen wollte. Daher habe ich mir ein kleines Programm in R geschrieben, das alle Permutationen bestimmt und die die Anzahl der richtigen Zuordnungen zählt: 
 
 
 ```{r}
