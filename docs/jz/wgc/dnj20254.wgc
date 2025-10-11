@@ -1,0 +1,118 @@
+<wgcompilation>
+  <title>Synth Pop Boys</title>
+  <season>Jansen / Zeileis - Das Nächste Jahrtausend</season>
+  <number>2025.4</number>
+  <content>
+    <cd>
+      <track><artist>Bronski Beat</artist>
+             <title>Hit That Perfect Beat</title>
+             <quote>hiding from the danger that's been sent from hell</quote>
+             <year>1985</year>
+             <country>GB</country>
+      </track>
+      <track><artist>Boytronic</artist>
+             <title>Red Chips</title>
+             <quote>this program is to hot to handle</quote>
+             <year>1983</year>
+             <country>DE</country>
+      </track>
+      <track><artist>Blancmange</artist>
+             <title>Blind Vision</title>
+             <quote>push me harder now</quote>
+             <year>1983</year>
+             <country>GB</country>
+      </track>
+      <track><artist>Erasure</artist>
+             <title>Oh L'Amour</title>
+             <quote>What's a boy in love supposed to do?</quote>
+             <year>1986</year>
+             <country>GB</country>
+      </track>
+      <track><artist>Communards</artist>
+             <title>Disenchanted (Extended Version)</title>
+             <quote>pride is something good for you</quote>
+             <year>1986</year>
+             <country>GB</country>
+      </track>
+      <track><artist>Pet Shop Boys</artist>
+             <title>Opportunities (Original Dance Mix)</title>
+             <quote>you've got the brawn, I've got the brains</quote>
+             <year>1985</year>
+             <country>GB</country>
+      </track>
+      <track><artist>Frankie Goes To Hollywood</artist>
+             <title>Two Tribes (Hibakusha)</title>
+             <quote>a point is all that you can score</quote>
+             <year>1984</year>
+             <country>GB</country>
+      </track>
+      <track><artist>Dead Or Alive</artist>
+             <title>You Spin Me Round (Like A Record) (Rip It Up Version)</title>
+             <quote>you look like you're lots of fun</quote>
+             <year>1988</year>
+             <country>GB</country>
+      </track>
+      <track><artist>Divine</artist>
+             <title>You Think You're A Man</title>
+             <quote>you weren't man enough to satisfy me</quote>
+             <year>1984</year>
+             <country>US</country>
+      </track>
+      <track><artist>Wham!</artist>
+             <title>I'm Your Man</title>
+             <quote>if you're gonna do it, do it right</quote>
+             <year>1985</year>
+             <country>GB</country>
+      </track>
+      <track><artist>Limahl</artist>
+             <title>The NeverEnding Story</title>
+             <quote>reach the stars, fly a fantasy</quote>
+             <year>1984</year>
+             <country>GB</country>
+      </track>
+      <track><artist>Bronski Beat, Marc Almond</artist>
+             <title>I Feel Love (Medley)</title>
+             <quote>oh it's so good</quote>
+             <year>1985</year>
+             <country>GB</country>
+      </track>
+      <track><artist>Kajagoogoo</artist>
+             <title>Too Shy</title>
+             <quote>tongue-tied or short of breath</quote>
+             <year>1983</year>
+             <country>GB</country>
+      </track>
+      <track><artist>Soft Cell</artist>
+             <title>Heat (US 7" Version)</title>
+             <quote>in the heat of the night, in the glow of the light</quote>
+             <year>1983</year>
+             <country>GB</country>
+      </track>
+      <track><artist>Visage</artist>
+             <title>Anvil (Night Club School)</title>
+             <quote>watch the moving bodies as they react to the sound</quote>
+             <year>1982</year>
+             <country>GB</country>
+      </track>
+      <track><artist>Pete Shelley</artist>
+             <title>Homosapien</title>
+             <quote>homosuperior in my interior</quote>
+             <year>1982</year>
+             <country>GB</country>
+      </track>
+   </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" type = "jpg">dnj20254</cover>
+    <fontsize>12</fontsize>
+    <adj>13</adj>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2025</year>
+    <month>10</month>
+    <by>Z</by>
+  </meta>
+</wgcompilation>
