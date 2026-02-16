@@ -1,0 +1,122 @@
+<wgcompilation>
+  <title>I Love Swedish Synth-Pop</title>
+  <season>Future Pop</season>
+  <number>2025.3</number>
+
+  <content>
+   <cd>
+     <track><artist>Auto-Auto</artist>
+           <title>Shadowlands</title>
+           <year>2008</year>
+           <country>SE</country>
+    </track>    
+    <track><artist>Machinista</artist>
+           <title>Molecules And Carbon</title>
+           <year>2014</year>
+           <country>SE</country>
+    </track>
+    <track><artist>Chaos All Stars</artist>
+           <title>1997</title>
+           <year>2013</year>
+           <country>SE</country>
+    </track>
+    <track><artist>Code 64</artist>
+           <title>Run To You</title>
+           <year>2006</year>
+           <country>SE</country>
+    </track>
+    <track><artist>Biomekkanik</artist>
+           <title>State Of Perfection</title>
+           <year>2009</year>
+           <country>SE</country>
+    </track>
+    <track><artist>Chinese Theatre</artist>
+           <title>I'm Leaving You Behind</title>
+           <year>2009</year>
+           <country>SE</country>
+    </track>
+    <track><artist>Emmon</artist>
+           <title>Secrets &amp; Lies</title>
+           <year>2009</year>
+           <country>SE</country>
+    </track>    
+    <track><artist>Sturm Café</artist>
+           <title>Europa</title>
+           <year>2015</year>
+           <country>SE</country>
+    </track>
+    <track><artist>Walk With Anything</artist>
+           <title>Gothic Princess</title>
+           <year>2015</year>
+           <country>SE</country>
+    </track>
+    <track><artist>Yestergrey</artist>
+           <title>You Have A Life Now</title>
+           <year>2021</year>
+           <country>SE</country>
+    </track>
+    <track><artist>Kiethevez</artist>
+           <title>Mercury</title>
+           <year>1994</year>
+           <country>SE</country>
+    </track>
+    <track><artist>S.P.O.C.K</artist>
+           <title>E.T. Phone Home</title>
+           <year>1997</year>
+           <country>SE</country>
+    </track>
+    <track><artist>Train To Spain</artist>
+           <title>Blipblop</title>
+           <year>2015</year>
+           <country>SE</country>
+    </track>
+    <track><artist>Robot</artist>
+           <title>Fake Or Real</title>
+           <year>2000</year>
+           <country>SE</country>
+    </track>
+    <track><artist>Tobias Bernstrup</artist>
+           <title>Videodrome</title>
+           <year>2012</year>
+           <country>SE</country>
+    </track>
+    <track><artist>E:Lect</artist>
+           <title>Stars</title>
+           <year>2021</year>
+           <country>SE</country>
+    </track>
+    <track><artist>Thermostatic</artist>
+           <title>Private Machine</title>
+           <year>2006</year>
+           <country>SE</country>
+    </track>
+    <track><artist>Elegant Machinery</artist>
+           <title>With Grace</title>
+           <year>2008</year>
+           <country>SE</country>
+    </track>
+    <track><artist>Kite</artist>
+           <title>Jonny Boy</title>
+           <year>2008</year>
+           <country>SE</country>
+    </track>
+    <track><artist>Johan Baeckström</artist>
+           <title>Synth Is Not Dead</title>
+           <year>2015</year>
+           <country>SE</country>
+    </track>
+   </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" back = "TRUE" type = "jpg">fp20253</cover>
+    <fontsize>7</fontsize>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2025</year>
+    <month>12</month>
+    <by>DJ MAD.e</by>
+  </meta>
+</wgcompilation>

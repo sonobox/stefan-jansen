@@ -20,6 +20,7 @@ format:
 
 ```{r}
 #| include: false
+#| cache: false
 
 library(pacman)
 p_load(wgc, DT, tidyverse, kableExtra, colorspace)
@@ -70,10 +71,11 @@ all.wgc <- wgc_files |>
                                          wgcmonth == 9 ~ "September",
                                          wgcmonth == 10 ~ "Oktober",
                                          wgcmonth == 11 ~ "November",
-                                         wgcmonth == 12 ~ "Dezember")) |>             mutate(wgclink = str_to_lower(wgctitle) |> 
-                           str_remove("[:punct:]") |> 
-                           str_replace_all(" ", "-") |> 
-                           str_replace_all("--","-"))  
+                                         wgcmonth == 12 ~ "Dezember")) |>             
+            mutate(wgclink = str_to_lower(wgctitle) |> 
+                             str_remove("[:punct:]") |> 
+                             str_replace_all(" ", "-") |> 
+                             str_replace_all("--","-"))  
              
              
 ```
@@ -81,6 +83,7 @@ all.wgc <- wgc_files |>
 ```{r}
 #| echo: false
 #| message: false
+#| cache: false
 
 all.wgc |> arrange(artist, title) |>  
            mutate(Nummer = ifelse(
@@ -222,7 +225,18 @@ all.wgc |>  rename(Ersteller = by) |>
 ```
 
 
-
+<!--  ```{r} -->
+<!-- #| echo: false -->
+<!--   -->
+<!--  all.wgc |>  rename(Ersteller = by) |>  -->
+<!--              ggplot(aes(y = wgcyear, fill = Ersteller)) +  -->
+<!--              geom_bar() +  -->
+<!--              theme(legend.position="bottom") +  -->
+<!--              labs(x = "Anzahl", y = "Jahr")  + -->
+<!--              scale_fill_discrete_qualitative(palette = "Harmonic", nmax = 5, order = c(2,5,1)) -->
+<!--  ``` -->
+<!--   -->
+<!--   -->
 
 ## Anzahl Songs
 
@@ -303,12 +317,16 @@ all.wgc |>  rename(Ersteller = by) |>
 
 all.wgc |> drop_na(country) |> 
          rename(Ersteller = by) |> 
-         ggplot(aes(y = fct_rev(fct_infreq(fct_lump(country, 30, other_level = "Sonstige"))), 
+         ggplot(aes(y = fct_rev(
+                         fct_relevel(
+                            fct_infreq(fct_lump(country, 30, other_level = "Sonstige")), 
+                            "Sonstige", after = Inf
+                         )),
                     fill = Ersteller)) + 
          geom_bar() + 
          labs(x = "Anzahl", y = "Land") + 
          theme(legend.position="bottom")  +
-        scale_fill_discrete_qualitative(palette = "Harmonic", nmax = 5, order = c(2,5,1))
+         scale_fill_discrete_qualitative(palette = "Harmonic", nmax = 5, order = c(2,5,1))
 
 ```
 
@@ -321,7 +339,8 @@ all.wgc |> mutate(titleLength = nchar(title)) |>
             arrange(desc(titleLength)) |> 
             select(n = titleLength, artist, title) |> 
             ggplot(aes(x = n)) + 
-            geom_bar() 
+            geom_bar() +
+            labs(x = "Anzahl Schriftzeichen", y = "Anzahl Songs")
 
 # all.wgc |> mutate(titleLength = nchar(title)) |>  
 #             group_by(titleLength) |> 

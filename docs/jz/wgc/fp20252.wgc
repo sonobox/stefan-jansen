@@ -1,0 +1,122 @@
+<wgcompilation>
+  <title>Jag Älskar Svensk Synthpop</title>
+  <season>Future Pop</season>
+  <number>2025.2</number>
+  <content>
+  <cd>
+    <track><artist>Colony 5</artist>
+           <title>Heta Nätter</title>
+           <year>2005</year>
+           <country>SE</country>
+    </track>
+    <track><artist>Saft</artist>
+           <title>Ditt Namn I Min Mun</title>
+           <year>1998</year>
+           <country>SE</country>
+    </track>
+    <track><artist>Anna Öberg</artist>
+           <title>Jag Såg Dig På En Lördag</title>
+           <year>2019</year>
+           <country>SE</country>
+    </track>
+    <track><artist>Spark!</artist>
+           <title>Maskiner</title>
+           <year>2016</year>
+           <country>SE</country>
+    </track>  
+    <track><artist>EkoBrottsMyndigheten</artist>
+           <title>Extremsport</title>
+           <year>2010</year>
+           <country>SE</country>
+    </track>
+    <track><artist>Nattskiftet</artist>
+           <title>Aceton</title>
+           <year>2016</year>
+           <country>SE</country>
+    </track>
+    <track><artist>Exferno</artist>
+           <title>Baader-Meinhof Wagen</title>
+           <year>2021</year>
+           <country>SE</country>
+    </track>
+    <track><artist>Ironic Sweden</artist>
+           <title>Dansmusik</title>
+           <year>2020</year>
+           <country>SE</country>
+    </track>
+    <track><artist>Radiohimlen</artist>
+           <title>Es Trasig Synth</title>
+           <year>2020</year>
+           <country>SE</country>
+    </track>
+    <track><artist>Maskinpop</artist>
+           <title>Ska Vi Älska Så Ska Älskar Till Eddie Bengtsson</title>
+           <year>2020</year>
+           <country>SE</country>
+    </track>
+    <track><artist>Blipblop</artist>
+           <title>Talar Med En Vägg</title>
+           <year>2015</year>
+           <country>SE</country>
+    </track>
+    <track><artist>Mr Jones Machine</artist>
+           <title>Augustiljus</title>
+           <year>2007</year>
+           <country>SE</country>
+    </track>   
+    <track><artist>Modular Passion</artist>
+           <title>Ego (Ge Mig Allt, Ge Mig Mera)</title>
+           <year>2021</year>
+           <country>SE</country>
+    </track>
+    <track><artist>GLAS</artist>
+           <title>Ögon</title>
+           <year>2017</year>
+           <country>SE</country>
+    </track>
+    <track><artist>Maskinpuls</artist>
+           <title>Lite Mer Än Jag</title>
+           <year>2020</year>
+           <country>SE</country>
+    </track>
+    <track><artist>Sista Mannen På Jorden</artist>
+           <title>Stadens Alla Ljus</title>
+           <year>2014</year>
+           <country>SE</country>
+    </track>
+    <track><artist>Page</artist>
+           <title>Kan Inte Tänka På Allt</title>
+           <year>2025</year>
+           <country>SE</country>
+    </track>
+    <track><artist>Robin Velander</artist>
+           <title>Känner Doften Av Himlen</title>
+           <year>2022</year>
+           <country>SE</country>
+    </track>
+    <track><artist>1984</artist>
+           <title>1984 (I Rock Och Stövlar Och Stylat Hår)</title>
+           <year>2019</year>
+           <country>SE</country>
+    </track>
+    <track><artist>Vision Talk</artist>
+           <title>Dina Tankar</title>
+           <year>2009</year>
+           <country>SE</country>
+    </track>
+
+  </cd>  
+  </content>
+
+  <layout>
+    <cover front = "TRUE" small = "TRUE" inside = "TRUE" inlay = "TRUE" back = "TRUE" type = "jpg">fp20252</cover>
+    <fontsize>7</fontsize>
+    <frame>TRUE</frame>
+  </layout>
+
+  <meta>
+    <year>2025</year>
+    <month>12</month>
+    <by>DJ MAD.e</by>
+  </meta>
+</wgcompilation>

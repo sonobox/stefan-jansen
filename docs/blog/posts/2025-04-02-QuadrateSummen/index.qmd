@@ -201,7 +201,7 @@ $9 \cdot 12 \cdot 40 = 4320$, da $2^{40}$ schon 13-stellig ist.
 library(pacman)
 p_load(gmp)
 
-options(scipen = 99999, digits= 22)
+options(scipen = 9999, digits= 22)
 ```
 
 Ein Problem, das sich ergeben wird ist, dass R für *gewöhnliche* Rechnungen gemacht ist, nicht aber für riesige oder sehr kleine Zahlen. Daher laden wir das Paket `gmp`, was es ein wenig besser macht, wie das einfache Beispiel zeigt:

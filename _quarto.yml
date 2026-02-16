@@ -3,6 +3,7 @@ project:
   output-dir: _www
   
 website:
+  title: "Homepage"
   site-url: https://www.stefan-jansen.de/
   image: "/bilder/SJ-Balken.png"
   favicon: favicon.png
@@ -12,7 +13,7 @@ website:
   search: true
   
   page-footer:
-     right: "Stefan Jansen, 2025"
+     right: "Stefan Jansen, 2026"
 
   navbar:
     background: dark
@@ -30,16 +31,16 @@ website:
         menu:
           - text: Wirtschaftsmathematik (WP)
             icon: clipboard2-data
-            href: http://www.stefan-jansen.de/wipsy/da
+            href: https://www.stefan-jansen.de/wipsy/da
             target: _blank
           - text: Data Analytics (DS)
             icon: graph-up
-            href: http://www.stefan-jansen.de/datascience/da
+            href: https://www.stefan-jansen.de/datascience/da
             target: _blank 
-          - text: Brückenkurs Mathematik
-            icon: calculator
-            href: http://www.stefan-jansen.de/brueckenkurs/
-            target: _blank
+        #  - text: Brückenkurs Mathematik
+        #    icon: calculator
+        #    href: https://www.stefan-jansen.de/brueckenkurs/
+        #    target: _blank
      #  - text: "Seminare"
      #    menu:      
      #      - text: "Seminar: Zahlengeschichte(n)"

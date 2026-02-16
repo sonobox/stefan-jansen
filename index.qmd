@@ -20,7 +20,7 @@ listing:
 
 :::{.column width="70%"}
 
-Mein Name ist Stefan Jansen und ich bin seit 2013 Dozent an der [Technischen Hochschule Augsburg](http://www.tha.de){.external target="_blank"}. Ich unterrichte Mathematik, Data Analytics und Statistik, hauptsächlich in den Studiengängen [Data Science](https://www.tha.de/Geistes-und-Naturwissenschaften/Data-Science.html){.external target="_blank"} und [Wirtschaftspsychologie](https://www.tha.de/Wirtschaft/Wirtschaftspsychologie.html){.external target="_blank"}.
+Mein Name ist Stefan Jansen und ich bin seit 2013 Dozent an der [Technischen Hochschule Augsburg](https://www.tha.de){.external target="_blank"}. Ich unterrichte Mathematik, Data Analytics und Statistik, hauptsächlich in den Studiengängen [Data Science](https://www.tha.de/Geistes-und-Naturwissenschaften/Data-Science.html){.external target="_blank"} und [Wirtschaftspsychologie](https://www.tha.de/Wirtschaft/Wirtschaftspsychologie.html){.external target="_blank"}.
 
 :::
 

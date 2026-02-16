@@ -3,6 +3,7 @@
 .RData
 .Ruserdata
 
+/docs/jz/wgc/*.pdf
 /.quarto/
 /_www/
 /_freeze/
@@ -10,3 +11,5 @@
 .httr-oauth
 .DS_Store
 .quarto
+
+**/*.quarto_ipynb
