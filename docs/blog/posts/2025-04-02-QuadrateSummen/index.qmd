@@ -109,10 +109,10 @@ Bei den Reacher-Zahlen potenziert man die Summer aller Ziffern mit einer natürl
 
 Seien nun $n_1, n_2, \cdots, n_k$ Ziffern, wobei $n_1 \neq 0$ sein soll, und $p \in \mathbb{N}$ sei ein ganzzahliger, positiver Exponent. 
 
-Schauen wir uns nun die Zahlen an, die die folgende eigenschaft haben: 
+Schauen wir uns nun die Zahlen an, die die folgende Eigenschaft haben: 
 
 \begin{align*}
- n_1n_2n_3\cdots n_k = (n_1 + n_2 + n_3 + \cdots + n_k)^p 
+ \overline{n_1n_2n_3\cdots n_k} = (n_1 + n_2 + n_3 + \cdots + n_k)^p 
 \end{align*}
 
 wobei die linke Seite die Dezimaldarstellung der jeweiligen Zahl ist. Wie ich 

@@ -33,6 +33,10 @@ website:
             icon: clipboard2-data
             href: https://www.stefan-jansen.de/wipsy/da
             target: _blank
+          - text: Testdesign Übersicht (WP)
+            icon: person-lines-fill
+            href: https://www.stefan-jansen.de/wipsy/tse
+            target: _blank
           - text: Data Analytics (DS)
             icon: graph-up
             href: https://www.stefan-jansen.de/datascience/da

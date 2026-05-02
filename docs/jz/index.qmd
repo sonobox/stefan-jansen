@@ -100,7 +100,8 @@ all.wgc |> arrange(artist, title) |>
                   Nr = track) |> 
                   DT::datatable(escape = FALSE,
                                 options = list(paging = FALSE, 
-                                               language = list(search = "Schlagwort: ")))
+                                               language = list(search = "Schlagwort: "),
+                                               pageLength = 100))
 ```
 
 

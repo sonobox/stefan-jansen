@@ -1,0 +1,242 @@
+---
+title: Fixpunktfreie Permutationen und Recontres-Zahlen
+format:
+  html:
+    include-in-header: ../../hero-image-blog.html
+lang: de
+# subtitle:
+description: ""
+categories:
+  - "Mathematik"
+  - "Permutationen"
+  - "Derangements"
+author: Stefan Jansen
+date: 05/02/2026
+image: ../../../../bilder/permutation.jpg
+---
+
+
+## Problem
+
+Vor einigen Jahren haben wir eine Klausuraufgabe gestellt bei der die Studentinnen und Studenten sechs Zuordnungen machen mussten: gegeben waren sechs Grafiken (A bis F), sowie sechs Datensätze (1 bis 6). Die Datensätzen sollen den zugehörigen Grafiken zugeordnet werden.
+Bei der Korrektur der Klausur fiel auf, dass es viele Studenten gab, die nur einen oder gar keine richtige Zuordnung gemacht haben. Dies waren offenbar die Studenten, die sich nicht vorbereitet haben... - aber darum soll es hier nicht gehen. Mir stellten sich die folgenden Fragen:
+
+* Wenn jemand rät, wie groß ist die Wahrscheinlichkeit ein, zwei, drei, ... richtige Lösungen zu haben? Das heißt, wie viele Möglichkeiten gibt es eine, zwei, drei, ... richtige Zuordnungen zu machen?
+* Wenn die Studenten und Studentinnen raten, wie viele richtige Zuordnungen haben diese im Durchschnitt?
+* Wie schaut das Problem bei $n$ Zuordnungen aus?
+
+Aber fangen wir von vorne an.
+
+## Permutationen
+
+Gegeben sind $n$ (unterscheidbaren) Elemente. Unter einer **Permutation** versteht man in der Stochastik eine Anordnung der $n$ Elemente. Dabei gibt es
+
+
+$$
+\begin{aligned}
+n! & := \prod_{k=1}^{n} k = 1 \cdot 2 \cdot \cdots \cdot n
+\end{aligned}
+$$
+
+verschiedene Anordnungen der $n$ Elemente.
+
+
+#### Beispiele
+
+* Die drei Buchstaben _ABC_ können auf $3 \cdot 2 \cdot 1 = 6$ verschiedene Weisen angeordnet werden _ABC_, _ACB_, _BAC_, _BCA_, _CAB_ und _CBA_.
+
+* Anagramme sind Permutationen. So ist _STAUBTUCH_ eine Permutation von _BAUSCHUTT_ und _MEHL_ von _HELM_. 
+
+
+## Fixpunktfreie Permutationen (Derangements)
+
+Unter einer **fixpunktfreien Permutation** (oder auch **Derangement**) versteht man eine Permutation bei der keines der Elemente an der ursprünglichen Stelle ist. So gibt es von _ABC_ genau zwei fixpunktfreie Permutationen, nämlich _BCA_ und _CAB_. Bei allen anderen Permutationen ist zumindest ein Element an der ursprünglichen Stelle. 
+
+Die Anzahl der fixpunktfreien Permutationen $D_n$ wird auch als **Subfakultät** (Notation: $!n$) bezeichnet und kann wie folgt berechnet werden: 
+
+
+$$
+D_n = !n = n! \sum_{j = 0}^{n} \frac{(-1)^j}{j!} = n!\left(\frac{1}{0!} - \frac{1}{1!} + \frac{1}{2!} - \frac{1}{3!} \cdots  \right)
+$$
+
+Schauen wir uns die ersten 10 Fakultäten und Subfakultäten, sowie den Anteil der fixpunktfreien Permutationen an allen Permutationen einmal an.
+
+| $n$   | $n!$  | $D_n = !n$ |  $\frac{n!}{\mathrm{e}}$ |  $\frac{!n}{n!}$ | 
+|---|------:|-----:|------:|:-------------|
+| $1$    |  $1$  | $0$  |     $0.3678...$ | $0$       |
+| $2$    |  $2$  | $1$  |     $0.3678...$ |  $0.5$     |
+| $3$    |  $6$  | $2$  |     $2.2072...$ |  $0.\overline{3}$   |
+| $4$    |  $24$  | $9$  |    $8.8291...$ |   $0.375$       |
+| $5$    |  $120$  | $44$  |  $44.1455...$ |   $0.3\overline{6}$     |
+| $6$    |  $720$  | $265$  | $264.8731...$ |  $0.3680\overline{5}$       |
+| $7$    |  $5040$  | $1854$  |  $1854.1123...$ |  $0.36785714...$     |
+| $8$    |  $40320$  | $14833$  | $14832.8990...$ |  $0.36788194...$       |
+| $9$    |  $363880$  | $133496$  | $133496.0916...$  |  $0.36787918...$     |
+| $10$   |  $3638800$  | $1334961$  | $1334960.9161...$ |  $0.36787946...$       |
+
+
+Wir können erkennen, dass der Anteil der fixpunktfreien Permutationen von allen Permuatationen gegen einen festen Wert strebt, nämlich etwa 36.8 Prozent. Dies kommt daher, dass der Wert in der Klammer die Reihendarstellung von $\mathrm{e}^{-1}$ ist, denn es gilt
+
+$$
+\mathrm{e}^x = \lim\limits_{n\to \infty} \sum_{k=0}^{n}\frac{x^k}{k!}
+$$
+mit $x =-1$ ergibt sich die obige Reihe. Damit können wir die Anzahl der fixpunktfreien Permutationen für $n \ge 3$ leicht berechnen indem wir den Ausdruck $\frac{n!}{\mathrm{e}}$ auf die nächste ganze Zahl runden.
+
+Gehen wir zu unserem Beispiel zurück und berechnen wie groß die Wahrscheinlichkeit ist bei zufälligem Zuordnen der 6 Grafiken keinen richtig zu haben, so ergibt sich mit Hilfe der obigen Formel:
+
+$$
+\begin{aligned}
+p & = \frac{\text{Anzahl der fixpunktfreien Permutationen}}{\text{Anzahl aller Permutationen}} \\ 
+  & = \frac{!6}{6!} \\ 
+  & = \frac{1}{6!} \cdot 6! \cdot \sum_{j = 0}^{6} \frac{(-1)^j}{j!} \\ 
+  & = 1 - \frac{1}{2} + \frac{1}{6} -  \frac{1}{24} + \frac{1}{120} - \frac{1}{720} \\ & = \frac{53}{144}  \\   & = 0,3680\overline{5}
+\end{aligned}
+$$
+
+Interessant zu sehen ist nun, dass es ab $n=4$ in etwa egal ist wie viele Zuordnungen man machen sollen, die Wahrscheinlichkeit keine richtig zu haben bleibt bei etwa 37 Prozent.
+
+
+#### Noch ein Beispiel:
+
+Beim Wichteln möchten wir  eine fixpunktfreie Permutation der Teilnehmer haben, da sich keiner selbst beschenken soll. Beim klassischen Wichteln schreibt jeder seinen Namen auf einen Zettel. Diese werden eingesammelt und jeder zieht einen Zettel auf dem der Name der zu bewichtelnden Person steht. Offenbar kann man sich selbst ziehen und das ist wie wir oben gelernt haben gar nicht so unwahrscheinlich, da nur in etwa 37 Prozent der Fälle das Wichteln erfolgreich ist.
+
+Als Schlußbemerkung sei noch erwähnt, dass es für die Anzahl der fixpunktfreien Permutationen, den Derangements $D_n$, auch eine rekursive Formel gibt:
+
+$$
+D_n = (n-1) (D_{n-1} + D_{n-2}) \qquad \text{mit} \qquad D_1 = 0, \quad D_2 = 1
+$$
+
+
+## Recontres-Zahlen
+
+
+Die **Recontres-Zahlen** $D_{n,k}$ geben die Anzahl der Permutationen einer Menge $n$ unterscheidbarer Elemente an, bei denen $k$ ihren ursprünglichen Platz behalten. Damit sind $D_{n,0}$ genau die Anzahl der fixpunktfreien Permutationen. Außerdem ist $D_{n,n} = 1$, da es nur eine Möglichkeit gibt, dass alle Elemente am selben Platz sind und $D_{n,n-1} = 0$, da es nicht möglich ist, dass nur ein Element den Platz ändert. 
+
+Mit Hilfe von ein wenig Kombinatorik (Poincaré-Sylvester-Formel) kann man sich die folgende Formel zur Berechnung der Recontres-Zahlen überlegen:
+
+$$
+\begin{aligned}
+D_{n,k} & = \binom{n}{k} (n-k)! \sum_{j = 0}^{n-k} \frac{(-1)^j}{j!} \\
+        & = \frac{n!}{k!} \sum_{j = 0}^{n-k} \frac{(-1)^j}{j!}
+\end{aligned}
+$$
+
+
+| n↓  k➔ | 0  | 1  | 2  | 3  | 4  | 5  | 6  | 7  | 8  | 9 | 10 | Summe |
+|:--:|--:|--:|--:|--:|--:|--:|--:|--:|----:|----:|----:|----:|
+| 0  | 1     |       |      |      |     |     |    |   |   |  |  | 1     |
+| 1  | 0     | 1     |      |      |     |     |    |   |   |  |  | 1     |
+| 2  | 1     | 0     | 1    |      |     |     |    |   |   |  |  | 2     |
+| 3  | 2     | 3     | 0    | 1    |     |     |    |   |   |  |  | 6     |
+| 4  | 9     | 8     | 6    | 0    | 1   |     |    |   |   |  |  | 24    |
+| 5  | 44    | 45    | 20   | 10   | 0   | 1   |    |   |   |  |  | 120   |
+| 6  | 265   | 264   | 135  | 40   | 15  | 0   | 1  |   |   |  |  | 720   |
+| 7  | 1854  | 1855  | 924  | 315  | 70  | 21  | 0  | 1 |   |  |  | 5040  |
+| 8  | 14833 | 14832 | 7420 | 2464 | 630 | 112 | 28 | 0 | 1 |  |  | 40320 |
+| 9  | 133496| 133497| 66744| 22260| 5544| 1134| 168| 36| 0 | 1|  | 362880|
+| 10 |1334961|1334960| 667485| 222480| 55650| 11088| 1890| 240 | 45 | 0 | 1 | 3628800 |
+: {tbl-colwidths="[8,8,8,8,8,8,8,8,8,8,8,8,12]"}
+
+
+
+
+#### Erwartungswert
+
+Kommen wir noch einmal zu unserem ursprünglichen Problem zurück, nämlich der zufälligen Zuordnung von $n$ Objekten. Wir haben bereits geklärt, dass ab einer zufälligen Zuordnung von vier oder mehr  Objekten die Wahrscheinlichkeit keines richtig zuzuordnen bei etwa 37.8 Prozent liegt. Eine Frage, die sich nun stellt ist: 
+
+_Wie groß ist der Erwartungswert der Anzahl richtiger Zuordnungen bei $n$ Objekten?_
+
+Mit einer einfachen Überlegung kommt man bereits auf die richtige Antwort: 
+
+* Für jede Zuordnung ist die Wahrscheinlichkeit, dass diese richtig ist $\frac{1}{n}$. 
+* Insgesamt sind es $n$ Zuordnungen.
+
+Damit ist der Erwartungswert für die Anzahl der richtigen Zuordnungen $n \cdot \frac{1}{n} = 1$. 
+
+Mathematisch ist der Erwartungswert für die Zuordnungen der folgende Ausdruck:
+
+$$
+E(X) = \frac{1}{n!} \sum_{k=0}^{n} k \cdot D_{n,k}
+$$
+
+* Dabei bedeutet der Ausdruck $k \cdot D_{n,k}$ dass es insgesamt $D_{n,k}$ verschiedene Möglichkeiten gibt $k$ Zuordnungen richtig zu haben. 
+* Teilen wir die Summe durch $n!$, also die Anzahl aller Möglichkeiten, so erhalten wir den Erwartungswert. 
+
+##### Beispiel $n = 2$:
+
+$$
+\begin{aligned}
+ E(X) & = \frac{1}{2!} \sum_{k=0}^{2} k \cdot D_{2,k} \\
+      & = \frac{1}{2} \left(0 \cdot D_{2,0} + 1 \cdot D_{2,1} + 2 \cdot D_{2,2} \right) \\
+      & = \frac{1}{2} \cdot \left(1 \cdot 0 + 0 \cdot 1 + 1 \cdot 2 \right) \\ 
+      & = 1
+\end{aligned}
+$$
+
+##### Beispiel $n = 4$:
+
+$$
+\begin{aligned}
+ E(X) & = \frac{1}{4!} \sum_{k=0}^{4} k \cdot D_{4,k} \\
+      & = \frac{1}{24} \cdot \left(9 \cdot 0 + 8 \cdot 1 + 6 \cdot 2 + 0 \cdot 3 + 1 \cdot 4\right) \\ 
+      & = \frac{1}{24} \cdot 24 \\
+      & = 1
+\end{aligned}
+$$
+Allgemein zu beweisen wäre dann
+
+$$
+E(X) = \frac{1}{n!} \sum_{k=0}^{n} k \cdot D_{n,k} = 1 \qquad \text{für alle } n \ge 1. 
+$$
+
+
+#### Programm zur Bestimmung der Recontres-Zahlen
+
+Zum Schluss des Abschnitts noch zwei kleine R-Programm zur Bestimmung der Recontres-Zahlen.
+
+* Das erste Programm ist sehr ineffizient, da es explizit alle Permutationen bildet und die Recontres-Zahlen dann auszählt. Da die Fakultät sehr schnell wächst, dauert es ab etwa $n = 10$ recht lange die Recontres-Zahlen auf diese Art zu bestimmen. 
+
+```{r}
+library(pacman)
+p_load(gtools)
+
+
+recontres <- function(n) {
+ x <- 1:n 
+ y <- permutations(n=n, r = n, v = x)
+ rval <- apply(t(t(y)==x), 1, sum) |>  table()
+ return(rval)
+}
+
+recontres(6)
+```
+
+* Das zweite Programm nutzt explizit die Formeln zur Bestimmung der Recontres-Zahlen und ist daher sehr viel schneller.
+
+
+```{r}
+recontres2 <- function(n) {
+ Dnk <- function(n,k) {
+          anz <- 0:(n-k)
+          factorial(n)/factorial(k)*sum((-1)^anz/factorial(anz))
+ }
+
+ rval <- c()
+for(k in 0:n){
+ rval <- c(rval, Dnk(n,k))  
+} 
+names(rval) <- 0:n
+return(rval)
+}
+
+recontres2(12)
+```
+
+
+### Links zu verwandten Videos / Folien
+
+* [Weihnachtsvorlesung 2025, TH Augsburg (pdf)](vorlesung_Weihnachten.pdf)
+* [Numberphile - Derangements (James Grime)](https://www.youtube.com/watch?v=pbXg5EI5t4c),  [( + Bonus)](https://www.youtube.com/watch?v=qYAWjIVY7Zw)
+* [Numberphile - Secret Santa (Hannah Fry)](https://www.youtube.com/watch?v=5kC5k5QBqcc)
+* [Numberphile - Mathematical Way To Choose A Toilet (Ria Symonds)](https://www.youtube.com/watch?v=ZWib5olGbQ0),  [(+ Bonus)](https://www.youtube.com/watch?v=XIOoCKO-ybQ)
+* [Recontres Numbers, oeis.org](https://oeis.org/wiki/Rencontres_numbers)

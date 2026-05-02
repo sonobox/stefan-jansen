@@ -13,3 +13,4 @@
 .quarto
 
 **/*.quarto_ipynb
+.positai
