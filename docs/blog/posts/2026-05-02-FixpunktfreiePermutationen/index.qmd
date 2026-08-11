@@ -110,7 +110,19 @@ $$
 ## Recontres-Zahlen
 
 
-Die **Recontres-Zahlen** $D_{n,k}$ geben die Anzahl der Permutationen einer Menge $n$ unterscheidbarer Elemente an, bei denen $k$ ihren ursprünglichen Platz behalten. Damit sind $D_{n,0}$ genau die Anzahl der fixpunktfreien Permutationen. Außerdem ist $D_{n,n} = 1$, da es nur eine Möglichkeit gibt, dass alle Elemente am selben Platz sind und $D_{n,n-1} = 0$, da es nicht möglich ist, dass nur ein Element den Platz ändert. 
+
+Die **Recontres-Zahlen** $D_{n,k}$ geben die Anzahl der Permutationen einer Menge $n$ unterscheidbarer Elemente an, bei denen $k$ ihren ursprünglichen Platz behalten.
+
+Schauen wir uns am Beispiel $n = 4$ an. In der folgenden Tabelle sind alle 24 Permutationen der vier Buchstaben **ABCD** abgebildet. Die Fixpunkte sind fett geschrieben.
+
+|    |    |    |    |    |    |
+|:---|:---|:---|:---|:---|:---|
+| **ABCD** | **AB**DC | **A**CB**D** | **A**CDB     | **A**DBC | **A**D**C**B |
+| BA**CD** | BADC     | BCA**D**     | BCDA         | BDAC     | BD**C**A     | 
+| CAB**D** | CADB     | C**B**A**D** | C**B**DA     | CDAB     | CDBA         |
+| DABC     | DA**C**B | D**B**AC     | D**B****C**A | DCAB     | DCBA         |
+
+
 
 Mit Hilfe von ein wenig Kombinatorik (Poincaré-Sylvester-Formel) kann man sich die folgende Formel zur Berechnung der Recontres-Zahlen überlegen:
 
@@ -120,6 +132,7 @@ D_{n,k} & = \binom{n}{k} (n-k)! \sum_{j = 0}^{n-k} \frac{(-1)^j}{j!} \\
         & = \frac{n!}{k!} \sum_{j = 0}^{n-k} \frac{(-1)^j}{j!}
 \end{aligned}
 $$
+
 
 
 | n↓  k➔ | 0  | 1  | 2  | 3  | 4  | 5  | 6  | 7  | 8  | 9 | 10 | Summe |
@@ -138,7 +151,7 @@ $$
 : {tbl-colwidths="[8,8,8,8,8,8,8,8,8,8,8,8,12]"}
 
 
-
+Die $D_{n,0}$ genau die Anzahl der fixpunktfreien Permutationen. Außerdem ist $D_{n,n} = 1$, da es nur eine Möglichkeit gibt, dass alle Elemente am selben Platz sind und $D_{n,n-1} = 0$, da es nicht möglich ist, dass nur ein Element den Platz ändert. 
 
 #### Erwartungswert
 

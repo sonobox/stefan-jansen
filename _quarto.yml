@@ -66,6 +66,11 @@ website:
             icon: disc
             href: https://www.discogs.com/user/sonobox/collection?page=1&limit=250
             target: _blank
+      - text: Sonstiges
+        menu:
+          - text: Latein Vokabeltrainer (Campus B)  
+            icon: translate
+            href: docs/sonstiges/vokabeltrainer/index.qmd
 
     tools:
       - icon: person-circle

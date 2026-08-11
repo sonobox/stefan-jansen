@@ -6,7 +6,7 @@
 
 
 .hero-home {
-  background-image: linear-gradient( rgba(0,0,0,0), rgba(0,0,0,0) ), url(bilder/sonnenuntergang_final.png);
+  background-image: linear-gradient( rgba(0,0,0,0), rgba(0,0,0,0) ), url(bilder/hero_sonnenuntergang.png);
   height: 18vh;
   background-size: cover;
   background-position: center;
@@ -15,7 +15,7 @@
 }
 
 .hero-schallplatten {
-  background-image: linear-gradient( rgba(0,0,0,.3), rgba(0,0,0,.3) ), url(bilder/schallplatten_final.png);
+  background-image: linear-gradient( rgba(0,0,0,.3), rgba(0,0,0,.3) ), url(bilder/hero_schallplatten.png);
   height: 18vh;
   background-size: cover;
   background-position: center;
@@ -24,7 +24,7 @@
 }
 
 .hero-blog {
-  background-image: linear-gradient( rgba(0,0,0,.3), rgba(0,0,0,.3) ), url(bilder/buecher_final.png);
+  background-image: linear-gradient( rgba(0,0,0,.3), rgba(0,0,0,.3) ), url(bilder/hero_buecher.png);
   height: 18vh;
   background-size: cover;
   background-position: center;
@@ -33,7 +33,7 @@
 }
 
 .hero-lehre {
-  background-image: linear-gradient( rgba(0,0,0,.3), rgba(0,0,0,.3) ), url(bilder/lehre_final.png);
+  background-image: linear-gradient( rgba(0,0,0,.3), rgba(0,0,0,.3) ), url(bilder/hero_lehre.png);
   height: 18vh;
   background-size: cover;
   background-position: center;
@@ -42,7 +42,7 @@
 }
 
 .hero-links {
-  background-image: linear-gradient( rgba(0,0,0,.3), rgba(0,0,0,.3) ), url(bilder/links_final.png);
+  background-image: linear-gradient( rgba(0,0,0,.3), rgba(0,0,0,.3) ), url(bilder/hero_links.png);
   height: 18vh;
   background-size: cover;
   background-position: center;
@@ -51,7 +51,7 @@
 }
 
 .hero-disclaimer{
-  background-image: linear-gradient( rgba(0,0,0,0), rgba(0,0,0,0) ), url(bilder/disclaimer_final.png);
+  background-image: linear-gradient( rgba(0,0,0,0), rgba(0,0,0,0) ), url(bilder/hero_disclaimer.png);
   height: 18vh;
   background-size: cover;
   background-position: center;
@@ -59,7 +59,14 @@
   position: relative;
 }
 
-
+.hero-latein {
+  background-image: linear-gradient( rgba(0,0,0,.3), rgba(0,0,0,.3) ), url(bilder/hero_latein.png);
+  height: 18vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
 
 
 .hero-text {

@@ -1,0 +1,197 @@
+```{r}
+#| label: voksetup
+#| include: false
+
+library(pacman)
+p_load(tidyverse, readxl)
+
+## Stammformen der Deponentien
+
+## ---------------------------------------------------------------------------
+##  1) Parameter
+##     Alle drei Zeilen sind einfache Zuweisungen im ERSTEN Chunk und können
+##     deshalb beim Aufruf mit exams::expar() überschrieben werden:
+##         exams2forms(expar("vokabeln-latein02.Rmd", lektionen = 1:10), n = 20)
+##     Alternativ dokumentweit über options(vok_lektionen = 1:10) usw.
+## --------------------------------------------------------------------------
+
+lektionen         <- getOption("vok_lektionen", default = 1:117)  # NULL = alle
+datei             <- getOption("vok_datei", default = "latein_vokabeln.xlsx")
+ohne_zuruecklegen <- getOption("vok_ohne_zuruecklegen", default = TRUE)
+
+## ---------------------------------------------------------------------------
+##  2) Hilfsfunktionen
+## ---------------------------------------------------------------------------
+
+#' Vokabeldatei einlesen
+#'
+#' Liest die xlsx-Datei, vereinheitlicht die Spaltennamen (klein), wandelt die
+#' Textspalten in getrimmte Zeichenketten und entfernt Zeilen ohne lateinisches
+#' Stichwort bzw. ohne deutsche Bedeutung.
+#' @param datei Pfad zur xlsx-Datei (am besten absolut, s. `vok_daten()`).
+#' @return Ein tibble mit einer zusätzlichen Spalte `id` (Zeilennummer).
+
+vok_lesen <- function(datei) {
+  if (!file.exists(datei)) {
+    stop("Vokabeldatei '", datei, "' nicht gefunden.\n",
+         "R/exams knitet Aufgaben in einem temporären Verzeichnis, relative\n",
+         "Pfade greifen daher nicht. Im aufrufenden Dokument bitte setzen:\n",
+         '  options(vok_datei = normalizePath("daten/vokabeln.xlsx"))',
+         call. = FALSE)
+  }
+  read_excel(datei) |>
+  rename_with(tolower) |>
+  mutate(across(any_of(c("latein", "formen", "wortart", "deutsch", "zusatz")),
+                \(x) trimws(as.character(x))
+                ))
+}
+
+#' Vokabeldaten mit Zwischenspeicher
+#'
+#' Bei `n > 1` wird die Aufgabe mehrfach ausgeführt; die xlsx soll dabei nur
+#' einmal gelesen werden. Der Cache liegt in einer Option und wird verworfen,
+#' sobald ein anderer Dateipfad angefordert wird. Nach einer Änderung an der
+#' xlsx innerhalb derselben Session: `options(vok_cache = NULL)`.
+#'
+#' @param datei Pfad zur xlsx-Datei.
+#' @return Ein tibble wie von `vok_lesen()`.
+
+vok_daten <- function(datei) {
+  cache <- getOption("vok_cache")
+  if (is.null(cache) || !identical(attr(cache, "quelle"), datei)) {
+    cache <- vok_lesen(datei)
+    attr(cache, "quelle") <- datei
+    options(vok_cache = cache)
+  }
+  cache
+}
+
+#' Mehrfachangaben zerlegen
+#'
+#' Zerlegt einen Zellinhalt am Trennzeichen, entfernt Leerraum und leere Teile.
+#'
+#' @param x Zeichenkette, z. B. "der Vater; der Erzeuger".
+#' @param trenn Trennzeichen (fix, keine Regex).
+#' @return Zeichenvektor, ggf. der Länge 0.
+
+teile <- function(x, sep = ";") {
+  if (length(x) != 1L || is.na(x)) return(character(0))
+  y <- trimws(unlist(strsplit(x, sep, fixed = TRUE)))
+  y[nzchar(y)]
+}
+
+
+## ---------------------------------------------------------------------------
+##  3) Vokabel ziehen und aufbereiten
+## ---------------------------------------------------------------------------
+
+pool <- vok_daten(datei)
+pool <- filter(pool, lektion %in% lektionen)
+if (nrow(pool) < 1L) {
+  stop("Keine Vokabeln für die gewählten Lektionen (",
+       paste(lektionen, collapse = ", "), ").", call. = FALSE)
+  }  
+
+verben <- pool |> filter(wortart == "Deponens") |> 
+                  filter(!is.na(formen)) |>  
+                  mutate(lektion = suppressWarnings(as.integer(lektion)),
+                         id = row_number()) |>
+                  filter(!is.na(latein), nzchar(latein))
+
+
+if (isTRUE(ohne_zuruecklegen)) {
+  ## Innerhalb einer R-Session – also innerhalb eines exams2forms-Aufrufs mit
+  ## n > 1 – wird jede Vokabel höchstens einmal gezogen; ist der Vorrat
+  ## erschöpft, beginnt die Ziehung von vorn. Der Merkposten ist nach der
+  ## Lektionsauswahl geschlüsselt, damit sich mehrere Trainer auf einer Seite
+  ## nicht gegenseitig stören. Zurücksetzen: options(vok_gezogen = NULL)
+  schluessel <- paste0("lek:", paste(sort(unique(verben$lektion)), collapse = ","))
+  merker     <- getOption("vok_gezogen", default = list())
+  bereits    <- if (is.null(merker[[schluessel]])) integer(0) else merker[[schluessel]]
+  kandidaten <- setdiff(verben$id, bereits)
+  if (!length(kandidaten)) {
+    bereits    <- integer(0)
+    kandidaten <- verben$id
+  }
+  gewaehlt <- kandidaten[sample.int(length(kandidaten), 1L)]
+  merker[[schluessel]] <- c(bereits, gewaehlt)
+  options(vok_gezogen = merker)
+} else {
+  gewaehlt <- verben$id[sample.int(nrow(verben), 1L)]
+}
+
+wort <- verben[match(gewaehlt, verben$id), ]
+
+## ---------------------------------------------------------------------------
+##  4) Frage, Lösung und Meta-Information zusammenstellen
+## ---------------------------------------------------------------------------
+
+formen          <- teile(wort$formen)   
+n_antworten     <- length(formen)
+
+formen_namen    <- c("Infinitiv Präsens           : ",
+                     "Passiv, 1. Pers. Sg. Präsens: ",
+                     "Passiv, 1. Pers. Sg. Perfekt: ")
+
+
+frage <- paste0("Wie lauten die Stammformen des Verbs: **", formen[1], "** \n")
+
+meta_clozetype   <- paste(rep("string", n_antworten-1), collapse = "|")
+meta_solution    <- paste(formen[2:n_antworten], collapse = "|")
+meta_section     <- paste0("Lektion ", wort$lektion)
+meta_bedeutungen <- paste0(teile(wort$deutsch), collapse = ", ")
+```
+
+
+Question
+========
+`r frage`
+
+
+Answerlist
+----------
+
+```{r}
+#| label: frageliste
+#| echo: false
+#| results: "asis"
+
+cat(paste0("* ", formen_namen[2:n_antworten]), sep = "\n")
+```
+
+
+Solution
+========
+
+```{r}
+#| label: loesung
+#| echo: false
+
+cat(paste0("Die Verbformen von ", wort$latein, " sind: \n\n"))
+cat(paste(formen_namen[1:n_antworten], formen[1:n_antworten]), sep = "\n")
+cat(paste("Das Verb bedeutet:", meta_bedeutungen), " und ist in", meta_section)
+if(!is.na(wort$zusatz)) {
+  cat(paste("Sonstiges:", wort$zusatz))
+}
+```
+
+
+Answerlist
+----------
+
+```{r}
+#| label: loesungsliste
+#| echo: false
+#| results: "asis"
+
+cat(paste("*", formen[2:n_antworten]), sep = "\n")
+```
+
+
+Meta-information
+================
+exname: Stammformen Deponentien
+extype: cloze
+exclozetype: `r meta_clozetype`
+exsolution: `r meta_solution`
+exsection: `r meta_section`

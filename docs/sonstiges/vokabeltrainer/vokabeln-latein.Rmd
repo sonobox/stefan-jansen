@@ -1,0 +1,116 @@
+```{r}
+#| label: voksetup
+#| include: false
+
+
+library(pacman)
+p_load(tidyverse)
+
+
+
+## ------------------------------- Optionen ----------------------------------
+## per expar() steuerbar, z.B. expar("vokabeln-latein.Rmd", lektion = "1")
+lektion     <- c("1", "2") ## aus welchen Lektionen soll gezogen werden?
+umlaut_flex <- TRUE        ## TRUE: "ae"/"oe"/"ue"/"ss" ebenfalls erlaubt
+
+## ---------------------------- Vokabel ziehen -------------------------------
+lektion <- as.character(lektion)
+i       <- sample(which(vok$lektion %in% lektion), 1)
+latein  <- vok$latein[i]
+zusatz  <- vok$zusatz[i]
+lekt    <- vok$lektion[i]
+bed     <- trimws(strsplit(vok$deutsch[i], ";", fixed = TRUE)[[1]])
+n       <- length(bed)
+
+## ------------- Hilfsfunktionen: Lösung als regulärer Ausdruck --------------
+## Sonderzeichen: Spalte 2 = nur Groß-/Kleinschreibung tolerant,
+##                Spalte 3 = zusätzlich Umschrift (ae, oe, ue, ss) erlaubt
+
+sz <- rbind(
+  c("ä", "[Ää]", "([Ää]|[Aa]e)"),
+  c("Ä", "[Ää]", "([Ää]|[Aa]e)"),
+  c("ö", "[Öö]", "([Öö]|[Oo]e)"),
+  c("Ö", "[Öö]", "([Öö]|[Oo]e)"),
+  c("ü", "[Üü]", "([Üü]|[Uu]e)"),
+  c("Ü", "[Üü]", "([Üü]|[Uu]e)"),
+  c("ß", "ß",    "[sßS]{1,2}")
+)
+
+artikel <- c("der", "die", "das")
+
+## einzelnes Zeichen -> Regex-Baustein
+rx_char <- function(ch) {
+  k <- match(ch, sz[, 1])
+  if (!is.na(k)) return(sz[k, if (umlaut_flex) 3L else 2L])
+  if (ch == " ") return("\\s+")
+  lo <- tolower(ch)
+  up <- toupper(ch)
+  if (lo != up) return(paste0("[", up, lo, "]"))
+  if (ch %in% c(".", "+", "*", "?", "[", "]", "^", "$", "(", ")", "{", "}", "|", "\\", "/"))
+    return(paste0("\\", ch))
+  ch
+}
+
+## Wort/Wortgruppe -> Regex (Groß-/Kleinschreibung und Leerzeichen tolerant)
+rx_wort <- function(x)
+  paste(vapply(strsplit(trimws(x), "")[[1]], rx_char, ""), collapse = "")
+
+## akzeptierte Varianten einer Bedeutung: mit und ohne deutschen Artikel
+varianten <- function(b) {
+  v <- trimws(strsplit(b, "/", fixed = TRUE)[[1]])
+  v <- unlist(lapply(v, function(x) {
+    w <- strsplit(x, "\\s+")[[1]]
+    if (length(w) > 1L && tolower(w[1L]) %in% artikel)
+      c(x, paste(w[-1L], collapse = " ")) else x
+  }))
+  unique(v)
+}
+
+## Jedes Eingabefeld akzeptiert JEDE der Bedeutungen
+## -> die Reihenfolge der Eingabe ist beliebig
+sol <- rep(sprintf("^\\s*(%s)\\s*[.!?]?\\s*$",
+  paste(vapply(unlist(lapply(bed, varianten)), rx_wort, "", USE.NAMES = FALSE),
+        collapse = "|")), n)
+
+## ------------------------------- Anzeige -----------------------------------
+loes <- vapply(bed, function(b) trimws(strsplit(b, "/", fixed = TRUE)[[1]])[1L],
+               "", USE.NAMES = FALSE)
+label <- sprintf("Bedeutung %d:", seq_len(n))
+
+zusatz_txt <- if (zusatz != "") paste0(" *(", zusatz, ")*") else ""
+anz_txt <- if (n == 1L) "eine deutsche Bedeutung" else sprintf("%s deutsche Bedeutungen",
+  c("zwei", "drei", "vier", "fünf", "sechs")[n - 1L])
+```
+
+Question
+========
+Wie heißt die lateinische Vokabel **`r latein`**`r zusatz_txt` auf Deutsch?
+
+Die Vokabel hat `r anz_txt`. Trage in jedes Feld genau eine Bedeutung ein.
+Die Reihenfolge ist dabei beliebig, und der deutsche Artikel darf mitgeschrieben
+werden, muss aber nicht.
+
+Answerlist
+----------
+```{r, echo = FALSE, results = "asis"}
+cat(paste0("* ", label, "\n", collapse = ""))
+```
+
+Solution
+========
+*`r latein`* (Lektion `r lekt`) heißt: `r paste(loes, collapse = ", ")`.
+
+Answerlist
+----------
+```{r, echo = FALSE, results = "asis"}
+cat(paste0("* ", loes, "\n", collapse = ""))
+```
+
+Meta-information
+================
+exname: Vokabeltrainer Latein Lektion `r lekt`, `r latein`
+extype: cloze
+exclozetype: `r paste(rep("string", n), collapse = "|")`
+exsolution: `r paste(sol, collapse = "|")`
+expoints: `r n`
+exsection: Latein/Lektion `r lekt`

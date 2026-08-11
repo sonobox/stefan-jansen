@@ -1,0 +1,144 @@
+---
+pagetitle: "Vokabeltrainer Latein"
+lang: de
+format:
+  html:
+    grid:
+      sidebar-width: 50px
+      body-width: 860px
+      margin-width: 420px
+    css: webex.css
+    include-after-body: webex.js
+    include-in-header: hero-image-latein.html
+    toc: true
+    language: 
+      de: 
+        toc-title-website: "Inhalt"
+        toc-title-document: "Inhalt"
+---
+
+
+```{r}
+#| label: setup
+#| include: false
+
+library(pacman)
+p_load(tidyverse, exams, exams2forms)
+
+## R/exams knitet jede Aufgabe in einem temporären Verzeichnis. Der Pfad zur
+## xlsx muss deshalb absolut sein.
+options(vok_datei = normalizePath("latein_vokabeln.xlsx"))
+
+## Cache und Ziehungsgedächtnis pro Render-Lauf zurücksetzen
+options(vok_cache = NULL, vok_gezogen = NULL)
+
+## Einheitliche Aufrufoptionen:
+##   usecase = FALSE  -> Groß-/Kleinschreibung wird ignoriert (Flag "i")
+##   regex   = TRUE   -> exsolution wird als regulärer Ausdruck ausgewertet
+##                       (derzeit ein undokumentiertes Argument von
+##                        exams2forms(), das an forms_string() durchgereicht
+##                        wird – bei Paket-Updates kurz gegenprüfen)
+
+vokabeln <- function(file, n = 10, ...) {
+  exams2forms(file, 
+              n = n, 
+              usecase = FALSE, 
+              regex = TRUE,
+              nchar = c(20, 30), ...)
+}
+
+verbformen <- function(file, n = 10, ...) {
+  exams2forms(file,
+              n = n
+              )
+}
+
+```
+
+## Stammformen
+
+### Verben der Lektionen 1 bis 20
+
+```{r}
+#| label: Stammformen01
+#| echo: false
+#| message: false
+#| results: "asis"
+
+verbformen(expar("vokabeln-latein02a.Rmd", lektionen = 1:20), n = 50)
+
+```
+
+### Verben der Lektionen 21 bis 40
+
+```{r}
+#| label: Stammformen02
+#| echo: false
+#| message: false
+#| results: "asis"
+
+verbformen(expar("vokabeln-latein02a.Rmd", lektionen = 21:40), n = 53)
+
+```
+
+### Verben der Lektionen 41 bis 60
+
+```{r}
+#| label: Stammformen03
+#| echo: false
+#| message: false
+#| results: "asis"
+
+verbformen(expar("vokabeln-latein02a.Rmd", lektionen = 41:60), n = 62)
+
+```
+
+### Verben der Lektionen 61 bis 80
+
+```{r}
+#| label: Stammformen04
+#| echo: false
+#| message: false
+#| results: "asis"
+
+verbformen(expar("vokabeln-latein02a.Rmd", lektionen = 61:80), n = 100)
+
+```
+
+### Verben der Lektionen 81 bis 100
+
+```{r}
+#| label: Stammformen05
+#| echo: false
+#| message: false
+#| results: "asis"
+
+verbformen(expar("vokabeln-latein02a.Rmd", lektionen = 81:100), n = 70)
+
+```
+
+### Verben der Lektionen 101 bis 117
+
+```{r}
+#| label: Stammformen06
+#| echo: false
+#| message: false
+#| results: "asis"
+
+verbformen(expar("vokabeln-latein02a.Rmd", lektionen = 101:117), n = 26)
+
+```
+
+### Deponentien
+
+
+```{r}
+#| label: Stammformen07
+#| echo: false
+#| message: false
+#| results: "asis"
+
+verbformen(expar("vokabeln-latein02b.Rmd", lektionen = 1:117), n = 50)
+
+```
+
