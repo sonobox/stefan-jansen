@@ -13,10 +13,11 @@ p_load(tidyverse, readxl)
 ##     Alternativ dokumentweit über options(vok_lektionen = 1:10) usw.
 ## --------------------------------------------------------------------------
 
-lektionen         <- getOption("vok_lektionen", default = NULL)  # NULL = alle
+lektionen         <- getOption("vok_lektionen", default = NULL) # NULL = alle 
 wortarten         <- getOption("vok_wortarten", default = NULL) # NULL = alle
 datei             <- getOption("vok_datei", default = "latein_vokabeln.xlsx")
 ohne_zuruecklegen <- getOption("vok_ohne_zuruecklegen", default = TRUE)
+
 
 ## ---------------------------------------------------------------------------
 ##  2) Hilfsfunktionen
@@ -40,9 +41,10 @@ vok_lesen <- function(datei) {
   }
   read_excel(datei) |>
   rename_with(tolower) |>
-  mutate(across(any_of(c("latein", "formen", "wortart", "deutsch", "zusatz")),
+  mutate(across(any_of(c("latein", "formen", "wortart", "deutsch", "zusatz", "genus", "kondek")),
                 \(x) trimws(as.character(x))
-                ))
+                )) 
+  
 }
 
 #' Vokabeldaten mit Zwischenspeicher
@@ -80,9 +82,31 @@ teile <- function(x, sep = ";") {
 }
 
 
+deklinationen <- c("o-Deklination", "a-Deklination", "dritte Deklination", "e-Deklination", "u-Deklination")
+genus  <- c("maskulinum", "femininum", "neutrum")
+
+
+dek2loesung <- function(x,y){
+  res <- paste0(as.numeric(x %in% y), collapse = "")
+  return(res)
+}
+
+gen2loesung <- function(x){
+  res <- case_when(x == "" ~ "000",
+                   x == "maskulinum" ~ "100",
+                   x == "femininum" ~ "010", 
+                   x == "neutrum" ~ "001",
+                   x == "maskulinum; femininum" ~ "110",
+                   x == "maskulinum; neutrum" ~ "101",
+                   x == "femininum; neutrum" ~ "011",
+                   x == "maskulinum; femininum; neutrum" ~ "111",
+                   )
+}
+
 ## ---------------------------------------------------------------------------
 ##  3) Vokabel ziehen und aufbereiten
 ## ---------------------------------------------------------------------------
+
 
 pool <- vok_daten(datei)
 
@@ -100,10 +124,11 @@ if (nrow(pool) < 1L) {
 }  
 
 
-verben <- pool |> filter(!is.na(formen)) |>  
-                  mutate(lektion = suppressWarnings(as.integer(lektion)),
-                         id = row_number()) |>
-                  filter(!is.na(latein), nzchar(latein))
+## Filtert alle Substantive, die keine Deklination angegeben haben heraus 
+## vergibt Zeilennummern:
+
+woerter <- pool |> filter(!is.na(kondek)) |> 
+                   mutate(id = row_number())
 
 
 if (isTRUE(ohne_zuruecklegen)) {
@@ -112,103 +137,86 @@ if (isTRUE(ohne_zuruecklegen)) {
   ## erschöpft, beginnt die Ziehung von vorn. Der Merkposten ist nach der
   ## Lektionsauswahl geschlüsselt, damit sich mehrere Trainer auf einer Seite
   ## nicht gegenseitig stören. Zurücksetzen: options(vok_gezogen = NULL)
-  schluessel <- paste0("lek:", paste(sort(unique(verben$lektion)), collapse = ","))
+  schluessel <- paste0("lek:", paste(sort(unique(woerter$lektion)), collapse = ","))
   merker     <- getOption("vok_gezogen", default = list())
   bereits    <- if (is.null(merker[[schluessel]])) integer(0) else merker[[schluessel]]
-  kandidaten <- setdiff(verben$id, bereits)
+  kandidaten <- setdiff(woerter$id, bereits)
   if (!length(kandidaten)) {
     bereits    <- integer(0)
-    kandidaten <- verben$id
+    kandidaten <- woerter$id
   }
   gewaehlt <- kandidaten[sample.int(length(kandidaten), 1L)]
   merker[[schluessel]] <- c(bereits, gewaehlt)
   options(vok_gezogen = merker)
 } else {
-  gewaehlt <- verben$id[sample.int(nrow(verben), 1L)]
+  gewaehlt <- woerter$id[sample.int(nrow(woerter), 1L)]
 }
 
-wort <- verben[match(gewaehlt, verben$id), ]
+wort <- woerter[match(gewaehlt, woerter$id), ]
+
 
 ## ---------------------------------------------------------------------------
 ##  4) Frage, Lösung und Meta-Information zusammenstellen
 ## ---------------------------------------------------------------------------
 
-formen          <- teile(wort$formen)   
-n_antworten     <- length(formen)
 
-if(wort$wortart == "Verb"){
- formen_namen    <- c("Infinitiv Präsens           : ",
-                     "Aktiv, 1. Pers. Sg. Präsens : ",
-                     "Aktiv, 1. Pers. Sg. Perfekt : ",
-                     "Partizip Perfekt Passiv     : ")
-
-} else {
- formen_namen    <- c("Infinitiv Präsens            : ",
-                     "Passiv, 1. Pers. Sg. Präsens : ",
-                     "Passiv, 1. Pers. Sg. Perfekt : ")
- }  
-  
-frage <- paste0("Wie lauten die Stammformen des Verbs: **", formen[1], "** \n")
-
-
-meta_clozetype   <- paste(rep("string", n_antworten-1), collapse = "|")
-meta_solution    <- paste(formen[2:n_antworten], collapse = "|")
+meta_clozetype   <- paste("schoice|mchoice")
+meta_solution    <- paste(dek2loesung(deklinationen, wort$kondek), gen2loesung(wort$genus),  sep = "|", collapse = "")
+meta_answers     <- paste0("* ", c(deklinationen, genus))
 meta_section     <- paste0("Lektion ", wort$lektion)
 meta_bedeutungen <- paste0(paste(teile(wort$deutsch)), collapse = ", ")
+
+meta_formen <-   if(!is.na(wort$formen)) {paste("Formen:", wort$latein, ", ", wort$formen)
+                 } else {meta_formen <- ""}
+
+meta_zusatz <-   if(!is.na(wort$zusatz)) {paste("Sonstiges:", wort$zusatz) 
+                 } else {meta_zusatz <- ""}
+
 ```
 
 
 Question
 ========
-`r frage`
+
+Zu welcher Deklination gehört **`r wort$latein`** (Lektion `r wort$lektion`) ? 
+
+##ANSWER1## 
+
+
+Welches Genus hat **`r wort$latein`** ?
+
+##ANSWER2## 
+
 
 
 Answerlist
 ----------
 
-```{r}
-#| label: frageliste
-#| echo: false
-#| results: "asis"
-
-cat(paste0("* ", formen_namen[2:n_antworten]), sep = "\n")
-```
+* o-Deklination
+* a-Deklination
+* dritte Deklination
+* e-Deklination
+* u-Deklination
+* maskulinum
+* femininum
+* neutrum
 
 
 Solution
 ========
 
-```{r}
-#| label: loesung
-#| echo: false
+`r wort$latein` ist **`r wort$genus`**, gehört zur **`r ifelse(wort$kondek == "dritte Deklination", "dritten Deklination", wort$kondek)`** und bedeutet `r meta_bedeutungen`.
 
-cat(paste0("Die Verbformen von ", wort$latein, " sind: \n\n"))
+`r meta_formen`
 
-cat(paste(formen_namen[1:n_antworten], formen[1:n_antworten]), sep = "\n")
-
-cat(paste(wort$latein, "bedeutet:", meta_bedeutungen), " und ist in", meta_section, "\n")
-
-if(!is.na(wort$zusatz)) {
-  cat(paste("Sonstiges:", wort$zusatz))
-}
-```
+`r meta_zusatz`
 
 
-Answerlist
-----------
-
-```{r}
-#| label: loesungsliste
-#| echo: false
-#| results: "asis"
-
-cat(paste("*", formen[2:n_antworten]), sep = "\n")
-```
 
 
 Meta-information
 ================
-exname: Stammformen
+exname: Substantive 
 extype: cloze
 exclozetype: `r meta_clozetype`
 exsolution: `r meta_solution`

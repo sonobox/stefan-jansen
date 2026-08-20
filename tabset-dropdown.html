@@ -1,0 +1,36 @@
+<script>
+window.addEventListener("DOMContentLoaded", function () {
+  const sets = document.querySelectorAll(
+    ".panel-tabset.tabset-dropdown, .tabset-dropdown > .panel-tabset"
+  );
+  sets.forEach(function (tabset) {
+    const nav = tabset.querySelector(":scope > ul.nav");
+    if (!nav) return;
+    const links = Array.from(nav.querySelectorAll(":scope > li > .nav-link"));
+    if (links.length < 2) return;
+
+    const select = document.createElement("select");
+    select.className = "form-select tabset-dropdown-select";
+    links.forEach(function (link, i) {
+      const opt = document.createElement("option");
+      opt.value = String(i);
+      opt.textContent = link.textContent.trim();
+      if (link.classList.contains("active")) opt.selected = true;
+      select.appendChild(opt);
+      // Auswahl synchron halten, falls Tabs anderweitig gewechselt werden
+      link.addEventListener("shown.bs.tab", function () {
+        select.value = String(i);
+      });
+    });
+    select.addEventListener("change", function () {
+      links[Number(select.value)].click();
+    });
+
+    nav.style.display = "none";
+    tabset.insertBefore(select, nav);
+  });
+});
+</script>
+<style>
+  .tabset-dropdown-select { max-width: 24rem; margin-bottom: 0.75rem; }
+</style>

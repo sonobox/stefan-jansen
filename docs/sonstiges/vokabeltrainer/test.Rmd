@@ -1,0 +1,11 @@
+Question                                                                        
+========                                                                        
+According to google translate, 迷人的 is the chinese                            
+word vor "lovely". Type it below and one German Umlaut.                                               
+
+Meta-information                                                                
+================                                                                
+exname: Chinese word for lovely                                                 
+extype: cloze
+exclozetype: string|string                                                                  
+exsolution: ^(迷人的)$|^(ä|Ä|ü|Ü|ö|Ö)$

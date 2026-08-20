@@ -5,7 +5,6 @@
 library(pacman)
 p_load(tidyverse, readxl)
 
-## Stammformen der Deponentien
 
 ## ---------------------------------------------------------------------------
 ##  1) Parameter
@@ -15,7 +14,8 @@ p_load(tidyverse, readxl)
 ##     Alternativ dokumentweit über options(vok_lektionen = 1:10) usw.
 ## --------------------------------------------------------------------------
 
-lektionen         <- getOption("vok_lektionen", default = 1:117)  # NULL = alle
+lektionen         <- getOption("vok_lektionen", default = NULL)  # NULL = alle
+wortarten         <- getOption("vok_wortarten", default = NULL) # NULL = alle
 datei             <- getOption("vok_datei", default = "latein_vokabeln.xlsx")
 ohne_zuruecklegen <- getOption("vok_ohne_zuruecklegen", default = TRUE)
 
@@ -86,17 +86,27 @@ teile <- function(x, sep = ";") {
 ## ---------------------------------------------------------------------------
 
 pool <- vok_daten(datei)
-pool <- filter(pool, lektion %in% lektionen)
+
+if(!is.null(lektionen)) {
+  pool <- filter(pool, lektion %in% lektionen) 
+}
+
+if(!is.null(wortarten)) {
+  pool <- filter(pool, wortart %in% wortarten)   
+}
+
 if (nrow(pool) < 1L) {
   stop("Keine Vokabeln für die gewählten Lektionen (",
        paste(lektionen, collapse = ", "), ").", call. = FALSE)
-  }  
+}  
 
-verben <- pool |> filter(wortart == "Deponens") |> 
-                  filter(!is.na(formen)) |>  
-                  mutate(lektion = suppressWarnings(as.integer(lektion)),
-                         id = row_number()) |>
-                  filter(!is.na(latein), nzchar(latein))
+
+
+
+
+pool.red <- pool |> mutate(lektion = suppressWarnings(as.integer(lektion)),
+                           id = row_number()) |>
+                    filter(!is.na(latein), nzchar(latein))
 
 
 if (isTRUE(ohne_zuruecklegen)) {
@@ -105,41 +115,79 @@ if (isTRUE(ohne_zuruecklegen)) {
   ## erschöpft, beginnt die Ziehung von vorn. Der Merkposten ist nach der
   ## Lektionsauswahl geschlüsselt, damit sich mehrere Trainer auf einer Seite
   ## nicht gegenseitig stören. Zurücksetzen: options(vok_gezogen = NULL)
-  schluessel <- paste0("lek:", paste(sort(unique(verben$lektion)), collapse = ","))
+  schluessel <- paste0("lek:", paste(sort(unique(pool.red$lektion)), collapse = ","))
   merker     <- getOption("vok_gezogen", default = list())
   bereits    <- if (is.null(merker[[schluessel]])) integer(0) else merker[[schluessel]]
-  kandidaten <- setdiff(verben$id, bereits)
+  kandidaten <- setdiff(pool.red$id, bereits)
   if (!length(kandidaten)) {
     bereits    <- integer(0)
-    kandidaten <- verben$id
+    kandidaten <- pool.red$id
   }
   gewaehlt <- kandidaten[sample.int(length(kandidaten), 1L)]
   merker[[schluessel]] <- c(bereits, gewaehlt)
   options(vok_gezogen = merker)
 } else {
-  gewaehlt <- verben$id[sample.int(nrow(verben), 1L)]
+  gewaehlt <- pool.red$id[sample.int(nrow(pool.red), 1L)]
 }
 
-wort <- verben[match(gewaehlt, verben$id), ]
+
+wort <- pool[match(gewaehlt, pool.red$id), ]
 
 ## ---------------------------------------------------------------------------
 ##  4) Frage, Lösung und Meta-Information zusammenstellen
 ## ---------------------------------------------------------------------------
 
-formen          <- teile(wort$formen)   
+## Welche und wie viel Lösungen gibt es? 
+
+formen_antwort <- formen  <- teile(wort$deutsch)   
 n_antworten     <- length(formen)
 
-formen_namen    <- c("Infinitiv Präsens           : ",
-                     "Passiv, 1. Pers. Sg. Präsens: ",
-                     "Passiv, 1. Pers. Sg. Perfekt: ")
+
+## Artikel können auch weggelassen / hinzugefügt (bei Namen) werden
 
 
-frage <- paste0("Wie lauten die Stammformen des Verbs: **", formen[1], "** \n")
+teile_artikel <- function(x,
+                          artikel = c("der", "die", "das", "ein", "eine"),
+                          leer = NA_character_,
+                          ignore_case = FALSE) {
 
-meta_clozetype   <- paste(rep("string", n_antworten-1), collapse = "|")
-meta_solution    <- paste(formen[2:n_antworten], collapse = "|")
-meta_section     <- paste0("Lektion ", wort$lektion)
-meta_bedeutungen <- paste0(teile(wort$deutsch), collapse = ", ")
+  artikel <- artikel[order(-nchar(artikel))]        # längste zuerst
+  p <- str_c("^\\s*(", str_c(artikel, collapse = "|"), ")\\s+")
+  if (ignore_case) p <- regex(p, ignore_case = TRUE)
+
+  art <- str_match(x, p)[, 2]
+  art[is.na(art)] <- leer
+
+  list(artikel = art,
+       wort    = str_squish(str_remove(x, p)))
+}
+
+if(wort$wortart %in% c("Ausdruck", "Substantiv", "Name")) {
+
+formen_artikel <- teile_artikel(formen_antwort)$artikel   
+formen_antwort <- teile_artikel(formen_antwort)$wort 
+formen_antwort <- paste0(c(paste0(formen_artikel, " "), rep("", length(formen_artikel))), formen_antwort)
+} 
+
+
+## Alle Eingabefelder lassen jede der Lösungen zu:
+
+meta_solution  <- paste0(rep(paste0("^(", paste0(formen_antwort, collapse ="|"), ")$"),  n_antworten), collapse = "|") 
+ 
+if(!is.na(wort$zusatz)|!is.na (wort$genus)|!is.na(wort$formen)) {
+  
+meta_info <- paste(na.omit(ifelse(!is.na(wort$formen), paste0("(", wort$formen, ")" ), NA),
+                   ifelse(!is.na(wort$genus), paste0("(", wort$genus, ")" ), NA), 
+                   ifelse(!is.na(wort$zusatz), paste0("(", wort$zusatz, ")" ), NA)))
+
+} else meta_info <- character(0)             
+                 
+zusatz <- NULL
+
+frage  <-  paste0("Was heißt **", wort$latein, "** ", zusatz, "?") 
+meta_clozetype   <- paste(rep("string", n_antworten), collapse = "|")
+meta_section     <- paste0("Lektion ", wort$lektion) 
+meta_bedeutungen <- paste0(paste(teile(wort$deutsch)), collapse = ", ")
 ```
 
 
@@ -148,50 +196,19 @@ Question
 `r frage`
 
 
-Answerlist
-----------
-
-```{r}
-#| label: frageliste
-#| echo: false
-#| results: "asis"
-
-cat(paste0("* ", formen_namen[2:n_antworten]), sep = "\n")
-```
-
 
 Solution
 ========
 
-```{r}
-#| label: loesung
-#| echo: false
+**`r wort$latein`** bedeutet **`r meta_bedeutungen`** und ist in Lektion `r meta_section`.
 
-cat(paste0("Die Verbformen von ", wort$latein, " sind: \n\n"))
-cat(paste(formen_namen[1:n_antworten], formen[1:n_antworten]), sep = "\n")
-cat(paste("Das Verb bedeutet:", meta_bedeutungen), " und ist in", meta_section)
-if(!is.na(wort$zusatz)) {
-  cat(paste("Sonstiges:", wort$zusatz))
-}
-```
+`r meta_info`
 
-
-Answerlist
-----------
-
-```{r}
-#| label: loesungsliste
-#| echo: false
-#| results: "asis"
-
-cat(paste("*", formen[2:n_antworten]), sep = "\n")
-```
 
 
 Meta-information
 ================
-exname: Stammformen Deponentien
+exname: Vokabeln
 extype: cloze
 exclozetype: `r meta_clozetype`
 exsolution: `r meta_solution`
-exsection: `r meta_section`
