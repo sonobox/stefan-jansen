@@ -181,6 +181,7 @@ Solution
 ```{r}
 #| label: loesung
 #| echo: false
+#| result: asis
 
 cat(paste0("Die Verbformen von ", wort$latein, " sind: \n\n"))
 
@@ -194,16 +195,6 @@ if(!is.na(wort$zusatz)) {
 ```
 
 
-Answerlist
-----------
-
-```{r}
-#| label: loesungsliste
-#| echo: false
-#| results: "asis"
-
-cat(paste("*", formen[2:n_antworten]), sep = "\n")
-```
 
 
 Meta-information

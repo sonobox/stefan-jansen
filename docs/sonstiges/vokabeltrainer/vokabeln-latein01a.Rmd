@@ -186,7 +186,7 @@ zusatz <- NULL
 
 frage  <-  paste0("Was heißt **", wort$latein, "** ", zusatz, "?") 
 meta_clozetype   <- paste(rep("string", n_antworten), collapse = "|")
-meta_section     <- paste0("Lektion ", wort$lektion) 
+meta_section     <- wort$lektion
 meta_bedeutungen <- paste0(paste(teile(wort$deutsch)), collapse = ", ")
 ```
 

@@ -51,7 +51,7 @@ vokabeln <- function(file, n = 50, ...) {
 ```
 
 
-
+## Vokabeln
 
 ::: {.panel-tabset}
 
@@ -272,7 +272,7 @@ exams2forms(expar("vokabeln-latein02a.Rmd", lektionen = 1:117, wortarten = "Depo
 :::
 
 
-## Genus und Deklinationen
+## Deklinationen und Genera
 
 
 ::: {.panel-tabset}
