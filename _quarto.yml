@@ -68,9 +68,17 @@ website:
             target: _blank
       - text: Sonstiges
         menu:
-          - text: Latein Vokabeltrainer (Campus B)  
+          - text: Latein Vokabeltrainer 
             icon: translate
             href: docs/sonstiges/vokabeltrainer/index.qmd
+          - text: Brettspiele
+            icon: dice-5
+            href: https://boardgamegeek.com/collection/user/jansenstelau
+            target: _blank
+          - text: Bücher
+            icon: book
+            href: docs/sonstiges/buecher/index.qmd
+
 
     tools:
       - icon: person-circle

@@ -28,6 +28,7 @@ p_load(tidyverse, exams, exams2forms)
 ## R/exams knitet jede Aufgabe in einem temporären Verzeichnis. Der Pfad zur
 ## xlsx muss deshalb absolut sein.
 options(vok_datei = normalizePath("latein_vokabeln.xlsx"))
+options(vok_datei2 = normalizePath("latein_deklinationen.xlsx"))
 
 ## Cache und Ziehungsgedächtnis pro Render-Lauf zurücksetzen
 options(vok_cache = NULL, vok_gezogen = NULL)
@@ -63,7 +64,7 @@ vokabeln <- function(file, n = 50, ...) {
 #| message: false
 #| results: "asis"
 
-vokabeln(expar("vokabeln-latein01a.Rmd", lektionen = 1:12), n = 200)
+vokabeln(expar("latein-vokabeln01.Rmd", lektionen = 1:12), n = 200)
 ```
 
 ### 13-26
@@ -74,7 +75,7 @@ vokabeln(expar("vokabeln-latein01a.Rmd", lektionen = 1:12), n = 200)
 #| message: false
 #| results: "asis"
 
-vokabeln(expar("vokabeln-latein01a.Rmd", lektionen = 13:26), n = 170)
+vokabeln(expar("latein-vokabeln01.Rmd", lektionen = 13:26), n = 170)
 
 ```
 
@@ -86,7 +87,7 @@ vokabeln(expar("vokabeln-latein01a.Rmd", lektionen = 13:26), n = 170)
 #| message: false
 #| results: "asis"
 
-vokabeln(expar("vokabeln-latein01a.Rmd", lektionen = 27:40), n = 160)
+vokabeln(expar("latein-vokabeln01.Rmd", lektionen = 27:40), n = 160)
 
 ```
 
@@ -94,16 +95,28 @@ vokabeln(expar("vokabeln-latein01a.Rmd", lektionen = 27:40), n = 160)
 ### 41-54
 
 ```{r}
+#| label: Vokabeln04
+#| echo: false
+#| message: false
+#| results: "asis"
+
+vokabeln(expar("latein-vokabeln01.Rmd", lektionen = 41:54), n = 165)
+
+```
+
+### 55-67
+
+```{r}
 #| label: Vokabeln05
 #| echo: false
 #| message: false
 #| results: "asis"
 
-vokabeln(expar("vokabeln-latein01a.Rmd", lektionen = 41:54), n = 165)
+vokabeln(expar("latein-vokabeln01.Rmd", lektionen = 55:67), n = 175)
 
 ```
 
-### 55-67
+### 68-80
 
 ```{r}
 #| label: Vokabeln06
@@ -111,19 +124,7 @@ vokabeln(expar("vokabeln-latein01a.Rmd", lektionen = 41:54), n = 165)
 #| message: false
 #| results: "asis"
 
-vokabeln(expar("vokabeln-latein01a.Rmd", lektionen = 55:67), n = 175)
-
-```
-
-### 68-80
-
-```{r}
-#| label: Vokabeln07
-#| echo: false
-#| message: false
-#| results: "asis"
-
-vokabeln(expar("vokabeln-latein01a.Rmd", lektionen = 68:80), n = 168)
+vokabeln(expar("latein-vokabeln01.Rmd", lektionen = 68:80), n = 168)
 
 ```
 
@@ -131,16 +132,40 @@ vokabeln(expar("vokabeln-latein01a.Rmd", lektionen = 68:80), n = 168)
 ### 81-90
 
 ```{r}
+#| label: Vokabeln07
+#| echo: false
+#| message: false
+#| results: "asis"
+
+vokabeln(expar("latein-vokabeln01.Rmd", lektionen = 81:90), n = 113)
+
+```
+
+### 91-100
+
+```{r}
+#| label: Vokabeln08
+#| echo: false
+#| message: false
+#| results: "asis"
+
+vokabeln(expar("latein-vokabeln01.Rmd", lektionen = 91:100), n = 141)
+
+```
+
+### 101-110
+
+```{r}
 #| label: Vokabeln09
 #| echo: false
 #| message: false
 #| results: "asis"
 
-vokabeln(expar("vokabeln-latein01a.Rmd", lektionen = 81:90), n = 113)
+vokabeln(expar("latein-vokabeln01.Rmd", lektionen = 101:110), n = 150)
 
 ```
 
-### 91-100
+### 111-117
 
 ```{r}
 #| label: Vokabeln10
@@ -148,31 +173,7 @@ vokabeln(expar("vokabeln-latein01a.Rmd", lektionen = 81:90), n = 113)
 #| message: false
 #| results: "asis"
 
-vokabeln(expar("vokabeln-latein01a.Rmd", lektionen = 91:100), n = 141)
-
-```
-
-### 101-110
-
-```{r}
-#| label: Vokabeln11
-#| echo: false
-#| message: false
-#| results: "asis"
-
-vokabeln(expar("vokabeln-latein01a.Rmd", lektionen = 101:110), n = 150)
-
-```
-
-### 111-117
-
-```{r}
-#| label: Vokabeln12
-#| echo: false
-#| message: false
-#| results: "asis"
-
-vokabeln(expar("vokabeln-latein01a.Rmd", lektionen = 111:117), n = 180)
+vokabeln(expar("latein-vokabeln01.Rmd", lektionen = 111:117), n = 180)
 
 ```
 
@@ -192,7 +193,7 @@ vokabeln(expar("vokabeln-latein01a.Rmd", lektionen = 111:117), n = 180)
 #| message: false
 #| results: "asis"
 
-exams2forms(expar("vokabeln-latein02a.Rmd", lektionen = 1:20, wortarten = "Verb"), n = 50)
+exams2forms(expar("latein-stammformen01.Rmd", lektionen = 1:20, wortarten = "Verb"), n = 50)
 
 ```
 
@@ -204,7 +205,7 @@ exams2forms(expar("vokabeln-latein02a.Rmd", lektionen = 1:20, wortarten = "Verb"
 #| message: false
 #| results: "asis"
 
-exams2forms(expar("vokabeln-latein02a.Rmd", lektionen = 21:40, wortarten = "Verb"), n = 53)
+exams2forms(expar("latein-stammformen01.Rmd", lektionen = 21:40, wortarten = "Verb"), n = 53)
 
 ```
 
@@ -216,7 +217,7 @@ exams2forms(expar("vokabeln-latein02a.Rmd", lektionen = 21:40, wortarten = "Verb
 #| message: false
 #| results: "asis"
 
-exams2forms(expar("vokabeln-latein02a.Rmd", lektionen = 41:60, wortarten = "Verb"), n = 62)
+exams2forms(expar("latein-stammformen01.Rmd", lektionen = 41:60, wortarten = "Verb"), n = 62)
 
 ```
 
@@ -228,7 +229,7 @@ exams2forms(expar("vokabeln-latein02a.Rmd", lektionen = 41:60, wortarten = "Verb
 #| message: false
 #| results: "asis"
 
-exams2forms(expar("vokabeln-latein02a.Rmd", lektionen = 61:80, wortarten = "Verb"), n = 100)
+exams2forms(expar("latein-stammformen01.Rmd", lektionen = 61:80, wortarten = "Verb"), n = 100)
 
 ```
 
@@ -240,7 +241,7 @@ exams2forms(expar("vokabeln-latein02a.Rmd", lektionen = 61:80, wortarten = "Verb
 #| message: false
 #| results: "asis"
 
-exams2forms(expar("vokabeln-latein02a.Rmd", lektionen = 81:100, wortarten = "Verb"), n = 70)
+exams2forms(expar("latein-stammformen01.Rmd", lektionen = 81:100, wortarten = "Verb"), n = 70)
 
 ```
 
@@ -252,7 +253,7 @@ exams2forms(expar("vokabeln-latein02a.Rmd", lektionen = 81:100, wortarten = "Ver
 #| message: false
 #| results: "asis"
 
-exams2forms(expar("vokabeln-latein02a.Rmd", lektionen = 101:117, wortarten = "Verb"), n = 26)
+exams2forms(expar("latein-stammformen01.Rmd", lektionen = 101:117, wortarten = "Verb"), n = 26)
 
 ```
 
@@ -265,7 +266,7 @@ exams2forms(expar("vokabeln-latein02a.Rmd", lektionen = 101:117, wortarten = "Ve
 #| message: false
 #| results: "asis"
 
-exams2forms(expar("vokabeln-latein02a.Rmd", lektionen = 1:117, wortarten = "Deponens"), n = 50)
+exams2forms(expar("latein-stammformen01.Rmd", lektionen = 1:117, wortarten = "Deponens"), n = 50)
 
 ```
 
@@ -285,7 +286,7 @@ exams2forms(expar("vokabeln-latein02a.Rmd", lektionen = 1:117, wortarten = "Depo
 #| message: false
 #| results: "asis"
 
-exams2forms(expar("vokabeln-latein03a.Rmd", lektionen = 1:117, wortarten ="Substantiv"), n = 380, cloze_schoice_display="buttons" )
+exams2forms(expar("latein-deklinationen01.Rmd", lektionen = 1:117, wortarten ="Substantiv"), n = 380, cloze_schoice_display="buttons" )
 
 ```
 
@@ -298,11 +299,24 @@ exams2forms(expar("vokabeln-latein03a.Rmd", lektionen = 1:117, wortarten ="Subst
 #| message: false
 #| results: "asis"
 
-exams2forms(expar("vokabeln-latein03a.Rmd", lektionen = 1:117, wortarten = "Name"), n = 48, cloze_schoice_display="buttons")
+exams2forms(expar("latein-deklinationen01.Rmd", lektionen = 1:117, wortarten = "Name"), n = 48, cloze_schoice_display="buttons")
 
 ```
 
 :::
 
+## Kasus und Numeri
+
+
+```{r}
+#| label: DeklGeschlecht03
+#| echo: false
+#| message: false
+#| results: "asis"
+
+
+exams2forms("latein-deklinationen02.Rmd", n = 360,  cloze_schoice_display="buttons")
+
+```
 
 

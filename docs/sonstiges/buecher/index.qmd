@@ -1,0 +1,22 @@
+---
+lang: de
+format:
+  html:
+    include-in-header: hero-image-buecher.html
+    toc: true
+    language: 
+      de: 
+        toc-title-website: "Inhalt"
+        toc-title-document: "Inhalt"
+---
+
+### Malcom Gladwell
+**Outliers**
+
+### Richard Feynman
+**Surely You are joking Mr. Feynman**
+
+### Thalia Verkake & Marco te Brömmelstroet 
+**Movement - How To Take Back Our Streets And Transform Our Lives**
+
+
