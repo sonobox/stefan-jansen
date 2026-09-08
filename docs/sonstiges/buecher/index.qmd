@@ -10,13 +10,19 @@ format:
         toc-title-document: "Inhalt"
 ---
 
-### Malcom Gladwell
-**Outliers**
-
-### Richard Feynman
-**Surely You are joking Mr. Feynman**
-
-### Thalia Verkake & Marco te Brömmelstroet 
-**Movement - How To Take Back Our Streets And Transform Our Lives**
+Eine kleine Sammlung lesenswerter Bücher. Manche sind Klassiker, die ich vor vielen Jahren das erste Mal gelesen habe, andere haben mich erst in der kurzen Vergangenheit begeistert oder zum 
 
 
+### Richard P.  Feynman -- Surely you are joking Mr. Feynman ()
+
+
+### Malcom Gladwell -- Outliers ()
+
+
+### Yuma Hampejs & Marcel Schulze -- Electronic Body Music [(zur Webseite)](https://www.elektronische-koerpermusik.de)
+
+
+### Thalia Verkake & Marco te Brömmelstroet -- Movement - How To Take Back Our Streets And Transform Our Lives
+
+
+### Simon Singh -- Fermat's Last Theorem
