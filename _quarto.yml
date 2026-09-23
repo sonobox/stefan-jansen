@@ -75,9 +75,9 @@ website:
             icon: dice-5
             href: https://boardgamegeek.com/collection/user/jansenstelau
             target: _blank
-          - text: Bücher
-            icon: book
-            href: docs/sonstiges/buecher/index.qmd
+          # - text: Bücher
+          #   icon: book
+          #   href: docs/sonstiges/buecher/index.qmd
 
 
     tools:

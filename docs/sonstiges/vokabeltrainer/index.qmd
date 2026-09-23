@@ -23,7 +23,7 @@ format:
 #| include: false
 
 library(pacman)
-p_load(tidyverse, exams, exams2forms)
+p_load(tidyverse, readxl, exams, exams2forms)
 
 ## R/exams knitet jede Aufgabe in einem temporären Verzeichnis. Der Pfad zur
 ## xlsx muss deshalb absolut sein.
@@ -47,8 +47,114 @@ vokabeln <- function(file, n = 50, ...) {
               regex = TRUE, ...)
 }
 
+## Anzahl Vokabeln je Lektion – gleiche Filterregeln wie in
+## latein-vokabeln-lektion.Rmd, damit n genau "alle Vokabeln" ergibt
+anzahl <- read_excel(getOption("vok_datei")) |>
+  rename_with(tolower) |>
+  mutate(lektion = suppressWarnings(as.integer(lektion)),
+         across(c(latein, deutsch), \(x) trimws(as.character(x)))) |>
+  filter(!is.na(lektion),
+         !is.na(latein), nzchar(latein),
+         !is.na(deutsch), nzchar(deutsch)) |>
+  count(lektion) |>
+  arrange(lektion) |>
+  ## Gruppen für das Pulldown (wie die Tabs in index.qmd)
+  mutate(gruppe = cut(lektion,
+                      breaks = c(0, 12, 26, 40, 54, 67, 80, 90, 100, 110, Inf),
+                      labels = c("1–12", "13–26", "27–40", "41–54", "55–67",
+                                 "68–80", "81–90", "91–100", "101–110", "111–117")))
+
+```
+
+## Vokabeln nach Lektion
+
+```{r}
+#| label: lektion-auswahl
+#| echo: false
+#| results: "asis"
+
+optionen <- anzahl |>
+  mutate(opt = sprintf('<option value="%d">Lektion %d (%d Vokabeln)</option>',
+                       lektion, lektion, n)) |>
+  summarise(html = paste0('<optgroup label="Lektionen ', first(gruppe), '">',
+                          paste(opt, collapse = ""), '</optgroup>'),
+            .by = gruppe) |>
+  pull(html)
+
+fence <- strrep("`", 3)   # keine Code-Fence-Zeilen im Chunk (würden ihn beenden)
+
+cat(fence, '{=html}
+<style>
+  .vok-lektion        { display: none; }
+  .vok-lektion.aktiv  { display: block; }
+  .vok-auswahl        { display: flex; gap: .5rem; align-items: center;
+                        flex-wrap: wrap; margin: 1rem 0 1.5rem; }
+  .vok-auswahl select { width: auto; min-width: 16rem; }
+</style>
+
+<div class="vok-auswahl">
+  <label for="vok-lektion" class="fw-bold">Lektion:</label>
+  <button type="button" class="btn btn-outline-secondary btn-sm" id="vok-zurueck"
+          aria-label="Vorherige Lektion">&lsaquo;</button>
+  <select id="vok-lektion" class="form-select">
+', paste(optionen, collapse = "\n"), '
+  </select>
+  <button type="button" class="btn btn-outline-secondary btn-sm" id="vok-weiter"
+          aria-label="Nächste Lektion">&rsaquo;</button>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var sel = document.getElementById("vok-lektion");
+  if (!sel) return;
+
+  function zeige(k) {
+    document.querySelectorAll(".vok-lektion").forEach(function (el) {
+      el.classList.toggle("aktiv", el.id === "lektion-" + k);
+    });
+  }
+  function waehle(k) {
+    sel.value = k;
+    zeige(k);
+    try { localStorage.setItem("vok-lektion", k); } catch (e) {}
+    history.replaceState(null, "", "#lektion-" + k);
+  }
+
+  // Start: #lektion-7 in der URL > zuletzt gewählte Lektion > erste Lektion
+  var m = location.hash.match(/^#lektion-(\\d+)$/);
+  var start = m ? m[1] : null;
+  if (!start) { try { start = localStorage.getItem("vok-lektion"); } catch (e) {} }
+  if (start && sel.querySelector(\'option[value="\' + start + \'"]\')) sel.value = start;
+  zeige(sel.value);
+
+  sel.addEventListener("change", function () { waehle(sel.value); });
+  document.getElementById("vok-zurueck").addEventListener("click", function () {
+    if (sel.selectedIndex > 0) waehle(sel.options[sel.selectedIndex - 1].value);
+  });
+  document.getElementById("vok-weiter").addEventListener("click", function () {
+    if (sel.selectedIndex < sel.options.length - 1) waehle(sel.options[sel.selectedIndex + 1].value);
+  });
+});
+</script>
+', fence, '\n', sep = "")
+```
 
 
+```{r}
+#| label: lektion-aufgaben
+#| echo: false
+#| message: false
+#| results: "asis"
+
+## Pro Lektion ein (verstecktes) Div mit genau n = Anzahl Vokabeln Aufgaben.
+## exams2forms() schreibt seine Ausgabe selbst per cat() (write = TRUE),
+## daher funktioniert der Aufruf auch innerhalb der Schleife.
+for (i in seq_len(nrow(anzahl))) {
+  k <- anzahl$lektion[i]
+  cat(sprintf('\n\n:::::::::: {#lektion-%d .vok-lektion}\n\n', k))
+  vokabeln(expar("latein-vokabeln-lektion.Rmd", lektion = k), n = anzahl$n[i])
+  cat('\n\n::::::::::\n\n')
+}
 ```
 
 
