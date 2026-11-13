@@ -1,0 +1,159 @@
+---
+title: Hyperoperationen  
+format:
+  html:
+    include-in-header: ../../hero-image-blog.html
+lang: de
+# subtitle:
+description: ""
+categories:
+  - "Mathematik"
+  - "Permutationen"
+  - "Tetration"
+  - "Hypewroperationen"
+author: Stefan Jansen
+date: 10/11/2026
+image: ../../../../bilder/tetration.jpg
+---
+
+Neulich habe ich im Internet die folgende Frage gelesen: 
+
+**Was ist die größte Zahl, die man mit den Ziffern 1, 2 und 3 schreiben kann ?**
+
+Dabei dürfen keine Sonderzeichen wie $+$, $\cdot$ oder $!$ verwendet werden. Stellt man die Frage einem Kind in der 3. Klasse, so ist die Antwort sicher 321, mein Sohn in der 9. Klasse ist schon auf die Idee gekommen Potenzen zu verwenden und meinte $2^{31} = 2\,147\,483\,648$, was sicher schon nicht schlecht ist. Tatsächlich ist aber $3^{21}= 10\,460\,353\,203$ fast 5-mal so groß. Geht es aber vielleicht noch besser? Die Antwort ist ja und zwar nicht nur ein bisschen.
+
+
+## Was sind Hyperoperationen?
+
+Hyperoperationen formalisieren und verallgemeinern die Addition, die Multiplikation und das Potenzieren. Es gibt diverse Schreibweisen für diese Klasse von Operationen, eine davon ist die rekursiv definierte Funktion $H_n: \mathbb{N}_0 \times \mathbb{N}_0 \to \mathbb{N}_0$ mit 
+
+$$
+H_n (a, b) = \begin{cases} 
+             b + 1 &  \text{für } n = 0 \\
+             a     &  \text{für } n = 1 \text{ und } b = 0 \\
+             0     &  \text{für } n = 2 \text{ und } b = 0 \\
+             1     &  \text{für } n \ge 3 \text{ und } b = 0 \\
+             H_{n-1} (a, H_n(a, b-1)) & \text{sonst. }
+            \end{cases}
+$$
+
+Schauen wir uns die obige Definition einmal für die ersten $n$ an.
+
+
+### $H_0$
+
+Offenbar ist $H_0$ unabhängig von $a$ Es gilt $H_0(a, b) = b + 1$, was einfach der **Nachfolger** von $b$ in den natürlichen Zahlen ist. 
+
+### $H_1$
+
+Für alle weiteren Stufen nutzen wir die Rekursion, dies ist die untersete Zeile der obigen Definition und ersetzen durch bereits bekannte Operationen um die neue Operation besser interpretieren zu können.
+
+Für $H_1$ ergibt sich damit $H_1(a, 0) = a$ und mit Nutzung der Rekursionsformel ergibt sich
+
+$$
+H_1 (a,b) = H_0(a, H_1(a, b-1)) = H_1(a, b-1) + 1.
+$$
+Iterieren wir dies nun $b$ mal, so erhalten wir den Ausdruck  
+
+$$
+H_1(a, b) = \underbrace{H_1(a, 0)}_{a} + \underbrace{1 + 1 + \cdots + 1}_{b \text{ mal}} = a + b \cdot 1 = a + b
+$$
+
+Damit ist $H_1$ die gewöhnliche **Addition** von zwei natürlichen Zahlen.
+
+
+### $H_2$
+
+Vermutlich kann man schon erahnen, was $H_2$ ist. Wir fangen wieder mit der Rekursionsformel an. 
+
+$$
+H_2(a, b) = H_1(a, H_2(a, b-1)) = a + H_2(a, b-1)
+$$
+
+
+Jede Iteration liefert ein weiteren Summanden $a$, so dass wir nach $b$ Iterationen den folgenden Ausdruck erhalten
+
+$$
+H_2(a, b) = H_1(a, H_2(a, b-1)) = \underbrace{a + a + \cdots + a}_{b \text{ mal}} + \underbrace{H_2(a, 0)}_{0} = a \cdot b,
+$$
+womit $H_2$ der **Multiplikation** von $a$ und $b$ entspricht. 
+
+
+### $H_3$ 
+
+
+
+$$
+H_3(a, b) = H_2(a, H_3(a, b-1)) = a \cdot H_3(a, b-1) 
+$$
+und erhalten nach 
+
+$$
+H_3(a, b) = H_2(a, H_3(a, b-1)) = \underbrace{a \cdot a \cdot \cdots \cdot a}_{b \text{ mal}} \cdot \underbrace{H_3(a, 0)}_{1} = a^b
+$$
+
+### Tetration $H_4$
+
+So langsam gehen und die aus der Schule bekannten Rechenoperationen aus, aber für $H_4$ können wir noch ein Gefühl entwickeln. Wir berechnen
+
+$$
+H_4(a, b) = H_3(a, H_4(a, b-1)) = a^{H_3(a, b-1)} 
+$$
+und erhalten nach $b$-maligem Anwenden der Regel
+
+$$
+H_4(a, b) = H_3(a, H_4(a, b-1)) = \underbrace{a^{a^{\iddots^{a}}}}_{b \text{ mal}} \cdot \underbrace{H_4(a, 0)}_{1} =: {}^{b}a
+$$
+einen Potenzturm der Höhe $b$. Hier sei erwähnt, dass Potenzen rechtsassoziativ sind, also von rechts nach links zusammengefasst werden müssen. So ist
+
+$$
+2^{3^2}  = 2^{(3^2)} = 2^9 = 512 \quad \text{im Gegensatz zu} \quad (2^3)^2 = 2^6 = 64. 
+$$
+Berechnen wir mal $H_4(3,4)$. Nach der obigen Formel ist das der Potenzturm
+
+$$
+H_4(3,4) = 3^{3^{3^{3}}} = 3^{3^{27}} = 3^{7625597484987}
+$$
+Dies ist eine Zahl mit $3\,638\,334\,640\,025$ Dezimalstellen! Zum Vergleich, die Anzahl der Atome im sichtbaren Universum sind weniger als $10^{90}$ was eine Zahl mit 90 Dezimalstellen ist. Wir sehen schon, dass Tetration sehr schnell gigantisch groß wird. Aber damit nicht genug. Betrachten wir die nächste Stufe, denn diese hat auch eine Schreibweise, die keine Sonderzeichen erfordert... 
+
+
+### Pentation $H_5$
+
+$$
+H_5(a, b) = H_4(a, H_5(a, b-1)) = {}^{H_3(a, b-1)}a 
+$$
+
+
+$$
+H_5(a, b) = H_4(a, H_5(a, b-1)) = \underbrace{{}^{{}^{{}^a \ddots } a} a}_{b \text{ mal}} \cdot \underbrace{H_5(a, 0)}_{1} =: {}_{b}a
+$$
+
+
+
+## Knuth Notation
+
+Eine andere Notation ist die von Donald Knuth eingeführte **Pfeil-Notation**. Diese ist wie folgt definiert: 
+
+
+
+$$
+a \uparrow^k b = \begin{cases}
+                    a \cdot b & \text{falls } k=0 \\
+                    a^b & \text{falls } k=1 \\
+                    ^{b}a & \text{falls } k=2 \\
+                    a \uparrow^{k-1}(a \uparrow^k (b-1)) & \text{sonst}
+                 \end{cases}
+$$
+
+dabei ist:
+
+$$
+a \uparrow^k n := a \underbrace{\uparrow \cdots \uparrow}_{k \text{ Kopien}} n.
+$$
+
+
+Vergleiche wir die beiden Definitionen, so sehen wir, dass diese gleich sind. Es gilt:
+
+$$
+a \uparrow^k b = H_{k+2}(a, b)
+$$

@@ -1,0 +1,182 @@
+```{r}
+#| label: voksetup
+#| include: false
+
+library(pacman)
+p_load(tidyverse, readxl)
+
+## ---------------------------------------------------------------------------
+##  1) Parameter
+##     Alle drei Zeilen sind einfache Zuweisungen im ERSTEN Chunk und können
+##     deshalb beim Aufruf mit exams::expar() überschrieben werden:
+##         exams2forms(expar("vokabeln-latein02.Rmd", lektionen = 1:10), n = 20)
+##     Alternativ dokumentweit über options(vok_lektionen = 1:10) usw.
+## --------------------------------------------------------------------------
+
+datei             <- getOption("vok_datei2", default = "latein_deklinationen.xlsx")
+ohne_zuruecklegen <- getOption("vok_ohne_zuruecklegen", default = TRUE)
+
+## ---------------------------------------------------------------------------
+##  2) Hilfsfunktionen
+## ---------------------------------------------------------------------------
+
+#' Vokabeldatei einlesen
+#'
+#' Liest die xlsx-Datei, vereinheitlicht die Spaltennamen (klein), wandelt die
+#' Textspalten in getrimmte Zeichenketten und entfernt Zeilen ohne lateinisches
+#' Stichwort bzw. ohne deutsche Bedeutung.
+#' @param datei Pfad zur xlsx-Datei (am besten absolut, s. `vok_daten()`).
+#' @return Ein tibble mit einer zusätzlichen Spalte `id` (Zeilennummer).
+
+vok_lesen <- function(datei) {
+  if (!file.exists(datei)) {
+    stop("Vokabeldatei '", datei, "' nicht gefunden.\n",
+         "R/exams knitet Aufgaben in einem temporären Verzeichnis, relative\n",
+         "Pfade greifen daher nicht. Im aufrufenden Dokument bitte setzen:\n",
+         '  options(vok_datei = normalizePath("daten/vokabeln.xlsx"))',
+         call. = FALSE)
+  }
+  read_excel(datei) |>
+    rename_with(tolower) |>
+    mutate(across(any_of(c("grundform", "bedeutung", "kasus", "numerus", "form","genus",  "deklination", "untertyp")),
+                  \(x) trimws(as.character(x))
+    ))
+}
+
+#' Vokabeldaten mit Zwischenspeicher
+#'
+#' Bei `n > 1` wird die Aufgabe mehrfach ausgeführt; die xlsx soll dabei nur
+#' einmal gelesen werden. Der Cache liegt in einer Option und wird verworfen,
+#' sobald ein anderer Dateipfad angefordert wird. Nach einer Änderung an der
+#' xlsx innerhalb derselben Session: `options(vok_cache = NULL)`.
+#'
+#' @param datei Pfad zur xlsx-Datei.
+#' @return Ein tibble wie von `vok_lesen()`.
+
+vok_daten <- function(datei) {
+  cache <- getOption("vok_cache")
+  if (is.null(cache) || !identical(attr(cache, "quelle"), datei)) {
+    cache <- vok_lesen(datei)
+    attr(cache, "quelle") <- datei
+    options(vok_cache = cache)
+  }
+  cache
+}
+
+#' Mehrfachangaben zerlegen
+#'
+#' Zerlegt einen Zellinhalt am Trennzeichen, entfernt Leerraum und leere Teile.
+#'
+#' @param x Zeichenkette, z. B. "der Vater; der Erzeuger".
+#' @param trenn Trennzeichen (fix, keine Regex).
+#' @return Zeichenvektor, ggf. der Länge 0.
+
+teile <- function(x, sep = ";") {
+  if (length(x) != 1L || is.na(x)) return(character(0))
+  y <- trimws(unlist(strsplit(x, sep, fixed = TRUE)))
+  y[nzchar(y)]
+}
+
+
+## ---------------------------------------------------------------------------
+##  3) Vokabel ziehen und aufbereiten
+## ---------------------------------------------------------------------------
+
+pool <- vok_daten(datei) |> 
+        filter(!(kasus == "Nominativ" & numerus == "Singular")) |>  
+        mutate(id = row_number()) 
+
+
+if (isTRUE(ohne_zuruecklegen)) {
+  ## Innerhalb einer R-Session – also innerhalb eines exams2forms-Aufrufs mit
+  ## n > 1 – wird jede Vokabel höchstens einmal gezogen; ist der Vorrat
+  ## erschöpft, beginnt die Ziehung von vorn. Der Merkposten ist nach der
+  ## Lektionsauswahl geschlüsselt, damit sich mehrere Trainer auf einer Seite
+  ## nicht gegenseitig stören. Zurücksetzen: options(vok_gezogen = NULL)
+  
+  schluessel <- paste0("lek:", paste(sort(unique(pool$genus)), collapse = ","))
+  merker     <- getOption("vok_gezogen", default = list())
+  bereits    <- if (is.null(merker[[schluessel]])) integer(0) else merker[[schluessel]]
+  kandidaten <- setdiff(pool$id, bereits)
+  if (!length(kandidaten)) {
+    bereits    <- integer(0)
+    kandidaten <- pool$id
+  }
+  gewaehlt <- kandidaten[sample.int(length(kandidaten), 1L)]
+  merker[[schluessel]] <- c(bereits, gewaehlt)
+  options(vok_gezogen = merker)
+} else {
+  gewaehlt <- pool$id[sample.int(nrow(pool), 1L)]
+}
+
+wort <- pool[match(gewaehlt, pool$id), ]
+
+form_lsg <- wort$form
+
+genus <- c("Maskulinum", "Femininum", "Neutrum")
+genus_lsg <-  case_when(wort$genus == "Maskulinum"~ "100", 
+                        wort$genus == "Femininum"~ "010",
+                        wort$genus == "Neutrum"~ "001")
+
+deklination <- c("a-Deklination", "e-Deklination", "o-Deklination", "u-Deklination", "dritte Deklination (konsonantisch)", "dritte Deklination (gemischt)")
+deklination_lsg <- case_when(wort$deklination == "a-Deklination" ~ "100000",
+                             wort$deklination == "e-Deklination" ~ "010000",
+                             wort$deklination == "o-Deklination" ~ "001000",
+                             wort$deklination == "u-Deklination" ~ "000100",
+                             wort$deklination == "dritte Deklination" & wort$untertyp == "konsonantisch" ~ "000010",
+                             wort$deklination == "dritte Deklination" & wort$untertyp == "gemischt" ~ "000001")
+
+
+
+## ---------------------------------------------------------------------------
+##  4) Frage, Lösung und Meta-Information zusammenstellen
+## ---------------------------------------------------------------------------
+
+meta_clozetype   <- "string|schoice|schoice"
+meta_solution    <- paste0(form_lsg, "|", genus_lsg, "|" , deklination_lsg)
+meta_bedeutungen <- paste0(paste(teile(wort$deutsch)), collapse = ", ")
+```
+
+
+Question
+========
+Der **`r wort$kasus`** **`r wort$numerus`** von **`r wort$grundform`** lautet:  ##ANSWER1##
+
+
+Welches **Genus** hat **`r wort$grundform`**?
+
+##ANSWER2##
+
+
+Welcher **Deklination** gehört **`r wort$grundform`** an?
+
+##ANSWER3##
+
+Answerlist
+----------
+  
+* 
+* Maskulinum
+* Femininum
+* Neutrum
+* a-Deklination
+* e-Deklination
+* o-Deklination
+* u-Deklination
+* dritte Deklination (konsonantisch)
+* dritte Deklination (gemischt)
+
+Solution
+========
+  
+Der **`r wort$kasus`** **`r wort$numerus`** von `r wort$grundform` ist **`r form_lsg`**, es gehört der `r wort$deklination` `r ifelse(wort$deklination == "dritte Deklination", paste0("(", wort$untertyp,")"), "")` an und ist `r wort$genus`.
+
+
+
+
+Meta-information
+================
+exname: Deklinationen
+extype: cloze
+exclozetype: `r meta_clozetype`
+exsolution: `r meta_solution`

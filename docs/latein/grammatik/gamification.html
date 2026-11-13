@@ -1,0 +1,829 @@
+<!--
+  Gamification für den Latein-Vokabeltrainer
+  - Denarii (Punkte) mit Feedback, Serien-Multiplikator, Konfetti und Ton
+  - Ränge der Legionslaufbahn (Tiro bis Imperator)
+  - Fortschritt pro Lektion ("Imperium"-Karte, Balken im Lektions-Tab)
+  - Marschtage (Streak) mit Tagesziel
+  Einbinden in Quarto:
+    format:
+      html:
+        include-after-body: gamification.html
+  Einstellungen: Abschnitt CONFIG unten. Diagnose: Seite mit ?gmdebug aufrufen.
+  Alle Daten bleiben im Browser (localStorage); es werden keine externen Dateien geladen.
+-->
+<style>
+.gm-hud, .gm-toasts, .gm-float, .gm-lessonbar {
+  --gm-red: #8b1e17;
+  --gm-red-ink: #fff7ef;
+  --gm-gold: #c8a13a;
+  --gm-marble: #f7f6f3;
+  --gm-ink: #2b2522;
+  --gm-muted: #6e6660;
+  --gm-line: #ddd8d0;
+  --gm-empty: #e9e5de;
+}
+body.quarto-dark .gm-hud, body.quarto-dark .gm-toasts, body.quarto-dark .gm-lessonbar {
+  --gm-marble: #1f1b19;
+  --gm-ink: #efeae3;
+  --gm-muted: #a79e95;
+  --gm-line: #3a332f;
+  --gm-empty: #332c28;
+}
+
+/* Spielstand-Leiste unten rechts */
+.gm-hud {
+  position: fixed; right: max(12px, env(safe-area-inset-right)); bottom: max(12px, env(safe-area-inset-bottom));
+  z-index: 1055; display: flex; flex-direction: column; align-items: flex-end; gap: 8px;
+  font-size: 15px; line-height: 1.35; color: var(--gm-ink);
+}
+.gm-hud button, .gm-hud select { font: inherit; }
+.gm-hud button:focus-visible, .gm-hud select:focus-visible { outline: 3px solid var(--gm-gold); outline-offset: 2px; }
+.gm-pill {
+  position: relative; display: flex; align-items: center; gap: .65em; padding: .45em .95em .6em;
+  border: 0; border-radius: 999px; background: var(--gm-red); color: var(--gm-red-ink);
+  box-shadow: 0 4px 14px rgba(60, 20, 10, .3); cursor: pointer; overflow: hidden; white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+.gm-pill-who { padding: .05em .5em; border-radius: 999px; background: rgba(255, 255, 255, .16); font-size: .85em; }
+.gm-pill-rank { font-weight: 700; }
+.gm-pill-goal { opacity: .85; }
+.gm-pill-combo.gm-hot { color: #ffd76a; font-weight: 700; }
+.gm-pill-bar { position: absolute; left: 0; right: 0; bottom: 0; height: 4px; background: rgba(255, 255, 255, .18); }
+.gm-pill-bar i { display: block; height: 100%; background: var(--gm-gold); transition: width .4s ease; }
+
+/* Detailansicht */
+.gm-panel {
+  width: min(360px, calc(100vw - 24px)); max-height: min(74vh, 660px); overflow-y: auto;
+  background: var(--gm-marble); color: var(--gm-ink); border: 1px solid var(--gm-line); border-radius: 14px;
+  box-shadow: 0 12px 40px rgba(40, 20, 10, .28);
+}
+.gm-panel[hidden] { display: none; }
+.gm-head { display: flex; flex-wrap: wrap; gap: .4em .6em; align-items: center; padding: .7em .9em; }
+.gm-profile { display: flex; align-items: center; gap: .4em; flex: 1 1 150px; margin: 0; color: var(--gm-muted); font-size: .9em; }
+.gm-profile select {
+  flex: 1; min-width: 0; padding: .2em .3em; border: 1px solid var(--gm-line); border-radius: 6px;
+  background: var(--gm-marble); color: var(--gm-ink);
+}
+.gm-hud .gm-link {
+  padding: .15em .2em; border: 0; background: none; color: var(--gm-red); cursor: pointer;
+  font-size: .88em; text-decoration: underline; text-underline-offset: 2px;
+}
+body.quarto-dark .gm-hud .gm-link { color: #e6a39b; }
+
+.gm-rank { padding: 1em .9em .9em; background: var(--gm-red); color: var(--gm-red-ink); text-align: center; }
+.gm-rank-icon { font-size: 2.2em; line-height: 1; }
+.gm-inscription {
+  margin-top: .2em; color: #f3d98b; font-family: "Trajan Pro", "Cinzel", Georgia, "Times New Roman", serif;
+  font-size: 1.9em; letter-spacing: .14em; line-height: 1.1; text-shadow: 0 1px 0 rgba(0, 0, 0, .35);
+}
+.gm-rank-de { opacity: .85; font-size: .95em; }
+.gm-rank .gm-meter { margin: .8em auto .3em; background: rgba(255, 255, 255, .2); }
+.gm-rank .gm-note { color: inherit; opacity: .85; }
+.gm-ladder { display: flex; justify-content: center; gap: .3em; margin: .6em 0 0; padding: 0; list-style: none; }
+.gm-ladder li { opacity: .35; filter: grayscale(1); cursor: default; }
+.gm-ladder li.gm-reached { opacity: 1; filter: none; }
+
+.gm-meter { display: block; height: 8px; overflow: hidden; border-radius: 4px; background: var(--gm-empty); }
+.gm-meter i { display: block; height: 100%; border-radius: inherit; background: var(--gm-gold); transition: width .4s ease; }
+.gm-note { margin: .3em 0 0; color: var(--gm-muted); font-size: .85em; }
+.gm-row { display: flex; justify-content: space-between; gap: 1em; margin-bottom: .35em; font-size: .92em; }
+.gm-row span:first-child { font-weight: 700; }
+
+.gm-stats { display: grid; grid-template-columns: repeat(3, 1fr); border-bottom: 1px solid var(--gm-line); }
+.gm-stats div { padding: .7em .3em; text-align: center; }
+.gm-stats div + div { border-left: 1px solid var(--gm-line); }
+.gm-stats b { display: block; font-size: 1.35em; font-variant-numeric: tabular-nums; }
+.gm-stats span { color: var(--gm-muted); font-size: .78em; }
+.gm-day, .gm-empire { padding: .8em .9em; border-bottom: 1px solid var(--gm-line); }
+
+.gm-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(26px, 1fr)); gap: 3px; }
+.gm-tile {
+  aspect-ratio: 1; padding: 0; border: 1px solid var(--gm-line); border-radius: 4px; color: var(--gm-ink);
+  background: linear-gradient(to top, rgba(139, 30, 23, .5) calc(var(--p) * 100%), var(--gm-empty) 0);
+  font-size: .68em; font-variant-numeric: tabular-nums; cursor: pointer;
+}
+.gm-tile.gm-done { border-color: var(--gm-gold); background: var(--gm-gold); color: #2b1d05; font-weight: 700; }
+.gm-tile:disabled { cursor: default; }
+.gm-foot { display: flex; flex-wrap: wrap; gap: .3em .8em; padding: .7em .9em; }
+
+/* Meldungen */
+.gm-toasts {
+  position: fixed; right: max(12px, env(safe-area-inset-right)); bottom: calc(max(12px, env(safe-area-inset-bottom)) + 58px);
+  z-index: 1056; display: flex; flex-direction: column; align-items: flex-end; gap: 6px; pointer-events: none;
+}
+.gm-toasts.gm-shift { right: calc(min(360px, 100vw - 24px) + max(12px, env(safe-area-inset-right)) + 12px); }
+.gm-toast {
+  max-width: min(340px, calc(100vw - 24px)); padding: .55em .85em; border: 1px solid var(--gm-line);
+  border-left: 4px solid var(--gm-gold); border-radius: 10px; background: var(--gm-marble); color: var(--gm-ink);
+  box-shadow: 0 6px 20px rgba(40, 20, 10, .2); font-size: 15px; line-height: 1.35;
+  animation: gm-in .25s ease-out; transition: opacity .35s, transform .35s;
+}
+.gm-toast.gm-big { border-color: var(--gm-red); border-left-color: var(--gm-gold); background: var(--gm-red); color: var(--gm-red-ink); font-size: 16px; }
+.gm-toast.gm-muted { border-left-color: var(--gm-muted); color: var(--gm-muted); }
+.gm-toast.gm-out { opacity: 0; transform: translateY(6px); }
+@keyframes gm-in { from { opacity: 0; transform: translateY(8px); } }
+
+/* Rückmeldung direkt an der Aufgabe */
+.gm-float {
+  position: fixed; z-index: 1057; pointer-events: none; transform: translateY(-50%);
+  color: #b8860b; font-size: 18px; font-weight: 800; font-variant-numeric: tabular-nums;
+  text-shadow: 0 0 3px #fff, 0 0 8px #fff; animation: gm-rise 1.05s ease-out forwards;
+}
+body.quarto-dark .gm-float { color: #f3d98b; text-shadow: 0 0 3px #000, 0 0 8px #000; }
+@keyframes gm-rise { from { opacity: 0; } 15% { opacity: 1; } to { opacity: 0; transform: translateY(-190%); } }
+.gm-pop { animation: gm-pop .6s ease-out; }
+@keyframes gm-pop { from { box-shadow: 0 0 0 0 rgba(200, 161, 58, .9); } to { box-shadow: 0 0 0 10px rgba(200, 161, 58, 0); } }
+.gm-shake { animation: gm-shake .4s; }
+@keyframes gm-shake { 20%, 60% { transform: translateX(-4px); } 40%, 80% { transform: translateX(4px); } }
+.gm-confetti { position: fixed; inset: 0; width: 100vw; height: 100vh; z-index: 1058; pointer-events: none; }
+
+/* Fortschritt oben im Lektions-Tab */
+.gm-lessonbar {
+  display: flex; align-items: center; gap: .8em; margin: .4em 0 1em; padding: .5em .8em;
+  border: 1px solid var(--gm-line); border-radius: 8px; background: var(--gm-marble); color: var(--gm-ink); font-size: .92em;
+}
+.gm-lessonbar .gm-meter { flex: 1; }
+.gm-lessonbar.gm-done { border-color: var(--gm-gold); font-weight: 700; }
+
+@media (max-width: 575px) {
+  .gm-hud { font-size: 14px; }
+  .gm-pill { gap: .45em; padding: .4em .75em .55em; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .gm-float { animation: gm-fade 1s forwards; }
+  .gm-pop, .gm-shake, .gm-toast { animation: none; }
+  .gm-pill-bar i, .gm-meter i { transition: none; }
+}
+@keyframes gm-fade { from { opacity: 1; } to { opacity: 0; } }
+</style>
+
+<script>
+(() => {
+"use strict";
+if (window.GM) return; // doppelt eingebunden
+
+/* ======================= KONFIGURATION ======================= */
+const CONFIG = {
+  // Bereich, in dem Aufgaben einer Lektion zugeordnet werden. Der erste Treffer zählt.
+  lessonScope: "#lektionen, #vokabeln-nach-lektion",
+  lessonPattern: /Lektion\s+(\d+)/,
+  maxItemsPerExercise: 8,          // Schutz gegen falsche Lektionszuordnung
+
+  // Selektoren der exams2forms-/webex-Formulare
+  textInput: "input.webex-solveme",
+  select: "select.webex-select",
+  radioGroup: ".webex-radiogroup",
+  correctClass: "webex-correct",
+
+  // Klick auf einen Button/Link mit diesem Text = Lösung angesehen (keine Denarii)
+  solutionPattern: /lösung|solution/i,
+
+  points: { neu: 10, nachFehler: 5, wiederholung: 2 },
+  combo: [{ ab: 10, mult: 3 }, { ab: 5, mult: 2 }], // Serien-Multiplikator
+  comboLob: 5,                                       // alle n richtigen in Folge ein Lob
+  tagesziel: 10,                                     // richtige Antworten pro Marschtag
+
+  ranks: [
+    { ab: 0,     name: "Tiro",         de: "Rekrut",             icon: "🥾" },
+    { ab: 100,   name: "Miles",        de: "Soldat",             icon: "🛡️" },
+    { ab: 250,   name: "Signifer",     de: "Feldzeichenträger",  icon: "🚩" },
+    { ab: 500,   name: "Optio",        de: "Stellvertreter",     icon: "🎖️" },
+    { ab: 900,   name: "Centurio",     de: "Hauptmann",          icon: "⚔️" },
+    { ab: 1500,  name: "Primus Pilus", de: "Erster Centurio",    icon: "🦅" },
+    { ab: 2500,  name: "Tribunus",     de: "Offizier",           icon: "📜" },
+    { ab: 4000,  name: "Legatus",      de: "Legionskommandant",  icon: "🐎" },
+    { ab: 6500,  name: "Consul",       de: "Konsul",             icon: "🏛️" },
+    { ab: 10000, name: "Imperator",    de: "Feldherr",           icon: "👑" },
+  ],
+  lob: ["Bene!", "Optime!", "Euge!", "Egregie!", "Macte virtute!", "Io triumphe!"],
+};
+
+/* ======================= SPEICHER ======================= */
+const NS = "gm:v1:";
+const store = {
+  get(k, fallback) {
+    try { const v = localStorage.getItem(NS + k); return v ? JSON.parse(v) : fallback; }
+    catch { return fallback; }
+  },
+  set(k, v) {
+    try { localStorage.setItem(NS + k, JSON.stringify(v)); }
+    catch (e) { console.warn("[Vokabeltrainer] Speichern fehlgeschlagen", e); }
+  },
+  del(k) { try { localStorage.removeItem(NS + k); } catch { /* egal */ } },
+};
+const blank = () => ({
+  points: 0, solved: {}, streak: 0, bestStreak: 0, lastDay: null,
+  today: { day: null, n: 0 }, bestCombo: 0, conquered: {},
+});
+const load = name => Object.assign(blank(), store.get("p:" + name, {}));
+const meta = Object.assign({ active: "Spieler", profiles: ["Spieler"], sound: true }, store.get("meta", {}));
+if (!meta.profiles.includes(meta.active)) meta.profiles.push(meta.active);
+let S = load(meta.active);
+let totals = store.get("totals", {});   // Lektion -> Anzahl Aufgaben
+const save = () => { store.set("p:" + meta.active, S); store.set("meta", meta); };
+
+/* ======================= SITZUNG ======================= */
+let combo = 0;
+let awarded = new WeakSet(), hadWrong = new WeakSet(), revealed = new WeakSet();
+let revealNoticeShown = false;
+const info = new Map();   // Aufgabe -> { key, lesson }
+const panes = {};         // Lektion -> Tab-Pane
+let diag = {};
+const calm = matchMedia("(prefers-reduced-motion: reduce)").matches;
+const ITEM_SEL = [CONFIG.textInput, CONFIG.select, CONFIG.radioGroup].join(",");
+
+/* ======================= HILFSFUNKTIONEN ======================= */
+const pad = n => String(n).padStart(2, "0");
+const ymd = d => `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
+const today = () => ymd(new Date());
+const yesterday = () => { const d = new Date(); d.setDate(d.getDate() - 1); return ymd(d); };
+const esc = s => String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const pick = arr => arr[Math.floor(Math.random() * arr.length)];
+
+function hash(str) { // cyrb53
+  let h1 = 0xdeadbeef, h2 = 0x41c6ce57;
+  for (let i = 0; i < str.length; i++) {
+    const c = str.charCodeAt(i);
+    h1 = Math.imul(h1 ^ c, 2654435761); h2 = Math.imul(h2 ^ c, 1597334677);
+  }
+  h1 = Math.imul(h1 ^ (h1 >>> 16), 2246822507) ^ Math.imul(h2 ^ (h2 >>> 13), 3266489909);
+  h2 = Math.imul(h2 ^ (h2 >>> 16), 2246822507) ^ Math.imul(h1 ^ (h1 >>> 13), 3266489909);
+  return (4294967296 * (2097151 & h2) + (h1 >>> 0)).toString(36);
+}
+
+const rankIndex = pts => CONFIG.ranks.reduce((idx, r, j) => (pts >= r.ab ? j : idx), 0);
+const inscription = s => s.toUpperCase().replace(/U/g, "V");
+const multiplier = c => (CONFIG.combo.find(x => c >= x.ab) || { mult: 1 }).mult;
+const currentStreak = () => (S.lastDay === today() || S.lastDay === yesterday() ? S.streak : 0);
+const todayCount = () => (S.today.day === today() ? S.today.n : 0);
+
+/* Eine "Aufgabe" ist ein Textfeld, ein Auswahlmenü oder eine Radio-Gruppe. */
+function itemOf(node) {
+  if (!(node instanceof Element)) return null;
+  const group = node.closest(CONFIG.radioGroup);
+  if (group) return group;
+  return node.matches(CONFIG.textInput) || node.matches(CONFIG.select) ? node : null;
+}
+function isCorrect(item) {
+  return item.matches(CONFIG.radioGroup)
+    ? !!item.querySelector("." + CONFIG.correctClass)
+    : item.classList.contains(CONFIG.correctClass);
+}
+function hasAnswer(item) {
+  if (item.matches(CONFIG.radioGroup)) return !!item.querySelector("input:checked");
+  const v = String(item.value || "").trim();
+  return v !== "" && v !== "blank";
+}
+function signature(item) {
+  if (item.matches(CONFIG.select)) {
+    const o = item.querySelector('option[value="answer"]');
+    return "S:" + (o ? o.textContent : item.textContent).trim();
+  }
+  if (item.matches(CONFIG.radioGroup)) {
+    const r = item.querySelector('input[value="answer"]');
+    return "R:" + ((r && r.parentElement) ? r.parentElement.textContent : item.textContent).trim();
+  }
+  const a = item.getAttribute("data-answer") || item.getAttribute("data-regex");
+  if (a) return "T:" + a;
+  const block = item.closest("p, li, td, div");
+  return "T?:" + (block ? block.textContent.trim().slice(0, 120) : "");
+}
+
+function tabButton(pane) {
+  if (!pane.id) return null;
+  const by = pane.getAttribute("aria-labelledby");
+  return (by && document.getElementById(by))
+    || document.querySelector(`[data-bs-target="#${CSS.escape(pane.id)}"], [aria-controls="${CSS.escape(pane.id)}"]`);
+}
+function lessonFromPane(pane) {
+  const btn = tabButton(pane);
+  const m = btn && btn.textContent.match(CONFIG.lessonPattern);
+  return m ? +m[1] : null;
+}
+function lessonOf(item, scope) {
+  const pane = item.closest(".tab-pane");
+  if (pane && scope.contains(pane)) {
+    const l = lessonFromPane(pane);
+    if (l != null) return l;
+  }
+  let el = item.parentElement;
+  for (let i = 0; el && el !== scope && i < 12; i++, el = el.parentElement) {
+    if (el.querySelectorAll(ITEM_SEL).length > CONFIG.maxItemsPerExercise) break;
+    const m = el.textContent.match(CONFIG.lessonPattern);
+    if (m) return +m[1];
+  }
+  return null;
+}
+
+/* Alle Aufgaben der Seite erfassen und stabile Schlüssel vergeben */
+function indexItems() {
+  info.clear();
+  Object.keys(panes).forEach(k => delete panes[k]);
+  const scope = document.querySelector(CONFIG.lessonScope);
+  const page = location.pathname.replace(/index\.html?$/, "");
+  const seen = {}, found = {};
+  document.querySelectorAll(ITEM_SEL).forEach(node => {
+    const item = itemOf(node);
+    if (!item || info.has(item)) return;
+    const lesson = scope && scope.contains(item) ? lessonOf(item, scope) : null;
+    const section = (item.closest("section[id]") || {}).id || "";
+    const base = lesson != null
+      ? `L${lesson}|${hash(signature(item))}`
+      : `S|${hash(page + "|" + section + "|" + signature(item))}`;
+    seen[base] = (seen[base] || 0) + 1;
+    info.set(item, { key: seen[base] > 1 ? `${base}|${seen[base]}` : base, lesson });
+    if (lesson != null) {
+      found[lesson] = (found[lesson] || 0) + 1;
+      const pane = item.closest(".tab-pane");
+      if (pane && !panes[lesson] && lessonFromPane(pane) === lesson) panes[lesson] = pane;
+    }
+  });
+  if (Object.keys(found).length) { totals = found; store.set("totals", totals); }
+  diag = {
+    lessonScope: scope ? `#${scope.id}` : "nicht gefunden",
+    aufgaben: info.size,
+    lektionen: Object.keys(found).length,
+    lektionenMitTab: Object.keys(panes).length,
+  };
+}
+
+function solvedByLesson() {
+  const c = {};
+  for (const k in S.solved) {
+    const m = /^L(\d+)\|/.exec(k);
+    if (m) c[m[1]] = (c[m[1]] || 0) + 1;
+  }
+  return c;
+}
+
+/* ======================= SPIELLOGIK ======================= */
+function countToday() {
+  const d = today();
+  if (S.today.day !== d) S.today = { day: d, n: 0 };
+  S.today.n++;
+  if (S.today.n >= CONFIG.tagesziel && S.lastDay !== d) {
+    S.streak = S.lastDay === yesterday() ? S.streak + 1 : 1;
+    S.lastDay = d;
+    S.bestStreak = Math.max(S.bestStreak, S.streak);
+    return true;
+  }
+  return false;
+}
+
+function award(item) {
+  awarded.add(item);
+  if (revealed.has(item)) {
+    if (!revealNoticeShown) {
+      toast("Lösung angesehen: Für diese Aufgabe gibt es keine Denarii.", "gm-muted");
+      revealNoticeShown = true;
+    }
+    return;
+  }
+  const { key, lesson } = info.get(item) || { key: "X|" + hash(signature(item)), lesson: null };
+  const isNew = !S.solved[key];
+  const P = CONFIG.points;
+  const base = isNew ? (hadWrong.has(item) ? P.nachFehler : P.neu) : P.wiederholung;
+  combo++;
+  const mult = multiplier(combo);
+  const pts = base * mult;
+  const rankBefore = rankIndex(S.points);
+  S.points += pts;
+  S.solved[key] = today();
+  S.bestCombo = Math.max(S.bestCombo, combo);
+  const dayDone = countToday();
+
+  floatText(item, "+" + pts);
+  flash(item, "gm-pop", 600);
+  sound.correct(combo);
+
+  let big = false;
+  const rankNow = rankIndex(S.points);
+  if (rankNow > rankBefore) {
+    const r = CONFIG.ranks[rankNow];
+    toast(`<b>Befördert!</b> ${r.icon} ${esc(r.name)} (${esc(r.de)})`, "gm-big");
+    big = true;
+  }
+  if (lesson != null && isNew && !S.conquered[lesson] && totals[lesson]
+      && (solvedByLesson()[lesson] || 0) >= totals[lesson]) {
+    S.conquered[lesson] = today();
+    toast(`<b>Lektion ${lesson} erobert!</b> Alle Aufgaben gelöst.`, "gm-big");
+    big = true;
+  }
+  if (dayDone) {
+    toast(`<b>Tagesziel erreicht!</b> 🔥 ${S.streak} ${S.streak === 1 ? "Marschtag" : "Marschtage"} in Folge`);
+    big = true;
+  }
+  if (combo % CONFIG.comboLob === 0) {
+    toast(`<b>${esc(pick(CONFIG.lob))}</b> ${combo} richtig in Folge${mult > 1 ? `, Denarii ×${mult}` : ""}`);
+    if (!big) confetti(60);
+  }
+  if (big) { sound.fanfare(); confetti(170); }
+  save();
+  render();
+}
+
+function wrong(item) {
+  if (awarded.has(item)) return;
+  hadWrong.add(item);
+  combo = 0;
+  flash(item, "gm-shake", 400);
+  sound.wrong();
+  render();
+}
+
+/* ======================= EFFEKTE ======================= */
+function flash(el, cls, ms) {
+  if (calm && cls !== "gm-pop") return;
+  el.classList.remove(cls);
+  void el.offsetWidth; // Animation neu starten
+  el.classList.add(cls);
+  setTimeout(() => el.classList.remove(cls), ms);
+}
+
+function floatText(item, text) {
+  const anchor = item.matches(CONFIG.radioGroup) ? (item.querySelector("." + CONFIG.correctClass) || item) : item;
+  const r = anchor.getBoundingClientRect();
+  if (!r.width && !r.height) return;
+  const el = document.createElement("div");
+  el.className = "gm-float";
+  el.textContent = text;
+  el.style.left = Math.min(r.right + 8, innerWidth - 70) + "px";
+  el.style.top = (r.top + r.height / 2) + "px";
+  document.body.appendChild(el);
+  setTimeout(() => el.remove(), 1100);
+}
+
+function toast(html, kind = "") {
+  let box = document.querySelector(".gm-toasts");
+  if (!box) {
+    box = document.createElement("div");
+    box.className = "gm-toasts";
+    box.setAttribute("aria-live", "polite");
+    document.body.appendChild(box);
+  }
+  box.classList.toggle("gm-shift", !!panel && !panel.hidden && innerWidth > 760);
+  const t = document.createElement("div");
+  t.className = "gm-toast " + kind;
+  t.innerHTML = html;
+  box.appendChild(t);
+  while (box.children.length > 3) box.firstElementChild.remove();
+  setTimeout(() => t.classList.add("gm-out"), 2800);
+  setTimeout(() => t.remove(), 3200);
+}
+
+function confetti(n) {
+  if (calm) return;
+  const c = document.createElement("canvas");
+  c.className = "gm-confetti";
+  const dpr = window.devicePixelRatio || 1, W = innerWidth, H = innerHeight;
+  c.width = W * dpr; c.height = H * dpr;
+  document.body.appendChild(c);
+  const g = c.getContext("2d");
+  g.scale(dpr, dpr);
+  const colors = ["#8b1e17", "#c8a13a", "#f3d98b", "#5b2a86", "#ffffff", "#2f6f4f"];
+  const parts = Array.from({ length: n }, () => ({
+    x: W / 2 + (Math.random() - .5) * W * .25, y: H + 10,
+    vx: (Math.random() - .5) * 12, vy: -(H / 55 + Math.random() * H / 60),
+    w: 6 + Math.random() * 6, h: 3 + Math.random() * 4,
+    r: Math.random() * Math.PI, vr: (Math.random() - .5) * .3, c: pick(colors),
+  }));
+  const t0 = performance.now(), DUR = 2600;
+  (function frame(t) {
+    const age = t - t0;
+    g.clearRect(0, 0, W, H);
+    g.globalAlpha = Math.max(0, Math.min(1, (DUR - age) / 600));
+    for (const p of parts) {
+      p.vy += .35; p.vx *= .99; p.x += p.vx; p.y += p.vy; p.r += p.vr;
+      g.save(); g.translate(p.x, p.y); g.rotate(p.r);
+      g.fillStyle = p.c; g.fillRect(-p.w / 2, -p.h / 2, p.w, p.h);
+      g.restore();
+    }
+    if (age < DUR) requestAnimationFrame(frame); else c.remove();
+  })(t0);
+}
+
+const sound = (() => {
+  let ctx;
+  function tone(freq, t0, dur, type = "triangle", vol = .12) {
+    const o = ctx.createOscillator(), gain = ctx.createGain(), t = ctx.currentTime + t0;
+    o.type = type;
+    o.frequency.value = freq;
+    gain.gain.setValueAtTime(.0001, t);
+    gain.gain.exponentialRampToValueAtTime(vol, t + .01);
+    gain.gain.exponentialRampToValueAtTime(.0001, t + dur);
+    o.connect(gain); gain.connect(ctx.destination);
+    o.start(t); o.stop(t + dur + .05);
+  }
+  function play(notes) {
+    if (!meta.sound) return;
+    try {
+      ctx = ctx || new (window.AudioContext || window.webkitAudioContext)();
+      if (ctx.state === "suspended") ctx.resume();
+      notes.forEach(n => tone(...n));
+    } catch { /* kein Ton verfügbar */ }
+  }
+  return {
+    correct: c => { // pro Serienschritt einen Halbton höher, maximal eine Oktave
+      const f = 523.25 * Math.pow(2, Math.min(c - 1, 12) / 12);
+      play([[f, 0, .12], [f * 1.5, .08, .2]]);
+    },
+    wrong: () => play([[196, 0, .18, "sine", .1], [165, .1, .24, "sine", .1]]),
+    fanfare: () => play([[523.25, .25, .16], [659.25, .38, .16], [783.99, .51, .16], [1046.5, .64, .45]]),
+  };
+})();
+
+/* ======================= OBERFLÄCHE ======================= */
+let hud, pill, panel;
+
+function buildHud() {
+  hud = document.createElement("div");
+  hud.className = "gm-hud";
+  hud.innerHTML = `
+    <div class="gm-panel" id="gm-panel" role="dialog" aria-label="Spielstand" hidden></div>
+    <button type="button" class="gm-pill" aria-expanded="false" aria-controls="gm-panel">
+      <span class="gm-pill-who"></span>
+      <span class="gm-pill-rank"></span>
+      <span class="gm-pill-stat gm-pill-points" title="Denarii"></span>
+      <span class="gm-pill-stat gm-pill-streak" title="Marschtage in Folge"></span>
+      <span class="gm-pill-stat gm-pill-goal" title="Tagesziel: heute richtig beantwortet"></span>
+      <span class="gm-pill-stat gm-pill-combo" title="Richtige Antworten in Folge"></span>
+      <span class="gm-pill-bar" aria-hidden="true"><i></i></span>
+    </button>`;
+  document.body.appendChild(hud);
+  pill = hud.querySelector(".gm-pill");
+  panel = hud.querySelector(".gm-panel");
+  pill.addEventListener("click", () => togglePanel());
+  panel.addEventListener("click", onPanelClick);
+  panel.addEventListener("change", onPanelChange);
+  document.addEventListener("keydown", e => { if (e.key === "Escape" && !panel.hidden) togglePanel(false); });
+  document.addEventListener("click", e => { if (!panel.hidden && !hud.contains(e.target)) togglePanel(false); });
+}
+
+function togglePanel(open = panel.hidden) {
+  panel.hidden = !open;
+  pill.setAttribute("aria-expanded", String(open));
+  const box = document.querySelector(".gm-toasts");
+  if (box) box.classList.toggle("gm-shift", open && innerWidth > 760);
+  if (open) renderPanel();
+}
+
+function render() {
+  renderPill();
+  if (!panel.hidden) renderPanel();
+  renderLessonBars();
+}
+
+function renderPill() {
+  const i = rankIndex(S.points), r = CONFIG.ranks[i], next = CONFIG.ranks[i + 1];
+  const frac = next ? (S.points - r.ab) / (next.ab - r.ab) : 1;
+  const st = currentStreak(), n = todayCount(), m = multiplier(combo);
+  const who = pill.querySelector(".gm-pill-who");
+  who.hidden = meta.profiles.length < 2;
+  who.textContent = meta.active;
+  pill.querySelector(".gm-pill-rank").textContent = `${r.icon} ${r.name}`;
+  pill.querySelector(".gm-pill-points").textContent = `🪙 ${S.points}`;
+  pill.querySelector(".gm-pill-streak").textContent = `🔥 ${st}`;
+  const goal = pill.querySelector(".gm-pill-goal");
+  goal.hidden = n >= CONFIG.tagesziel;
+  goal.textContent = `🎯 ${n}/${CONFIG.tagesziel}`;
+  const c = pill.querySelector(".gm-pill-combo");
+  c.hidden = combo < 2;
+  c.textContent = m > 1 ? `⚡ ${combo} ×${m}` : `⚡ ${combo}`;
+  c.classList.toggle("gm-hot", m > 1);
+  pill.querySelector(".gm-pill-bar i").style.width = (frac * 100).toFixed(1) + "%";
+  pill.setAttribute("aria-label",
+    `Spielstand ${meta.active}: ${r.name}, ${S.points} Denarii, ${st} Marschtage in Folge. Details öffnen`);
+}
+
+function renderPanel() {
+  const i = rankIndex(S.points), r = CONFIG.ranks[i], next = CONFIG.ranks[i + 1];
+  const frac = next ? (S.points - r.ab) / (next.ab - r.ab) : 1;
+  const lessons = Object.keys(totals).map(Number).sort((a, b) => a - b);
+  const solved = solvedByLesson();
+  const conquered = lessons.filter(l => (solved[l] || 0) >= totals[l]).length;
+  const canJump = diag.lektionen > 0;
+  const n = todayCount();
+  panel.innerHTML = `
+    <div class="gm-head">
+      <label class="gm-profile">Profil
+        <select data-gm="profile">${meta.profiles.map(p =>
+          `<option${p === meta.active ? " selected" : ""}>${esc(p)}</option>`).join("")}</select>
+      </label>
+      <button type="button" class="gm-link" data-gm="new">Neues Profil</button>
+      ${meta.profiles.length > 1 ? `<button type="button" class="gm-link" data-gm="delete">Profil löschen</button>` : ""}
+    </div>
+    <div class="gm-rank">
+      <div class="gm-rank-icon" aria-hidden="true">${r.icon}</div>
+      <div class="gm-inscription">${esc(inscription(r.name))}</div>
+      <div class="gm-rank-de">${esc(r.de)}</div>
+      <span class="gm-meter"><i style="width:${(frac * 100).toFixed(1)}%"></i></span>
+      <p class="gm-note">${next ? `Noch ${next.ab - S.points} Denarii bis ${esc(next.name)}` : "Höchster Rang erreicht"}</p>
+      <ol class="gm-ladder">${CONFIG.ranks.map((x, j) =>
+        `<li class="${j <= i ? "gm-reached" : ""}" title="${esc(x.name)} (${esc(x.de)}), ab ${x.ab} Denarii">${x.icon}</li>`).join("")}</ol>
+    </div>
+    <div class="gm-stats">
+      <div><b>${S.points}</b><span>Denarii</span></div>
+      <div><b>${currentStreak()}</b><span>Marschtage</span></div>
+      <div><b>${S.bestCombo}</b><span>Beste Serie</span></div>
+    </div>
+    <div class="gm-day">
+      <div class="gm-row"><span>Tagesziel</span><span>${Math.min(n, CONFIG.tagesziel)} von ${CONFIG.tagesziel}</span></div>
+      <span class="gm-meter"><i style="width:${Math.min(100, n / CONFIG.tagesziel * 100).toFixed(1)}%"></i></span>
+      <p class="gm-note">Rekord: ${S.bestStreak} ${S.bestStreak === 1 ? "Marschtag" : "Marschtage"} in Folge</p>
+    </div>
+    ${lessons.length ? `<div class="gm-empire">
+      <div class="gm-row"><span>Imperium</span><span>${conquered} von ${lessons.length} Lektionen erobert</span></div>
+      <div class="gm-grid">${lessons.map(l => {
+        const s = Math.min(solved[l] || 0, totals[l]), p = s / totals[l];
+        return `<button type="button" class="gm-tile${p >= 1 ? " gm-done" : ""}" style="--p:${p.toFixed(3)}"
+          data-gm="jump" data-lesson="${l}" title="Lektion ${l}: ${s} von ${totals[l]} gelöst"${canJump ? "" : " disabled"}>${l}</button>`;
+      }).join("")}</div>
+    </div>` : ""}
+    <div class="gm-foot">
+      <button type="button" class="gm-link" data-gm="sound">${meta.sound ? "Ton ausschalten" : "Ton einschalten"}</button>
+      <button type="button" class="gm-link" data-gm="export">Spielstand sichern</button>
+      <button type="button" class="gm-link" data-gm="import">Spielstand laden</button>
+      <button type="button" class="gm-link" data-gm="reset">Fortschritt zurücksetzen</button>
+      <input type="file" accept="application/json,.json" data-gm="file" hidden>
+    </div>`;
+}
+
+function renderLessonBars() {
+  const solved = solvedByLesson();
+  for (const [l, pane] of Object.entries(panes)) {
+    let bar = pane.querySelector(":scope > .gm-lessonbar");
+    if (!bar) {
+      bar = document.createElement("div");
+      bar.className = "gm-lessonbar";
+      pane.prepend(bar);
+    }
+    const t = totals[l] || 0, s = Math.min(solved[l] || 0, t), done = t > 0 && s >= t;
+    bar.classList.toggle("gm-done", done);
+    bar.innerHTML = `<span>${done ? `🏛️ Lektion ${l} erobert` : `Lektion ${l}: ${s} von ${t} Aufgaben gelöst`}</span>
+      <span class="gm-meter"><i style="width:${t ? (s / t * 100).toFixed(1) : 0}%"></i></span>`;
+  }
+}
+
+function onPanelClick(e) {
+  const b = e.target.closest("[data-gm]");
+  if (!b) return;
+  switch (b.dataset.gm) {
+    case "new": {
+      const name = (prompt("Name des neuen Profils:") || "").trim().slice(0, 24);
+      if (name) switchProfile(name);
+      break;
+    }
+    case "delete":
+      if (confirm(`Profil „${meta.active}“ mit allem Fortschritt löschen?`)) {
+        store.del("p:" + meta.active);
+        meta.profiles = meta.profiles.filter(p => p !== meta.active);
+        meta.active = meta.profiles[0];
+        S = load(meta.active);
+        resetSession(); store.set("meta", meta); render();
+      }
+      break;
+    case "sound": meta.sound = !meta.sound; save(); renderPanel(); break;
+    case "export": exportData(); break;
+    case "import": panel.querySelector('[data-gm="file"]').click(); break;
+    case "reset":
+      if (confirm(`Fortschritt von „${meta.active}“ zurücksetzen? Das lässt sich nicht rückgängig machen.`)) {
+        S = blank(); resetSession(); save(); render();
+        toast("Fortschritt zurückgesetzt");
+      }
+      break;
+    case "jump": togglePanel(false); jumpTo(+b.dataset.lesson); break;
+  }
+}
+
+function onPanelChange(e) {
+  const t = e.target;
+  if (t.dataset.gm === "profile") switchProfile(t.value);
+  if (t.dataset.gm === "file" && t.files[0]) importData(t.files[0]);
+}
+
+function resetSession() {
+  combo = 0;
+  awarded = new WeakSet(); hadWrong = new WeakSet(); revealed = new WeakSet();
+  revealNoticeShown = false;
+}
+
+function switchProfile(name) {
+  save();
+  if (!meta.profiles.includes(name)) meta.profiles.push(name);
+  meta.active = name;
+  S = load(name);
+  resetSession();
+  save();
+  render();
+  toast(`Profil: ${esc(name)}`);
+}
+
+function jumpTo(lesson) {
+  const re = new RegExp("^\\s*Lektion\\s+" + lesson + "\\b");
+  // Eigenes Lektions-Auswahlmenü bedienen, damit es synchron bleibt
+  for (const sel of document.querySelectorAll("select")) {
+    if (sel.matches(CONFIG.select) || hud.contains(sel)) continue;
+    const idx = [...sel.options].findIndex(o => re.test(o.textContent));
+    if (idx >= 0) {
+      sel.selectedIndex = idx;
+      sel.dispatchEvent(new Event("input", { bubbles: true }));
+      sel.dispatchEvent(new Event("change", { bubbles: true }));
+      break;
+    }
+  }
+  const pane = panes[lesson];
+  if (!pane) return;
+  if (!pane.classList.contains("active")) { const btn = tabButton(pane); if (btn) btn.click(); }
+  setTimeout(() => pane.scrollIntoView({ behavior: calm ? "auto" : "smooth", block: "start" }), 60);
+}
+
+function exportData() {
+  save();
+  const data = { app: "vokabeltrainer-gamification", v: 1, exportiert: new Date().toISOString(), meta, totals, profiles: {} };
+  meta.profiles.forEach(p => { data.profiles[p] = store.get("p:" + p, blank()); });
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(new Blob([JSON.stringify(data)], { type: "application/json" }));
+  a.download = `vokabeltrainer-spielstand-${today()}.json`;
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+}
+
+function importData(file) {
+  file.text().then(txt => {
+    const d = JSON.parse(txt);
+    if (d.app !== "vokabeltrainer-gamification" || !d.profiles) throw new Error("Das ist keine Spielstand-Datei.");
+    for (const [p, st] of Object.entries(d.profiles)) store.set("p:" + p, st);
+    meta.profiles = [...new Set([...meta.profiles, ...Object.keys(d.profiles)])];
+    store.set("meta", meta);
+    S = load(meta.active);
+    resetSession();
+    render();
+    toast("Spielstand geladen");
+  }).catch(err => alert("Spielstand konnte nicht geladen werden: " + err.message));
+}
+
+/* ======================= EREIGNISSE ======================= */
+function listen() {
+  // exams2forms setzt die Klasse für "richtig" selbst; darauf reagieren wir sofort.
+  new MutationObserver(muts => {
+    for (const m of muts) {
+      const item = itemOf(m.target);
+      if (item && !awarded.has(item) && isCorrect(item)) award(item);
+    }
+  }).observe(document.body, { subtree: true, attributes: true, attributeFilter: ["class"] });
+
+  // Falsch zählt erst, wenn die Antwort abgeschickt wird (Enter, Feld verlassen, Auswahl).
+  document.addEventListener("change", e => {
+    const item = itemOf(e.target);
+    if (!item) return;
+    setTimeout(() => { if (!isCorrect(item) && hasAnswer(item)) wrong(item); }, 0);
+  });
+
+  // Lösung angesehen: Aufgaben im selben Block bringen keine Denarii mehr.
+  document.addEventListener("click", e => {
+    const trg = e.target.closest("button, summary, a, [role='button']");
+    if (!trg || hud.contains(trg) || !CONFIG.solutionPattern.test(trg.textContent || "")) return;
+    let box = trg.parentElement;
+    while (box && box !== document.body && !box.querySelector(ITEM_SEL)) box = box.parentElement;
+    if (!box || box === document.body) return;
+    box.querySelectorAll(ITEM_SEL).forEach(n => {
+      const it = itemOf(n);
+      if (it && !awarded.has(it)) revealed.add(it);
+    });
+  }, true);
+}
+
+/* ======================= DIAGNOSE & START ======================= */
+function debug() {
+  const rows = [...info.entries()].slice(0, 15).map(([el, i]) => ({
+    typ: el.matches(CONFIG.radioGroup) ? "radio" : el.tagName.toLowerCase(),
+    lektion: i.lesson, schluessel: i.key, loesung: signature(el).slice(0, 50),
+  }));
+  console.group("[Vokabeltrainer] Diagnose");
+  console.table(diag);
+  console.table(rows);
+  console.log("Aktives Profil:", meta.active, S);
+  console.groupEnd();
+  return diag;
+}
+
+function init() {
+  CONFIG.combo.sort((a, b) => b.ab - a.ab);
+  indexItems();
+  buildHud();
+  listen();
+  render();
+  if (/[?&]gmdebug\b/.test(location.search)) debug();
+}
+
+window.GM = {
+  config: CONFIG,
+  debug,
+  state: () => S,
+  reindex: () => { indexItems(); render(); return diag; },
+};
+if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", init); else init();
+})();
+</script>

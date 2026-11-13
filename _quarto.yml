@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: _www
+  output-dir: _stefan-jansen.de
   
 website:
   title: "Homepage"
@@ -66,14 +66,26 @@ website:
             icon: disc
             href: https://www.discogs.com/user/sonobox/collection?page=1&limit=250
             target: _blank
-      - text: Sonstiges
+      - text: Latein
         menu:
-          - text: Latein Vokabeltrainer 
-            icon: translate
-            href: docs/sonstiges/vokabeltrainer/index.qmd
+          - text: Vokabeln lernen
+            icon: bullseye
+            href: docs/latein/vokabeltrainer/index.qmd
+          - text: Grammatik lernen
+            icon: journal-check
+            href: docs/latein/grammatik/index.qmd
+          - text: Arena Latina
+            icon: shield-shaded
+            href: docs/latein/arenalatina.html
+      - text: Sonstiges 
+        menu:
           - text: Brettspiele
             icon: dice-5
             href: https://boardgamegeek.com/collection/user/jansenstelau
+            target: _blank
+          - text: Tauris (Atari ST, 1986)
+            icon: minecart-loaded
+            href: docs/sonstiges/spiele/Tauris-ST.html
             target: _blank
           # - text: Bücher
           #   icon: book

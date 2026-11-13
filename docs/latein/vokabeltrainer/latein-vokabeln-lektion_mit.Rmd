@@ -1,0 +1,170 @@
+```{r}
+#| label: voksetup
+#| include: false
+
+library(pacman)
+p_load(tidyverse, readxl)
+
+
+## ---------------------------------------------------------------------------
+##  1) Parameter
+##     Einfache Zuweisungen im ERSTEN Chunk -> per exams::expar() überschreibbar:
+##         exams2forms(expar("latein-vokabeln-lektion.Rmd", lektion = 7), n = 14)
+##     n sollte der Anzahl der Vokabeln der Lektion entsprechen; dann kommt
+##     jede Vokabel genau einmal dran (Ziehen ohne Zurücklegen).
+## ---------------------------------------------------------------------------
+
+lektion   <- getOption("vok_lektion", default = 1L)
+wortarten <- getOption("vok_wortarten", default = NULL)  # NULL = alle
+datei     <- getOption("vok_datei", default = "latein_vokabeln.xlsx")
+
+## ---------------------------------------------------------------------------
+##  2) Hilfsfunktionen
+## ---------------------------------------------------------------------------
+
+#' Vokabeldatei einlesen (Spaltennamen klein, Textspalten getrimmt)
+vok_lesen <- function(datei) {
+  if (!file.exists(datei)) {
+    stop("Vokabeldatei '", datei, "' nicht gefunden.\n",
+         "R/exams knitet Aufgaben in einem temporären Verzeichnis, relative\n",
+         "Pfade greifen daher nicht. Im aufrufenden Dokument bitte setzen:\n",
+         '  options(vok_datei = normalizePath("latein_vokabeln.xlsx"))',
+         call. = FALSE)
+  }
+  read_excel(datei) |>
+    rename_with(tolower) |>
+    mutate(across(any_of(c("latein", "formen", "wortart", "deutsch", "genus", "zusatz")),
+                  \(x) trimws(as.character(x))))
+}
+
+#' Vokabeldaten mit Zwischenspeicher (xlsx wird pro Render-Lauf nur einmal gelesen)
+vok_daten <- function(datei) {
+  cache <- getOption("vok_cache")
+  if (is.null(cache) || !identical(attr(cache, "quelle"), datei)) {
+    cache <- vok_lesen(datei)
+    attr(cache, "quelle") <- datei
+    options(vok_cache = cache)
+  }
+  cache
+}
+
+#' Mehrfachangaben zerlegen ("der Vater; der Erzeuger" -> 2 Elemente)
+teile <- function(x, sep = ";") {
+  if (length(x) != 1L || is.na(x)) return(character(0))
+  y <- trimws(unlist(strsplit(x, sep, fixed = TRUE)))
+  y[nzchar(y)]
+}
+
+#' Führenden Artikel abtrennen
+teile_artikel <- function(x,
+                          artikel = c("der", "die", "das", "ein", "eine"),
+                          leer = NA_character_) {
+  artikel <- artikel[order(-nchar(artikel))]        # längste zuerst
+  p   <- str_c("^\\s*(", str_c(artikel, collapse = "|"), ")\\s+")
+  art <- str_match(x, p)[, 2]
+  art[is.na(art)] <- leer
+  list(artikel = art, wort = str_squish(str_remove(x, p)))
+}
+
+
+## ---------------------------------------------------------------------------
+##  3) Pool der Lektion bilden
+## ---------------------------------------------------------------------------
+
+lek_nr <- as.integer(lektion)
+
+pool <- vok_daten(datei) |> mutate(lek = suppressWarnings(as.integer(.data$lektion)))
+pool <- pool[!is.na(pool$lek) & pool$lek == lek_nr, ]
+
+if (!is.null(wortarten)) {
+  pool <- pool[pool$wortart %in% wortarten, ]
+}
+
+pool <- pool[!is.na(pool$latein) & nzchar(pool$latein) &
+             !is.na(pool$deutsch) & nzchar(pool$deutsch), ]
+pool$id <- seq_len(nrow(pool))
+
+if (nrow(pool) < 1L) {
+  stop("Keine Vokabeln in Lektion ", lek_nr, ".", call. = FALSE)
+}
+
+
+## ---------------------------------------------------------------------------
+##  4) Ziehen ohne Zurücklegen
+##     Der Merkposten ist nach Lektion (und ggf. Wortarten) geschlüsselt.
+##     Bei n = nrow(pool) kommt jede Vokabel genau einmal vor; bei größerem n
+##     beginnt die Ziehung von vorn. Zurücksetzen: options(vok_gezogen = NULL)
+## ---------------------------------------------------------------------------
+
+schluessel <- paste0("lektion:", lek_nr, "|wa:", paste(sort(wortarten), collapse = ","))
+merker     <- getOption("vok_gezogen", default = list())
+bereits    <- if (is.null(merker[[schluessel]])) integer(0) else merker[[schluessel]]
+kandidaten <- setdiff(pool$id, bereits)
+if (!length(kandidaten)) {
+  bereits    <- integer(0)
+  kandidaten <- pool$id
+}
+gewaehlt <- kandidaten[sample.int(length(kandidaten), 1L)]
+merker[[schluessel]] <- c(bereits, gewaehlt)
+options(vok_gezogen = merker)
+
+nr     <- length(merker[[schluessel]])   # laufende Nummer in der Lektion
+gesamt <- nrow(pool)
+
+wort <- pool[pool$id == gewaehlt, ]
+
+
+## ---------------------------------------------------------------------------
+##  5) Frage, Lösung und Meta-Information
+## ---------------------------------------------------------------------------
+
+formen_antwort <- formen <- teile(wort$deutsch)
+n_antworten    <- length(formen)
+
+## Artikel dürfen weggelassen werden
+if (wort$wortart %in% c("Ausdruck", "Substantiv", "Name")) {
+  formen_artikel <- teile_artikel(formen_antwort)$artikel
+  formen_antwort <- teile_artikel(formen_antwort)$wort
+  formen_antwort <- paste0(c(paste0(formen_artikel, " "), rep("", length(formen_artikel))),
+                           formen_antwort)
+}
+
+## Jedes Eingabefeld akzeptiert jede der Bedeutungen
+meta_solution <- paste0(rep(paste0("^(", paste0(formen_antwort, collapse = "|"), ")$"),
+                            n_antworten), collapse = "|")
+
+## Zusatzinfos (Formen, Genus, Zusatz) für die Lösung
+zusatzinfo <- c(wort$formen, wort$genus, wort$zusatz)
+zusatzinfo <- zusatzinfo[!is.na(zusatzinfo) & nzchar(zusatzinfo)]
+meta_info  <- if (length(zusatzinfo)) paste0("(", zusatzinfo, ")", collapse = " ") else ""
+
+frage            <- paste0("Was heißt **", wort$latein, "** ?")
+fortschritt      <- paste0("Lektion ", lek_nr, " · Vokabel ", nr, " von ", gesamt)
+meta_clozetype   <- paste(rep("string", n_antworten), collapse = "|")
+meta_bedeutungen <- paste(teile(wort$deutsch), collapse = ", ")
+```
+
+
+Question
+========
+*`r fortschritt`*
+
+`r frage`
+
+
+
+Solution
+========
+
+**`r wort$latein`** bedeutet **`r meta_bedeutungen`** und ist in Lektion `r lek_nr`.
+
+`r meta_info`
+
+
+
+Meta-information
+================
+exname: Vokabeln Lektion
+extype: cloze
+exclozetype: `r meta_clozetype`
+exsolution: `r meta_solution`

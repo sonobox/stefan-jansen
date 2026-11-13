@@ -60,7 +60,7 @@
 }
 
 .hero-latein {
-  background-image: linear-gradient( rgba(0,0,0,.3), rgba(0,0,0,.3) ), url(bilder/hero_latein.png);
+  background-image: linear-gradient( rgba(0,0,0,.3), rgba(0,0,0,.3) ), url(bilder/hero_latein_neu.png);
   height: 18vh;
   background-size: cover;
   background-position: center;
